@@ -5,22 +5,23 @@ import type { AuthSession, UserProfile } from "@shared-types/content";
 
 let browserClient: SupabaseClient | null = null;
 
-function getRequiredEnv(name: string): string {
-  const value = process.env[name];
-
-  if (!value) {
-    throw new Error(`${name} is not configured`);
-  }
-
-  return value;
-}
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 export function getSupabaseBrowserClient(): SupabaseClient {
   if (browserClient) {
     return browserClient;
   }
 
-  browserClient = createClient(getRequiredEnv("NEXT_PUBLIC_SUPABASE_URL"), getRequiredEnv("NEXT_PUBLIC_SUPABASE_ANON_KEY"), {
+  if (!SUPABASE_URL) {
+    throw new Error("NEXT_PUBLIC_SUPABASE_URL is not configured");
+  }
+
+  if (!SUPABASE_ANON_KEY) {
+    throw new Error("NEXT_PUBLIC_SUPABASE_ANON_KEY is not configured");
+  }
+
+  browserClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     auth: {
       persistSession: true,
       autoRefreshToken: true,
