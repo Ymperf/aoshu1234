@@ -1,0 +1,366 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030103",
+  "knowledgePointId": 3030103,
+  "topicId": 30301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "年龄和差问题",
+  "subtitle": "应用题 · 和差问题",
+  "intro": "年龄和差问题就是已知两个人的年龄和与年龄差，求出他们各自年龄的问题。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和差问题"
+  },
+  "problemStatement": "结合年龄差不变，解决和差型年龄问题",
+  "knownConditions": [
+    "已知两个数的和与差"
+  ],
+  "targetQuestion": "求出两个数分别是多少",
+  "corePrinciples": [
+    "理解和差问题中的和与差分别表示什么",
+    "掌握用和加差、和减差来求两数的方法",
+    "会通过验算确认答案正确"
+  ],
+  "coreFormulas": [
+    "大数 = （和 + 差）÷ 2",
+    "小数 = （和 - 差）÷ 2"
+  ],
+  "stepSummary": [
+    {
+      "title": "读题并找出和与差",
+      "description": "先找出题目中的总和和相差多少。"
+    },
+    {
+      "title": "理解大数和小数",
+      "description": "差表示大数比小数多出来的部分。"
+    },
+    {
+      "title": "为什么和加差",
+      "description": "把总和再加一次差，相当于把小数补成和大数一样大，所以得到两个大数。"
+    },
+    {
+      "title": "求大数",
+      "description": "把和加差后再除以2，就能得到一个大数。"
+    },
+    {
+      "title": "为什么和减差",
+      "description": "把总和减去差，相当于把大数多出来的部分去掉，所以得到两个小数。"
+    },
+    {
+      "title": "求小数并验算",
+      "description": "把和减差后再除以2，得到小数，然后把两数带回原题检查。"
+    }
+  ],
+  "tips": [
+    "先理解加差得到两个大数，减差得到两个小数。",
+    "最后一定要除以2。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。遇到这类题, 先确定现在的年龄差, 再结合年龄和去求两个人各多少岁。无论题目说几年后还是几年前, 年龄差都不用改。",
+  "keyTakeaways": [
+    "年龄差永远不变，不管过多少年，两个人的年龄差都是一样的。",
+    "先找到现在的年龄和与年龄差。",
+    "用和差公式求解：大数 = (和 + 差) ÷ 2，小数 = (和 - 差) ÷ 2。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。",
+        "遇到这类题, 先确定现在的年龄差, 再结合年龄和去求两个人各多少岁。",
+        "无论题目说几年后还是几年前, 年龄差都不用改。"
+      ],
+      "caption": "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030103-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "哥哥和弟弟的年龄和是24岁，哥哥比弟弟大4岁。哥哥和弟弟各多少岁？",
+      "answer": "哥哥14岁，弟弟10岁。",
+      "analysis": "哥哥 = (24+4)÷2 = 14（岁），弟弟 = (24-4)÷2 = 10（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030103-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "妈妈和女儿的年龄和是48岁，5年前妈妈比女儿大26岁。现在妈妈和女儿各多少岁？",
+      "answer": "妈妈37岁，女儿11岁。",
+      "analysis": "年龄差不变，现在妈妈也比女儿大26岁。妈妈 = (48+26)÷2 = 37（岁），女儿 = (48-26)÷2 = 11（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030103-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "5年后爸爸和儿子的年龄和是50岁，爸爸比儿子大28岁。今年爸爸和儿子各多少岁？",
+      "answer": "爸爸34岁，儿子6岁。",
+      "analysis": "先求现在的年龄和：50 - 5×2 = 40（岁）。年龄差不变，现在差也是28岁。爸爸 = (40+28)÷2 = 34（岁），儿子 = (40-28)÷2 = 6（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "年龄和差问题",
+    "subtitle": "应用题 · 和差问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和差问题",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "年龄和差问题就是已知两个人的年龄和与年龄差，求出他们各自年龄的问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "年龄和差问题就是已知两个人的年龄和与年龄差，求出他们各自年龄的问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "年龄差永远不变，不管过多少年，两个人的年龄差都是一样的。",
+          "先找到现在的年龄和与年龄差。",
+          "用和差公式求解：大数 = (和 + 差) ÷ 2，小数 = (和 - 差) ÷ 2。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "大数 = (和 + 差) ÷ 2",
+          "小数 = (和 - 差) ÷ 2"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易忘记年龄差不变，误以为年龄差会随着时间变化。",
+          "计算“几年后或几年前的年龄和”时，要注意人数和时间的变化：每过1年，两人的年龄和增加2岁。",
+          "得到答案后，要代入原题检验，确保和与差都符合。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度的年龄和差问题，不会直接给出现在的和与差，而是给一个未来或过去的条件，需要先转化成现在的和与差，再用公式计算。重点考察学生能否灵活运用“年龄差不变”这一关键性质。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "年龄和差问题就是已知两个人的年龄和与年龄差，求出他们各自年龄的问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度的年龄和差问题，不会直接给出现在的和与差，而是给一个未来或过去的条件，需要先转化成现在的和与差，再用公式计算。重点考察学生能否灵活运用“年龄差不变”这一关键性质。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "年龄差永远不变，不管过多少年，两个人的年龄差都是一样的。",
+              "先找到现在的年龄和与年龄差。",
+              "用和差公式求解：大数 = (和 + 差) ÷ 2，小数 = (和 - 差) ÷ 2。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "大数 = (和 + 差) ÷ 2",
+              "小数 = (和 - 差) ÷ 2"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易忘记年龄差不变，误以为年龄差会随着时间变化。",
+              "计算“几年后或几年前的年龄和”时，要注意人数和时间的变化：每过1年，两人的年龄和增加2岁。",
+              "得到答案后，要代入原题检验，确保和与差都符合。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "今年小明和爸爸的年龄和是46岁，4年后爸爸比小明大30岁。请问今年小明和爸爸各多少岁？",
+    "answer": "今年爸爸38岁，小明8岁。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "因为年龄差永远不变，所以4年后爸爸比小明大3",
+        "explanation": "因为年龄差永远不变，所以4年后爸爸比小明大30岁，现在爸爸也比小明大30岁。即现在年龄差 = 30岁。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "现在年龄和 = 46岁。",
+        "explanation": "现在年龄和 = 46岁。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "爸爸年龄大，所以爸爸是大数，小明是小数。",
+        "explanation": "爸爸年龄大，所以爸爸是大数，小明是小数。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "根据公式：\n   爸爸年龄 = (和 + 差",
+        "explanation": "根据公式：\n   爸爸年龄 = (和 + 差) ÷ 2 = (46 + 30) ÷ 2 = 76 ÷ 2 = 38（岁）\n   小明年龄 = (和 - 差) ÷ 2 = (46 - 30) ÷ 2 = 16 ÷ 2 = 8（岁）",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "检验：爸爸38岁，小明8岁，年龄和38+8=",
+        "explanation": "检验：爸爸38岁，小明8岁，年龄和38+8=46，年龄差38-8=30，符合题意。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到年龄和差问题，先确定现在的年龄和与年龄差。如果题目给的是将来的条件，就利用“年龄差不变”得到现在的差；如果给的是过去的条件，同样差不变。然后直接套用和差公式计算。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030103-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "哥哥和弟弟的年龄和是24岁，哥哥比弟弟大4岁。哥哥和弟弟各多少岁？",
+        "answer": "哥哥14岁，弟弟10岁。",
+        "analysis": "哥哥 = (24+4)÷2 = 14（岁），弟弟 = (24-4)÷2 = 10（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030103-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "妈妈和女儿的年龄和是48岁，5年前妈妈比女儿大26岁。现在妈妈和女儿各多少岁？",
+        "answer": "妈妈37岁，女儿11岁。",
+        "analysis": "年龄差不变，现在妈妈也比女儿大26岁。妈妈 = (48+26)÷2 = 37（岁），女儿 = (48-26)÷2 = 11（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030103-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "5年后爸爸和儿子的年龄和是50岁，爸爸比儿子大28岁。今年爸爸和儿子各多少岁？",
+        "answer": "爸爸34岁，儿子6岁。",
+        "analysis": "先求现在的年龄和：50 - 5×2 = 40（岁）。年龄差不变，现在差也是28岁。爸爸 = (40+28)÷2 = 34（岁），儿子 = (40-28)÷2 = 6（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。遇到这类题, 先确定现在的年龄差, 再结合年龄和去求两个人各多少岁。无论题目说几年后还是几年前, 年龄差都不用改。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。",
+          "遇到这类题, 先确定现在的年龄差, 再结合年龄和去求两个人各多少岁。",
+          "无论题目说几年后还是几年前, 年龄差都不用改。"
+        ],
+        "caption": "年龄和差题本质上还是和差问题, 只是多了一个固定规律: 年龄差永远不变。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"200\" viewBox=\"0 0 600 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <text x=\"300\" y=\"20\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\">年龄和差问题线段图</text>\n  <!-- 爸爸年龄线段 -->\n  <rect x=\"50\" y=\"50\" width=\"190\" height=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"45\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">爸爸</text>\n  <text x=\"240\" y=\"45\" text-anchor=\"end\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">38岁</text>\n  <!-- 小明年龄线段 -->\n  <rect x=\"50\" y=\"100\" width=\"40\" height=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"95\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">小明</text>\n  <text x=\"90\" y=\"95\" text-anchor=\"end\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">8岁</text>\n  <!-- 和括号 -->\n  <line x1=\"50\" y1=\"35\" x2=\"240\" y2=\"35\" stroke=\"blue\" stroke-width=\"2\"/>\n  <line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"40\" stroke=\"blue\" stroke-width=\"2\"/>\n  <line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"40\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"145\" y=\"30\" text-anchor=\"middle\" font-size=\"14\" fill=\"blue\">和=46岁</text>\n  <!-- 差标注 -->\n  <line x1=\"260\" y1=\"60\" x2=\"260\" y2=\"110\" stroke=\"blue\" stroke-dasharray=\"4,4\"/>\n  <text x=\"265\" y=\"88\" font-size=\"14\" fill=\"blue\">差=30岁</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.507Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "年龄和差问题就是已知两个人的年龄和与年龄差，求出他们各自年龄的问题。",
+      "thinking": "- 年龄差永远不变，不管过多少年，两个人的年龄差都是一样的。\n   - 先找到现在的年龄和与年龄差。\n   - 用和差公式求解：大数 = (和 + 差) ÷ 2，小数 = (和 - 差) ÷ 2。",
+      "formula": "大数 = (和 + 差) ÷ 2\n   小数 = (和 - 差) ÷ 2",
+      "mistakes": "- 容易忘记年龄差不变，误以为年龄差会随着时间变化。\n   - 计算“几年后或几年前的年龄和”时，要注意人数和时间的变化：每过1年，两人的年龄和增加2岁。\n   - 得到答案后，要代入原题检验，确保和与差都符合。",
+      "features": "进阶难度的年龄和差问题，不会直接给出现在的和与差，而是给一个未来或过去的条件，需要先转化成现在的和与差，再用公式计算。重点考察学生能否灵活运用“年龄差不变”这一关键性质。"
+    },
+    "example": {
+      "title": "今年小明和爸爸的年龄和是46岁，4年后爸爸比小明大30岁。请问今年小明和爸爸各多少岁？",
+      "think": "先利用“年龄差不变”，知道现在爸爸也比小明大30岁。然后已知现在的年龄和是46，差是30，用和差公式直接算出两人年龄。",
+      "steps": "1. 因为年龄差永远不变，所以4年后爸爸比小明大30岁，现在爸爸也比小明大30岁。即现在年龄差 = 30岁。\n2. 现在年龄和 = 46岁。\n3. 爸爸年龄大，所以爸爸是大数，小明是小数。\n4. 根据公式：\n   爸爸年龄 = (和 + 差) ÷ 2 = (46 + 30) ÷ 2 = 76 ÷ 2 = 38（岁）\n   小明年龄 = (和 - 差) ÷ 2 = (46 - 30) ÷ 2 = 16 ÷ 2 = 8（岁）\n5. 检验：爸爸38岁，小明8岁，年龄和38+8=46，年龄差38-8=30，符合题意。",
+      "answer": "今年爸爸38岁，小明8岁。",
+      "summary": "遇到年龄和差问题，先确定现在的年龄和与年龄差。如果题目给的是将来的条件，就利用“年龄差不变”得到现在的差；如果给的是过去的条件，同样差不变。然后直接套用和差公式计算。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "年龄和差问题",
+    "subtitle": "应用题 · 和差问题",
+    "problem": "今年小明和爸爸的年龄和是46岁，4年后爸爸比小明大30岁。请问今年小明和爸爸各多少岁？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "哥哥和弟弟的年龄和是24岁，哥哥比弟弟大4岁。哥哥和弟弟各多少岁？"
+  }
+}

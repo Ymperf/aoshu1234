@@ -1,0 +1,361 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030402",
+  "knowledgePointId": 5030402,
+  "topicId": 50304,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "流水行船问题",
+  "subtitle": "应用题 · 行程综合",
+  "intro": "流水行船问题是指船在流动的水中航行，需要考虑水流速度对船速影响的应用题。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "行程综合"
+  },
+  "problemStatement": "顺水速度、逆水速度、水速、船速关系",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。记住顺水等于船速加水速, 逆水等于船速减水速。先用一组顺逆条件把船速和水速拆出来, 再处理后面的路程时间。",
+  "keyTakeaways": [
+    "分清顺水航行与逆水航行",
+    "顺水速度 = 船在静水中的速度 + 水流速度",
+    "逆水速度 = 船在静水中的速度 - 水流速度"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。",
+        "记住顺水等于船速加水速, 逆水等于船速减水速。",
+        "先用一组顺逆条件把船速和水速拆出来, 再处理后面的路程时间。"
+      ],
+      "caption": "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030402-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "一艘船在静水中每小时行15千米，水流速度是每小时3千米。它顺水航行4小时，能行多少千米？",
+      "answer": "72千米",
+      "analysis": "顺水速度=15+3=18千米/时；路程=18×4=72千米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030402-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "两个码头相距120千米。一艘船从上游码头顺水航行到下游码头用了5小时，已知水流速度是每小时3千米，这艘船在静水中的速度是多少？",
+      "answer": "21千米/时",
+      "analysis": "顺水速度=120÷5=24千米/时；船速=24−3=21千米/时。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030402-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "船在静水中速度是每小时24千米，从甲港到乙港顺水航行用了6小时，从乙港返回甲港逆水航行用了8小时。求水流速度。",
+      "answer": "3千米/时",
+      "analysis": "设水速为x，顺水速度=24+x，逆水速度=24−x；路程相同：6×(24+x)=8×(24−x)；解得x=3千米/时。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "流水行船问题",
+    "subtitle": "应用题 · 行程综合",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "行程综合",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "流水行船问题是指船在流动的水中航行，需要考虑水流速度对船速影响的应用题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "流水行船问题是指船在流动的水中航行，需要考虑水流速度对船速影响的应用题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "分清顺水航行与逆水航行",
+          "顺水速度 = 船在静水中的速度 + 水流速度",
+          "逆水速度 = 船在静水中的速度 - 水流速度",
+          "路程 = 速度 × 时间，灵活运用"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "顺水速度 = 船速 + 水速",
+          "逆水速度 = 船速 - 水速",
+          "船速 = (顺水速度 + 逆水速度) ÷ 2",
+          "水速 = (顺水速度 - 逆水速度) ÷ 2"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易混淆顺水、逆水的方向与速度关系，顺序要记牢",
+          "计算船速时忘记除以2",
+          "题目中给出的速度是船速还是水速，需要仔细判断"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度下，题目需要学生能正确识别顺水、逆水情境，并熟练运用两个基本公式进行简单变形计算，通常不涉及复杂的相遇与追及。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "流水行船问题是指船在流动的水中航行，需要考虑水流速度对船速影响的应用题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度下，题目需要学生能正确识别顺水、逆水情境，并熟练运用两个基本公式进行简单变形计算，通常不涉及复杂的相遇与追及。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "分清顺水航行与逆水航行",
+              "顺水速度 = 船在静水中的速度 + 水流速度",
+              "逆水速度 = 船在静水中的速度 - 水流速度",
+              "路程 = 速度 × 时间，灵活运用"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "顺水速度 = 船速 + 水速",
+              "逆水速度 = 船速 - 水速",
+              "船速 = (顺水速度 + 逆水速度) ÷ 2",
+              "水速 = (顺水速度 - 逆水速度) ÷ 2"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易混淆顺水、逆水的方向与速度关系，顺序要记牢",
+              "计算船速时忘记除以2",
+              "题目中给出的速度是船速还是水速，需要仔细判断"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一条船在静水中每小时行18千米，水流速度是每小时2千米。这条船从甲地顺水航行到乙地需要5小时。请问甲、乙两地相距多少千米？如果这艘船从乙地逆水返回甲地，需要多少小时？",
+    "answer": "甲、乙两地相距100千米；逆水返回需要6.25小时。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "先求顺水速度：顺水速度 = 船速 + 水速 ",
+        "explanation": "先求顺水速度：顺水速度 = 船速 + 水速 = 18千米/小时 + 2千米/小时 = 20千米/小时。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "再求甲、乙两地距离：路程 = 顺水速度 × ",
+        "explanation": "再求甲、乙两地距离：路程 = 顺水速度 × 顺水时间 = 20千米/小时 × 5小时 = 100千米。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "再求逆水速度：逆水速度 = 船速 - 水速 ",
+        "explanation": "再求逆水速度：逆水速度 = 船速 - 水速 = 18千米/小时 - 2千米/小时 = 16千米/小时。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "最后求逆水返回时间：时间 = 路程 ÷ 逆水",
+        "explanation": "最后求逆水返回时间：时间 = 路程 ÷ 逆水速度 = 100千米 ÷ 16千米/小时 = 6.25小时。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "解决流水行船问题，第一步先准确求出顺水或逆水速度，第二步用路程公式计算。注意不同方向的速度不同，公式不能弄反。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030402-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "一艘船在静水中每小时行15千米，水流速度是每小时3千米。它顺水航行4小时，能行多少千米？",
+        "answer": "72千米",
+        "analysis": "顺水速度=15+3=18千米/时；路程=18×4=72千米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030402-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "两个码头相距120千米。一艘船从上游码头顺水航行到下游码头用了5小时，已知水流速度是每小时3千米，这艘船在静水中的速度是多少？",
+        "answer": "21千米/时",
+        "analysis": "顺水速度=120÷5=24千米/时；船速=24−3=21千米/时。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030402-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "船在静水中速度是每小时24千米，从甲港到乙港顺水航行用了6小时，从乙港返回甲港逆水航行用了8小时。求水流速度。",
+        "answer": "3千米/时",
+        "analysis": "设水速为x，顺水速度=24+x，逆水速度=24−x；路程相同：6×(24+x)=8×(24−x)；解得x=3千米/时。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。记住顺水等于船速加水速, 逆水等于船速减水速。先用一组顺逆条件把船速和水速拆出来, 再处理后面的路程时间。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。",
+          "记住顺水等于船速加水速, 逆水等于船速减水速。",
+          "先用一组顺逆条件把船速和水速拆出来, 再处理后面的路程时间。"
+        ],
+        "caption": "流水行船题一定先把三个速度分开: 顺水速度、逆水速度、静水速度。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"220\" viewBox=\"0 0 600 220\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"220\" fill=\"#ffffff\" />\n  <!-- 河流上下边界 -->\n  <line x1=\"20\" y1=\"80\" x2=\"580\" y2=\"80\" stroke=\"#000000\" stroke-width=\"2\" />\n  <line x1=\"20\" y1=\"140\" x2=\"580\" y2=\"140\" stroke=\"#000000\" stroke-width=\"2\" />\n  <!-- 河流填充 -->\n  <rect x=\"20\" y=\"80\" width=\"560\" height=\"60\" fill=\"#e0f0ff\" />\n  <!-- 甲地标记 -->\n  <circle cx=\"40\" cy=\"110\" r=\"3\" fill=\"#0000ff\" />\n  <text x=\"30\" y=\"175\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#0000ff\" font-weight=\"bold\">甲地</text>\n  <!-- 乙地标记 -->\n  <circle cx=\"540\" cy=\"110\" r=\"3\" fill=\"#0000ff\" />\n  <text x=\"530\" y=\"175\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#0000ff\" font-weight=\"bold\">乙地</text>\n  <!-- 顺水箭头 -->\n  <line x1=\"80\" y1=\"100\" x2=\"200\" y2=\"100\" stroke=\"#0000ff\" stroke-width=\"3\" marker-end=\"url(#arrowBlue)\" />\n  <text x=\"100\" y=\"60\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#0000ff\">顺水: 船速18 + 水速2 = 20千米/时</text>\n  <!-- 船 -->\n  <polygon points=\"320,95 340,110 300,110\" fill=\"#333333\" />\n  <!-- 逆水箭头 -->\n  <line x1=\"380\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"#ff0000\" stroke-width=\"3\" marker-end=\"url(#arrowRed)\" />\n  <text x=\"350\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#ff0000\">逆水: 船速18 - 水速2 = 16千米/时</text>\n  <!-- 距离标注 -->\n  <line x1=\"40\" y1=\"155\" x2=\"540\" y2=\"155\" stroke=\"#666666\" stroke-width=\"1\" stroke-dasharray=\"5,5\" />\n  <text x=\"220\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#ff0000\" font-weight=\"bold\">路程100千米</text>\n  <defs>\n    <marker id=\"arrowBlue\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"#0000ff\" />\n    </marker>\n    <marker id=\"arrowRed\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"#ff0000\" />\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.601Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "流水行船问题是指船在流动的水中航行，需要考虑水流速度对船速影响的应用题。",
+      "thinking": "- 分清顺水航行与逆水航行\n   - 顺水速度 = 船在静水中的速度 + 水流速度\n   - 逆水速度 = 船在静水中的速度 - 水流速度\n   - 路程 = 速度 × 时间，灵活运用",
+      "formula": "- 顺水速度 = 船速 + 水速\n   - 逆水速度 = 船速 - 水速\n   - 船速 = (顺水速度 + 逆水速度) ÷ 2\n   - 水速 = (顺水速度 - 逆水速度) ÷ 2",
+      "mistakes": "- 容易混淆顺水、逆水的方向与速度关系，顺序要记牢\n   - 计算船速时忘记除以2\n   - 题目中给出的速度是船速还是水速，需要仔细判断",
+      "features": "进阶难度下，题目需要学生能正确识别顺水、逆水情境，并熟练运用两个基本公式进行简单变形计算，通常不涉及复杂的相遇与追及。"
+    },
+    "example": {
+      "title": "一条船在静水中每小时行18千米，水流速度是每小时2千米。这条船从甲地顺水航行到乙地需要5小时。请问甲、乙两地相距多少千米？如果这艘船从乙地逆水返回甲地，需要多少小时？",
+      "think": "本题核心：分别求出顺水速度和逆水速度，再用路程=速度×时间公式求出两地距离以及逆水返回时间。",
+      "steps": "1. 先求顺水速度：顺水速度 = 船速 + 水速 = 18千米/小时 + 2千米/小时 = 20千米/小时。\n2. 再求甲、乙两地距离：路程 = 顺水速度 × 顺水时间 = 20千米/小时 × 5小时 = 100千米。\n3. 再求逆水速度：逆水速度 = 船速 - 水速 = 18千米/小时 - 2千米/小时 = 16千米/小时。\n4. 最后求逆水返回时间：时间 = 路程 ÷ 逆水速度 = 100千米 ÷ 16千米/小时 = 6.25小时。",
+      "answer": "甲、乙两地相距100千米；逆水返回需要6.25小时。",
+      "summary": "解决流水行船问题，第一步先准确求出顺水或逆水速度，第二步用路程公式计算。注意不同方向的速度不同，公式不能弄反。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "流水行船问题",
+    "subtitle": "应用题 · 行程综合",
+    "problem": "一条船在静水中每小时行18千米，水流速度是每小时2千米。这条船从甲地顺水航行到乙地需要5小时。请问甲、乙两地相距多少千米？如果这艘船从乙地逆水返回甲地，需要多少小时？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "一艘船在静水中每小时行15千米，水流速度是每小时3千米。它顺水航行4小时，能行多少千米？"
+  }
+}

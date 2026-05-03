@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030503",
+  "knowledgePointId": 3030503,
+  "topicId": 30305,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "当当型年龄问题",
+  "subtitle": "应用题 · 年龄问题",
+  "intro": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题"
+  },
+  "problemStatement": "涉及 “当我像你这么大时” 的跨时间年龄问题",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。真正不变的是年龄差, 真正变化的是倍数关系。解题时先把“当时”那一刻的条件翻译成份数关系, 再利用固定年龄差求出具体年龄。",
+  "keyTakeaways": [
+    "先找出两个人的年龄差（今年或任意一年都一样）。",
+    "画出线段图，把较小年龄看成1份。",
+    "根据倍数关系，利用年龄差不变列式或直接计算。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。",
+        "真正不变的是年龄差, 真正变化的是倍数关系。",
+        "解题时先把“当时”那一刻的条件翻译成份数关系, 再利用固定年龄差求出具体年龄。"
+      ],
+      "caption": "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030503-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "今年小红5岁，妈妈29岁。当妈妈的年龄是小红年龄的4倍时，小红多少岁？妈妈多少岁？",
+      "answer": "小红8岁，妈妈32岁。",
+      "analysis": "1. 年龄差：29 – 5 = 24（岁）。  \n2. 4倍时妈妈比小红多3倍 → 24 ÷ 3 = 8（小红）  \n3. 妈妈：8 × 4 = 32（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030503-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "今年小刚8岁，爸爸35岁。再过几年，爸爸的年龄是小刚的2倍？",
+      "answer": "再过19年。",
+      "analysis": "1. 年龄差：35 – 8 = 27（岁）。  \n2. 2倍时爸爸比小刚多1倍 → 小刚当时年龄：27÷1 = 27（岁）。  \n3. 从8岁到27岁需要经过：27 – 8 = 19（年）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030503-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "今年姐姐14岁，弟弟6岁。当姐姐的年龄是弟弟的2倍时，弟弟几岁？那一年姐姐比妹妹大几岁？",
+      "answer": "弟弟8岁，姐姐16岁，年龄差8岁。",
+      "analysis": "1. 年龄差：14 – 6 = 8（岁），这个差永远不变。  \n2. 2倍时姐姐比弟弟多1倍 → 弟弟当时：8 ÷ 1 = 8（岁）。  \n3. 姐姐：8×2=16（岁），年龄差仍是8岁（16-8=8）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "当当型年龄问题",
+    "subtitle": "应用题 · 年龄问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找出两个人的年龄差（今年或任意一年都一样）。",
+          "画出线段图，把较小年龄看成1份。",
+          "根据倍数关系，利用年龄差不变列式或直接计算。",
+          "最后求出那一年对应的年龄，再回到今年或要求的年份。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“年龄差不变 + 倍数关系 → 1份量”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找出两个人的年龄差（今年或任意一年都一样）。",
+              "画出线段图，把较小年龄看成1份。",
+              "根据倍数关系，利用年龄差不变列式或直接计算。",
+              "最后求出那一年对应的年龄，再回到今年或要求的年份。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“年龄差不变 + 倍数关系 → 1份量”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "今年小明6岁，爸爸32岁。当爸爸的年龄正好是小明的3倍时，小明多少岁？爸爸多少岁？",
+    "answer": "小明13岁，爸爸39岁。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "先算出爸爸和小明今年的年龄差：32 – 6 ",
+        "explanation": "先算出爸爸和小明今年的年龄差：32 – 6 = 26（岁）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "无论过多少年，年龄差永远不变，所以当爸爸年龄",
+        "explanation": "无论过多少年，年龄差永远不变，所以当爸爸年龄是小明3倍时，年龄差还是26岁。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "爸爸年龄是小明的3倍，爸爸比小明多（3 – ",
+        "explanation": "爸爸年龄是小明的3倍，爸爸比小明多（3 – 1）= 2倍。这2倍对应的就是26岁。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "那么小明当时的年龄（1倍） = 26 ÷ 2",
+        "explanation": "那么小明当时的年龄（1倍） = 26 ÷ 2 = 13（岁）。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "爸爸当时的年龄 = 13 × 3 = 39（",
+        "explanation": "爸爸当时的年龄 = 13 × 3 = 39（岁）。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "检验：39 – 13 = 26，年龄差正确。",
+        "explanation": "检验：39 – 13 = 26，年龄差正确。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "先求年龄差，再用倍数关系求出“1倍量”（即当时小年龄），就能算出两人年龄。关键是年龄差永远不变。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030503-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "今年小红5岁，妈妈29岁。当妈妈的年龄是小红年龄的4倍时，小红多少岁？妈妈多少岁？",
+        "answer": "小红8岁，妈妈32岁。",
+        "analysis": "1. 年龄差：29 – 5 = 24（岁）。  \n2. 4倍时妈妈比小红多3倍 → 24 ÷ 3 = 8（小红）  \n3. 妈妈：8 × 4 = 32（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030503-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "今年小刚8岁，爸爸35岁。再过几年，爸爸的年龄是小刚的2倍？",
+        "answer": "再过19年。",
+        "analysis": "1. 年龄差：35 – 8 = 27（岁）。  \n2. 2倍时爸爸比小刚多1倍 → 小刚当时年龄：27÷1 = 27（岁）。  \n3. 从8岁到27岁需要经过：27 – 8 = 19（年）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030503-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "今年姐姐14岁，弟弟6岁。当姐姐的年龄是弟弟的2倍时，弟弟几岁？那一年姐姐比妹妹大几岁？",
+        "answer": "弟弟8岁，姐姐16岁，年龄差8岁。",
+        "analysis": "1. 年龄差：14 – 6 = 8（岁），这个差永远不变。  \n2. 2倍时姐姐比弟弟多1倍 → 弟弟当时：8 ÷ 1 = 8（岁）。  \n3. 姐姐：8×2=16（岁），年龄差仍是8岁（16-8=8）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。真正不变的是年龄差, 真正变化的是倍数关系。解题时先把“当时”那一刻的条件翻译成份数关系, 再利用固定年龄差求出具体年龄。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。",
+          "真正不变的是年龄差, 真正变化的是倍数关系。",
+          "解题时先把“当时”那一刻的条件翻译成份数关系, 再利用固定年龄差求出具体年龄。"
+        ],
+        "caption": "当当型年龄题里经常出现“当爸爸几岁时”“当儿子年龄是几倍时”这类句子。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" viewBox=\"0 0 600 280\" style=\"background:#fff;font-family:sans-serif;\">\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#333\">当当型年龄问题·线段图</text>\n  \n  <!-- 今年年龄线段 -->\n  <text x=\"30\" y=\"70\" font-size=\"14\" fill=\"#333\">今年：</text>\n  <line x1=\"80\" y1=\"60\" x2=\"200\" y2=\"60\" stroke=\"#000\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"65\" font-size=\"13\" fill=\"#333\">小明 6岁</text>\n  \n  <line x1=\"80\" y1=\"90\" x2=\"280\" y2=\"90\" stroke=\"#000\" stroke-width=\"2\"/>\n  <text x=\"290\" y=\"95\" font-size=\"13\" fill=\"#333\">爸爸 32岁</text>\n  <text x=\"80\" y=\"120\" font-size=\"12\" fill=\"#888\">年龄差 26岁（32-6=26）</text>\n  \n  <!-- 当倍数时 -->\n  <text x=\"30\" y=\"160\" font-size=\"14\" fill=\"#333\">当爸爸是3倍时：</text>\n  <line x1=\"80\" y1=\"150\" x2=\"240\" y2=\"150\" stroke=\"#3b7dd8\" stroke-width=\"3\"/>\n  <text x=\"250\" y=\"155\" font-size=\"13\" fill=\"#3b7dd8\">小明 ？岁（1倍）</text>\n  \n  <line x1=\"80\" y1=\"180\" x2=\"400\" y2=\"180\" stroke=\"#e74c3c\" stroke-width=\"3\"/>\n  <text x=\"410\" y=\"185\" font-size=\"13\" fill=\"#e74c3c\">爸爸 ？岁（3倍）</text>\n  \n  <!-- 标注倍数关系 -->\n  <text x=\"110\" y=\"200\" font-size=\"12\" fill=\"#3b7dd8\">1倍</text>\n  <text x=\"200\" y=\"200\" font-size=\"12\" fill=\"#3b7dd8\">1倍</text>\n  <text x=\"290\" y=\"200\" font-size=\"12\" fill=\"#3b7dd8\">1倍</text>\n  \n  <text x=\"80\" y=\"235\" font-size=\"13\" fill=\"#888\">爸爸比小明多 2倍 → 对应 26岁</text>\n  <text x=\"80\" y=\"255\" font-size=\"13\" fill=\"#e74c3c\">1倍 = 26÷2 = 13岁  → 小明13岁，爸爸39岁</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.846Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "“当当型年龄问题”是指题目中用“当……时……”来描述某一年龄倍数关系的问题，核心是年龄差永远不变。",
+      "thinking": "- 先找出两个人的年龄差（今年或任意一年都一样）。  \n- 画出线段图，把较小年龄看成1份。  \n- 根据倍数关系，利用年龄差不变列式或直接计算。  \n- 最后求出那一年对应的年龄，再回到今年或要求的年份。",
+      "formula": "无固定公式，掌握“年龄差不变 + 倍数关系 → 1份量”的思路即可。",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "今年小明6岁，爸爸32岁。当爸爸的年龄正好是小明的3倍时，小明多少岁？爸爸多少岁？",
+      "think": "爸爸和小明年龄差不变：32 – 6 = 26岁。当爸爸年龄是小明的3倍时，爸爸比小明多2倍。多出的2倍就是26岁，所以1倍（小明的年龄）是26 ÷ 2 = 13岁。爸爸就是13×3=39岁。",
+      "steps": "1. 先算出爸爸和小明今年的年龄差：32 – 6 = 26（岁）。  \n2. 无论过多少年，年龄差永远不变，所以当爸爸年龄是小明3倍时，年龄差还是26岁。  \n3. 爸爸年龄是小明的3倍，爸爸比小明多（3 – 1）= 2倍。这2倍对应的就是26岁。  \n4. 那么小明当时的年龄（1倍） = 26 ÷ 2 = 13（岁）。  \n5. 爸爸当时的年龄 = 13 × 3 = 39（岁）。  \n6. 检验：39 – 13 = 26，年龄差正确。",
+      "answer": "小明13岁，爸爸39岁。",
+      "summary": "先求年龄差，再用倍数关系求出“1倍量”（即当时小年龄），就能算出两人年龄。关键是年龄差永远不变。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "当当型年龄问题",
+    "subtitle": "应用题 · 年龄问题",
+    "problem": "今年小明6岁，爸爸32岁。当爸爸的年龄正好是小明的3倍时，小明多少岁？爸爸多少岁？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "今年小红5岁，妈妈29岁。当妈妈的年龄是小红年龄的4倍时，小红多少岁？妈妈多少岁？"
+  }
+}

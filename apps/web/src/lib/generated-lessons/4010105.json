@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-4010105",
+  "knowledgePointId": 4010105,
+  "topicId": 40101,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "计算",
+  "title": "定义新运算",
+  "subtitle": "计算 · 整数四则混合巧算",
+  "intro": "定义新运算就是按照题目给出的新运算规则，像做游戏一样，把数字代入规则中计算。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "四年级",
+    "moduleName": "计算",
+    "topicName": "整数四则混合巧算"
+  },
+  "problemStatement": "按题目规定的新符号规则进行计算",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，今天我们来学习定义新运算。什么是定义新运算呢？就是题目会给出一个全新的运算规则，比如用符号井号表示，规定 a 井号 b 等于 a 乘 b 加 a 减 b。我们就像玩闯关游戏一样，把数字带进去算就行。  \n那怎么算呢？第一步，先看懂规则；第二步，严格按照规则把数字换进去；第三步，如果有括号就先算括号里面的，没有括号就从左往右算。记住，每一步都要仔仔细细，不能跳步。  \n下面看一道例题。题目说定义新运算井号，a 井号 b 等于 a 乘 b 加 a 减 b。让我们计算括号里 2 井号 3 再井号 4，还有 2 井号括号里 3 井号 4，并且判断它们是否相等。  \n我们先算左边的。先算括号里的 2 井号 3，把 a 当成 2，b 当成 3，就是 2 乘 3 加 2 减 3，等于 6 加 2 减 3，结果是 5。然后算 5 井号 4，同样代入，5 乘 4 加 5 减 4，等于 20 加 5 减 4，结果是 21。所以左边等于 21。  \n再看右边。先算括号里的 3 井号 4，3 乘 4 加 3 减 4 等于 12 加 3 减 4，结果是 11。再算 2 井号 11，2 乘 11 加 2 减 11 等于 22 加 2 减 11",
+  "keyTakeaways": [],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 29,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，今天我们来学习定义新运算。",
+        "什么是定义新运算呢？",
+        "就是题目会给出一个全新的运算规则，比如用符号井号表示，规定 a 井号 b 等于 a 乘 b 加 a 减 b。",
+        "我们就像玩闯关游戏一样，把数字带进去算就行。",
+        "那怎么算呢？",
+        "第一步，先看懂规则；第二步，严格按照规则把数字换进去；第三步，如果有括号就先算括号里面的，没有括号就从左往右算。",
+        "记住，每一步都要仔仔细细，不能跳步。",
+        "下面看一道例题。",
+        "题目说定义新运算井号，a 井号 b 等于 a 乘 b 加 a 减 b。",
+        "让我们计算括号里 2 井号 3 再井号 4，还有 2 井号括号里 3 井号 4，并且判断它们是否相等。",
+        "我们先算左边的。",
+        "先算括号里的 2 井号 3，把 a 当成 2，b 当成 3，就是 2 乘 3 加 2 减 3，等于 6 加 2 减 3，结果是 5。",
+        "然后算 5 井号 4，同样代入，5 乘 4 加 5 减 4，等于 20 加 5 减 4，结果是 21。",
+        "所以左边等于 21。",
+        "再看右边。",
+        "先算括号里的 3 井号 4，3 乘 4 加 3 减 4 等于 12 加 3 减 4，结果是 11。",
+        "再算 2 井号 11，2 乘 11 加 2 减 11 等于 22 加 2 减 11"
+      ],
+      "caption": "同学们好，今天我们来学习定义新运算。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "4010105-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "定义新运算“&”：a & b = a × b − a + b。计算 (2 & 3) & 4。",
+      "answer": "25",
+      "analysis": "先算2&3=2×3−2+3=6−2+3=7；再算7&4=7×4−7+4=28−7+4=25。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4010105-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "定义新运算“※”：a ※ b = (a + b) × (a − b)。计算 (5 ※ 2) ※ 1。",
+      "answer": "440",
+      "analysis": "先算5※2=(5+2)×(5−2)=7×3=21；再算21※1=(21+1)×(21−1)=22×20=440。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4010105-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "定义新运算“★”：a ★ b = a × b − a − b。已知 3 ★ x = 5，求 x。",
+      "answer": "4",
+      "analysis": "根据规则得 3★x = 3×x − 3 − x = 2x − 3 = 5，所以2x=8，x=4。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "定义新运算",
+    "subtitle": "计算 · 整数四则混合巧算",
+    "gradeName": "四年级",
+    "moduleName": "计算",
+    "topicName": "整数四则混合巧算",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "计算",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "定义新运算就是按照题目给出的新运算规则，像做游戏一样，把数字代入规则中计算。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "定义新运算就是按照题目给出的新运算规则，像做游戏一样，把数字代入规则中计算。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "按题目条件逐步分析。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易混淆新运算符号与普通加减乘除，忘记先算括号内。",
+          "代入时容易把 a 和 b 的位置搞反，比如 a # b 和 b # a 结果可能不同。",
+          "多个运算嵌套时，要按顺序计算，不能跳步。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高难度下，定义新运算往往涉及多个步骤的嵌套计算，或者需要比较不同运算顺序的结果是否相等，也可能要求逆向求解未知数。重点考察学生是否能严谨地按照规则分步计算，并且能够灵活处理括号和运算顺序。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "定义新运算就是按照题目给出的新运算规则，像做游戏一样，把数字代入规则中计算。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高难度下，定义新运算往往涉及多个步骤的嵌套计算，或者需要比较不同运算顺序的结果是否相等，也可能要求逆向求解未知数。重点考察学生是否能严谨地按照规则分步计算，并且能够灵活处理括号和运算顺序。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "按题目条件逐步分析。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易混淆新运算符号与普通加减乘除，忘记先算括号内。",
+              "代入时容易把 a 和 b 的位置搞反，比如 a # b 和 b # a 结果可能不同。",
+              "多个运算嵌套时，要按顺序计算，不能跳步。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "定义新运算“#”： a # b = a × b + a − b 。计算 (2 # 3) # 4 和 2 # (3 # 4) 的值，并判断它们是否相等。",
+    "answer": "(2 # 3) # 4 = 21，2 # (3 # 4) = 13，不相等。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "计算 (2 # 3) # 4。",
+        "explanation": "计算 (2 # 3) # 4。\n先算括号里的 2 # 3。\n根据规则：a = 2，b = 3，代入得：\n2 # 3 = 2 × 3 + 2 − 3 = 6 + 2 − 3 = 5。\n再算 5 # 4：\n5 # 4 = 5 × 4 + 5 − 4 = 20 + 5 − 4 = 21。\n所以 (2 # 3) # 4 = 21。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "计算 2 # (3 # 4)。",
+        "explanation": "计算 2 # (3 # 4)。\n先算括号里的 3 # 4。\n3 # 4 = 3 × 4 + 3 − 4 = 12 + 3 − 4 = 11。\n再算 2 # 11：\n2 # 11 = 2 × 11 + 2 − 11 = 22 + 2 − 11 = 13。\n所以 2 # (3 # 4) = 13。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "比较。",
+        "explanation": "比较。\n21 ≠ 13，所以它们不相等。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到定义新运算的嵌套题目，一定要先算括号里面的，再算括号外面的。每一步都要严格按照新规则代入，注意乘除法优先于加减法，但这里新规则本身已经规定了先乘除后加减的顺序，代入计算时直接按四则运算顺序计算即可。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "4010105-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "定义新运算“&”：a & b = a × b − a + b。计算 (2 & 3) & 4。",
+        "answer": "25",
+        "analysis": "先算2&3=2×3−2+3=6−2+3=7；再算7&4=7×4−7+4=28−7+4=25。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4010105-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "定义新运算“※”：a ※ b = (a + b) × (a − b)。计算 (5 ※ 2) ※ 1。",
+        "answer": "440",
+        "analysis": "先算5※2=(5+2)×(5−2)=7×3=21；再算21※1=(21+1)×(21−1)=22×20=440。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4010105-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "定义新运算“★”：a ★ b = a × b − a − b。已知 3 ★ x = 5，求 x。",
+        "answer": "4",
+        "analysis": "根据规则得 3★x = 3×x − 3 − x = 2x − 3 = 5，所以2x=8，x=4。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，今天我们来学习定义新运算。什么是定义新运算呢？就是题目会给出一个全新的运算规则，比如用符号井号表示，规定 a 井号 b 等于 a 乘 b 加 a 减 b。我们就像玩闯关游戏一样，把数字带进去算就行。  \n那怎么算呢？第一步，先看懂规则；第二步，严格按照规则把数字换进去；第三步，如果有括号就先算括号里面的，没有括号就从左往右算。记住，每一步都要仔仔细细，不能跳步。  \n下面看一道例题。题目说定义新运算井号，a 井号 b 等于 a 乘 b 加 a 减 b。让我们计算括号里 2 井号 3 再井号 4，还有 2 井号括号里 3 井号 4，并且判断它们是否相等。  \n我们先算左边的。先算括号里的 2 井号 3，把 a 当成 2，b 当成 3，就是 2 乘 3 加 2 减 3，等于 6 加 2 减 3，结果是 5。然后算 5 井号 4，同样代入，5 乘 4 加 5 减 4，等于 20 加 5 减 4，结果是 21。所以左边等于 21。  \n再看右边。先算括号里的 3 井号 4，3 乘 4 加 3 减 4 等于 12 加 3 减 4，结果是 11。再算 2 井号 11，2 乘 11 加 2 减 11 等于 22 加 2 减 11",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 29,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，今天我们来学习定义新运算。",
+          "什么是定义新运算呢？",
+          "就是题目会给出一个全新的运算规则，比如用符号井号表示，规定 a 井号 b 等于 a 乘 b 加 a 减 b。",
+          "我们就像玩闯关游戏一样，把数字带进去算就行。",
+          "那怎么算呢？",
+          "第一步，先看懂规则；第二步，严格按照规则把数字换进去；第三步，如果有括号就先算括号里面的，没有括号就从左往右算。",
+          "记住，每一步都要仔仔细细，不能跳步。",
+          "下面看一道例题。",
+          "题目说定义新运算井号，a 井号 b 等于 a 乘 b 加 a 减 b。",
+          "让我们计算括号里 2 井号 3 再井号 4，还有 2 井号括号里 3 井号 4，并且判断它们是否相等。",
+          "我们先算左边的。",
+          "先算括号里的 2 井号 3，把 a 当成 2，b 当成 3，就是 2 乘 3 加 2 减 3，等于 6 加 2 减 3，结果是 5。",
+          "然后算 5 井号 4，同样代入，5 乘 4 加 5 减 4，等于 20 加 5 减 4，结果是 21。",
+          "所以左边等于 21。",
+          "再看右边。",
+          "先算括号里的 3 井号 4，3 乘 4 加 3 减 4 等于 12 加 3 减 4，结果是 11。",
+          "再算 2 井号 11，2 乘 11 加 2 减 11 等于 22 加 2 减 11"
+        ],
+        "caption": "同学们好，今天我们来学习定义新运算。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" width=\"600\" height=\"320\">\n  <rect width=\"600\" height=\"320\" fill=\"white\"/>\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">计算过程对比</text>\n  <!-- 左侧分支 (2#3)#4 -->\n  <text x=\"150\" y=\"58\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#3366CC\">(2#3)#4</text>\n  <rect x=\"50\" y=\"72\" width=\"200\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"150\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\">2#3 = 2×3+2−3 = <tspan fill=\"#3366CC\">5</tspan></text>\n  <line x1=\"150\" y1=\"118\" x2=\"150\" y2=\"138\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <rect x=\"50\" y=\"142\" width=\"200\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"150\" y=\"166\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\">5#4 = 5×4+5−4 = <tspan fill=\"red\" font-weight=\"bold\">21</tspan></text>\n  <!-- 右侧分支 2#(3#4) -->\n  <text x=\"450\" y=\"58\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#3366CC\">2#(3#4)</text>\n  <rect x=\"350\" y=\"72\" width=\"200\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"450\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\">3#4 = 3×4+3−4 = <tspan fill=\"#3366CC\">11</tspan></text>\n  <line x1=\"450\" y1=\"118\" x2=\"450\" y2=\"138\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <rect x=\"350\" y=\"142\" width=\"200\" height=\"46\" rx=\"6\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"450\" y=\"166\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\">2#11 = 2×11+2−11 = <tspan fill=\"red\" font-weight=\"bold\">13</tspan></text>\n  <!-- 底部比较 -->\n  <rect x=\"180\" y=\"230\" width=\"240\" height=\"50\" rx=\"8\" fill=\"#FFF0F0\" stroke=\"red\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"260\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"18\" fill=\"red\" font-weight=\"bold\">21 ≠ 13，不相等</text>\n  <!-- 箭头定义 -->\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"black\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:22.097Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "定义新运算就是按照题目给出的新运算规则，像做游戏一样，把数字代入规则中计算。",
+      "thinking": "",
+      "formula": "",
+      "mistakes": "- 容易混淆新运算符号与普通加减乘除，忘记先算括号内。\n   - 代入时容易把 a 和 b 的位置搞反，比如 a # b 和 b # a 结果可能不同。\n   - 多个运算嵌套时，要按顺序计算，不能跳步。",
+      "features": "拔高难度下，定义新运算往往涉及多个步骤的嵌套计算，或者需要比较不同运算顺序的结果是否相等，也可能要求逆向求解未知数。重点考察学生是否能严谨地按照规则分步计算，并且能够灵活处理括号和运算顺序。"
+    },
+    "example": {
+      "title": "定义新运算“#”： a # b = a × b + a − b 。计算 (2 # 3) # 4 和 2 # (3 # 4) 的值，并判断它们是否相等。",
+      "think": "先分别计算两个表达式。注意括号决定了运算顺序，先算括号内的，再算括号外的。分别计算出结果后比较。",
+      "steps": "第一步：计算 (2 # 3) # 4。\n先算括号里的 2 # 3。\n根据规则：a = 2，b = 3，代入得：\n2 # 3 = 2 × 3 + 2 − 3 = 6 + 2 − 3 = 5。\n再算 5 # 4：\n5 # 4 = 5 × 4 + 5 − 4 = 20 + 5 − 4 = 21。\n所以 (2 # 3) # 4 = 21。\n\n第二步：计算 2 # (3 # 4)。\n先算括号里的 3 # 4。\n3 # 4 = 3 × 4 + 3 − 4 = 12 + 3 − 4 = 11。\n再算 2 # 11：\n2 # 11 = 2 × 11 + 2 − 11 = 22 + 2 − 11 = 13。\n所以 2 # (3 # 4) = 13。\n\n第三步：比较。\n21 ≠ 13，所以它们不相等。",
+      "answer": "(2 # 3) # 4 = 21，2 # (3 # 4) = 13，不相等。",
+      "summary": "遇到定义新运算的嵌套题目，一定要先算括号里面的，再算括号外面的。每一步都要严格按照新规则代入，注意乘除法优先于加减法，但这里新规则本身已经规定了先乘除后加减的顺序，代入计算时直接按四则运算顺序计算即可。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "定义新运算",
+    "subtitle": "计算 · 整数四则混合巧算",
+    "problem": "定义新运算“#”： a # b = a × b + a − b 。计算 (2 # 3) # 4 和 2 # (3 # 4) 的值，并判断它们是否相等。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "定义新运算“&”：a & b = a × b − a + b。计算 (2 & 3) & 4。"
+  }
+}

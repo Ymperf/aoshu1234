@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-2030102",
+  "knowledgePointId": 2030102,
+  "topicId": 20301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "平均分应用题",
+  "subtitle": "应用题 · 两步应用题",
+  "intro": "平均分就是把一些物品分成同样多的几份，每份的数量一样多。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "二年级",
+    "moduleName": "应用题",
+    "topicName": "两步应用题"
+  },
+  "problemStatement": "把总数平均分，用除法解决相关问题",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们大家好，今天我们来学习平均分应用题。平均分就是把一些东西分成同样多的几份，每一份的数量都一样多。比如把一堆糖果平均分给几个小朋友，每个小朋友拿到的糖果数是一样的。在做平均分题目的时候，我们有一个很重要的诀窍：先找到总数，再看要分给几个人，然后用总数除以人数，就能算出每人分到多少。当然有的题目需要先算出总数，比如爸爸先给你一些糖，妈妈再给你一些，然后你再来平均分给小伙伴，这时候就要先加一加，再分一分。\n\n下面我们来看一道例题。小明有12颗糖，妈妈又给了他8颗，现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗？我们跟着步骤来做。第一步，先求糖的总数，小明原来有12颗，妈妈给了8颗，那么总共是12加8等于20颗。第二步，把20颗糖平均分给4个小朋友，就用20除以4，等于5。所以每个小朋友能分到5颗糖。最后一定要记得写答句。这道题告诉我们，只要先算出总数，再用总数除以份数，就能得到答案。在做题的时候，特别要注意看清楚题目里有没有“先合起来”的意思。\n\n好了，现在老师给大家留三道练习题，你们可以自己试一试。第一题，小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个？第二题，有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块？第三题，学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？记住先算总数再平均分的方法。今天的课就到这里，小朋友们再见。",
+  "keyTakeaways": [
+    "第一步：先找出物品的总数（如果题目给了总数就直接用，没有给要先算出来）。",
+    "第二步：看是要“分成几份”还是“每份几个”。",
+    "第三步：用总数除以份数，就能得到每份的数量；或者用总数除以每份的数量，就能得到份数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们大家好，今天我们来学习平均分应用题。",
+        "平均分就是把一些东西分成同样多的几份，每一份的数量都一样多。",
+        "比如把一堆糖果平均分给几个小朋友，每个小朋友拿到的糖果数是一样的。",
+        "在做平均分题目的时候，我们有一个很重要的诀窍：先找到总数，再看要分给几个人，然后用总数除以人数，就能算出每人分到多少。",
+        "当然有的题目需要先算出总数，比如爸爸先给你一些糖，妈妈再给你一些，然后你再来平均分给小伙伴，这时候就要先加一加，再分一分。"
+      ],
+      "caption": "小朋友们大家好，今天我们来学习平均分应用题。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 13,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "下面我们来看一道例题。",
+        "小明有12颗糖，妈妈又给了他8颗，现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗？",
+        "我们跟着步骤来做。",
+        "第一步，先求糖的总数，小明原来有12颗，妈妈给了8颗，那么总共是12加8等于20颗。",
+        "第二步，把20颗糖平均分给4个小朋友，就用20除以4，等于5。",
+        "所以每个小朋友能分到5颗糖。",
+        "最后一定要记得写答句。",
+        "这道题告诉我们，只要先算出总数，再用总数除以份数，就能得到答案。",
+        "在做题的时候，特别要注意看清楚题目里有没有“先合起来”的意思。"
+      ],
+      "caption": "下面我们来看一道例题。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "好了，现在老师给大家留三道练习题，你们可以自己试一试。",
+        "第一题，小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个？",
+        "第二题，有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块？",
+        "第三题，学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？",
+        "记住先算总数再平均分的方法。",
+        "今天的课就到这里，小朋友们再见。"
+      ],
+      "caption": "好了，现在老师给大家留三道练习题，你们可以自己试一试。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "2030102-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个气球？",
+      "answer": "6个",
+      "analysis": "先求气球总数：10+8=18（个）；再平均分：18÷3=6（个）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "2030102-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块饼干？",
+      "answer": "4块",
+      "analysis": "先求饼干总数：15+9=24（块）；再平均分：24÷6=4（块）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "2030102-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？",
+      "answer": "9本",
+      "analysis": "先求书的总数：20+16=36（本）；再平均分：36÷4=9（本）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "平均分应用题",
+    "subtitle": "应用题 · 两步应用题",
+    "gradeName": "二年级",
+    "moduleName": "应用题",
+    "topicName": "两步应用题",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "平均分就是把一些物品分成同样多的几份，每份的数量一样多。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "平均分就是把一些物品分成同样多的几份，每份的数量一样多。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "第一步：先找出物品的总数（如果题目给了总数就直接用，没有给要先算出来）。",
+          "第二步：看是要“分成几份”还是“每份几个”。",
+          "第三步：用总数除以份数，就能得到每份的数量；或者用总数除以每份的数量，就能得到份数。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“总数 ÷ 份数 = 每份数”和“总数 ÷ 每份数 = 份数”这两个关系即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "忘记先求总数（如果题目需要先合并再平分）。",
+          "除数和被除数写反，比如把平均分的份数当成了被除数。",
+          "余数问题在二年级不出现，注意数字要能整除。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度的平均分应用题通常需要先做一步加法（合并）或减法（去掉），再平均分，考察两步计算的能力，数字都来自表内乘法口诀（1~9），结果能整除。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "平均分就是把一些物品分成同样多的几份，每份的数量一样多。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度的平均分应用题通常需要先做一步加法（合并）或减法（去掉），再平均分，考察两步计算的能力，数字都来自表内乘法口诀（1~9），结果能整除。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "第一步：先找出物品的总数（如果题目给了总数就直接用，没有给要先算出来）。",
+              "第二步：看是要“分成几份”还是“每份几个”。",
+              "第三步：用总数除以份数，就能得到每份的数量；或者用总数除以每份的数量，就能得到份数。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“总数 ÷ 份数 = 每份数”和“总数 ÷ 每份数 = 份数”这两个关系即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "忘记先求总数（如果题目需要先合并再平分）。",
+              "除数和被除数写反，比如把平均分的份数当成了被除数。",
+              "余数问题在二年级不出现，注意数字要能整除。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "小明有12颗糖，妈妈又给了他8颗。现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗糖？",
+    "answer": "5颗",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "求糖的总数。",
+        "explanation": "求糖的总数。\n小明原来有12颗，妈妈又给了8颗，现在一共有：12 + 8 = 20（颗）",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "平均分给4个小朋友。",
+        "explanation": "平均分给4个小朋友。\n把20颗糖平均分成4份，每份的数量是：20 ÷ 4 = 5（颗）",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "写答句。",
+        "explanation": "写答句。\n答：每个小朋友能分到5颗糖。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到“先合并再平分”的两步应用题，要记住：先算总数，再用总数除以份数。做题时先找出题目中哪些数量是要合在一起的，再动手计算。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "2030102-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个气球？",
+        "answer": "6个",
+        "analysis": "先求气球总数：10+8=18（个）；再平均分：18÷3=6（个）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "2030102-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块饼干？",
+        "answer": "4块",
+        "analysis": "先求饼干总数：15+9=24（块）；再平均分：24÷6=4（块）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "2030102-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？",
+        "answer": "9本",
+        "analysis": "先求书的总数：20+16=36（本）；再平均分：36÷4=9（本）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们大家好，今天我们来学习平均分应用题。平均分就是把一些东西分成同样多的几份，每一份的数量都一样多。比如把一堆糖果平均分给几个小朋友，每个小朋友拿到的糖果数是一样的。在做平均分题目的时候，我们有一个很重要的诀窍：先找到总数，再看要分给几个人，然后用总数除以人数，就能算出每人分到多少。当然有的题目需要先算出总数，比如爸爸先给你一些糖，妈妈再给你一些，然后你再来平均分给小伙伴，这时候就要先加一加，再分一分。\n\n下面我们来看一道例题。小明有12颗糖，妈妈又给了他8颗，现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗？我们跟着步骤来做。第一步，先求糖的总数，小明原来有12颗，妈妈给了8颗，那么总共是12加8等于20颗。第二步，把20颗糖平均分给4个小朋友，就用20除以4，等于5。所以每个小朋友能分到5颗糖。最后一定要记得写答句。这道题告诉我们，只要先算出总数，再用总数除以份数，就能得到答案。在做题的时候，特别要注意看清楚题目里有没有“先合起来”的意思。\n\n好了，现在老师给大家留三道练习题，你们可以自己试一试。第一题，小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个？第二题，有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块？第三题，学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？记住先算总数再平均分的方法。今天的课就到这里，小朋友们再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们大家好，今天我们来学习平均分应用题。",
+          "平均分就是把一些东西分成同样多的几份，每一份的数量都一样多。",
+          "比如把一堆糖果平均分给几个小朋友，每个小朋友拿到的糖果数是一样的。",
+          "在做平均分题目的时候，我们有一个很重要的诀窍：先找到总数，再看要分给几个人，然后用总数除以人数，就能算出每人分到多少。",
+          "当然有的题目需要先算出总数，比如爸爸先给你一些糖，妈妈再给你一些，然后你再来平均分给小伙伴，这时候就要先加一加，再分一分。"
+        ],
+        "caption": "小朋友们大家好，今天我们来学习平均分应用题。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 13,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "下面我们来看一道例题。",
+          "小明有12颗糖，妈妈又给了他8颗，现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗？",
+          "我们跟着步骤来做。",
+          "第一步，先求糖的总数，小明原来有12颗，妈妈给了8颗，那么总共是12加8等于20颗。",
+          "第二步，把20颗糖平均分给4个小朋友，就用20除以4，等于5。",
+          "所以每个小朋友能分到5颗糖。",
+          "最后一定要记得写答句。",
+          "这道题告诉我们，只要先算出总数，再用总数除以份数，就能得到答案。",
+          "在做题的时候，特别要注意看清楚题目里有没有“先合起来”的意思。"
+        ],
+        "caption": "下面我们来看一道例题。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "好了，现在老师给大家留三道练习题，你们可以自己试一试。",
+          "第一题，小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个？",
+          "第二题，有一些饼干，原来有15块，又买了9块，现在平均分给6个小朋友，每个小朋友分到几块？",
+          "第三题，学校买来20本故事书和16本科技书，把这些书平均分给4个班级，每个班级分到多少本书？",
+          "记住先算总数再平均分的方法。",
+          "今天的课就到这里，小朋友们再见。"
+        ],
+        "caption": "好了，现在老师给大家留三道练习题，你们可以自己试一试。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"300\" viewBox=\"0 0 600 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"300\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" fill=\"black\" font-weight=\"bold\">平均分：20颗糖分给4个小朋友</text>\n  <!-- 第一组：5颗糖，蓝色框 -->\n  <text x=\"50\" y=\"60\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">小朋友1</text>\n  <circle cx=\"70\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"100\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"130\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"160\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"190\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <!-- 第二组 -->\n  <text x=\"240\" y=\"60\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">小朋友2</text>\n  <circle cx=\"260\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"290\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"320\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"350\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"380\" cy=\"85\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <!-- 第三组 -->\n  <text x=\"50\" y=\"130\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">小朋友3</text>\n  <circle cx=\"70\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"100\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"130\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"160\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"190\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <!-- 第四组 -->\n  <text x=\"240\" y=\"130\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">小朋友4</text>\n  <circle cx=\"260\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"290\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"320\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"350\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <circle cx=\"380\" cy=\"155\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <!-- 总数标注 -->\n  <text x=\"300\" y=\"200\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\">总共有 20 颗糖</text>\n  <text x=\"300\" y=\"225\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" fill=\"red\">每个小朋友分 5 颗</text>\n  <!-- 箭头或流程线（简单表示） -->\n  <line x1=\"220\" y1=\"90\" x2=\"240\" y2=\"90\" stroke=\"gray\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"410\" y1=\"90\" x2=\"430\" y2=\"90\" stroke=\"gray\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"220\" y1=\"160\" x2=\"240\" y2=\"160\" stroke=\"gray\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"410\" y1=\"160\" x2=\"430\" y2=\"160\" stroke=\"gray\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:20.861Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "平均分就是把一些物品分成同样多的几份，每份的数量一样多。",
+      "thinking": "- 第一步：先找出物品的总数（如果题目给了总数就直接用，没有给要先算出来）。\n   - 第二步：看是要“分成几份”还是“每份几个”。\n   - 第三步：用总数除以份数，就能得到每份的数量；或者用总数除以每份的数量，就能得到份数。",
+      "formula": "无固定公式，掌握“总数 ÷ 份数 = 每份数”和“总数 ÷ 每份数 = 份数”这两个关系即可。",
+      "mistakes": "- 忘记先求总数（如果题目需要先合并再平分）。\n   - 除数和被除数写反，比如把平均分的份数当成了被除数。\n   - 余数问题在二年级不出现，注意数字要能整除。",
+      "features": "进阶难度的平均分应用题通常需要先做一步加法（合并）或减法（去掉），再平均分，考察两步计算的能力，数字都来自表内乘法口诀（1~9），结果能整除。"
+    },
+    "example": {
+      "title": "小明有12颗糖，妈妈又给了他8颗。现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗糖？",
+      "think": "先算出小明一共有多少颗糖（12+8=20颗），再把20颗糖平均分成4份，每份就是20÷4=5颗。",
+      "steps": "第一步：求糖的总数。\n小明原来有12颗，妈妈又给了8颗，现在一共有：12 + 8 = 20（颗）\n第二步：平均分给4个小朋友。\n把20颗糖平均分成4份，每份的数量是：20 ÷ 4 = 5（颗）\n第三步：写答句。\n答：每个小朋友能分到5颗糖。",
+      "answer": "5颗",
+      "summary": "遇到“先合并再平分”的两步应用题，要记住：先算总数，再用总数除以份数。做题时先找出题目中哪些数量是要合在一起的，再动手计算。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "平均分应用题",
+    "subtitle": "应用题 · 两步应用题",
+    "problem": "小明有12颗糖，妈妈又给了他8颗。现在小明把这些糖平均分给4个小朋友，每个小朋友能分到几颗糖？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小红有10个气球，小兰有8个气球，她们把气球平均分给3个小朋友，每个小朋友分到几个气球？"
+  }
+}

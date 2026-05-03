@@ -1,0 +1,355 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030501",
+  "knowledgePointId": 5030501,
+  "topicId": 50305,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "浓度基本公式",
+  "subtitle": "应用题 · 浓度问题",
+  "intro": "浓度表示溶质在溶液中所占的比例，常用百分数表示。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "浓度问题"
+  },
+  "problemStatement": "浓度 = 溶质 ÷ 溶液，掌握基本计算",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。浓度等于溶质质量除以溶液质量, 而溶液质量是溶质加溶剂。只要这三个量不混, 基础题通常就是直接代公式。",
+  "keyTakeaways": [
+    "先分清什么是溶质（被溶解的物质）、溶剂（溶解溶质的液体）、溶液（溶质+溶剂）。",
+    "计算浓度时，用溶质的质量除以溶液的质量，再乘以100%。",
+    "如果题目给的是质量，直接代入公式；如果给的是体积，注意单位统一。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。",
+        "浓度等于溶质质量除以溶液质量, 而溶液质量是溶质加溶剂。",
+        "只要这三个量不混, 基础题通常就是直接代公式。"
+      ],
+      "caption": "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030501-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "把30克糖放入120克水中，全部溶解后，糖水的浓度是多少？",
+      "answer": "20%",
+      "analysis": "溶液质量=30+120=150克；浓度=30÷150×100%=0.2×100%=20%。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030501-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "实验室有500克盐水，其中盐有25克，其余是水。这瓶盐水的浓度是多少？",
+      "answer": "5%",
+      "analysis": "溶液质量已知为500克，溶质=25克；浓度=25÷500×100%=0.05×100%=5%。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030501-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "奶奶用50克盐和450克水配制了一瓶盐水，弟弟觉得太咸，又加了500克水。现在盐水的浓度是多少？",
+      "answer": "5%",
+      "analysis": "最初溶液质量=50+450=500克，浓度=50÷500=10%。加水后，溶质仍为50克，溶液质量=500+500=1000克；新浓度=50÷1000×100%=5%。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "浓度基本公式",
+    "subtitle": "应用题 · 浓度问题",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "浓度问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "浓度表示溶质在溶液中所占的比例，常用百分数表示。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "浓度表示溶质在溶液中所占的比例，常用百分数表示。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先分清什么是溶质（被溶解的物质）、溶剂（溶解溶质的液体）、溶液（溶质+溶剂）。",
+          "计算浓度时，用溶质的质量除以溶液的质量，再乘以100%。",
+          "如果题目给的是质量，直接代入公式；如果给的是体积，注意单位统一。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "浓度 = (溶质质量 ÷ 溶液质量) × 100%",
+          "溶液质量 = 溶质质量 + 溶剂质量"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "不要把溶剂质量当成溶液质量，溶液是溶质加溶剂。",
+          "计算浓度时结果要化成百分数，不要忘记乘以100%。",
+          "题目中如果给的是水或酒精的质量，那是溶剂，不是溶液。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的浓度问题，数据简单（整十整百），直接套用公式，不涉及混合、蒸发、加糖等变形，主要考察对浓度定义的理解和简单计算。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "浓度表示溶质在溶液中所占的比例，常用百分数表示。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的浓度问题，数据简单（整十整百），直接套用公式，不涉及混合、蒸发、加糖等变形，主要考察对浓度定义的理解和简单计算。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先分清什么是溶质（被溶解的物质）、溶剂（溶解溶质的液体）、溶液（溶质+溶剂）。",
+              "计算浓度时，用溶质的质量除以溶液的质量，再乘以100%。",
+              "如果题目给的是质量，直接代入公式；如果给的是体积，注意单位统一。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "浓度 = (溶质质量 ÷ 溶液质量) × 100%",
+              "溶液质量 = 溶质质量 + 溶剂质量"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "不要把溶剂质量当成溶液质量，溶液是溶质加溶剂。",
+              "计算浓度时结果要化成百分数，不要忘记乘以100%。",
+              "题目中如果给的是水或酒精的质量，那是溶剂，不是溶液。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "把20克盐放入180克水中，完全溶解后，得到的盐水浓度是多少？",
+    "answer": "10%",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "找出溶质和溶剂。",
+        "explanation": "找出溶质和溶剂。\n溶质是盐，质量20克。\n溶剂是水，质量180克。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "计算溶液质量。",
+        "explanation": "计算溶液质量。\n溶液质量 = 溶质质量 + 溶剂质量 = 20克 + 180克 = 200克。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "计算浓度。",
+        "explanation": "计算浓度。\n浓度 = (溶质质量 ÷ 溶液质量) × 100% = (20 ÷ 200) × 100% = 0.1 × 100% = 10%。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "写出答案。",
+        "explanation": "写出答案。\n得到的盐水浓度是10%。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "解决这类基础浓度问题，关键记住“浓度 = 溶质÷溶液×100%”，先求溶液总质量，再代入公式，注意用百分数表示结果。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030501-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "把30克糖放入120克水中，全部溶解后，糖水的浓度是多少？",
+        "answer": "20%",
+        "analysis": "溶液质量=30+120=150克；浓度=30÷150×100%=0.2×100%=20%。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030501-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "实验室有500克盐水，其中盐有25克，其余是水。这瓶盐水的浓度是多少？",
+        "answer": "5%",
+        "analysis": "溶液质量已知为500克，溶质=25克；浓度=25÷500×100%=0.05×100%=5%。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030501-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "奶奶用50克盐和450克水配制了一瓶盐水，弟弟觉得太咸，又加了500克水。现在盐水的浓度是多少？",
+        "answer": "5%",
+        "analysis": "最初溶液质量=50+450=500克，浓度=50÷500=10%。加水后，溶质仍为50克，溶液质量=500+500=1000克；新浓度=50÷1000×100%=5%。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。浓度等于溶质质量除以溶液质量, 而溶液质量是溶质加溶剂。只要这三个量不混, 基础题通常就是直接代公式。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。",
+          "浓度等于溶质质量除以溶液质量, 而溶液质量是溶质加溶剂。",
+          "只要这三个量不混, 基础题通常就是直接代公式。"
+        ],
+        "caption": "浓度基本公式题先分清谁是溶质、谁是溶剂、谁是溶液。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"300\" viewBox=\"0 0 600 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"300\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"40\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" font-family=\"sans-serif\" fill=\"black\">盐水浓度示意图</text>\n  <!-- 烧杯形状（梯形） -->\n  <polygon points=\"100,80 180,80 200,260 80,260\" fill=\"#e6f2ff\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 水面线 -->\n  <line x1=\"90\" y1=\"200\" x2=\"190\" y2=\"200\" stroke=\"#4da6ff\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/>\n  <!-- 溶质颗粒（盐） -->\n  <circle cx=\"130\" cy=\"230\" r=\"6\" fill=\"#ffa64d\" stroke=\"black\" stroke-width=\"1\"/>\n  <circle cx=\"150\" cy=\"240\" r=\"5\" fill=\"#ffa64d\" stroke=\"black\" stroke-width=\"1\"/>\n  <circle cx=\"140\" cy=\"250\" r=\"4\" fill=\"#ffa64d\" stroke=\"black\" stroke-width=\"1\"/>\n  <circle cx=\"120\" cy=\"245\" r=\"5\" fill=\"#ffa64d\" stroke=\"black\" stroke-width=\"1\"/>\n  <!-- 标注文字 -->\n  <text x=\"100\" y=\"70\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\">盐（溶质）：20克</text>\n  <text x=\"100\" y=\"95\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\">水（溶剂）：180克</text>\n  <text x=\"100\" y=\"120\" font-size=\"18\" font-weight=\"bold\" font-family=\"sans-serif\" fill=\"blue\">溶液：20+180=200克</text>\n  <text x=\"100\" y=\"150\" font-size=\"18\" font-weight=\"bold\" font-family=\"sans-serif\" fill=\"red\">浓度：20÷200=10%</text>\n  <!-- 箭头指示 -->\n  <line x1=\"300\" y1=\"110\" x2=\"260\" y2=\"200\" stroke=\"gray\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"gray\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.665Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "浓度表示溶质在溶液中所占的比例，常用百分数表示。",
+      "thinking": "- 先分清什么是溶质（被溶解的物质）、溶剂（溶解溶质的液体）、溶液（溶质+溶剂）。\n   - 计算浓度时，用溶质的质量除以溶液的质量，再乘以100%。\n   - 如果题目给的是质量，直接代入公式；如果给的是体积，注意单位统一。",
+      "formula": "- 浓度 = (溶质质量 ÷ 溶液质量) × 100%\n   - 溶液质量 = 溶质质量 + 溶剂质量",
+      "mistakes": "- 不要把溶剂质量当成溶液质量，溶液是溶质加溶剂。\n   - 计算浓度时结果要化成百分数，不要忘记乘以100%。\n   - 题目中如果给的是水或酒精的质量，那是溶剂，不是溶液。",
+      "features": "基础难度的浓度问题，数据简单（整十整百），直接套用公式，不涉及混合、蒸发、加糖等变形，主要考察对浓度定义的理解和简单计算。"
+    },
+    "example": {
+      "title": "把20克盐放入180克水中，完全溶解后，得到的盐水浓度是多少？",
+      "think": "先求出盐水总质量（溶液质量），再用盐的质量（溶质质量）除以盐水总质量，最后乘以100%化成百分数。",
+      "steps": "第一步：找出溶质和溶剂。\n溶质是盐，质量20克。\n溶剂是水，质量180克。\n第二步：计算溶液质量。\n溶液质量 = 溶质质量 + 溶剂质量 = 20克 + 180克 = 200克。\n第三步：计算浓度。\n浓度 = (溶质质量 ÷ 溶液质量) × 100% = (20 ÷ 200) × 100% = 0.1 × 100% = 10%。\n第四步：写出答案。\n得到的盐水浓度是10%。",
+      "answer": "10%",
+      "summary": "解决这类基础浓度问题，关键记住“浓度 = 溶质÷溶液×100%”，先求溶液总质量，再代入公式，注意用百分数表示结果。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "浓度基本公式",
+    "subtitle": "应用题 · 浓度问题",
+    "problem": "把20克盐放入180克水中，完全溶解后，得到的盐水浓度是多少？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "把30克糖放入120克水中，全部溶解后，糖水的浓度是多少？"
+  }
+}

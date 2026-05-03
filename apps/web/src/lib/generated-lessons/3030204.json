@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030204",
+  "knowledgePointId": 3030204,
+  "topicId": 30302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "多个量的和倍差倍",
+  "subtitle": "应用题 · 和倍与差倍问题",
+  "intro": "多个量的和倍差倍问题，是指已知几个数的总和（或差），以及它们之间的倍数关系和相差关系，求每一个数是多少。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题"
+  },
+  "problemStatement": "三个及以上数量的和倍、差倍问题",
+  "knownConditions": [
+    "已知两个数的和与差"
+  ],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "多个量的和倍差倍题, 关键是先找参照量。把最基础的量看成1份后, 其余各量都写成几份, 再根据总和或差量去求每份是多少。条目多时尤其要先整理份数关系, 否则很容易漏算。",
+  "keyTakeaways": [
+    "先找到最小的那个量，把它看作“1份”。",
+    "根据倍数关系，把其他量用“几份”来表示。",
+    "如果有“多几”或“少几”，先加上或减去，使所有量变成整份数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "多个量的和倍差倍题, 关键是先找参照量。",
+        "把最基础的量看成1份后, 其余各量都写成几份, 再根据总和或差量去求每份是多少。",
+        "条目多时尤其要先整理份数关系, 否则很容易漏算。"
+      ],
+      "caption": "多个量的和倍差倍题, 关键是先找参照量。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030204-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "三个数的和是72，甲是乙的2倍，丙是乙的3倍，求甲、乙、丙各是多少？",
+      "answer": "乙=12，甲=24，丙=36",
+      "analysis": "设乙为1份，则甲2份，丙3份，总份数1+2+3=6份，每份72÷6=12。乙=12，甲=12×2=24，丙=12×3=36。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030204-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "三个数的和是70，甲是乙的3倍，丙比乙多10，求甲、乙、丙各是多少？",
+      "answer": "乙=12，甲=36，丙=22",
+      "analysis": "设乙为1份，甲3份，丙1份+10。总和=5份+10=70，5份=60，1份=12。乙=12，甲=12×3=36，丙=12+10=22。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030204-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "三个数的和是108，甲是乙的2倍，丙比甲多8，求甲、乙、丙各是多少？",
+      "answer": "乙=20，甲=40，丙=48",
+      "analysis": "设乙为1份，甲2份，丙=甲+8=2份+8。总和=1份+2份+2份+8=5份+8=108，5份=100，1份=20。乙=20，甲=20×2=40，丙=40+8=48。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "多个量的和倍差倍",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "多个量的和倍差倍问题，是指已知几个数的总和（或差），以及它们之间的倍数关系和相差关系，求每一个数是多少。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "多个量的和倍差倍问题，是指已知几个数的总和（或差），以及它们之间的倍数关系和相差关系，求每一个数是多少。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找到最小的那个量，把它看作“1份”。",
+          "根据倍数关系，把其他量用“几份”来表示。",
+          "如果有“多几”或“少几”，先加上或减去，使所有量变成整份数。",
+          "用总和（或差）除以总份数，得到1份是多少，再求每个量。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“设最小量为1份”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "忘记先处理“多几”或“少几”，直接加份数导致错误。",
+          "不小心把倍数关系搞反，比如“甲是乙的2倍”写成“乙是甲的2倍”。",
+          "验算时只检查倍数，忘记检查总和或差。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高题会同时给出倍数和相差两个条件，需要两步转化：先调整“多几/少几”变成整份数，再按和倍或差倍列式。考察学生的整体思维和细心程度。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "多个量的和倍差倍问题，是指已知几个数的总和（或差），以及它们之间的倍数关系和相差关系，求每一个数是多少。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高题会同时给出倍数和相差两个条件，需要两步转化：先调整“多几/少几”变成整份数，再按和倍或差倍列式。考察学生的整体思维和细心程度。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找到最小的那个量，把它看作“1份”。",
+              "根据倍数关系，把其他量用“几份”来表示。",
+              "如果有“多几”或“少几”，先加上或减去，使所有量变成整份数。",
+              "用总和（或差）除以总份数，得到1份是多少，再求每个量。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“设最小量为1份”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "忘记先处理“多几”或“少几”，直接加份数导致错误。",
+              "不小心把倍数关系搞反，比如“甲是乙的2倍”写成“乙是甲的2倍”。",
+              "验算时只检查倍数，忘记检查总和或差。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "甲、乙、丙三个数的和是50。甲是乙的2倍，丙比乙多10。甲、乙、丙各是多少？",
+    "answer": "甲 = 20，乙 = 10，丙 = 20",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "设乙的数为1份，则甲 = 2份，丙 = 1份",
+        "explanation": "设乙的数为1份，则甲 = 2份，丙 = 1份 + 10。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "三个数的总和 = 1份 + 2份 + 1份 ",
+        "explanation": "三个数的总和 = 1份 + 2份 + 1份 + 10 = 4份 + 10。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "已知总和是50，所以 4份 + 10 = 5",
+        "explanation": "已知总和是50，所以 4份 + 10 = 50。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "两边同时减去10：4份 = 40。",
+        "explanation": "两边同时减去10：4份 = 40。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "1份 = 40 ÷ 4 = 10。",
+        "explanation": "1份 = 40 ÷ 4 = 10。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "乙 = 1份 = 10。",
+        "explanation": "乙 = 1份 = 10。",
+        "icon": "6"
+      },
+      {
+        "id": "knowledge-data-step-7",
+        "title": "甲 = 2份 = 10 × 2 = 20。",
+        "explanation": "甲 = 2份 = 10 × 2 = 20。",
+        "icon": "7"
+      },
+      {
+        "id": "knowledge-data-step-8",
+        "title": "丙 = 1份 + 10 = 10 + 10 ",
+        "explanation": "丙 = 1份 + 10 = 10 + 10 = 20。",
+        "icon": "8"
+      },
+      {
+        "id": "knowledge-data-step-9",
+        "title": "验算：10 + 20 + 20 = 50，甲",
+        "explanation": "验算：10 + 20 + 20 = 50，甲是乙的2倍（20是10的2倍），丙比乙多10（20比10多10），全部正确。",
+        "icon": "9"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到多个量的和倍差倍时，先选最小的量作为1份，画出线段图，把“多几”先加上或减去，再求1份，最后算出每个数。记得验算所有条件。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030204-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "三个数的和是72，甲是乙的2倍，丙是乙的3倍，求甲、乙、丙各是多少？",
+        "answer": "乙=12，甲=24，丙=36",
+        "analysis": "设乙为1份，则甲2份，丙3份，总份数1+2+3=6份，每份72÷6=12。乙=12，甲=12×2=24，丙=12×3=36。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030204-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "三个数的和是70，甲是乙的3倍，丙比乙多10，求甲、乙、丙各是多少？",
+        "answer": "乙=12，甲=36，丙=22",
+        "analysis": "设乙为1份，甲3份，丙1份+10。总和=5份+10=70，5份=60，1份=12。乙=12，甲=12×3=36，丙=12+10=22。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030204-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "三个数的和是108，甲是乙的2倍，丙比甲多8，求甲、乙、丙各是多少？",
+        "answer": "乙=20，甲=40，丙=48",
+        "analysis": "设乙为1份，甲2份，丙=甲+8=2份+8。总和=1份+2份+2份+8=5份+8=108，5份=100，1份=20。乙=20，甲=20×2=40，丙=40+8=48。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "多个量的和倍差倍题, 关键是先找参照量。把最基础的量看成1份后, 其余各量都写成几份, 再根据总和或差量去求每份是多少。条目多时尤其要先整理份数关系, 否则很容易漏算。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "多个量的和倍差倍题, 关键是先找参照量。",
+          "把最基础的量看成1份后, 其余各量都写成几份, 再根据总和或差量去求每份是多少。",
+          "条目多时尤其要先整理份数关系, 否则很容易漏算。"
+        ],
+        "caption": "多个量的和倍差倍题, 关键是先找参照量。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"280\" viewBox=\"0 0 600 280\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"280\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\">多个量的和倍差倍例题图解</text>\n  \n  <!-- 乙线段：1份，长度=100px，对应数值10 -->\n  <text x=\"20\" y=\"70\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\">乙(1份):</text>\n  <rect x=\"100\" y=\"55\" width=\"100\" height=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"150\" y=\"90\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">10</text>\n  \n  <!-- 甲线段：2份，长度=200px，对应数值20 -->\n  <text x=\"20\" y=\"130\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\">甲(2倍):</text>\n  <rect x=\"100\" y=\"115\" width=\"200\" height=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"150\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">20</text>\n  <!-- 蓝色标注倍数关系 -->\n  <text x=\"310\" y=\"130\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">甲是乙的2倍</text>\n  \n  <!-- 丙线段：1份+10，丙实际长200px（因为数值20），但需要表示“多10” -->\n  <text x=\"20\" y=\"190\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\">丙:</text>\n  <!-- 先画1份100px -->\n  <rect x=\"100\" y=\"175\" width=\"100\" height=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 再画多余10的部分（宽度100px表示10，但实际长度比例相同，用虚线框表示多出的部分） -->\n  <rect x=\"200\" y=\"175\" width=\"100\" height=\"20\" fill=\"none\" stroke=\"dodgerblue\" stroke-width=\"2\" stroke-dasharray=\"4,2\"/>\n  <text x=\"250\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"blue\">多10</text>\n  <text x=\"250\" y=\"210\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">20</text>\n  \n  <!-- 总和大括号与数字 -->\n  <line x1=\"100\" y1=\"230\" x2=\"300\" y2=\"230\" stroke=\"black\" stroke-width=\"1\" marker-start=\"url(#arrow)\" marker-end=\"url(#arrow)\"/>\n  <text x=\"200\" y=\"255\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\" fill=\"blue\">总和 50</text>\n  \n  <!-- 箭头定义 -->\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\">\n      <path d=\"M0,0 L8,4 L0,8\" fill=\"black\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.619Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "多个量的和倍差倍问题，是指已知几个数的总和（或差），以及它们之间的倍数关系和相差关系，求每一个数是多少。",
+      "thinking": "- 先找到最小的那个量，把它看作“1份”。  \n    - 根据倍数关系，把其他量用“几份”来表示。  \n    - 如果有“多几”或“少几”，先加上或减去，使所有量变成整份数。  \n    - 用总和（或差）除以总份数，得到1份是多少，再求每个量。",
+      "formula": "无固定公式，掌握“设最小量为1份”的思路即可。",
+      "mistakes": "- 忘记先处理“多几”或“少几”，直接加份数导致错误。  \n    - 不小心把倍数关系搞反，比如“甲是乙的2倍”写成“乙是甲的2倍”。  \n    - 验算时只检查倍数，忘记检查总和或差。",
+      "features": "拔高题会同时给出倍数和相差两个条件，需要两步转化：先调整“多几/少几”变成整份数，再按和倍或差倍列式。考察学生的整体思维和细心程度。"
+    },
+    "example": {
+      "title": "甲、乙、丙三个数的和是50。甲是乙的2倍，丙比乙多10。甲、乙、丙各是多少？",
+      "think": "把乙看作1份，甲就是2份，丙是1份还多10。总和50里先去掉多余的10，剩下的就是4份，从而求出1份是多少。",
+      "steps": "1. 设乙的数为1份，则甲 = 2份，丙 = 1份 + 10。  \n2. 三个数的总和 = 1份 + 2份 + 1份 + 10 = 4份 + 10。  \n3. 已知总和是50，所以 4份 + 10 = 50。  \n4. 两边同时减去10：4份 = 40。  \n5. 1份 = 40 ÷ 4 = 10。  \n6. 乙 = 1份 = 10。  \n7. 甲 = 2份 = 10 × 2 = 20。  \n8. 丙 = 1份 + 10 = 10 + 10 = 20。  \n9. 验算：10 + 20 + 20 = 50，甲是乙的2倍（20是10的2倍），丙比乙多10（20比10多10），全部正确。",
+      "answer": "甲 = 20，乙 = 10，丙 = 20",
+      "summary": "遇到多个量的和倍差倍时，先选最小的量作为1份，画出线段图，把“多几”先加上或减去，再求1份，最后算出每个数。记得验算所有条件。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "多个量的和倍差倍",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "problem": "甲、乙、丙三个数的和是50。甲是乙的2倍，丙比乙多10。甲、乙、丙各是多少？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "三个数的和是72，甲是乙的2倍，丙是乙的3倍，求甲、乙、丙各是多少？"
+  }
+}

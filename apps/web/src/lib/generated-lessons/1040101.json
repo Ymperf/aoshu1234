@@ -1,0 +1,491 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-1040101",
+  "knowledgePointId": 1040101,
+  "topicId": 10401,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "逻辑",
+  "title": "简单条件推理",
+  "subtitle": "逻辑 · 简单推理",
+  "intro": "根据给出的几个条件，通过排除和推理，确定每个事物对应的答案。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "一年级",
+    "moduleName": "逻辑",
+    "topicName": "简单推理"
+  },
+  "problemStatement": "根据 1-2 个条件，推出正确结论",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们好，欢迎来到数学推理小课堂。今天我们要学习一个特别有趣的知识，叫做简单条件推理。什么是条件推理呢？就是根据题目给我们的几个条件，一步一步猜出正确答案，就像玩侦探游戏一样。\n\n我们先来学习解题的小技巧。第一步，找到直接告诉答案的条件，比如谁是谁。第二步，用“不是”的条件去排除那些错误的选择。第三步，剩下的那个就是正确答案了。记住，一定要按顺序想，不能着急。\n\n现在来看一道例题。有三个小朋友，小明、小红和小刚，每人拿一个气球，颜色分别是红色、黄色和蓝色。第一个条件说，小明拿的不是红气球。第二个条件说，小红拿的是黄气球。第三个条件说，小刚拿的不是蓝气球。问他们每人拿什么颜色的气球？\n\n我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。再看第一个条件，小明拿的不是红气球，那小明可能拿黄色或者蓝色。但是黄色已经被小红拿走了，所以小明只能拿蓝色。第三个条件说，小刚拿的不是蓝气球，那他可以拿红色或者黄色。黄色没了，蓝色也被小明拿了，所以小刚只能拿红色。最后检查一下，全部条件都符合，答案就是小明拿蓝气球，小红拿黄气球，小刚拿红气球。\n\n这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。以后遇到类似的题目，也可以用这个思路。\n\n好了，今天的课就到这里。希望小朋友们以后遇到推理题，都能像小侦探一样，冷静分析，找出正确答案。下次再见！",
+  "keyTakeaways": [],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们好，欢迎来到数学推理小课堂。",
+        "今天我们要学习一个特别有趣的知识，叫做简单条件推理。",
+        "什么是条件推理呢？",
+        "就是根据题目给我们的几个条件，一步一步猜出正确答案，就像玩侦探游戏一样。"
+      ],
+      "caption": "小朋友们好，欢迎来到数学推理小课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "我们先来学习解题的小技巧。",
+        "第一步，找到直接告诉答案的条件，比如谁是谁。",
+        "第二步，用“不是”的条件去排除那些错误的选择。",
+        "第三步，剩下的那个就是正确答案了。",
+        "记住，一定要按顺序想，不能着急。"
+      ],
+      "caption": "我们先来学习解题的小技巧。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "现在来看一道例题。",
+        "有三个小朋友，小明、小红和小刚，每人拿一个气球，颜色分别是红色、黄色和蓝色。",
+        "第一个条件说，小明拿的不是红气球。",
+        "第二个条件说，小红拿的是黄气球。",
+        "第三个条件说，小刚拿的不是蓝气球。",
+        "问他们每人拿什么颜色的气球？"
+      ],
+      "caption": "现在来看一道例题。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。",
+        "再看第一个条件，小明拿的不是红气球，那小明可能拿黄色或者蓝色。",
+        "但是黄色已经被小红拿走了，所以小明只能拿蓝色。",
+        "第三个条件说，小刚拿的不是蓝气球，那他可以拿红色或者黄色。",
+        "黄色没了，蓝色也被小明拿了，所以小刚只能拿红色。",
+        "最后检查一下，全部条件都符合，答案就是小明拿蓝气球，小红拿黄气球，小刚拿红气球。"
+      ],
+      "caption": "我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。",
+        "以后遇到类似的题目，也可以用这个思路。"
+      ],
+      "caption": "这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "好了，今天的课就到这里。",
+        "希望小朋友们以后遇到推理题，都能像小侦探一样，冷静分析，找出正确答案。",
+        "下次再见！"
+      ],
+      "caption": "好了，今天的课就到这里。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "1040101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "三个小动物——小鸡、小鸭、小猫，各自住在三个不同的房子里，房子是红色、黄色、蓝色。已知：小鸡不住在红房子；小鸭住在黄房子；小猫不住在蓝房子。请问它们各住在什么颜色的房子？",
+      "answer": "小鸡住蓝房子，小鸭住黄房子，小猫住红房子。",
+      "analysis": "先由“小鸭住黄房子”确定小鸭。小鸡不住红，则可能黄或蓝，但黄已被占，所以小鸡住蓝。小猫不住蓝，剩下红。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1040101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "三个小朋友——乐乐、欢欢、笑笑，各有一个玩具，玩具分别是汽车、飞机、火车。已知：乐乐的玩具不是汽车；欢欢的玩具是飞机；笑笑的玩具不是火车。请问他们各有什么玩具？",
+      "answer": "乐乐有火车，欢欢有飞机，笑笑有汽车。",
+      "analysis": "欢欢是飞机。乐乐不是汽车，则可能飞机或火车，但飞机已被占，所以乐乐是火车。笑笑不是火车，剩下汽车。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1040101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "三个同学——小华、小丽、小军，每人手里拿着一张卡片，卡片上写着数字1、2、3，每人数字不同。已知：小华拿的不是1；小丽拿的是2；小军拿的不是3。请问他们各拿数字几？",
+      "answer": "小华拿3，小丽拿2，小军拿1。",
+      "analysis": "小丽是2。小华不是1，则可能2或3，但2已被占，所以小华是3。小军不是3，剩下1。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "简单条件推理",
+    "subtitle": "逻辑 · 简单推理",
+    "gradeName": "一年级",
+    "moduleName": "逻辑",
+    "topicName": "简单推理",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "逻辑",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "根据给出的几个条件，通过排除和推理，确定每个事物对应的答案。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "根据给出的几个条件，通过排除和推理，确定每个事物对应的答案。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "按题目条件逐步分析。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易漏掉某个条件，导致推理出错。",
+          "可能把“不是”理解成“是”，要仔细看题。",
+          "多个条件同时出现时，要一步一步推理，别着急。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度下，题目通常给出两到三个条件，其中有一个是直接肯定的，另外两个是“不是”的否定条件，需要孩子综合运用排除法和唯一确定法，训练逻辑链条的完整性。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "根据给出的几个条件，通过排除和推理，确定每个事物对应的答案。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度下，题目通常给出两到三个条件，其中有一个是直接肯定的，另外两个是“不是”的否定条件，需要孩子综合运用排除法和唯一确定法，训练逻辑链条的完整性。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "按题目条件逐步分析。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易漏掉某个条件，导致推理出错。",
+              "可能把“不是”理解成“是”，要仔细看题。",
+              "多个条件同时出现时，要一步一步推理，别着急。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "三个小朋友——小明、小红、小刚，每人拿着一个气球，气球的颜色分别是红色、黄色、蓝色。已知：\n（1）小明拿的不是红气球；\n（2）小红拿的是黄气球；\n（3）小刚拿的不是蓝气球。\n请问：他们三人各拿什么颜色的气球？",
+    "answer": "小明拿蓝气球，小红拿黄气球，小刚拿红气球。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "从条件（2）“小红拿的是黄气球”可以知道，小",
+        "explanation": "从条件（2）“小红拿的是黄气球”可以知道，小红的气球是黄色的。我们在小红旁边记上“黄”。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "条件（1）说“小明拿的不是红气球”，那么小明",
+        "explanation": "条件（1）说“小明拿的不是红气球”，那么小明可能拿黄或蓝。但黄气球已经被小红拿走了，所以小明只能拿蓝气球。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "条件（3）说“小刚拿的不是蓝气球”，那么小刚",
+        "explanation": "条件（3）说“小刚拿的不是蓝气球”，那么小刚可能拿红或黄。黄气球已被小红拿走，蓝气球已被小明拿走，所以小刚只能拿红气球。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "检查条件是否都满足：小明拿蓝（不是红，对）；",
+        "explanation": "检查条件是否都满足：小明拿蓝（不是红，对）；小红拿黄（对）；小刚拿红（不是蓝，对）。全部正确。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到“谁是谁”的条件，先直接确定；遇到“谁不是谁”的条件，结合已经确定的答案进行排除，最后剩下的就是正确选项。这种“先定后排除”的方法在简单推理中非常实用。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "1040101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "三个小动物——小鸡、小鸭、小猫，各自住在三个不同的房子里，房子是红色、黄色、蓝色。已知：小鸡不住在红房子；小鸭住在黄房子；小猫不住在蓝房子。请问它们各住在什么颜色的房子？",
+        "answer": "小鸡住蓝房子，小鸭住黄房子，小猫住红房子。",
+        "analysis": "先由“小鸭住黄房子”确定小鸭。小鸡不住红，则可能黄或蓝，但黄已被占，所以小鸡住蓝。小猫不住蓝，剩下红。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1040101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "三个小朋友——乐乐、欢欢、笑笑，各有一个玩具，玩具分别是汽车、飞机、火车。已知：乐乐的玩具不是汽车；欢欢的玩具是飞机；笑笑的玩具不是火车。请问他们各有什么玩具？",
+        "answer": "乐乐有火车，欢欢有飞机，笑笑有汽车。",
+        "analysis": "欢欢是飞机。乐乐不是汽车，则可能飞机或火车，但飞机已被占，所以乐乐是火车。笑笑不是火车，剩下汽车。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1040101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "三个同学——小华、小丽、小军，每人手里拿着一张卡片，卡片上写着数字1、2、3，每人数字不同。已知：小华拿的不是1；小丽拿的是2；小军拿的不是3。请问他们各拿数字几？",
+        "answer": "小华拿3，小丽拿2，小军拿1。",
+        "analysis": "小丽是2。小华不是1，则可能2或3，但2已被占，所以小华是3。小军不是3，剩下1。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们好，欢迎来到数学推理小课堂。今天我们要学习一个特别有趣的知识，叫做简单条件推理。什么是条件推理呢？就是根据题目给我们的几个条件，一步一步猜出正确答案，就像玩侦探游戏一样。\n\n我们先来学习解题的小技巧。第一步，找到直接告诉答案的条件，比如谁是谁。第二步，用“不是”的条件去排除那些错误的选择。第三步，剩下的那个就是正确答案了。记住，一定要按顺序想，不能着急。\n\n现在来看一道例题。有三个小朋友，小明、小红和小刚，每人拿一个气球，颜色分别是红色、黄色和蓝色。第一个条件说，小明拿的不是红气球。第二个条件说，小红拿的是黄气球。第三个条件说，小刚拿的不是蓝气球。问他们每人拿什么颜色的气球？\n\n我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。再看第一个条件，小明拿的不是红气球，那小明可能拿黄色或者蓝色。但是黄色已经被小红拿走了，所以小明只能拿蓝色。第三个条件说，小刚拿的不是蓝气球，那他可以拿红色或者黄色。黄色没了，蓝色也被小明拿了，所以小刚只能拿红色。最后检查一下，全部条件都符合，答案就是小明拿蓝气球，小红拿黄气球，小刚拿红气球。\n\n这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。以后遇到类似的题目，也可以用这个思路。\n\n好了，今天的课就到这里。希望小朋友们以后遇到推理题，都能像小侦探一样，冷静分析，找出正确答案。下次再见！",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们好，欢迎来到数学推理小课堂。",
+          "今天我们要学习一个特别有趣的知识，叫做简单条件推理。",
+          "什么是条件推理呢？",
+          "就是根据题目给我们的几个条件，一步一步猜出正确答案，就像玩侦探游戏一样。"
+        ],
+        "caption": "小朋友们好，欢迎来到数学推理小课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "我们先来学习解题的小技巧。",
+          "第一步，找到直接告诉答案的条件，比如谁是谁。",
+          "第二步，用“不是”的条件去排除那些错误的选择。",
+          "第三步，剩下的那个就是正确答案了。",
+          "记住，一定要按顺序想，不能着急。"
+        ],
+        "caption": "我们先来学习解题的小技巧。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "现在来看一道例题。",
+          "有三个小朋友，小明、小红和小刚，每人拿一个气球，颜色分别是红色、黄色和蓝色。",
+          "第一个条件说，小明拿的不是红气球。",
+          "第二个条件说，小红拿的是黄气球。",
+          "第三个条件说，小刚拿的不是蓝气球。",
+          "问他们每人拿什么颜色的气球？"
+        ],
+        "caption": "现在来看一道例题。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。",
+          "再看第一个条件，小明拿的不是红气球，那小明可能拿黄色或者蓝色。",
+          "但是黄色已经被小红拿走了，所以小明只能拿蓝色。",
+          "第三个条件说，小刚拿的不是蓝气球，那他可以拿红色或者黄色。",
+          "黄色没了，蓝色也被小明拿了，所以小刚只能拿红色。",
+          "最后检查一下，全部条件都符合，答案就是小明拿蓝气球，小红拿黄气球，小刚拿红气球。"
+        ],
+        "caption": "我们先看第二个条件，小红拿的是黄气球，所以小红的气球是黄色的，记下来。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。",
+          "以后遇到类似的题目，也可以用这个思路。"
+        ],
+        "caption": "这道题教会我们一个方法，就是先找肯定条件，再用排除法，最后剩下的就是答案。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "好了，今天的课就到这里。",
+          "希望小朋友们以后遇到推理题，都能像小侦探一样，冷静分析，找出正确答案。",
+          "下次再见！"
+        ],
+        "caption": "好了，今天的课就到这里。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"320\" viewBox=\"0 0 600 320\">\n  <rect width=\"600\" height=\"320\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"35\" text-anchor=\"middle\" font-size=\"22\" font-family=\"sans-serif\" font-weight=\"bold\" fill=\"#333\">简单条件推理——气球颜色</text>\n  \n  <!-- 条件部分 -->\n  <text x=\"50\" y=\"75\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\" fill=\"#444\">已知条件：</text>\n  \n  <!-- 小明行 -->\n  <text x=\"80\" y=\"115\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小明</text>\n  <circle cx=\"190\" cy=\"108\" r=\"14\" fill=\"none\" stroke=\"#ff0000\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"113\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#ff0000\">红</text>\n  <!-- 蓝色叉 -->\n  <line x1=\"175\" y1=\"93\" x2=\"205\" y2=\"123\" stroke=\"#0066ff\" stroke-width=\"3\" stroke-dasharray=\"4,2\"/>\n  <line x1=\"205\" y1=\"93\" x2=\"175\" y2=\"123\" stroke=\"#0066ff\" stroke-width=\"3\" stroke-dasharray=\"4,2\"/>\n  \n  <circle cx=\"240\" cy=\"108\" r=\"14\" fill=\"none\" stroke=\"#ffcc00\" stroke-width=\"2\"/>\n  <text x=\"240\" y=\"113\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#ffcc00\">黄</text>\n  \n  <circle cx=\"290\" cy=\"108\" r=\"14\" fill=\"none\" stroke=\"#0044cc\" stroke-width=\"2\"/>\n  <text x=\"290\" y=\"113\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#0044cc\">蓝</text>\n  \n  <!-- 小红行 -->\n  <text x=\"80\" y=\"165\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小红</text>\n  <circle cx=\"190\" cy=\"158\" r=\"14\" fill=\"none\" stroke=\"#ff0000\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"163\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#ff0000\">红</text>\n  \n  <circle cx=\"240\" cy=\"158\" r=\"14\" fill=\"#ffcc00\" stroke=\"#0066ff\" stroke-width=\"3\"/>\n  <text x=\"240\" y=\"163\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#333\">黄</text>\n  <!-- 蓝色对勾 -->\n  <path d=\"M230 158 L237 165 L250 150\" fill=\"none\" stroke=\"#0066ff\" stroke-width=\"3\"/>\n  \n  <circle cx=\"290\" cy=\"158\" r=\"14\" fill=\"none\" stroke=\"#0044cc\" stroke-width=\"2\"/>\n  <text x=\"290\" y=\"163\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#0044cc\">蓝</text>\n  \n  <!-- 小刚行 -->\n  <text x=\"80\" y=\"215\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小刚</text>\n  <circle cx=\"190\" cy=\"208\" r=\"14\" fill=\"none\" stroke=\"#ff0000\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"213\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#ff0000\">红</text>\n  \n  <circle cx=\"240\" cy=\"208\" r=\"14\" fill=\"none\" stroke=\"#ffcc00\" stroke-width=\"2\"/>\n  <text x=\"240\" y=\"213\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#ffcc00\">黄</text>\n  \n  <circle cx=\"290\" cy=\"208\" r=\"14\" fill=\"none\" stroke=\"#0044cc\" stroke-width=\"2\"/>\n  <text x=\"290\" y=\"213\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#0044cc\">蓝</text>\n  <!-- 蓝色叉 -->\n  <line x1=\"275\" y1=\"193\" x2=\"305\" y2=\"223\" stroke=\"#0066ff\" stroke-width=\"3\" stroke-dasharray=\"4,2\"/>\n  <line x1=\"305\" y1=\"193\" x2=\"275\" y2=\"223\" stroke=\"#0066ff\" stroke-width=\"3\" stroke-dasharray=\"4,2\"/>\n  \n  <!-- 箭头分隔 -->\n  <line x1=\"380\" y1=\"80\" x2=\"380\" y2=\"250\" stroke=\"#aaa\" stroke-width=\"2\" stroke-dasharray=\"6,4\"/>\n  <polygon points=\"380,255 374,245 386,245\" fill=\"#aaa\"/>\n  \n  <!-- 结果部分 -->\n  <text x=\"450\" y=\"75\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\" fill=\"#cc0000\">推理结果：</text>\n  \n  <!-- 小明结果 -->\n  <text x=\"410\" y=\"115\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小明 →</text>\n  <circle cx=\"520\" cy=\"108\" r=\"14\" fill=\"#0044cc\" stroke=\"#cc0000\" stroke-width=\"3\"/>\n  <text x=\"520\" y=\"113\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">蓝</text>\n  \n  <!-- 小红结果 -->\n  <text x=\"410\" y=\"165\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小红 →</text>\n  <circle cx=\"520\" cy=\"158\" r=\"14\" fill=\"#ffcc00\" stroke=\"#cc0000\" stroke-width=\"3\"/>\n  <text x=\"520\" y=\"163\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#333\">黄</text>\n  \n  <!-- 小刚结果 -->\n  <text x=\"410\" y=\"215\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#333\">小刚 →</text>\n  <circle cx=\"520\" cy=\"208\" r=\"14\" fill=\"#ff0000\" stroke=\"#cc0000\" stroke-width=\"3\"/>\n  <text x=\"520\" y=\"213\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">红</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:20.689Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "根据给出的几个条件，通过排除和推理，确定每个事物对应的答案。",
+      "thinking": "",
+      "formula": "",
+      "mistakes": "- 容易漏掉某个条件，导致推理出错。\n   - 可能把“不是”理解成“是”，要仔细看题。\n   - 多个条件同时出现时，要一步一步推理，别着急。",
+      "features": "进阶难度下，题目通常给出两到三个条件，其中有一个是直接肯定的，另外两个是“不是”的否定条件，需要孩子综合运用排除法和唯一确定法，训练逻辑链条的完整性。"
+    },
+    "example": {
+      "title": "三个小朋友——小明、小红、小刚，每人拿着一个气球，气球的颜色分别是红色、黄色、蓝色。已知：\n（1）小明拿的不是红气球；\n（2）小红拿的是黄气球；\n（3）小刚拿的不是蓝气球。\n请问：他们三人各拿什么颜色的气球？",
+      "think": "先利用条件（2）直接确定小红拿黄气球；然后根据条件（1）和已经被小红拿走的黄气球，推出小明只能拿蓝气球；最后剩下的红气球就是小刚的。",
+      "steps": "第1步：从条件（2）“小红拿的是黄气球”可以知道，小红的气球是黄色的。我们在小红旁边记上“黄”。\n第2步：条件（1）说“小明拿的不是红气球”，那么小明可能拿黄或蓝。但黄气球已经被小红拿走了，所以小明只能拿蓝气球。\n第3步：条件（3）说“小刚拿的不是蓝气球”，那么小刚可能拿红或黄。黄气球已被小红拿走，蓝气球已被小明拿走，所以小刚只能拿红气球。\n第4步：检查条件是否都满足：小明拿蓝（不是红，对）；小红拿黄（对）；小刚拿红（不是蓝，对）。全部正确。",
+      "answer": "小明拿蓝气球，小红拿黄气球，小刚拿红气球。",
+      "summary": "遇到“谁是谁”的条件，先直接确定；遇到“谁不是谁”的条件，结合已经确定的答案进行排除，最后剩下的就是正确选项。这种“先定后排除”的方法在简单推理中非常实用。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "简单条件推理",
+    "subtitle": "逻辑 · 简单推理",
+    "problem": "三个小朋友——小明、小红、小刚，每人拿着一个气球，气球的颜色分别是红色、黄色、蓝色。已知：\n（1）小明拿的不是红气球；\n（2）小红拿的是黄气球；\n（3）小刚拿的不是蓝气球。\n请问：他们三人各拿什么颜色的气球？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "三个小动物——小鸡、小鸭、小猫，各自住在三个不同的房子里，房子是红色、黄色、蓝色。已知：小鸡不住在红房子；小鸭住在黄房子；小猫不住在蓝房子。请问它们各住在什么颜色的房子？"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5020101",
+  "knowledgePointId": 5020101,
+  "topicId": 50201,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "几何",
+  "title": "圆的周长计算",
+  "subtitle": "几何 · 圆与扇形初步",
+  "intro": "圆的周长就是绕圆一圈的长度，通常用字母C表示。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "几何",
+    "topicName": "圆与扇形初步"
+  },
+  "problemStatement": "掌握圆周长公式 C=πd=2πr",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，欢迎来到刘老师的数学小课堂。今天我们来学习圆的周长计算。什么是圆的周长呢？就是绕圆一圈的长度，比如跑一圈操场，那一圈的距离就是周长。圆的周长有两个非常重要的公式，如果知道直径，就用C等于π乘d；如果知道半径，就用C等于2π乘r。这里的π我们一般取3.14。那我们来做一个例题吧。一个圆形花坛，半径是4米，求周长。第一步，写出公式C等于2πr。第二步，把数字代入，r是4，所以2乘4等于8。第三步，8乘3.14等于25.12。所以周长是25.12米，别忘了写上单位。做这类题的时候，一定要看清给的是半径还是直径，千万别用错公式。好，我们再练三道题。第一题，直径6分米的圆筒，周长就是3.14乘6等于18.84分米。第二题，半径5厘米的鼓面，周长2乘3.14乘5等于31.4厘米。第三题，已知周长求直径，用周长除以π，50.24除以3.14等于16米。同学们，只要记住两个公式，仔细审题，圆的周长计算就很简单了。今天的课就到这里，你们学会了吗？",
+  "keyTakeaways": [
+    "知道半径，用半径求周长：C = 2πr",
+    "知道直径，用直径求周长：C = πd",
+    "π通常取3.14，计算时注意单位统一。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 24,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，欢迎来到刘老师的数学小课堂。",
+        "今天我们来学习圆的周长计算。",
+        "什么是圆的周长呢？",
+        "就是绕圆一圈的长度，比如跑一圈操场，那一圈的距离就是周长。",
+        "圆的周长有两个非常重要的公式，如果知道直径，就用C等于π乘d；如果知道半径，就用C等于2π乘r。",
+        "这里的π我们一般取3.14。",
+        "那我们来做一个例题吧。",
+        "一个圆形花坛，半径是4米，求周长。",
+        "第一步，写出公式C等于2πr。",
+        "第二步，把数字代入，r是4，所以2乘4等于8。",
+        "第三步，8乘3.14等于25.12。",
+        "所以周长是25.12米，别忘了写上单位。",
+        "做这类题的时候，一定要看清给的是半径还是直径，千万别用错公式。",
+        "好，我们再练三道题。",
+        "第一题，直径6分米的圆筒，周长就是3.14乘6等于18.84分米。",
+        "第二题，半径5厘米的鼓面，周长2乘3.14乘5等于31.4厘米。",
+        "第三题，已知周长求直径，用周长除以π，50.24除以3.14等于16米。",
+        "同学们，只要记住两个公式，仔细审题，圆的周长计算就很简单了。",
+        "今天的课就到这里，你们学会了吗？"
+      ],
+      "caption": "同学们好，欢迎来到刘老师的数学小课堂。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5020101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "一个圆形水桶的直径是6分米，求水桶口的周长是多少分米？（π取3.14）",
+      "answer": "18.84 分米",
+      "analysis": "C = πd = 3.14 × 6 = 18.84 分米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5020101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一面圆形鼓的半径是5厘米，鼓面的周长是多少厘米？（π取3.14）",
+      "answer": "31.4 厘米",
+      "analysis": "C = 2πr = 2 × 3.14 × 5 = 31.4 厘米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5020101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小明用一根绳子绕一个圆形花坛一周，绳子正好长50.24米。这个花坛的直径是多少米？（π取3.14）",
+      "answer": "16 米",
+      "analysis": "1. 周长C = 50.24米，由C = πd得 d = C ÷ π  \n2. d = 50.24 ÷ 3.14 = 16 米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "圆的周长计算",
+    "subtitle": "几何 · 圆与扇形初步",
+    "gradeName": "五年级",
+    "moduleName": "几何",
+    "topicName": "圆与扇形初步",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "几何",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "圆的周长就是绕圆一圈的长度，通常用字母C表示。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "圆的周长就是绕圆一圈的长度，通常用字母C表示。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "知道半径，用半径求周长：C = 2πr",
+          "知道直径，用直径求周长：C = πd",
+          "π通常取3.14，计算时注意单位统一。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "周长公式：C = πd 或 C = 2πr",
+          "其中d是直径，r是半径，π ≈ 3.14"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易混淆半径和直径，审题仔细。",
+          "计算时π取3.14，结果保留两位小数或按题目要求。",
+          "忘记乘以2（当已知半径时）。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础题只考查公式的直接应用，数字简单，通常是整数或一位小数，直接代入计算即可，没有变形。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "圆的周长就是绕圆一圈的长度，通常用字母C表示。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础题只考查公式的直接应用，数字简单，通常是整数或一位小数，直接代入计算即可，没有变形。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "知道半径，用半径求周长：C = 2πr",
+              "知道直径，用直径求周长：C = πd",
+              "π通常取3.14，计算时注意单位统一。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "周长公式：C = πd 或 C = 2πr",
+              "其中d是直径，r是半径，π ≈ 3.14"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易混淆半径和直径，审题仔细。",
+              "计算时π取3.14，结果保留两位小数或按题目要求。",
+              "忘记乘以2（当已知半径时）。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一个圆形花坛的半径是4米，请你计算这个花坛的周长是多少米？（π取3.14）",
+    "answer": "25.12 米",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "写出公式：圆的周长 C = 2 × π × ",
+        "explanation": "写出公式：圆的周长 C = 2 × π × r",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "已知半径 r = 4 米，π = 3.14",
+        "explanation": "已知半径 r = 4 米，π = 3.14",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "先计算 2 × r = 2 × 4 = 8",
+        "explanation": "先计算 2 × r = 2 × 4 = 8",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "再计算 8 × π = 8 × 3.14 =",
+        "explanation": "再计算 8 × π = 8 × 3.14 = 25.12",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "所以周长 C = 25.12 米",
+        "explanation": "所以周长 C = 25.12 米",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "最后写上单位：米",
+        "explanation": "最后写上单位：米",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到已知半径求周长，先算2倍半径得到直径，再乘π。记得检查单位是否统一，结果按题目要求保留位数。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5020101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "一个圆形水桶的直径是6分米，求水桶口的周长是多少分米？（π取3.14）",
+        "answer": "18.84 分米",
+        "analysis": "C = πd = 3.14 × 6 = 18.84 分米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5020101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一面圆形鼓的半径是5厘米，鼓面的周长是多少厘米？（π取3.14）",
+        "answer": "31.4 厘米",
+        "analysis": "C = 2πr = 2 × 3.14 × 5 = 31.4 厘米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5020101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小明用一根绳子绕一个圆形花坛一周，绳子正好长50.24米。这个花坛的直径是多少米？（π取3.14）",
+        "answer": "16 米",
+        "analysis": "1. 周长C = 50.24米，由C = πd得 d = C ÷ π  \n2. d = 50.24 ÷ 3.14 = 16 米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，欢迎来到刘老师的数学小课堂。今天我们来学习圆的周长计算。什么是圆的周长呢？就是绕圆一圈的长度，比如跑一圈操场，那一圈的距离就是周长。圆的周长有两个非常重要的公式，如果知道直径，就用C等于π乘d；如果知道半径，就用C等于2π乘r。这里的π我们一般取3.14。那我们来做一个例题吧。一个圆形花坛，半径是4米，求周长。第一步，写出公式C等于2πr。第二步，把数字代入，r是4，所以2乘4等于8。第三步，8乘3.14等于25.12。所以周长是25.12米，别忘了写上单位。做这类题的时候，一定要看清给的是半径还是直径，千万别用错公式。好，我们再练三道题。第一题，直径6分米的圆筒，周长就是3.14乘6等于18.84分米。第二题，半径5厘米的鼓面，周长2乘3.14乘5等于31.4厘米。第三题，已知周长求直径，用周长除以π，50.24除以3.14等于16米。同学们，只要记住两个公式，仔细审题，圆的周长计算就很简单了。今天的课就到这里，你们学会了吗？",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 24,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，欢迎来到刘老师的数学小课堂。",
+          "今天我们来学习圆的周长计算。",
+          "什么是圆的周长呢？",
+          "就是绕圆一圈的长度，比如跑一圈操场，那一圈的距离就是周长。",
+          "圆的周长有两个非常重要的公式，如果知道直径，就用C等于π乘d；如果知道半径，就用C等于2π乘r。",
+          "这里的π我们一般取3.14。",
+          "那我们来做一个例题吧。",
+          "一个圆形花坛，半径是4米，求周长。",
+          "第一步，写出公式C等于2πr。",
+          "第二步，把数字代入，r是4，所以2乘4等于8。",
+          "第三步，8乘3.14等于25.12。",
+          "所以周长是25.12米，别忘了写上单位。",
+          "做这类题的时候，一定要看清给的是半径还是直径，千万别用错公式。",
+          "好，我们再练三道题。",
+          "第一题，直径6分米的圆筒，周长就是3.14乘6等于18.84分米。",
+          "第二题，半径5厘米的鼓面，周长2乘3.14乘5等于31.4厘米。",
+          "第三题，已知周长求直径，用周长除以π，50.24除以3.14等于16米。",
+          "同学们，只要记住两个公式，仔细审题，圆的周长计算就很简单了。",
+          "今天的课就到这里，你们学会了吗？"
+        ],
+        "caption": "同学们好，欢迎来到刘老师的数学小课堂。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"400\" viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"400\" fill=\"white\"/>\n  <!-- 大圆 -->\n  <circle cx=\"300\" cy=\"200\" r=\"150\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 圆心点 -->\n  <circle cx=\"300\" cy=\"200\" r=\"4\" fill=\"black\"/>\n  <!-- 半径标注线（从圆心到圆周） -->\n  <line x1=\"300\" y1=\"200\" x2=\"450\" y2=\"200\" stroke=\"blue\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/>\n  <!-- 半径文字 -->\n  <text x=\"360\" y=\"190\" font-family=\"sans-serif\" font-size=\"20\" fill=\"blue\" text-anchor=\"middle\">r = 4 米</text>\n  <!-- 周长弧线示意 (弧) 用虚线画一段弧 -->\n  <path d=\"M 150 200 A 150 150 0 0 1 300 50\" fill=\"none\" stroke=\"red\" stroke-width=\"2\" stroke-dasharray=\"8,4\"/>\n  <!-- 周长文字 -->\n  <text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"22\" fill=\"red\" text-anchor=\"middle\">C = 25.12 米</text>\n  <!-- 圆心标志 -->\n  <text x=\"290\" y=\"215\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\" text-anchor=\"end\">O</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.076Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "圆的周长就是绕圆一圈的长度，通常用字母C表示。",
+      "thinking": "- 知道半径，用半径求周长：C = 2πr  \n   - 知道直径，用直径求周长：C = πd  \n   - π通常取3.14，计算时注意单位统一。",
+      "formula": "- 周长公式：C = πd 或 C = 2πr  \n   - 其中d是直径，r是半径，π ≈ 3.14",
+      "mistakes": "- 容易混淆半径和直径，审题仔细。  \n   - 计算时π取3.14，结果保留两位小数或按题目要求。  \n   - 忘记乘以2（当已知半径时）。",
+      "features": "基础题只考查公式的直接应用，数字简单，通常是整数或一位小数，直接代入计算即可，没有变形。"
+    },
+    "example": {
+      "title": "一个圆形花坛的半径是4米，请你计算这个花坛的周长是多少米？（π取3.14）",
+      "think": "已知半径，直接套用周长公式C=2πr，先算出2×半径，再乘π。",
+      "steps": "1. 写出公式：圆的周长 C = 2 × π × r  \n2. 已知半径 r = 4 米，π = 3.14  \n3. 先计算 2 × r = 2 × 4 = 8  \n4. 再计算 8 × π = 8 × 3.14 = 25.12  \n5. 所以周长 C = 25.12 米  \n6. 最后写上单位：米",
+      "answer": "25.12 米",
+      "summary": "遇到已知半径求周长，先算2倍半径得到直径，再乘π。记得检查单位是否统一，结果按题目要求保留位数。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "圆的周长计算",
+    "subtitle": "几何 · 圆与扇形初步",
+    "problem": "一个圆形花坛的半径是4米，请你计算这个花坛的周长是多少米？（π取3.14）",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "一个圆形水桶的直径是6分米，求水桶口的周长是多少分米？（π取3.14）"
+  }
+}

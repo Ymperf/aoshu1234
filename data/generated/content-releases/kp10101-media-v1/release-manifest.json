@@ -1,0 +1,9 @@
+{
+  "versionTag": "kp10101-media-v1",
+  "catalogPath": "data/generated/content-releases/kp10101-media-v1/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/kp10101-media-v1/approved-ai-content.json",
+  "approvedAiDraftCount": 13,
+  "catalogChecksum": "62bf48d1bcd4f2083eb34a6fd1451f1f02fc00ec9d1759ae9b85e05b6f7e619e",
+  "publishedAt": "2026-04-19T01:38:22.126Z"
+}

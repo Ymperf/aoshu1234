@@ -1,0 +1,10 @@
+{
+  "versionTag": "smoke-release-1777536022917",
+  "catalogPath": "data/generated/content-releases/smoke-release-1777536022917/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/smoke-release-1777536022917/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/smoke-release-1777536022917/knowledge-point-media.json",
+  "approvedAiDraftCount": 18,
+  "catalogChecksum": "c16d495ac88949e5cb97baadd03c3f91b858d2945ab51ac93037f296195e2096",
+  "publishedAt": "2026-04-30T08:00:24.431Z"
+}

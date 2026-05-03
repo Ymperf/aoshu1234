@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030204",
+  "knowledgePointId": 5030204,
+  "topicId": 50302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "单位 “1” 转化问题",
+  "subtitle": "应用题 · 分数应用题",
+  "intro": "把几个不同的数量都看作用“1”表示，然后根据题目条件，在变化中找到不变的那个数量，把它作为统一的“1”，再解决分数比较和计算的问题。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "分数应用题"
+  },
+  "problemStatement": "在多条件中统一单位 “1”",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。像“男生的四分之三等于女生的五分之四”，看起来不能直接比，其实这两个量都等于同一个中间量。只要先把这个共同量抓住，再把男生和女生都改写成它的几倍，最后就能化成整数比来解决。做这类题时，先问自己：谁和谁相等？哪个量能当作统一标准？这一步想通了，后面通常就是比和总数的常规处理。",
+  "keyTakeaways": [
+    "a. 先找出题目中“不变的那个量”，比如总人数、总路程、总钱数等。",
+    "b. 把题目中每个分数，都转化成以这个不变量为“1”的分数。",
+    "c. 列出新的分数关系，再列方程或算式求解。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。",
+        "像“男生的四分之三等于女生的五分之四”，看起来不能直接比，其实这两个量都等于同一个中间量。",
+        "只要先把这个共同量抓住，再把男生和女生都改写成它的几倍，最后就能化成整数比来解决。",
+        "做这类题时，先问自己：谁和谁相等？",
+        "哪个量能当作统一标准？",
+        "这一步想通了，后面通常就是比和总数的常规处理。"
+      ],
+      "caption": "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030204-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小红和小明共有90张画片。已知小红画片张数的四分之一等于小明画片张数的五分之一。那么小红和小明各有多少张画片？",
+      "answer": "小红40张，小明50张。",
+      "analysis": "设小红张数×1/4 = 小明张数×1/5 = x。得小红=4x，小明=5x。总4x+5x=9x=90，x=10。小红=4×10=40，小明=5×10=50。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030204-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "图书馆有故事书和科技书共564本。取出故事书的七分之二和科技书的九分之二后，剩下的两种书同样多。原来故事书和科技书各有多少本？",
+      "answer": "故事书294本，科技书270本。",
+      "analysis": "1. 剩下的故事书占原来的 1 - 2/7 = 5/7，剩下的科技书占原来的 1 - 2/9 = 7/9。\n2. 因为剩下的本数相同，所以原来故事书 : 科技书 = 7/5 : 9/7 = 49 : 45。\n3. 总份数是 49 + 45 = 94 份，每份 = 564 ÷ 94 = 6（本）。\n4. 故事书 = 49×6 = 294（本），科技书 = 45×6 = 270（本）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030204-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "五年级和六年级共有570人。五年级人数的三分之二正好等于六年级人数的四分之三。五、六年级各有多少人？",
+      "answer": "五年级270人，六年级300人。",
+      "analysis": "1. 由 五年级×2/3 = 六年级×3/4，可得五年级 : 六年级 = 9 : 10。\n2. 总份数是 9 + 10 = 19 份，每份 = 570 ÷ 19 = 30（人）。\n3. 五年级 = 9×30 = 270（人），六年级 = 10×30 = 300（人）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "单位 “1” 转化问题",
+    "subtitle": "应用题 · 分数应用题",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "分数应用题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "把几个不同的数量都看作用“1”表示，然后根据题目条件，在变化中找到不变的那个数量，把它作为统一的“1”，再解决分数比较和计算的问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "把几个不同的数量都看作用“1”表示，然后根据题目条件，在变化中找到不变的那个数量，把它作为统一的“1”，再解决分数比较和计算的问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "a. 先找出题目中“不变的那个量”，比如总人数、总路程、总钱数等。",
+          "b. 把题目中每个分数，都转化成以这个不变量为“1”的分数。",
+          "c. 列出新的分数关系，再列方程或算式求解。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“抓不变量→统一单位1→转化分率”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "a. 容易混淆谁是谁的几分之几，弄错谁作单位“1”。",
+          "b. 转化分率时，没有保持总量不变，计算出现偏差。",
+          "c. 最后的结果忘记写单位或缺少检验。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高题目会把多个数量关系混杂在一起，需要学生主动发现隐藏的不变量，然后灵活转化分率。重点考察逻辑分析能力和分数的灵活转化能力，数字往往设计成容易产生混淆的分数，需要细心解题。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "把几个不同的数量都看作用“1”表示，然后根据题目条件，在变化中找到不变的那个数量，把它作为统一的“1”，再解决分数比较和计算的问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高题目会把多个数量关系混杂在一起，需要学生主动发现隐藏的不变量，然后灵活转化分率。重点考察逻辑分析能力和分数的灵活转化能力，数字往往设计成容易产生混淆的分数，需要细心解题。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "a. 先找出题目中“不变的那个量”，比如总人数、总路程、总钱数等。",
+              "b. 把题目中每个分数，都转化成以这个不变量为“1”的分数。",
+              "c. 列出新的分数关系，再列方程或算式求解。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“抓不变量→统一单位1→转化分率”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "a. 容易混淆谁是谁的几分之几，弄错谁作单位“1”。",
+              "b. 转化分率时，没有保持总量不变，计算出现偏差。",
+              "c. 最后的结果忘记写单位或缺少检验。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "五年级一班共有62人，男生人数的四分之三等于女生人数的五分之四。问男生和女生各有多少人？",
+    "answer": "男生32人，女生30人。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "设男生人数的 3/4 和女生人数的 4/5 ",
+        "explanation": "设男生人数的 3/4 和女生人数的 4/5 都等于同一个量 x。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "那么男生人数 = x ÷ 3/4 = 4x/",
+        "explanation": "那么男生人数 = x ÷ 3/4 = 4x/3，女生人数 = x ÷ 4/5 = 5x/4。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "所以男生 : 女生 = 4/3 : 5/4 ",
+        "explanation": "所以男生 : 女生 = 4/3 : 5/4 = 16 : 15。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "总份数是 16 + 15 = 31 份，每份",
+        "explanation": "总份数是 16 + 15 = 31 份，每份 = 62 ÷ 31 = 2（人）。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "男生 = 16×2 = 32（人），女生 =",
+        "explanation": "男生 = 16×2 = 32（人），女生 = 15×2 = 30（人）。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "单位“1”转化题先找相等的不变量，再把各个量都改写到同一标准下。最后化成整数比，题目就会明显简单很多。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030204-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小红和小明共有90张画片。已知小红画片张数的四分之一等于小明画片张数的五分之一。那么小红和小明各有多少张画片？",
+        "answer": "小红40张，小明50张。",
+        "analysis": "设小红张数×1/4 = 小明张数×1/5 = x。得小红=4x，小明=5x。总4x+5x=9x=90，x=10。小红=4×10=40，小明=5×10=50。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030204-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "图书馆有故事书和科技书共564本。取出故事书的七分之二和科技书的九分之二后，剩下的两种书同样多。原来故事书和科技书各有多少本？",
+        "answer": "故事书294本，科技书270本。",
+        "analysis": "1. 剩下的故事书占原来的 1 - 2/7 = 5/7，剩下的科技书占原来的 1 - 2/9 = 7/9。\n2. 因为剩下的本数相同，所以原来故事书 : 科技书 = 7/5 : 9/7 = 49 : 45。\n3. 总份数是 49 + 45 = 94 份，每份 = 564 ÷ 94 = 6（本）。\n4. 故事书 = 49×6 = 294（本），科技书 = 45×6 = 270（本）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030204-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "五年级和六年级共有570人。五年级人数的三分之二正好等于六年级人数的四分之三。五、六年级各有多少人？",
+        "answer": "五年级270人，六年级300人。",
+        "analysis": "1. 由 五年级×2/3 = 六年级×3/4，可得五年级 : 六年级 = 9 : 10。\n2. 总份数是 9 + 10 = 19 份，每份 = 570 ÷ 19 = 30（人）。\n3. 五年级 = 9×30 = 270（人），六年级 = 10×30 = 300（人）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。像“男生的四分之三等于女生的五分之四”，看起来不能直接比，其实这两个量都等于同一个中间量。只要先把这个共同量抓住，再把男生和女生都改写成它的几倍，最后就能化成整数比来解决。做这类题时，先问自己：谁和谁相等？哪个量能当作统一标准？这一步想通了，后面通常就是比和总数的常规处理。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。",
+          "像“男生的四分之三等于女生的五分之四”，看起来不能直接比，其实这两个量都等于同一个中间量。",
+          "只要先把这个共同量抓住，再把男生和女生都改写成它的几倍，最后就能化成整数比来解决。",
+          "做这类题时，先问自己：谁和谁相等？",
+          "哪个量能当作统一标准？",
+          "这一步想通了，后面通常就是比和总数的常规处理。"
+        ],
+        "caption": "单位“1”转化问题难，不是因为分数多，而是因为每个分数背后的参照量不同。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"240\" viewBox=\"0 0 600 240\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"240\" fill=\"white\"/>\n  <!-- 男生线段图 -->\n  <text x=\"20\" y=\"40\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\">男生：</text>\n  <line x1=\"80\" y1=\"30\" x2=\"520\" y2=\"30\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"80\" y1=\"26\" x2=\"80\" y2=\"34\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <line x1=\"520\" y1=\"26\" x2=\"520\" y2=\"34\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"240\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">男生共32人</text>\n  <!-- 男生的3/4 -->\n  <line x1=\"80\" y1=\"30\" x2=\"410\" y2=\"30\" stroke=\"blue\" stroke-width=\"4\" stroke-dasharray=\"8,4\"/>\n  <text x=\"200\" y=\"60\" font-family=\"sans-serif\" font-size=\"16\" fill=\"blue\">3/4</text>\n  <text x=\"200\" y=\"78\" font-family=\"sans-serif\" font-size=\"14\" fill=\"red\">=24人</text>\n\n  <!-- 女生线段图 -->\n  <text x=\"20\" y=\"120\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\">女生：</text>\n  <line x1=\"80\" y1=\"110\" x2=\"520\" y2=\"110\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"80\" y1=\"106\" x2=\"80\" y2=\"114\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <line x1=\"520\" y1=\"106\" x2=\"520\" y2=\"114\" stroke=\"black\" stroke-width=\"1.5\"/>\n  <text x=\"240\" y=\"100\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">女生共30人</text>\n  <!-- 女生的4/5 -->\n  <line x1=\"80\" y1=\"110\" x2=\"432\" y2=\"110\" stroke=\"blue\" stroke-width=\"4\" stroke-dasharray=\"8,4\"/>\n  <text x=\"200\" y=\"145\" font-family=\"sans-serif\" font-size=\"16\" fill=\"blue\">4/5</text>\n  <text x=\"200\" y=\"163\" font-family=\"sans-serif\" font-size=\"14\" fill=\"red\">=24人</text>\n\n  <!-- 等号标注 -->\n  <line x1=\"420\" y1=\"30\" x2=\"420\" y2=\"110\" stroke=\"red\" stroke-width=\"2\" stroke-dasharray=\"4,2\"/>\n  <text x=\"430\" y=\"75\" font-family=\"sans-serif\" font-size=\"18\" fill=\"red\">相等</text>\n  \n  <!-- 总结信息 -->\n  <text x=\"30\" y=\"210\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\">男 : 女 = 16 : 15，总62人，每份=2人</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.459Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "把几个不同的数量都看作用“1”表示，然后根据题目条件，在变化中找到不变的那个数量，把它作为统一的“1”，再解决分数比较和计算的问题。",
+      "thinking": "a. 先找出题目中“不变的那个量”，比如总人数、总路程、总钱数等。\n   b. 把题目中每个分数，都转化成以这个不变量为“1”的分数。\n   c. 列出新的分数关系，再列方程或算式求解。",
+      "formula": "无固定公式，掌握“抓不变量→统一单位1→转化分率”的思路即可。",
+      "mistakes": "a. 容易混淆谁是谁的几分之几，弄错谁作单位“1”。\n   b. 转化分率时，没有保持总量不变，计算出现偏差。\n   c. 最后的结果忘记写单位或缺少检验。",
+      "features": "拔高题目会把多个数量关系混杂在一起，需要学生主动发现隐藏的不变量，然后灵活转化分率。重点考察逻辑分析能力和分数的灵活转化能力，数字往往设计成容易产生混淆的分数，需要细心解题。"
+    },
+    "example": {
+      "title": "五年级一班共有62人，男生人数的四分之三等于女生人数的五分之四。问男生和女生各有多少人？",
+      "think": "题目中已知全班总人数，以及“男生人数的3/4=女生人数的4/5”。我们可以引入一个不变量，比如设男生人数的3/4（或女生人数的4/5）为1份，然后分别求出男生和女生各对应几份，再按总人数40人求出每份是多少，最后算出男女生人数。",
+      "steps": "1. 设男生人数的 3/4 和女生人数的 4/5 都等于同一个量 x。\n2. 那么男生人数 = x ÷ 3/4 = 4x/3，女生人数 = x ÷ 4/5 = 5x/4。\n3. 所以男生 : 女生 = 4/3 : 5/4 = 16 : 15。\n4. 总份数是 16 + 15 = 31 份，每份 = 62 ÷ 31 = 2（人）。\n5. 男生 = 16×2 = 32（人），女生 = 15×2 = 30（人）。",
+      "answer": "男生32人，女生30人。",
+      "summary": "单位“1”转化题先找相等的不变量，再把各个量都改写到同一标准下。最后化成整数比，题目就会明显简单很多。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "单位 “1” 转化问题",
+    "subtitle": "应用题 · 分数应用题",
+    "problem": "五年级一班共有62人，男生人数的四分之三等于女生人数的五分之四。问男生和女生各有多少人？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小红和小明共有90张画片。已知小红画片张数的四分之一等于小明画片张数的五分之一。那么小红和小明各有多少张画片？"
+  }
+}

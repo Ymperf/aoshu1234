@@ -1,0 +1,519 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-6020202",
+  "knowledgePointId": 6020202,
+  "topicId": 60202,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "几何",
+  "title": "燕尾模型初步",
+  "subtitle": "几何 · 几何模型",
+  "intro": "三角形内部线段比例面积模型",
+  "difficultyLabel": "竞赛",
+  "breadcrumbs": {
+    "gradeName": "六年级",
+    "moduleName": "几何",
+    "topicName": "几何模型"
+  },
+  "problemStatement": "三角形内部线段比例面积模型",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，欢迎来到小学奥数课堂。今天我们来学习几何模型中的燕尾模型。燕尾模型是什么呢？它说的是，在三角形里面有一个点，从这个点向三个顶点连线，就把三角形分成了三个小三角形。其中两个小三角形的面积比，刚好等于它们对着的底边长度比。这个规律就是燕尾模型。\n\n我们先看一个例题。在三角形ABC中，D在BC边上，BD比DC等于2比1。E在AC边上，AE比EC等于1比2。AD和BE交于O点。已知整个三角形ABC的面积是70平方厘米，要求三角形AOB的面积。\n\n怎么做呢？首先，我们连接CO并延长交AB于F，虽然图上没画，但我们可以想象。根据燕尾模型，三角形AOB和三角形AOC的面积比等于BD比DC，也就是2比1。三角形AOB和三角形BOC的面积比等于AE比EC，也就是1比2。\n\n那我们就设三角形AOB的面积为x。这样，三角形AOC的面积就是它的一半，也就是0.5x。三角形BOC的面积就是它的2倍，也就是2x。三个小三角形加起来就是x加0.5x加2x等于3.5x，也就是7/2 x，它等于总面积70。解这个方程，7/2 x等于70，那么x就等于70乘以2除以7，算出来20。所以三角形AOB的面积是20平方厘米。\n\n做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。记住这个步骤，燕尾模型就不难了。\n\n下面给大家留三道练习题。第一题，把例题中的AE比EC改成1比3，总面积改成90，算三角形AOB的面积，答案是20。第二题，已知三个小三角形面积分别是12、15、10，求BD比DC，答案是6比5。第三题，已知BD比DC等于3比2，AE比EC等于1比1，连接CO并延长交AB于F，求AF比FB，答案是2比3。\n\n同学们可以自己动手算一算，检验一下今天学的内容。今天的课就到这里，我们下次再见。",
+  "keyTakeaways": [],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，欢迎来到小学奥数课堂。",
+        "今天我们来学习几何模型中的燕尾模型。",
+        "燕尾模型是什么呢？",
+        "它说的是，在三角形里面有一个点，从这个点向三个顶点连线，就把三角形分成了三个小三角形。",
+        "其中两个小三角形的面积比，刚好等于它们对着的底边长度比。",
+        "这个规律就是燕尾模型。"
+      ],
+      "caption": "同学们好，欢迎来到小学奥数课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "我们先看一个例题。",
+        "在三角形ABC中，D在BC边上，BD比DC等于2比1。",
+        "E在AC边上，AE比EC等于1比2。",
+        "AD和BE交于O点。",
+        "已知整个三角形ABC的面积是70平方厘米，要求三角形AOB的面积。"
+      ],
+      "caption": "我们先看一个例题。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "怎么做呢？",
+        "首先，我们连接CO并延长交AB于F，虽然图上没画，但我们可以想象。",
+        "根据燕尾模型，三角形AOB和三角形AOC的面积比等于BD比DC，也就是2比1。",
+        "三角形AOB和三角形BOC的面积比等于AE比EC，也就是1比2。"
+      ],
+      "caption": "怎么做呢？"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "那我们就设三角形AOB的面积为x。",
+        "这样，三角形AOC的面积就是它的一半，也就是0.5x。",
+        "三角形BOC的面积就是它的2倍，也就是2x。",
+        "三个小三角形加起来就是x加0.5x加2x等于3.5x，也就是7/2 x，它等于总面积70。",
+        "解这个方程，7/2 x等于70，那么x就等于70乘以2除以7，算出来20。",
+        "所以三角形AOB的面积是20平方厘米。"
+      ],
+      "caption": "那我们就设三角形AOB的面积为x。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。",
+        "记住这个步骤，燕尾模型就不难了。"
+      ],
+      "caption": "做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "下面给大家留三道练习题。",
+        "第一题，把例题中的AE比EC改成1比3，总面积改成90，算三角形AOB的面积，答案是20。",
+        "第二题，已知三个小三角形面积分别是12、15、10，求BD比DC，答案是6比5。",
+        "第三题，已知BD比DC等于3比2，AE比EC等于1比1，连接CO并延长交AB于F，求AF比FB，答案是2比3。"
+      ],
+      "caption": "下面给大家留三道练习题。"
+    },
+    {
+      "id": "scene_7",
+      "title": "练习巩固",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "练习巩固",
+      "narration": [
+        "同学们可以自己动手算一算，检验一下今天学的内容。",
+        "今天的课就到这里，我们下次再见。"
+      ],
+      "caption": "同学们可以自己动手算一算，检验一下今天学的内容。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "6020202-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:3\\)。\\(AD\\) 与 \\(BE\\) 交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(90\\) 平方厘米，求三角形 \\(AOB\\) 的面积。",
+      "answer": "\\(20\\) 平方厘米",
+      "analysis": "设 \\(S_{\\triangle AOB}=x\\)，由燕尾得 \\(S_{\\triangle AOC} = \\frac{1}{2}x\\)，\\(S_{\\triangle BOC} = 3x\\)。  \n总面积 \\(x+0.5x+3x=4.5x=90\\)，解得 \\(x=20\\)。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6020202-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "如图所示，三角形 \\(ABC\\) 中，\\(AD\\)、\\(BE\\)、\\(CF\\) 交于一点 \\(O\\)。已知 \\(S_{\\triangle AOB}=12\\)，\\(S_{\\triangle BOC}=15\\)，\\(S_{\\triangle AOC}=10\\)。求 \\(BD:DC\\)。",
+      "answer": "\\(6:5\\)",
+      "analysis": "由燕尾模型，\\(BD:DC = S_{\\triangle AOB} : S_{\\triangle AOC} = 12:10 = 6:5\\)。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6020202-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC=3:2\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC=1:1\\)。\\(AD\\) 与 \\(BE\\) 交于点 \\(O\\)，连接 \\(CO\\) 并延长交 \\(AB\\) 于点 \\(F\\)。求 \\(AF:FB\\)。",
+      "answer": "\\(2:3\\)",
+      "analysis": "由燕尾得 \\(S_{\\triangle AOB}:S_{\\triangle AOC}=BD:DC=3:2\\)，\\(S_{\\triangle AOB}:S_{\\triangle BOC}=AE:EC=1:1\\)。  \n设 \\(S_{\\triangle AOB}=3k\\)，则 \\(S_{\\triangle AOC}=2k\\)，\\(S_{\\triangle BOC}=3k\\)。  \n则 \\(AF:FB = S_{\\triangle AOC}:S_{\\triangle BOC} = 2k:3k = 2:3\\)。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "燕尾模型初步",
+    "subtitle": "几何 · 几何模型",
+    "gradeName": "六年级",
+    "moduleName": "几何",
+    "topicName": "几何模型",
+    "difficultyLabel": "竞赛",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "几何",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "1. **知识点定义**  \n   燕尾模型是指在三角形中，从内部一点向三个顶点连线，将三角形分成三个小三角形，其中两个小三角形的面积比等于它们对应底边的长度比。\n\n2. **核心解题思路**  \n   - 找到三角形内部交点与顶点连线。  \n   - 根据已知的线段比，写出对应小三角形的面积比。  \n   - 设未知数表示各小三角形面积，利用总面积列方程求解。\n\n3. **方法总结/常用公式**  \n   若点 \\(O\\) 在 \\(\\triangle ABC\\) 内，\\(AO\\)、\\(BO\\)、\\(CO\\) 分别交对边于 \\(D\\)、\\(E\\)、\\(F\\)，则：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC}, \\quad\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC}, \\quad\n   \\frac{S_{\\triangle AOC}}{S_{\\triangle BOC}} = \\frac{AF}{FB}\n   \\]  \n   无固定公式，掌握比例关系即可。\n\n4. **易错点提醒**  \n   - 比例对应要准确：面积比的分母是共用顶点的另一边。  \n   - 设未知数时不要设太多，用同一个未知数表示所有部分。  \n   - 检查总面积是否等于各部分之和。\n\n5. **本难度考察特点**  \n   竞赛难度下，燕尾模型常与多个线段比结合，需要多次应用比例关系，通过设元、列方程求解未知面积或线段比，思维抽象且要求计算精准。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "1. **知识点定义**  \n   燕尾模型是指在三角形中，从内部一点向三个顶点连线，将三角形分成三个小三角形，其中两个小三角形的面积比等于它们对应底边的长度比。\n\n2. **核心解题思路**  \n   - 找到三角形内部交点与顶点连线。  \n   - 根据已知的线段比，写出对应小三角形的面积比。  \n   - 设未知数表示各小三角形面积，利用总面积列方程求解。\n\n3. **方法总结/常用公式**  \n   若点 \\(O\\) 在 \\(\\triangle ABC\\) 内，\\(AO\\)、\\(BO\\)、\\(CO\\) 分别交对边于 \\(D\\)、\\(E\\)、\\(F\\)，则：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC}, \\quad\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC}, \\quad\n   \\frac{S_{\\triangle AOC}}{S_{\\triangle BOC}} = \\frac{AF}{FB}\n   \\]  \n   无固定公式，掌握比例关系即可。\n\n4. **易错点提醒**  \n   - 比例对应要准确：面积比的分母是共用顶点的另一边。  \n   - 设未知数时不要设太多，用同一个未知数表示所有部分。  \n   - 检查总面积是否等于各部分之和。\n\n5. **本难度考察特点**  \n   竞赛难度下，燕尾模型常与多个线段比结合，需要多次应用比例关系，通过设元、列方程求解未知面积或线段比，思维抽象且要求计算精准。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "按题目条件逐步分析。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "1. **知识点定义**  \n   燕尾模型是指在三角形中，从内部一点向三个顶点连线，将三角形分成三个小三角形，其中两个小三角形的面积比等于它们对应底边的长度比。\n\n2. **核心解题思路**  \n   - 找到三角形内部交点与顶点连线。  \n   - 根据已知的线段比，写出对应小三角形的面积比。  \n   - 设未知数表示各小三角形面积，利用总面积列方程求解。\n\n3. **方法总结/常用公式**  \n   若点 \\(O\\) 在 \\(\\triangle ABC\\) 内，\\(AO\\)、\\(BO\\)、\\(CO\\) 分别交对边于 \\(D\\)、\\(E\\)、\\(F\\)，则：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC}, \\quad\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC}, \\quad\n   \\frac{S_{\\triangle AOC}}{S_{\\triangle BOC}} = \\frac{AF}{FB}\n   \\]  \n   无固定公式，掌握比例关系即可。\n\n4. **易错点提醒**  \n   - 比例对应要准确：面积比的分母是共用顶点的另一边。  \n   - 设未知数时不要设太多，用同一个未知数表示所有部分。  \n   - 检查总面积是否等于各部分之和。\n\n5. **本难度考察特点**  \n   竞赛难度下，燕尾模型常与多个线段比结合，需要多次应用比例关系，通过设元、列方程求解未知面积或线段比，思维抽象且要求计算精准。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "1. **知识点定义**  \n   燕尾模型是指在三角形中，从内部一点向三个顶点连线，将三角形分成三个小三角形，其中两个小三角形的面积比等于它们对应底边的长度比。\n\n2. **核心解题思路**  \n   - 找到三角形内部交点与顶点连线。  \n   - 根据已知的线段比，写出对应小三角形的面积比。  \n   - 设未知数表示各小三角形面积，利用总面积列方程求解。\n\n3. **方法总结/常用公式**  \n   若点 \\(O\\) 在 \\(\\triangle ABC\\) 内，\\(AO\\)、\\(BO\\)、\\(CO\\) 分别交对边于 \\(D\\)、\\(E\\)、\\(F\\)，则：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC}, \\quad\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC}, \\quad\n   \\frac{S_{\\triangle AOC}}{S_{\\triangle BOC}} = \\frac{AF}{FB}\n   \\]  \n   无固定公式，掌握比例关系即可。\n\n4. **易错点提醒**  \n   - 比例对应要准确：面积比的分母是共用顶点的另一边。  \n   - 设未知数时不要设太多，用同一个未知数表示所有部分。  \n   - 检查总面积是否等于各部分之和。\n\n5. **本难度考察特点**  \n   竞赛难度下，燕尾模型常与多个线段比结合，需要多次应用比例关系，通过设元、列方程求解未知面积或线段比，思维抽象且要求计算精准。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "按题目条件逐步分析。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:2\\)。\\(AD\\) 与 \\(BE\\) 相交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(70\\) 平方厘米，求三角形 \\(AOB\\) 的面积。",
+    "answer": "三角形 \\(AOB\\) 的面积为 \\(\\boxed{20}\\) 平方厘米。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "根据燕尾模型，连接 \\(CO\\) 并延长交 ",
+        "explanation": "根据燕尾模型，连接 \\(CO\\) 并延长交 \\(AB\\) 于 \\(F\\)（辅助线），则有：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC} = \\frac{2}{1}\n   \\]\n   所以 \\(S_{\\triangle AOC} = \\frac{1}{2} S_{\\triangle AOB}\\)",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "同样，  \n   \\[\n   \\frac{S",
+        "explanation": "同样，  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC} = \\frac{1}{2}\n   \\]\n   所以 \\(S_{\\triangle BOC} = 2 S_{\\triangle AOB}\\)",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "设 \\(S_{\\triangle AOB} ",
+        "explanation": "设 \\(S_{\\triangle AOB} = x\\) 平方厘米，则  \n   \\[\n   S_{\\triangle AOC} = \\frac{1}{2}x, \\quad S_{\\triangle BOC} = 2x\n   \\]",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "三角形 \\(ABC\\) 的总面积为三个小三角",
+        "explanation": "三角形 \\(ABC\\) 的总面积为三个小三角形面积之和：  \n   \\[\n   x + \\frac{1}{2}x + 2x = \\frac{7}{2}x = 70\n   \\]",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "解方程：  \n   \\[\n   \\frac{",
+        "explanation": "解方程：  \n   \\[\n   \\frac{7}{2}x = 70 \\implies x = 70 \\times \\frac{2}{7} = 20\n   \\]",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到三角形内一点与顶点连线分割出的面积问题，先用燕尾模型写出面积比，再设未知数统一表示，最后用总和列方程。关键是找准线段比对应的面积比。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "6020202-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:3\\)。\\(AD\\) 与 \\(BE\\) 交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(90\\) 平方厘米，求三角形 \\(AOB\\) 的面积。",
+        "answer": "\\(20\\) 平方厘米",
+        "analysis": "设 \\(S_{\\triangle AOB}=x\\)，由燕尾得 \\(S_{\\triangle AOC} = \\frac{1}{2}x\\)，\\(S_{\\triangle BOC} = 3x\\)。  \n总面积 \\(x+0.5x+3x=4.5x=90\\)，解得 \\(x=20\\)。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6020202-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "如图所示，三角形 \\(ABC\\) 中，\\(AD\\)、\\(BE\\)、\\(CF\\) 交于一点 \\(O\\)。已知 \\(S_{\\triangle AOB}=12\\)，\\(S_{\\triangle BOC}=15\\)，\\(S_{\\triangle AOC}=10\\)。求 \\(BD:DC\\)。",
+        "answer": "\\(6:5\\)",
+        "analysis": "由燕尾模型，\\(BD:DC = S_{\\triangle AOB} : S_{\\triangle AOC} = 12:10 = 6:5\\)。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6020202-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC=3:2\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC=1:1\\)。\\(AD\\) 与 \\(BE\\) 交于点 \\(O\\)，连接 \\(CO\\) 并延长交 \\(AB\\) 于点 \\(F\\)。求 \\(AF:FB\\)。",
+        "answer": "\\(2:3\\)",
+        "analysis": "由燕尾得 \\(S_{\\triangle AOB}:S_{\\triangle AOC}=BD:DC=3:2\\)，\\(S_{\\triangle AOB}:S_{\\triangle BOC}=AE:EC=1:1\\)。  \n设 \\(S_{\\triangle AOB}=3k\\)，则 \\(S_{\\triangle AOC}=2k\\)，\\(S_{\\triangle BOC}=3k\\)。  \n则 \\(AF:FB = S_{\\triangle AOC}:S_{\\triangle BOC} = 2k:3k = 2:3\\)。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，欢迎来到小学奥数课堂。今天我们来学习几何模型中的燕尾模型。燕尾模型是什么呢？它说的是，在三角形里面有一个点，从这个点向三个顶点连线，就把三角形分成了三个小三角形。其中两个小三角形的面积比，刚好等于它们对着的底边长度比。这个规律就是燕尾模型。\n\n我们先看一个例题。在三角形ABC中，D在BC边上，BD比DC等于2比1。E在AC边上，AE比EC等于1比2。AD和BE交于O点。已知整个三角形ABC的面积是70平方厘米，要求三角形AOB的面积。\n\n怎么做呢？首先，我们连接CO并延长交AB于F，虽然图上没画，但我们可以想象。根据燕尾模型，三角形AOB和三角形AOC的面积比等于BD比DC，也就是2比1。三角形AOB和三角形BOC的面积比等于AE比EC，也就是1比2。\n\n那我们就设三角形AOB的面积为x。这样，三角形AOC的面积就是它的一半，也就是0.5x。三角形BOC的面积就是它的2倍，也就是2x。三个小三角形加起来就是x加0.5x加2x等于3.5x，也就是7/2 x，它等于总面积70。解这个方程，7/2 x等于70，那么x就等于70乘以2除以7，算出来20。所以三角形AOB的面积是20平方厘米。\n\n做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。记住这个步骤，燕尾模型就不难了。\n\n下面给大家留三道练习题。第一题，把例题中的AE比EC改成1比3，总面积改成90，算三角形AOB的面积，答案是20。第二题，已知三个小三角形面积分别是12、15、10，求BD比DC，答案是6比5。第三题，已知BD比DC等于3比2，AE比EC等于1比1，连接CO并延长交AB于F，求AF比FB，答案是2比3。\n\n同学们可以自己动手算一算，检验一下今天学的内容。今天的课就到这里，我们下次再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，欢迎来到小学奥数课堂。",
+          "今天我们来学习几何模型中的燕尾模型。",
+          "燕尾模型是什么呢？",
+          "它说的是，在三角形里面有一个点，从这个点向三个顶点连线，就把三角形分成了三个小三角形。",
+          "其中两个小三角形的面积比，刚好等于它们对着的底边长度比。",
+          "这个规律就是燕尾模型。"
+        ],
+        "caption": "同学们好，欢迎来到小学奥数课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "我们先看一个例题。",
+          "在三角形ABC中，D在BC边上，BD比DC等于2比1。",
+          "E在AC边上，AE比EC等于1比2。",
+          "AD和BE交于O点。",
+          "已知整个三角形ABC的面积是70平方厘米，要求三角形AOB的面积。"
+        ],
+        "caption": "我们先看一个例题。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "怎么做呢？",
+          "首先，我们连接CO并延长交AB于F，虽然图上没画，但我们可以想象。",
+          "根据燕尾模型，三角形AOB和三角形AOC的面积比等于BD比DC，也就是2比1。",
+          "三角形AOB和三角形BOC的面积比等于AE比EC，也就是1比2。"
+        ],
+        "caption": "怎么做呢？"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "那我们就设三角形AOB的面积为x。",
+          "这样，三角形AOC的面积就是它的一半，也就是0.5x。",
+          "三角形BOC的面积就是它的2倍，也就是2x。",
+          "三个小三角形加起来就是x加0.5x加2x等于3.5x，也就是7/2 x，它等于总面积70。",
+          "解这个方程，7/2 x等于70，那么x就等于70乘以2除以7，算出来20。",
+          "所以三角形AOB的面积是20平方厘米。"
+        ],
+        "caption": "那我们就设三角形AOB的面积为x。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。",
+          "记住这个步骤，燕尾模型就不难了。"
+        ],
+        "caption": "做这类题的关键是：先根据线段比写出面积比，再设未知数表示所有部分，最后用总和列方程。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "下面给大家留三道练习题。",
+          "第一题，把例题中的AE比EC改成1比3，总面积改成90，算三角形AOB的面积，答案是20。",
+          "第二题，已知三个小三角形面积分别是12、15、10，求BD比DC，答案是6比5。",
+          "第三题，已知BD比DC等于3比2，AE比EC等于1比1，连接CO并延长交AB于F，求AF比FB，答案是2比3。"
+        ],
+        "caption": "下面给大家留三道练习题。"
+      },
+      {
+        "id": "scene_7",
+        "title": "练习巩固",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "练习巩固",
+        "narration": [
+          "同学们可以自己动手算一算，检验一下今天学的内容。",
+          "今天的课就到这里，我们下次再见。"
+        ],
+        "caption": "同学们可以自己动手算一算，检验一下今天学的内容。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\">\n  <rect width=\"600\" height=\"400\" fill=\"white\"/>\n  <!-- 三角形ABC -->\n  <polygon points=\"300,50 100,350 500,350\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 顶点标签 -->\n  <text x=\"300\" y=\"40\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"black\">A</text>\n  <text x=\"85\" y=\"370\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"black\">B</text>\n  <text x=\"515\" y=\"370\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"black\">C</text>\n  <!-- D在BC上，BD:DC=2:1 -->\n  <circle cx=\"233\" cy=\"350\" r=\"3\" fill=\"black\"/>\n  <text x=\"233\" y=\"375\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"blue\">D</text>\n  <text x=\"180\" y=\"345\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">BD:DC=2:1</text>\n  <!-- E在AC上，AE:EC=1:2 -->\n  <circle cx=\"367\" cy=\"233\" r=\"3\" fill=\"black\"/>\n  <text x=\"367\" y=\"225\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"blue\">E</text>\n  <text x=\"400\" y=\"240\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">AE:EC=1:2</text>\n  <!-- 连接AD -->\n  <line x1=\"300\" y1=\"50\" x2=\"233\" y2=\"350\" stroke=\"black\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/>\n  <!-- 连接BE -->\n  <line x1=\"100\" y1=\"350\" x2=\"367\" y2=\"233\" stroke=\"black\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/>\n  <!-- 交点O -->\n  <circle cx=\"255\" cy=\"280\" r=\"3\" fill=\"red\"/>\n  <text x=\"255\" y=\"270\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"red\">O</text>\n  <!-- 标注面积S△AOB=20 -->\n  <text x=\"220\" y=\"180\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\">S△AOB=20</text>\n  <!-- 总面积70 -->\n  <text x=\"300\" y=\"130\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"blue\">S△ABC=70</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:24.281Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "",
+      "thinking": "",
+      "formula": "",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:2\\)。\\(AD\\) 与 \\(BE\\) 相交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(70\\) 平方厘米，求三角形 \\(AOB\\) 的面积。",
+      "think": "用燕尾模型写出面积比：  \n- 由 \\(BD:DC\\) 得 \\(S_{\\triangle AOB} : S_{\\triangle AOC} = 2:1\\)  \n- 由 \\(AE:EC\\) 得 \\(S_{\\triangle AOB} : S_{\\triangle BOC} = 1:2\\)  \n设 \\(S_{\\triangle AOB} = x\\)，分别表示出另外两个三角形面积，再相加等于 \\(70\\)，解出 \\(x\\)。",
+      "steps": "1. 根据燕尾模型，连接 \\(CO\\) 并延长交 \\(AB\\) 于 \\(F\\)（辅助线），则有：  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle AOC}} = \\frac{BD}{DC} = \\frac{2}{1}\n   \\]\n   所以 \\(S_{\\triangle AOC} = \\frac{1}{2} S_{\\triangle AOB}\\)  \n\n2. 同样，  \n   \\[\n   \\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}} = \\frac{AE}{EC} = \\frac{1}{2}\n   \\]\n   所以 \\(S_{\\triangle BOC} = 2 S_{\\triangle AOB}\\)  \n\n3. 设 \\(S_{\\triangle AOB} = x\\) 平方厘米，则  \n   \\[\n   S_{\\triangle AOC} = \\frac{1}{2}x, \\quad S_{\\triangle BOC} = 2x\n   \\]\n\n4. 三角形 \\(ABC\\) 的总面积为三个小三角形面积之和：  \n   \\[\n   x + \\frac{1}{2}x + 2x = \\frac{7}{2}x = 70\n   \\]\n\n5. 解方程：  \n   \\[\n   \\frac{7}{2}x = 70 \\implies x = 70 \\times \\frac{2}{7} = 20\n   \\]",
+      "answer": "三角形 \\(AOB\\) 的面积为 \\(\\boxed{20}\\) 平方厘米。",
+      "summary": "遇到三角形内一点与顶点连线分割出的面积问题，先用燕尾模型写出面积比，再设未知数统一表示，最后用总和列方程。关键是找准线段比对应的面积比。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "燕尾模型初步",
+    "subtitle": "几何 · 几何模型",
+    "problem": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:2\\)。\\(AD\\) 与 \\(BE\\) 相交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(70\\) 平方厘米，求三角形 \\(AOB\\) 的面积。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "如图所示，在三角形 \\(ABC\\) 中，\\(D\\) 在 \\(BC\\) 上，\\(BD:DC = 2:1\\)；\\(E\\) 在 \\(AC\\) 上，\\(AE:EC = 1:3\\)。\\(AD\\) 与 \\(BE\\) 交于点 \\(O\\)。已知三角形 \\(ABC\\) 的面积为 \\(90\\) 平方厘米，求三角形 \\(AOB\\) 的面积。"
+  }
+}

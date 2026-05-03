@@ -1,0 +1,10 @@
+{
+  "versionTag": "kp10101-media-v2",
+  "catalogPath": "data/generated/content-releases/kp10101-media-v2/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/kp10101-media-v2/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/kp10101-media-v2/knowledge-point-media.json",
+  "approvedAiDraftCount": 13,
+  "catalogChecksum": "7e42bb7f22e83091dcb2f62d754455a620561657080c651106e11ea1759bffa7",
+  "publishedAt": "2026-04-19T01:39:23.596Z"
+}

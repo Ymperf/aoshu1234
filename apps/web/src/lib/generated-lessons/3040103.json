@@ -1,0 +1,573 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3040103",
+  "knowledgePointId": 3040103,
+  "topicId": 30401,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "逻辑",
+  "title": "简单数独入门",
+  "subtitle": "逻辑 · 简单逻辑推理",
+  "intro": "数独是一种数字填图游戏，要求在网格中填入数字，使得每一行、每一列以及每个小宫格内的数字都不重复。",
+  "difficultyLabel": "竞赛",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "逻辑",
+    "topicName": "简单逻辑推理"
+  },
+  "problemStatement": "4 宫 / 6 宫标准数独填空",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "简单数独入门先做两件事：找空格少的行列，找限制最多的宫。每填一个数，都要同时检查所在行、所在列和所在小宫里有没有重复。刚入门时不要贪快，先把排除过程做清楚。",
+  "keyTakeaways": [
+    "先找已知数字最多的行、列或宫，从那里开始填。",
+    "用排除法检查空格所在的行、列、宫。",
+    "每一步填完都要回头验证，避免行、列、宫重复。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "读题",
+      "durationSec": 16,
+      "sceneType": "summary",
+      "objective": "读题",
+      "narration": [
+        "先把题目读清楚。",
+        "先看清楚我们要求什么。"
+      ],
+      "caption": "先读题，先找目标"
+    },
+    {
+      "id": "scene_2",
+      "title": "找关键条件",
+      "durationSec": 18,
+      "sceneType": "summary",
+      "objective": "找关键条件",
+      "narration": [
+        "不要一下子就开始算。",
+        "先把最关键的条件找出来。"
+      ],
+      "caption": "找到最关键的信息"
+    },
+    {
+      "id": "scene_3",
+      "title": "建立标准思路",
+      "durationSec": 18,
+      "sceneType": "summary",
+      "objective": "建立标准思路",
+      "narration": [
+        "这类题有固定的思考顺序。",
+        "先把题目转成我们熟悉的方法。"
+      ],
+      "caption": "先用标准方法整理题目"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步解决",
+      "durationSec": 18,
+      "sceneType": "summary",
+      "objective": "分步解决",
+      "narration": [
+        "接下来一步一步往下做。",
+        "中间步骤不要跳。"
+      ],
+      "caption": "按顺序完成每一步"
+    },
+    {
+      "id": "scene_5",
+      "title": "得出结果",
+      "durationSec": 18,
+      "sceneType": "summary",
+      "objective": "得出结果",
+      "narration": [
+        "这样我们就能得到答案。",
+        "结果要和前面的条件对应起来。"
+      ],
+      "caption": "得到结果并对应题意"
+    },
+    {
+      "id": "scene_6",
+      "title": "检查答案",
+      "durationSec": 20,
+      "sceneType": "summary",
+      "objective": "检查答案",
+      "narration": [
+        "答案出来以后要检查。",
+        "看看结果是不是和题目条件一致。"
+      ],
+      "caption": "带回去检查"
+    },
+    {
+      "id": "scene_7",
+      "title": "总结方法",
+      "durationSec": 20,
+      "sceneType": "summary",
+      "objective": "总结方法",
+      "narration": [
+        "最后把方法再顺一遍。",
+        "以后遇到同类题，就按这个顺序来。"
+      ],
+      "caption": "记住标准套路"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "reasoning-recognition",
+      "role": "recognition",
+      "type": "single_choice",
+      "stem": "做《简单数独入门》这类推理题时，最合适的入口是什么？",
+      "options": [
+        "先整理条件，再逐步排除或验证",
+        "直接猜最像的答案",
+        "只盯着最后一句问题",
+        "先忽略已知条件"
+      ],
+      "answer": "先整理条件，再逐步排除或验证",
+      "analysis": "推理题最怕乱推。先整理条件，再排除或顺推，逻辑链条才会清晰。",
+      "commonMistake": "没有先判断题目属于哪一种方法或模型。",
+      "difficulty": "basic",
+      "templateId": "reasoning-recognition",
+      "skillTags": [],
+      "canAutoVerify": false
+    },
+    {
+      "id": "reasoning-core-choice",
+      "role": "core",
+      "type": "single_choice",
+      "stem": "一个3×3的小方格里，第一行已有1、2，第三个格子应该填几，才能让这一行1、2、3都出现一次？",
+      "answer": "先看条件",
+      "analysis": "先看条件才能知道应该用什么方法。",
+      "commonMistake": "没看清条件就直接开始算",
+      "difficulty": "basic",
+      "templateId": "reasoning-core-choice",
+      "skillTags": [],
+      "canAutoVerify": false
+    },
+    {
+      "id": "reasoning-variant-application",
+      "role": "variant",
+      "type": "single_choice",
+      "stem": "做《简单数独入门》同类推理题时，应该先做什么？",
+      "options": [
+        "整理条件",
+        "直接猜",
+        "只看最后一句",
+        "忽略已知条件"
+      ],
+      "answer": "整理条件",
+      "analysis": "推理题先整理条件。",
+      "commonMistake": "没有完整使用条件。",
+      "difficulty": "intermediate",
+      "templateId": "reasoning-variant-application",
+      "skillTags": [],
+      "canAutoVerify": false
+    },
+    {
+      "id": "reasoning-trap-choice",
+      "role": "trap",
+      "type": "single_choice",
+      "stem": "推理题最容易出现哪种错误？",
+      "options": [
+        "漏掉一条条件就下结论",
+        "先整理条件",
+        "逐步排除",
+        "最后验算"
+      ],
+      "answer": "漏掉一条条件就下结论",
+      "analysis": "先把关键条件找清楚，再开始解题。",
+      "commonMistake": "先把关键条件找清楚，再开始解题。",
+      "difficulty": "intermediate",
+      "templateId": "reasoning-trap-choice",
+      "skillTags": [],
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "简单数独入门",
+    "subtitle": "逻辑 · 简单逻辑推理",
+    "gradeName": "三年级",
+    "moduleName": "逻辑",
+    "topicName": "简单逻辑推理",
+    "difficultyLabel": "竞赛",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "逻辑",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "数独是一种数字填图游戏，要求在网格中填入数字，使得每一行、每一列以及每个小宫格内的数字都不重复。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "数独是一种数字填图游戏，要求在网格中填入数字，使得每一行、每一列以及每个小宫格内的数字都不重复。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找已知数字最多的行、列或宫，从那里开始填。",
+          "用“排除法”：对每个空格，看它所在的行、列、宫已经有哪些数字，剩下的数字就是可能答案。",
+          "如果某个数字只能在某行某列的一个位置出现，就直接确定。",
+          "每填一个数，都要同步更新所在行、所在列和所在小宫。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“排除法”和“唯一法”即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易漏看宫内的重复规则，只检查行和列。",
+          "多个候选数时忘记逐一排除。",
+          "填完数字后忘记验证所有行、列、宫是否满足条件。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "竞赛难度的数独通常包含4x4或6x6网格，数字范围1~4或1~6，题目中已知数字较少，需要学生运用逻辑推理和排除法逐步确定。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "数独是一种数字填图游戏，要求在网格中填入数字，使得每一行、每一列以及每个小宫格内的数字都不重复。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "竞赛难度的数独通常包含4x4或6x6网格，数字范围1~4或1~6，题目中已知数字较少，需要学生运用逻辑推理和排除法逐步确定。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找已知数字最多的行、列或宫，从那里开始填。",
+              "用“排除法”：对每个空格，看它所在的行、列、宫已经有哪些数字，剩下的数字就是可能答案。",
+              "如果某个数字只能在某行某列的一个位置出现，就直接确定。",
+              "每填一个数，都要同步更新所在行、所在列和所在小宫。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“排除法”和“唯一法”即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易漏看宫内的重复规则，只检查行和列。",
+              "多个候选数时忘记逐一排除。",
+              "填完数字后忘记验证所有行、列、宫是否满足条件。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "下面是一个4x4数独，请将数字1、2、3、4填入空白格，使每一行、每一列和每个2x2小宫格内都恰好出现1、2、3、4各一次。已知数字如下：\n\n第一行：□ 1 □ 3\n第二行：4 □ □ □\n第三行：□ □ 1 □\n第四行：□ 4 □ 2\n\n（方格用□表示空白）",
+    "knownConditions": [],
+    "targetQuestion": "根据题目条件求出答案",
+    "answer": "第一行：2 1 4 3\n第二行：4 3 2 1\n第三行：3 2 1 4\n第四行：1 4 3 2",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "标记已知数字",
+        "explanation": "已知：(1,2)=1，(1,4)=3，(2,1)=4，(3,3)=1，(4,2)=4，(4,4)=2。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "先确定第一行和左上宫",
+        "explanation": "第一行已有1、3，缺2和4。第一列已有4，所以(1,1)不能填4，只能填2；于是(1,3)=4。左上2x2宫已有1、2、4，还缺3，所以(2,2)=3。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "用第3列推出第二行",
+        "explanation": "第二行已有4、3，缺1和2。第3列已有(1,3)=4和(3,3)=1，所以(2,3)不能填1，只能填2；于是(2,4)=1。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "继续完成第三行",
+        "explanation": "第2列已有1、3、4，只缺2，所以(3,2)=2。第三行已有1、2，缺3和4。第一列已有2、4，所以(3,1)不能填4，只能填3；于是(3,4)=4。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "补齐第四行",
+        "explanation": "第四行已有4、2，缺1和3。第1列已有2、4、3，只缺1，所以(4,1)=1；第3列剩下缺3，所以(4,3)=3。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "验证答案",
+        "explanation": "完整答案为：第一行2 1 4 3，第二行4 3 2 1，第三行3 2 1 4，第四行1 4 3 2。每一行、每一列、每个2x2小宫都包含1、2、3、4各一次。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "做4x4数独时，优先找限制最多的行、列或宫。每填一个数，都要同步检查所在行、所在列和所在小宫。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "reasoning-recognition",
+        "role": "recognition",
+        "type": "single_choice",
+        "stem": "做《简单数独入门》这类推理题时，最合适的入口是什么？",
+        "options": [
+          "先整理条件，再逐步排除或验证",
+          "直接猜最像的答案",
+          "只盯着最后一句问题",
+          "先忽略已知条件"
+        ],
+        "answer": "先整理条件，再逐步排除或验证",
+        "analysis": "推理题最怕乱推。先整理条件，再排除或顺推，逻辑链条才会清晰。",
+        "commonMistake": "没有先判断题目属于哪一种方法或模型。",
+        "difficulty": "basic",
+        "templateId": "reasoning-recognition",
+        "skillTags": [],
+        "canAutoVerify": false
+      },
+      {
+        "id": "reasoning-core-choice",
+        "role": "core",
+        "type": "single_choice",
+        "stem": "一个3×3的小方格里，第一行已有1、2，第三个格子应该填几，才能让这一行1、2、3都出现一次？",
+        "answer": "先看条件",
+        "analysis": "先看条件才能知道应该用什么方法。",
+        "commonMistake": "没看清条件就直接开始算",
+        "difficulty": "basic",
+        "templateId": "reasoning-core-choice",
+        "skillTags": [],
+        "canAutoVerify": false
+      },
+      {
+        "id": "reasoning-variant-application",
+        "role": "variant",
+        "type": "single_choice",
+        "stem": "做《简单数独入门》同类推理题时，应该先做什么？",
+        "options": [
+          "整理条件",
+          "直接猜",
+          "只看最后一句",
+          "忽略已知条件"
+        ],
+        "answer": "整理条件",
+        "analysis": "推理题先整理条件。",
+        "commonMistake": "没有完整使用条件。",
+        "difficulty": "intermediate",
+        "templateId": "reasoning-variant-application",
+        "skillTags": [],
+        "canAutoVerify": false
+      },
+      {
+        "id": "reasoning-trap-choice",
+        "role": "trap",
+        "type": "single_choice",
+        "stem": "推理题最容易出现哪种错误？",
+        "options": [
+          "漏掉一条条件就下结论",
+          "先整理条件",
+          "逐步排除",
+          "最后验算"
+        ],
+        "answer": "漏掉一条条件就下结论",
+        "analysis": "先把关键条件找清楚，再开始解题。",
+        "commonMistake": "先把关键条件找清楚，再开始解题。",
+        "difficulty": "intermediate",
+        "templateId": "reasoning-trap-choice",
+        "skillTags": [],
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们，这节课我们一起来学一个新的知识点。先把题目读清楚。先看清楚我们要求什么。不要一下子就开始算。先把最关键的条件找出来。这类题有固定的思考顺序。先把题目转成我们熟悉的方法。接下来一步一步往下做。中间步骤不要跳。这样我们就能得到答案。结果要和前面的条件对应起来。答案出来以后要检查。看看结果是不是和题目条件一致。最后把方法再顺一遍。以后遇到同类题，就按这个顺序来。记住，先看条件，再用标准方法，一步一步完成，最后记得检查。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "读题",
+        "durationSec": 16,
+        "sceneType": "summary",
+        "objective": "读题",
+        "narration": [
+          "先把题目读清楚。",
+          "先看清楚我们要求什么。"
+        ],
+        "caption": "先读题，先找目标"
+      },
+      {
+        "id": "scene_2",
+        "title": "找关键条件",
+        "durationSec": 18,
+        "sceneType": "summary",
+        "objective": "找关键条件",
+        "narration": [
+          "不要一下子就开始算。",
+          "先把最关键的条件找出来。"
+        ],
+        "caption": "找到最关键的信息"
+      },
+      {
+        "id": "scene_3",
+        "title": "建立标准思路",
+        "durationSec": 18,
+        "sceneType": "summary",
+        "objective": "建立标准思路",
+        "narration": [
+          "这类题有固定的思考顺序。",
+          "先把题目转成我们熟悉的方法。"
+        ],
+        "caption": "先用标准方法整理题目"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步解决",
+        "durationSec": 18,
+        "sceneType": "summary",
+        "objective": "分步解决",
+        "narration": [
+          "接下来一步一步往下做。",
+          "中间步骤不要跳。"
+        ],
+        "caption": "按顺序完成每一步"
+      },
+      {
+        "id": "scene_5",
+        "title": "得出结果",
+        "durationSec": 18,
+        "sceneType": "summary",
+        "objective": "得出结果",
+        "narration": [
+          "这样我们就能得到答案。",
+          "结果要和前面的条件对应起来。"
+        ],
+        "caption": "得到结果并对应题意"
+      },
+      {
+        "id": "scene_6",
+        "title": "检查答案",
+        "durationSec": 20,
+        "sceneType": "summary",
+        "objective": "检查答案",
+        "narration": [
+          "答案出来以后要检查。",
+          "看看结果是不是和题目条件一致。"
+        ],
+        "caption": "带回去检查"
+      },
+      {
+        "id": "scene_7",
+        "title": "总结方法",
+        "durationSec": 20,
+        "sceneType": "summary",
+        "objective": "总结方法",
+        "narration": [
+          "最后把方法再顺一遍。",
+          "以后遇到同类题，就按这个顺序来。"
+        ],
+        "caption": "记住标准套路"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "intro-flow",
+      "title": "4x4数独例题示意图",
+      "kind": "svg",
+      "placement": "intro",
+      "alt": "蓝色标出题目已知数字，红色标出推理填入数字的4x4数独答案图",
+      "caption": "蓝色为题目已知数字，红色为推理填入数字",
+      "assetPath": "/media/knowledge-points/3040103/illustrations/intro-flow.svg",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" viewBox=\"0 0 420 450\" role=\"img\" aria-label=\"4x4数独例题示意图\" style=\"background-color:#ffffff; font-family:Segoe UI, PingFang SC, Microsoft YaHei, sans-serif;\">\n  <rect x=\"20\" y=\"20\" width=\"360\" height=\"360\" fill=\"#ffffff\" stroke=\"#111827\" stroke-width=\"3\"/>\n  <line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"380\" stroke=\"#111827\" stroke-width=\"1\"/>\n  <line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"380\" stroke=\"#111827\" stroke-width=\"3\"/>\n  <line x1=\"290\" y1=\"20\" x2=\"290\" y2=\"380\" stroke=\"#111827\" stroke-width=\"1\"/>\n  <line x1=\"20\" y1=\"110\" x2=\"380\" y2=\"110\" stroke=\"#111827\" stroke-width=\"1\"/>\n  <line x1=\"20\" y1=\"200\" x2=\"380\" y2=\"200\" stroke=\"#111827\" stroke-width=\"3\"/>\n  <line x1=\"20\" y1=\"290\" x2=\"380\" y2=\"290\" stroke=\"#111827\" stroke-width=\"1\"/>\n  <g font-size=\"34\" font-weight=\"700\" text-anchor=\"middle\" dominant-baseline=\"middle\">\n    <text x=\"65\" y=\"65\" fill=\"#dc2626\">2</text>\n    <text x=\"155\" y=\"65\" fill=\"#165dff\">1</text>\n    <text x=\"245\" y=\"65\" fill=\"#dc2626\">4</text>\n    <text x=\"335\" y=\"65\" fill=\"#165dff\">3</text>\n    <text x=\"65\" y=\"155\" fill=\"#165dff\">4</text>\n    <text x=\"155\" y=\"155\" fill=\"#dc2626\">3</text>\n    <text x=\"245\" y=\"155\" fill=\"#dc2626\">2</text>\n    <text x=\"335\" y=\"155\" fill=\"#dc2626\">1</text>\n    <text x=\"65\" y=\"245\" fill=\"#dc2626\">3</text>\n    <text x=\"155\" y=\"245\" fill=\"#dc2626\">2</text>\n    <text x=\"245\" y=\"245\" fill=\"#165dff\">1</text>\n    <text x=\"335\" y=\"245\" fill=\"#dc2626\">4</text>\n    <text x=\"65\" y=\"335\" fill=\"#dc2626\">1</text>\n    <text x=\"155\" y=\"335\" fill=\"#165dff\">4</text>\n    <text x=\"245\" y=\"335\" fill=\"#dc2626\">3</text>\n    <text x=\"335\" y=\"335\" fill=\"#165dff\">2</text>\n  </g>\n  <g font-size=\"18\" font-weight=\"600\">\n    <rect x=\"24\" y=\"405\" width=\"18\" height=\"18\" rx=\"3\" fill=\"#165dff\"/>\n    <text x=\"50\" y=\"420\" fill=\"#334155\">蓝色：题目已知数字</text>\n    <rect x=\"218\" y=\"405\" width=\"18\" height=\"18\" rx=\"3\" fill=\"#dc2626\"/>\n    <text x=\"244\" y=\"420\" fill=\"#334155\">红色：推理填入数字</text>\n  </g>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": false,
+    "audioPlanned": false
+  },
+  "generationMeta": {
+    "version": "lesson-v1",
+    "generatedAt": "2026-04-22T10:08:23.027Z",
+    "reviewStatus": "draft",
+    "generationMode": "auto",
+    "sourceProfile": "generic-knowledge-point"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "数独是一种数字填图游戏，要求在网格中填入数字，使得每一行、每一列以及每个小宫格内的数字都不重复。",
+      "thinking": "*   先找已知数字最多的行、列或宫，从那里开始填。\n*   用“排除法”：对每个空格，看它所在的行、列、宫已经有哪些数字，剩下的数字就是可能答案。\n*   如果某个数字只能在某行某列的一个位置出现，就直接确定。\n*   每填一个数，都要同步更新所在行、所在列和所在小宫。",
+      "formula": "无固定公式，掌握“排除法”和“唯一法”即可。",
+      "mistakes": "*   容易漏看宫内的重复规则，只检查行和列。\n*   多个候选数时忘记逐一排除。\n*   填完数字后忘记验证所有行、列、宫是否满足条件。",
+      "features": "竞赛难度的数独通常包含4x4或6x6网格，数字范围1~4或1~6，题目中已知数字较少，需要学生运用逻辑推理和排除法逐步确定。"
+    },
+    "example": {
+      "title": "下面是一个4x4数独，请将数字1、2、3、4填入空白格，使每一行、每一列和每个2x2小宫格内都恰好出现1、2、3、4各一次。已知数字如下：\n\n第一行：□ 1 □ 3\n第二行：4 □ □ □\n第三行：□ □ 1 □\n第四行：□ 4 □ 2\n\n（方格用□表示空白）",
+      "think": "先从限制最多的位置入手：第一行、左上宫和第3列都已有较多数字。每确定一个格子后，立即更新对应的行、列、宫，再继续用排除法和唯一法推进。",
+      "steps": "1. 标记已知数字：\n   (1,2)=1，(1,4)=3，(2,1)=4，(3,3)=1，(4,2)=4，(4,4)=2。\n\n2. 先看第一行：已有1、3，缺2和4。\n   第一列已有4，所以(1,1)不能填4，只能填2；于是(1,3)=4。\n   左上2x2宫已有1、2、4，还缺3，所以(2,2)=3。\n\n3. 再看第二行：已有4、3，缺1和2。\n   第3列已有(1,3)=4和(3,3)=1，所以(2,3)不能填1，只能填2；于是(2,4)=1。\n\n4. 看第2列：已有1、3、4，只缺2，所以(3,2)=2。\n   第三行已有1、2，缺3和4。第一列已有2、4，所以(3,1)不能填4，只能填3；于是(3,4)=4。\n\n5. 最后看第四行：已有4、2，缺1和3。\n   第1列已有2、4、3，只缺1，所以(4,1)=1；第3列剩下缺3，所以(4,3)=3。\n\n6. 验证完整答案：\n   第一行：2 1 4 3\n   第二行：4 3 2 1\n   第三行：3 2 1 4\n   第四行：1 4 3 2。\n   每一行、每一列、每个2x2小宫都包含1、2、3、4各一次。",
+      "answer": "第一行：2 1 4 3\n第二行：4 3 2 1\n第三行：3 2 1 4\n第四行：1 4 3 2",
+      "summary": "做4x4数独时，优先找限制最多的行、列或宫。每填一个数，都要同步检查所在行、所在列和所在小宫。"
+    }
+  }
+}

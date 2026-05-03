@@ -1,0 +1,347 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030301",
+  "knowledgePointId": 3030301,
+  "topicId": 30303,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "路程速度时间认识",
+  "subtitle": "应用题 · 简单行程问题",
+  "intro": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "简单行程问题"
+  },
+  "problemStatement": "理解路程、速度、时间三者基本关系",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。做基础题时, 先认清题目已知的是哪两个量, 再用对应公式求第三个量。只要单位统一, 这类题通常一步就能完成。",
+  "keyTakeaways": [
+    "先找出题目中已知的是哪两个量（路程、速度、时间）。",
+    "再想清楚要解决的是哪个量，用对应的公式计算。",
+    "计算时注意单位要一致（比如速度是“每分钟几米”，时间就要用“分”）。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。",
+        "做基础题时, 先认清题目已知的是哪两个量, 再用对应公式求第三个量。",
+        "只要单位统一, 这类题通常一步就能完成。"
+      ],
+      "caption": "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030301-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小明骑自行车每小时行12千米，他骑了2小时，一共行了多少千米？",
+      "answer": "24千米",
+      "analysis": "速度=12千米/小时，时间=2小时，路程=12×2=24千米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030301-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一辆汽车4小时行驶了320千米，它的速度是多少千米每小时？",
+      "answer": "80千米/小时",
+      "analysis": "路程=320千米，时间=4小时，速度=320÷4=80千米/小时。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030301-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小芳步行速度是每分钟60米，她从家到学校走了10分钟，她家到学校有多远？如果她每分钟走50米，需要多少分钟？",
+      "answer": "家到学校600米；需要12分钟。",
+      "analysis": "- 第一问：路程=60×10=600（米）。\n- 第二问：时间=600÷50=12（分钟）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "路程速度时间认识",
+    "subtitle": "应用题 · 简单行程问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "简单行程问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找出题目中已知的是哪两个量（路程、速度、时间）。",
+          "再想清楚要解决的是哪个量，用对应的公式计算。",
+          "计算时注意单位要一致（比如速度是“每分钟几米”，时间就要用“分”）。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "路程 = 速度 × 时间",
+          "速度 = 路程 ÷ 时间",
+          "时间 = 路程 ÷ 速度"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找出题目中已知的是哪两个量（路程、速度、时间）。",
+              "再想清楚要解决的是哪个量，用对应的公式计算。",
+              "计算时注意单位要一致（比如速度是“每分钟几米”，时间就要用“分”）。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "路程 = 速度 × 时间",
+              "速度 = 路程 ÷ 时间",
+              "时间 = 路程 ÷ 速度"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一只蜗牛每分钟爬行3米，它爬了15分钟，一共爬了多少米？",
+    "answer": "45米",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "已知速度（每分钟3米）和时间（15分钟），求",
+        "explanation": "已知速度（每分钟3米）和时间（15分钟），求路程。直接用公式“路程 = 速度 × 时间”计算。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "- 第1步：明确已知条件。",
+        "explanation": "- 第1步：明确已知条件。速度 = 3米/分钟，时间 = 15分钟。\n- 第2步：回忆公式。路程 = 速度 × 时间。\n- 第3步：列式。3 × 15 = ？\n- 第4步：计算。3 × 15 = 45（米）。\n- 第5步：写上单位和答句。一共爬了45米。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "只要已知“速度”和“时间”，求“路程”就用乘",
+        "explanation": "只要已知“速度”和“时间”，求“路程”就用乘法。记住“速度 × 时间 = 路程”，做对的第一步是找出这两个量。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "只要已知“速度”和“时间”，求“路程”就用乘法。记住“速度 × 时间 = 路程”，做对的第一步是找出这两个量。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030301-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小明骑自行车每小时行12千米，他骑了2小时，一共行了多少千米？",
+        "answer": "24千米",
+        "analysis": "速度=12千米/小时，时间=2小时，路程=12×2=24千米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030301-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一辆汽车4小时行驶了320千米，它的速度是多少千米每小时？",
+        "answer": "80千米/小时",
+        "analysis": "路程=320千米，时间=4小时，速度=320÷4=80千米/小时。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030301-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小芳步行速度是每分钟60米，她从家到学校走了10分钟，她家到学校有多远？如果她每分钟走50米，需要多少分钟？",
+        "answer": "家到学校600米；需要12分钟。",
+        "analysis": "- 第一问：路程=60×10=600（米）。\n- 第二问：时间=600÷50=12（分钟）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。做基础题时, 先认清题目已知的是哪两个量, 再用对应公式求第三个量。只要单位统一, 这类题通常一步就能完成。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。",
+          "做基础题时, 先认清题目已知的是哪两个量, 再用对应公式求第三个量。",
+          "只要单位统一, 这类题通常一步就能完成。"
+        ],
+        "caption": "路程、速度、时间三者之间关系固定: 路程等于速度乘时间。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"180\" viewBox=\"0 0 600 180\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"180\" fill=\"white\"/>\n  \n  <!-- 总路线（线段） -->\n  <line x1=\"50\" y1=\"80\" x2=\"550\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"50\" y1=\"75\" x2=\"50\" y2=\"85\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"550\" y1=\"75\" x2=\"550\" y2=\"85\" stroke=\"black\" stroke-width=\"2\"/>\n  \n  <!-- 刻度（每30px代表3米，共15段，总长15*33.3≈500，这里用约33.3一段，取整） -->\n  <!-- 为了整齐，我们用15个点，实际按均匀间隔画小竖线 -->\n  <!-- 起点50，终点550，间隔500/15≈33.33，我们取33px一个，共15段，最后到50+15*33=545，微调 -->\n  <!-- 画15个小竖线 -->\n  <g stroke=\"gray\" stroke-width=\"1\">\n    <line x1=\"83\" y1=\"75\" x2=\"83\" y2=\"85\"/>\n    <line x1=\"116\" y1=\"75\" x2=\"116\" y2=\"85\"/>\n    <line x1=\"149\" y1=\"75\" x2=\"149\" y2=\"85\"/>\n    <line x1=\"182\" y1=\"75\" x2=\"182\" y2=\"85\"/>\n    <line x1=\"215\" y1=\"75\" x2=\"215\" y2=\"85\"/>\n    <line x1=\"248\" y1=\"75\" x2=\"248\" y2=\"85\"/>\n    <line x1=\"281\" y1=\"75\" x2=\"281\" y2=\"85\"/>\n    <line x1=\"314\" y1=\"75\" x2=\"314\" y2=\"85\"/>\n    <line x1=\"347\" y1=\"75\" x2=\"347\" y2=\"85\"/>\n    <line x1=\"380\" y1=\"75\" x2=\"380\" y2=\"85\"/>\n    <line x1=\"413\" y1=\"75\" x2=\"413\" y2=\"85\"/>\n    <line x1=\"446\" y1=\"75\" x2=\"446\" y2=\"85\"/>\n    <line x1=\"479\" y1=\"75\" x2=\"479\" y2=\"85\"/>\n    <line x1=\"512\" y1=\"75\" x2=\"512\" y2=\"85\"/>\n    <line x1=\"545\" y1=\"75\" x2=\"545\" y2=\"85\"/>\n  </g>\n  \n  <!-- 标注：每段3米（蓝色） -->\n  <text x=\"65\" y=\"70\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">3米</text>\n  <text x=\"98\" y=\"70\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">3米</text>\n  <text x=\"131\" y=\"70\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">3米</text>\n  <text x=\"164\" y=\"70\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">…</text>\n  \n  <!-- 速度标注 -->\n  <text x=\"100\" y=\"110\" font-size=\"14\" fill=\"blue\" font-family=\"sans-serif\">每分钟爬3米</text>\n  \n  <!-- 时间标注 -->\n  <text x=\"260\" y=\"110\" font-size=\"14\" fill=\"blue\" font-family=\"sans-serif\">时间：15分钟</text>\n  \n  <!-- 总路程答案（红色） -->\n  <line x1=\"50\" y1=\"130\" x2=\"545\" y2=\"130\" stroke=\"red\" stroke-width=\"3\" stroke-dasharray=\"5,3\"/>\n  <text x=\"250\" y=\"155\" font-size=\"18\" fill=\"red\" font-weight=\"bold\" font-family=\"sans-serif\">总路程：45米</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.642Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "路程是物体从起点到终点走过的距离，速度是单位时间内走过的路程，时间就是运动所用的时长。",
+      "thinking": "- 先找出题目中已知的是哪两个量（路程、速度、时间）。\n   - 再想清楚要解决的是哪个量，用对应的公式计算。\n   - 计算时注意单位要一致（比如速度是“每分钟几米”，时间就要用“分”）。",
+      "formula": "- 路程 = 速度 × 时间\n   - 速度 = 路程 ÷ 时间\n   - 时间 = 路程 ÷ 速度",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "一只蜗牛每分钟爬行3米，它爬了15分钟，一共爬了多少米？",
+      "think": "已知速度（每分钟3米）和时间（15分钟），求路程。直接用公式“路程 = 速度 × 时间”计算。",
+      "steps": "- 第1步：明确已知条件。速度 = 3米/分钟，时间 = 15分钟。\n- 第2步：回忆公式。路程 = 速度 × 时间。\n- 第3步：列式。3 × 15 = ？\n- 第4步：计算。3 × 15 = 45（米）。\n- 第5步：写上单位和答句。一共爬了45米。",
+      "answer": "45米",
+      "summary": "只要已知“速度”和“时间”，求“路程”就用乘法。记住“速度 × 时间 = 路程”，做对的第一步是找出这两个量。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "路程速度时间认识",
+    "subtitle": "应用题 · 简单行程问题",
+    "problem": "一只蜗牛每分钟爬行3米，它爬了15分钟，一共爬了多少米？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小明骑自行车每小时行12千米，他骑了2小时，一共行了多少千米？"
+  }
+}

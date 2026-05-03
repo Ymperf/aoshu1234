@@ -1,0 +1,535 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-1030101",
+  "knowledgePointId": 1030101,
+  "topicId": 10301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "数列",
+  "title": "简单循环规律",
+  "subtitle": "数列 · 简单规律探究",
+  "intro": "简单循环规律就是一组图形、数字或颜色按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "一年级",
+    "moduleName": "数列",
+    "topicName": "简单规律探究"
+  },
+  "problemStatement": "发现 2-3 个元素一组循环出现的规律",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们好，欢迎来到今天的数学小课堂。今天我们要一起学习一个有趣的规律，叫做简单循环规律。\n\n什么是循环规律呢？就是一组东西按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。比如红灯、黄灯、蓝灯，红灯、黄灯、蓝灯，这样一直重复下去。\n\n我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？\n\n我们第一步先找循环组。红黄蓝，三个灯是一组，一个循环组。第二步我们可以把序号写出来，第一红、第二黄、第三蓝，第四红、第五黄、第六蓝，一直写到第十五。这样写比较慢，所以我们用除法来算。\n\n用十五除以三，等于五组，没有剩余，余数是零。余数是零就表示第十五盏灯是第五组的最后一个，也就是蓝色。所以答案是蓝色。\n\n现在我们来总结一下解题方法。遇到循环规律的问题，先找到一组有几个，再用序号除以组数，看余数。余数是几就对应组里的第几个，余数是零就是最后一个。\n\n接下来我们再做三道练习题。第一题，珠子按红橙黄绿四颗一组重复，第九颗是什么颜色？九除以四商二余一，余一就是第一个颜色，红色。第二题，小朋友按男男女三人的顺序排队，第十一个是男生还是女生？十一除以三商三余二，余二就是第二个，男生。第三题，彩旗按红黄蓝绿紫五面一组，第二十三面是什么颜色？二十三除以五商四余三，余三就是第三个蓝色。\n\n小朋友们，今天循环规律的方法你学会了吗？以后遇到类似的题目，记住先找循环组，再用除法看余数，就能轻松找到答案了。今天的课就到这里，我们下节课再见。",
+  "keyTakeaways": [
+    "先找到一组里面有几个不同的图形或数字，这一组叫做一个“循环组”。",
+    "确定要求的是第几个，看它里面包含几个完整的循环组，还剩下几个。",
+    "剩下的个数就对应循环组里的第几个，从而找到答案。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们好，欢迎来到今天的数学小课堂。",
+        "今天我们要一起学习一个有趣的规律，叫做简单循环规律。"
+      ],
+      "caption": "小朋友们好，欢迎来到今天的数学小课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "什么是循环规律呢？",
+        "就是一组东西按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。",
+        "比如红灯、黄灯、蓝灯，红灯、黄灯、蓝灯，这样一直重复下去。"
+      ],
+      "caption": "什么是循环规律呢？"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？"
+      ],
+      "caption": "我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "我们第一步先找循环组。",
+        "红黄蓝，三个灯是一组，一个循环组。",
+        "第二步我们可以把序号写出来，第一红、第二黄、第三蓝，第四红、第五黄、第六蓝，一直写到第十五。",
+        "这样写比较慢，所以我们用除法来算。"
+      ],
+      "caption": "我们第一步先找循环组。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "用十五除以三，等于五组，没有剩余，余数是零。",
+        "余数是零就表示第十五盏灯是第五组的最后一个，也就是蓝色。",
+        "所以答案是蓝色。"
+      ],
+      "caption": "用十五除以三，等于五组，没有剩余，余数是零。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "现在我们来总结一下解题方法。",
+        "遇到循环规律的问题，先找到一组有几个，再用序号除以组数，看余数。",
+        "余数是几就对应组里的第几个，余数是零就是最后一个。"
+      ],
+      "caption": "现在我们来总结一下解题方法。"
+    },
+    {
+      "id": "scene_7",
+      "title": "练习巩固",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "练习巩固",
+      "narration": [
+        "接下来我们再做三道练习题。",
+        "第一题，珠子按红橙黄绿四颗一组重复，第九颗是什么颜色？",
+        "九除以四商二余一，余一就是第一个颜色，红色。",
+        "第二题，小朋友按男男女三人的顺序排队，第十一个是男生还是女生？",
+        "十一除以三商三余二，余二就是第二个，男生。",
+        "第三题，彩旗按红黄蓝绿紫五面一组，第二十三面是什么颜色？",
+        "二十三除以五商四余三，余三就是第三个蓝色。"
+      ],
+      "caption": "接下来我们再做三道练习题。"
+    },
+    {
+      "id": "scene_8",
+      "title": "拓展练习",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "拓展练习",
+      "narration": [
+        "小朋友们，今天循环规律的方法你学会了吗？",
+        "以后遇到类似的题目，记住先找循环组，再用除法看余数，就能轻松找到答案了。",
+        "今天的课就到这里，我们下节课再见。"
+      ],
+      "caption": "小朋友们，今天循环规律的方法你学会了吗？"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "1030101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "一串珠子按“红、橙、黄、绿、红、橙、黄、绿……”的顺序重复排列。请问第9颗珠子是什么颜色？",
+      "answer": "红色",
+      "analysis": "1. 循环组长度：红、橙、黄、绿，共4个。\n2. 9 ÷ 4 = 2（组）……1（颗）。\n3. 余数是1，对应第1个颜色，红色。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1030101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "小朋友按“男、男、女、男、男、女……”的顺序排队。请问第11个小朋友是男生还是女生？",
+      "answer": "男生",
+      "analysis": "1. 循环组长度：男、男、女，共3个。\n2. 11 ÷ 3 = 3（组）……2（个）。\n3. 余数是2，对应第2个位置，是男生。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1030101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "广场上的彩旗按“红、黄、蓝、绿、紫”五面一组的顺序循环悬挂。请问第23面彩旗是什么颜色？",
+      "answer": "蓝色",
+      "analysis": "1. 循环组长度：红、黄、蓝、绿、紫，共5面。\n2. 23 ÷ 5 = 4（组）……3（面）。\n3. 余数是3，对应第3个颜色，蓝色。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "简单循环规律",
+    "subtitle": "数列 · 简单规律探究",
+    "gradeName": "一年级",
+    "moduleName": "数列",
+    "topicName": "简单规律探究",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "数列",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "简单循环规律就是一组图形、数字或颜色按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "简单循环规律就是一组图形、数字或颜色按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找到一组里面有几个不同的图形或数字，这一组叫做一个“循环组”。",
+          "确定要求的是第几个，看它里面包含几个完整的循环组，还剩下几个。",
+          "剩下的个数就对应循环组里的第几个，从而找到答案。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。核心方法是：用序号除以循环组的长度，看余数。",
+          "余数是几，就是循环组里的第几个；余数是0，就是循环组里的最后一个。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易把循环组的长度数错，比如三个一循环，结果数成四个。",
+          "余数为0时，容易忘记要取循环组的最后一个，而不是第一个。",
+          "在数序号时，要注意是从第一个开始，不要数错位置。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度下，循环组的长度一般是3个或4个，需要用到简单的除法（平均分）或画图来理解。重点考察学生能否准确找出循环组、正确计算余数，并通过余数确定位置。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "简单循环规律就是一组图形、数字或颜色按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度下，循环组的长度一般是3个或4个，需要用到简单的除法（平均分）或画图来理解。重点考察学生能否准确找出循环组、正确计算余数，并通过余数确定位置。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找到一组里面有几个不同的图形或数字，这一组叫做一个“循环组”。",
+              "确定要求的是第几个，看它里面包含几个完整的循环组，还剩下几个。",
+              "剩下的个数就对应循环组里的第几个，从而找到答案。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。核心方法是：用序号除以循环组的长度，看余数。",
+              "余数是几，就是循环组里的第几个；余数是0，就是循环组里的最后一个。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易把循环组的长度数错，比如三个一循环，结果数成四个。",
+              "余数为0时，容易忘记要取循环组的最后一个，而不是第一个。",
+              "在数序号时，要注意是从第一个开始，不要数错位置。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝……”的顺序重复挂下去。请问第15盏灯是什么颜色？",
+    "answer": "蓝色。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "找到循环组\n彩灯的顺序是：红、黄、蓝、红、黄",
+        "explanation": "找到循环组\n彩灯的顺序是：红、黄、蓝、红、黄、蓝……\n每3盏灯是一个循环组，顺序是：第1红、第2黄、第3蓝。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "列出序号与颜色的对应关系（或画图）\n第1红，",
+        "explanation": "列出序号与颜色的对应关系（或画图）\n第1红，第2黄，第3蓝；\n第4红，第5黄，第6蓝；\n第7红，第8黄，第9蓝；\n第10红，第11黄，第12蓝；\n第13红，第14黄，第15蓝。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "用除法计算\n15 ÷ 3 = 5（组），刚好",
+        "explanation": "用除法计算\n15 ÷ 3 = 5（组），刚好除完，没有剩余。\n余数是0，说明第15盏灯是第5组的最后一个，也就是蓝色。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "对于循环规律问题，先找到一组有几个，再用序号除以组数看余数。余数为几就对应组里的第几个，余数为0就是最后一个。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "1030101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "一串珠子按“红、橙、黄、绿、红、橙、黄、绿……”的顺序重复排列。请问第9颗珠子是什么颜色？",
+        "answer": "红色",
+        "analysis": "1. 循环组长度：红、橙、黄、绿，共4个。\n2. 9 ÷ 4 = 2（组）……1（颗）。\n3. 余数是1，对应第1个颜色，红色。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1030101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "小朋友按“男、男、女、男、男、女……”的顺序排队。请问第11个小朋友是男生还是女生？",
+        "answer": "男生",
+        "analysis": "1. 循环组长度：男、男、女，共3个。\n2. 11 ÷ 3 = 3（组）……2（个）。\n3. 余数是2，对应第2个位置，是男生。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1030101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "广场上的彩旗按“红、黄、蓝、绿、紫”五面一组的顺序循环悬挂。请问第23面彩旗是什么颜色？",
+        "answer": "蓝色",
+        "analysis": "1. 循环组长度：红、黄、蓝、绿、紫，共5面。\n2. 23 ÷ 5 = 4（组）……3（面）。\n3. 余数是3，对应第3个颜色，蓝色。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们好，欢迎来到今天的数学小课堂。今天我们要一起学习一个有趣的规律，叫做简单循环规律。\n\n什么是循环规律呢？就是一组东西按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。比如红灯、黄灯、蓝灯，红灯、黄灯、蓝灯，这样一直重复下去。\n\n我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？\n\n我们第一步先找循环组。红黄蓝，三个灯是一组，一个循环组。第二步我们可以把序号写出来，第一红、第二黄、第三蓝，第四红、第五黄、第六蓝，一直写到第十五。这样写比较慢，所以我们用除法来算。\n\n用十五除以三，等于五组，没有剩余，余数是零。余数是零就表示第十五盏灯是第五组的最后一个，也就是蓝色。所以答案是蓝色。\n\n现在我们来总结一下解题方法。遇到循环规律的问题，先找到一组有几个，再用序号除以组数，看余数。余数是几就对应组里的第几个，余数是零就是最后一个。\n\n接下来我们再做三道练习题。第一题，珠子按红橙黄绿四颗一组重复，第九颗是什么颜色？九除以四商二余一，余一就是第一个颜色，红色。第二题，小朋友按男男女三人的顺序排队，第十一个是男生还是女生？十一除以三商三余二，余二就是第二个，男生。第三题，彩旗按红黄蓝绿紫五面一组，第二十三面是什么颜色？二十三除以五商四余三，余三就是第三个蓝色。\n\n小朋友们，今天循环规律的方法你学会了吗？以后遇到类似的题目，记住先找循环组，再用除法看余数，就能轻松找到答案了。今天的课就到这里，我们下节课再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们好，欢迎来到今天的数学小课堂。",
+          "今天我们要一起学习一个有趣的规律，叫做简单循环规律。"
+        ],
+        "caption": "小朋友们好，欢迎来到今天的数学小课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "什么是循环规律呢？",
+          "就是一组东西按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。",
+          "比如红灯、黄灯、蓝灯，红灯、黄灯、蓝灯，这样一直重复下去。"
+        ],
+        "caption": "什么是循环规律呢？"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？"
+        ],
+        "caption": "我们来看一道例题：元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝”的顺序重复挂下去，请问第十五盏灯是什么颜色？"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "我们第一步先找循环组。",
+          "红黄蓝，三个灯是一组，一个循环组。",
+          "第二步我们可以把序号写出来，第一红、第二黄、第三蓝，第四红、第五黄、第六蓝，一直写到第十五。",
+          "这样写比较慢，所以我们用除法来算。"
+        ],
+        "caption": "我们第一步先找循环组。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "用十五除以三，等于五组，没有剩余，余数是零。",
+          "余数是零就表示第十五盏灯是第五组的最后一个，也就是蓝色。",
+          "所以答案是蓝色。"
+        ],
+        "caption": "用十五除以三，等于五组，没有剩余，余数是零。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "现在我们来总结一下解题方法。",
+          "遇到循环规律的问题，先找到一组有几个，再用序号除以组数，看余数。",
+          "余数是几就对应组里的第几个，余数是零就是最后一个。"
+        ],
+        "caption": "现在我们来总结一下解题方法。"
+      },
+      {
+        "id": "scene_7",
+        "title": "练习巩固",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "练习巩固",
+        "narration": [
+          "接下来我们再做三道练习题。",
+          "第一题，珠子按红橙黄绿四颗一组重复，第九颗是什么颜色？",
+          "九除以四商二余一，余一就是第一个颜色，红色。",
+          "第二题，小朋友按男男女三人的顺序排队，第十一个是男生还是女生？",
+          "十一除以三商三余二，余二就是第二个，男生。",
+          "第三题，彩旗按红黄蓝绿紫五面一组，第二十三面是什么颜色？",
+          "二十三除以五商四余三，余三就是第三个蓝色。"
+        ],
+        "caption": "接下来我们再做三道练习题。"
+      },
+      {
+        "id": "scene_8",
+        "title": "拓展练习",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "拓展练习",
+        "narration": [
+          "小朋友们，今天循环规律的方法你学会了吗？",
+          "以后遇到类似的题目，记住先找循环组，再用除法看余数，就能轻松找到答案了。",
+          "今天的课就到这里，我们下节课再见。"
+        ],
+        "caption": "小朋友们，今天循环规律的方法你学会了吗？"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"240\" viewBox=\"0 0 600 240\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"240\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"35\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" fill=\"black\" font-weight=\"bold\">彩灯循环规律示意图（红、黄、蓝循环）</text>\n  \n  <!-- 第1组 -->\n  <!-- 红 -->\n  <circle cx=\"60\" cy=\"90\" r=\"20\" fill=\"#FF6B6B\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"60\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">1</text>\n  <!-- 黄 -->\n  <circle cx=\"140\" cy=\"90\" r=\"20\" fill=\"#FFD93D\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"140\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">2</text>\n  <!-- 蓝 -->\n  <circle cx=\"220\" cy=\"90\" r=\"20\" fill=\"#6BCB77\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">3</text>\n  \n  <!-- 第2组 -->\n  <circle cx=\"300\" cy=\"90\" r=\"20\" fill=\"#FF6B6B\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">4</text>\n  <circle cx=\"380\" cy=\"90\" r=\"20\" fill=\"#FFD93D\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"380\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">5</text>\n  <circle cx=\"460\" cy=\"90\" r=\"20\" fill=\"#6BCB77\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"460\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">6</text>\n  \n  <!-- 第3组开头 -->\n  <circle cx=\"60\" cy=\"180\" r=\"20\" fill=\"#FF6B6B\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"60\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">7</text>\n  <circle cx=\"140\" cy=\"180\" r=\"20\" fill=\"#FFD93D\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"140\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">8</text>\n  <circle cx=\"220\" cy=\"180\" r=\"20\" fill=\"#6BCB77\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">9</text>\n  \n  <circle cx=\"300\" cy=\"180\" r=\"20\" fill=\"#FF6B6B\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"white\">10</text>\n  <circle cx=\"380\" cy=\"180\" r=\"20\" fill=\"#FFD93D\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"380\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">11</text>\n  <circle cx=\"460\" cy=\"180\" r=\"20\" fill=\"#6BCB77\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4,2\" stroke-width=\"3\"/>\n  <text x=\"460\" y=\"185\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">15</text>\n  \n  <!-- 循环组标注 -->\n  <text x=\"140\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"blue\">第1组</text>\n  <text x=\"380\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"blue\">第2组</text>\n  <text x=\"140\" y=\"225\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"blue\">第3组</text>\n  <text x=\"380\" y=\"225\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"blue\">第4组</text>\n  <text x=\"540\" y=\"185\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">第15个</text>\n  \n  <!-- 答案箭头标注 -->\n  <line x1=\"480\" y1=\"180\" x2=\"530\" y2=\"185\" stroke=\"red\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"red\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:20.634Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "简单循环规律就是一组图形、数字或颜色按照固定的顺序重复出现，就像排队一样，排完一轮又从头开始。",
+      "thinking": "（1）先找到一组里面有几个不同的图形或数字，这一组叫做一个“循环组”。\n（2）确定要求的是第几个，看它里面包含几个完整的循环组，还剩下几个。\n（3）剩下的个数就对应循环组里的第几个，从而找到答案。",
+      "formula": "无固定公式，掌握思路即可。核心方法是：用序号除以循环组的长度，看余数。\n余数是几，就是循环组里的第几个；余数是0，就是循环组里的最后一个。",
+      "mistakes": "（1）容易把循环组的长度数错，比如三个一循环，结果数成四个。\n（2）余数为0时，容易忘记要取循环组的最后一个，而不是第一个。\n（3）在数序号时，要注意是从第一个开始，不要数错位置。",
+      "features": "进阶难度下，循环组的长度一般是3个或4个，需要用到简单的除法（平均分）或画图来理解。重点考察学生能否准确找出循环组、正确计算余数，并通过余数确定位置。"
+    },
+    "example": {
+      "title": "元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝……”的顺序重复挂下去。请问第15盏灯是什么颜色？",
+      "think": "先找出一个循环组是“红、黄、蓝”三个一循环。然后用15除以3，看余数，余数为0就是每组最后一个，也就是蓝色。",
+      "steps": "第一步：找到循环组\n彩灯的顺序是：红、黄、蓝、红、黄、蓝……\n每3盏灯是一个循环组，顺序是：第1红、第2黄、第3蓝。\n\n第二步：列出序号与颜色的对应关系（或画图）\n第1红，第2黄，第3蓝；\n第4红，第5黄，第6蓝；\n第7红，第8黄，第9蓝；\n第10红，第11黄，第12蓝；\n第13红，第14黄，第15蓝。\n\n第三步：用除法计算\n15 ÷ 3 = 5（组），刚好除完，没有剩余。\n余数是0，说明第15盏灯是第5组的最后一个，也就是蓝色。",
+      "answer": "蓝色。",
+      "summary": "对于循环规律问题，先找到一组有几个，再用序号除以组数看余数。余数为几就对应组里的第几个，余数为0就是最后一个。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "简单循环规律",
+    "subtitle": "数列 · 简单规律探究",
+    "problem": "元宵节挂彩灯，按“红、黄、蓝、红、黄、蓝……”的顺序重复挂下去。请问第15盏灯是什么颜色？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "一串珠子按“红、橙、黄、绿、红、橙、黄、绿……”的顺序重复排列。请问第9颗珠子是什么颜色？"
+  }
+}

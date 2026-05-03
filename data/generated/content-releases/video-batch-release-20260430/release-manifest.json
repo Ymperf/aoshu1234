@@ -1,0 +1,10 @@
+{
+  "versionTag": "video-batch-release-20260430",
+  "catalogPath": "data/generated/content-releases/video-batch-release-20260430/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/video-batch-release-20260430/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/video-batch-release-20260430/knowledge-point-media.json",
+  "approvedAiDraftCount": 18,
+  "catalogChecksum": "c16d495ac88949e5cb97baadd03c3f91b858d2945ab51ac93037f296195e2096",
+  "publishedAt": "2026-04-30T07:49:48.015Z"
+}

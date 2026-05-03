@@ -1,0 +1,10 @@
+{
+  "versionTag": "integration-release-1776774712352",
+  "catalogPath": "data/generated/content-releases/integration-release-1776774712352/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/integration-release-1776774712352/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/integration-release-1776774712352/knowledge-point-media.json",
+  "approvedAiDraftCount": 13,
+  "catalogChecksum": "65fc2654b9ff3bcefb2fd97b28468006f526f029629d63963a749d8a892d5448",
+  "publishedAt": "2026-04-21T12:31:52.426Z"
+}

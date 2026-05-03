@@ -1,0 +1,485 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-6010103",
+  "knowledgePointId": 6010103,
+  "topicId": 60101,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "计算",
+  "title": "裂项相消进阶",
+  "subtitle": "计算 · 计算综合",
+  "intro": "整数裂项、分数裂项、乘积裂项综合",
+  "difficultyLabel": "竞赛",
+  "breadcrumbs": {
+    "gradeName": "六年级",
+    "moduleName": "计算",
+    "topicName": "计算综合"
+  },
+  "problemStatement": "整数裂项、分数裂项、乘积裂项综合",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。裂项相消是一个很巧妙的计算技巧，意思就是把一个大分数拆成两个小分数的差，然后让它们在加加减减中互相抵消，这样我们就不用一个一个加很久了。\n\n这次我们来看一道竞赛难度的例题。题目是这样的：计算 1除以1乘2乘3，加上1除以2乘3乘4，一直加到1除以10乘11乘12。分母都是三个连续的自然数相乘。怎么算呢？我们有一个专门公式：对于像 n 乘 n加1乘 n加2 这样的分母，它可以拆成 1/2 乘以 括号里 1除以 n乘 n加1，减去 1除以 n加1乘 n加2 括号。这个公式很关键。\n\n我们按照这个公式，把每一项都拆开。第一项拆成 1/2 倍的 1除以1乘2 减 1除以2乘3；第二项拆成 1/2 倍的 1除以2乘3 减 1除以3乘4；后面依次类推，直到最后一项拆成 1/2 倍的 1除以10乘11 减 1除以11乘12。\n\n然后我们把所有项都写在一起，把公因数 1/2 提出来。括号里你会发现，减 1除以2乘3 和加 1除以2乘3 正好抵消，减 1除以3乘4 和加 1除以3乘4 也抵消，这样一直抵消下去，最后只剩下第一项的开头 1除以1乘2，和最后一项的尾巴 减 1除以11乘12。\n\n所以结果就是 1/2 乘以括号 1/2 减 1/132。先算括号里，1/2 就是 66/132，减 1/132 得 65/132，再乘 1/2，得到 65/264。这个就是最后的答案，而且已经是最简分数了。\n\n这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。课后大家也可以试试看类似的题目，比如分母变成四个连续数相乘，公式会变成乘 1/3，道理是一样的。好了，今天的课就到这里，同学们下次再见！",
+  "keyTakeaways": [],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。",
+        "裂项相消是一个很巧妙的计算技巧，意思就是把一个大分数拆成两个小分数的差，然后让它们在加加减减中互相抵消，这样我们就不用一个一个加很久了。"
+      ],
+      "caption": "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "这次我们来看一道竞赛难度的例题。",
+        "题目是这样的：计算 1除以1乘2乘3，加上1除以2乘3乘4，一直加到1除以10乘11乘12。",
+        "分母都是三个连续的自然数相乘。",
+        "怎么算呢？",
+        "我们有一个专门公式：对于像 n 乘 n加1乘 n加2 这样的分母，它可以拆成 1/2 乘以 括号里 1除以 n乘 n加1，减去 1除以 n加1乘 n加2 括号。",
+        "这个公式很关键。"
+      ],
+      "caption": "这次我们来看一道竞赛难度的例题。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "我们按照这个公式，把每一项都拆开。",
+        "第一项拆成 1/2 倍的 1除以1乘2 减 1除以2乘3；第二项拆成 1/2 倍的 1除以2乘3 减 1除以3乘4；后面依次类推，直到最后一项拆成 1/2 倍的 1除以10乘11 减 1除以11乘12。"
+      ],
+      "caption": "我们按照这个公式，把每一项都拆开。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "然后我们把所有项都写在一起，把公因数 1/2 提出来。",
+        "括号里你会发现，减 1除以2乘3 和加 1除以2乘3 正好抵消，减 1除以3乘4 和加 1除以3乘4 也抵消，这样一直抵消下去，最后只剩下第一项的开头 1除以1乘2，和最后一项的尾巴 减 1除以11乘12。"
+      ],
+      "caption": "然后我们把所有项都写在一起，把公因数 1/2 提出来。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "所以结果就是 1/2 乘以括号 1/2 减 1/132。",
+        "先算括号里，1/2 就是 66/132，减 1/132 得 65/132，再乘 1/2，得到 65/264。",
+        "这个就是最后的答案，而且已经是最简分数了。"
+      ],
+      "caption": "所以结果就是 1/2 乘以括号 1/2 减 1/132。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。",
+        "课后大家也可以试试看类似的题目，比如分母变成四个连续数相乘，公式会变成乘 1/3，道理是一样的。",
+        "好了，今天的课就到这里，同学们下次再见！"
+      ],
+      "caption": "这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "6010103-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "计算  \n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{20\\times21\\times22}\n\\]",
+      "answer": "\\(\\dfrac{115}{462}\\)",
+      "analysis": "裂项得 \\(\\frac12\\left( \\frac1{1\\times2} - \\frac1{21\\times22} \\right) = \\frac12\\left( \\frac12 - \\frac1{462} \\right) = \\frac12 \\times \\frac{230}{462} = \\frac{115}{462}\\)",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6010103-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "计算  \n\\[\n\\frac{1}{1\\times5} + \\frac{1}{5\\times9} + \\frac{1}{9\\times13} + \\cdots + \\frac{1}{97\\times101}\n\\]",
+      "answer": "\\(\\dfrac{25}{101}\\)",
+      "analysis": "分母差为4，系数 \\(\\frac14\\)，项数共25项。原式 = \\(\\frac14\\left(1 - \\frac1{101}\\right) = \\frac14 \\times \\frac{100}{101} = \\frac{25}{101}\\)",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6010103-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "计算  \n\\[\n\\frac{1}{2\\times4\\times6} + \\frac{1}{4\\times6\\times8} + \\frac{1}{6\\times8\\times10} + \\cdots + \\frac{1}{10\\times12\\times14}\n\\]",
+      "answer": "\\(\\dfrac{5}{168}\\)",
+      "analysis": "每一项分母可写成 \\(2n \\cdot 2(n+1) \\cdot 2(n+2) = 8n(n+1)(n+2)\\)，其中 n=1,2,…,5。  \n原式 = \\(\\frac18 \\sum_{n=1}^{5} \\frac{1}{n(n+1)(n+2)} = \\frac18 \\cdot \\frac12 \\left( \\frac1{1\\times2} - \\frac1{6\\times7} \\right) = \\frac1{16} \\left( \\frac12 - \\frac1{42} \\right) = \\frac1{16} \\times \\frac{20}{42} = \\frac{20}{672} = \\frac{5}{168}\\)",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "裂项相消进阶",
+    "subtitle": "计算 · 计算综合",
+    "gradeName": "六年级",
+    "moduleName": "计算",
+    "topicName": "计算综合",
+    "difficultyLabel": "竞赛",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "计算",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "1. 知识点定义\n裂项相消是一种巧算技巧，把一个分数拆成两个或多个分数的差，让求和时中间项相互抵消，从而简便计算。\n\n2. 核心解题思路\n- 先观察分母是不是连续整数（或固定间隔）的乘积。\n- 把每个分数写成“一个分数减去另一个分数”的形式，注意前面要乘一个系数。\n- 把相加的式子展开，会发现除了第一个分数的前半部分和最后一个分数的后半部分，中间的全部抵消。\n- 最后只计算首尾剩下的两项，得到结果。\n\n3. 方法总结/常用公式\n常用公式：\n- 当分母是两个数相乘，且差为 k 时：  \n  \\(\\frac{1}{n \\times (n+k)} = \\frac{1}{k} \\times \\left( \\frac{1}{n} - \\frac{1}{n+k} \\right)\\)\n- 当分母是三个连续整数相乘时：  \n  \\(\\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\times \\left[ \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right]\\)\n\n4. 易错点提醒\n- 忘记乘系数 \\(\\frac{1}{k}\\) 或 \\(\\frac{1}{2}\\)。\n- 展开后把符号写反，应该是一个正一个负。\n- 抵消时搞混第一项和最后一项分别剩哪个。\n\n5. 本难度考察特点（竞赛）\n竞赛题中分母往往不止两个因子，可能是三个甚至四个连续整数相乘，裂项后需要除以一个带分数系数的数。题目数字可能较大，但规律一致，重点考察学生能否灵活套用公式并准确进行分数计算。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "1. 知识点定义\n裂项相消是一种巧算技巧，把一个分数拆成两个或多个分数的差，让求和时中间项相互抵消，从而简便计算。\n\n2. 核心解题思路\n- 先观察分母是不是连续整数（或固定间隔）的乘积。\n- 把每个分数写成“一个分数减去另一个分数”的形式，注意前面要乘一个系数。\n- 把相加的式子展开，会发现除了第一个分数的前半部分和最后一个分数的后半部分，中间的全部抵消。\n- 最后只计算首尾剩下的两项，得到结果。\n\n3. 方法总结/常用公式\n常用公式：\n- 当分母是两个数相乘，且差为 k 时：  \n  \\(\\frac{1}{n \\times (n+k)} = \\frac{1}{k} \\times \\left( \\frac{1}{n} - \\frac{1}{n+k} \\right)\\)\n- 当分母是三个连续整数相乘时：  \n  \\(\\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\times \\left[ \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right]\\)\n\n4. 易错点提醒\n- 忘记乘系数 \\(\\frac{1}{k}\\) 或 \\(\\frac{1}{2}\\)。\n- 展开后把符号写反，应该是一个正一个负。\n- 抵消时搞混第一项和最后一项分别剩哪个。\n\n5. 本难度考察特点（竞赛）\n竞赛题中分母往往不止两个因子，可能是三个甚至四个连续整数相乘，裂项后需要除以一个带分数系数的数。题目数字可能较大，但规律一致，重点考察学生能否灵活套用公式并准确进行分数计算。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "按题目条件逐步分析。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "1. 知识点定义\n裂项相消是一种巧算技巧，把一个分数拆成两个或多个分数的差，让求和时中间项相互抵消，从而简便计算。\n\n2. 核心解题思路\n- 先观察分母是不是连续整数（或固定间隔）的乘积。\n- 把每个分数写成“一个分数减去另一个分数”的形式，注意前面要乘一个系数。\n- 把相加的式子展开，会发现除了第一个分数的前半部分和最后一个分数的后半部分，中间的全部抵消。\n- 最后只计算首尾剩下的两项，得到结果。\n\n3. 方法总结/常用公式\n常用公式：\n- 当分母是两个数相乘，且差为 k 时：  \n  \\(\\frac{1}{n \\times (n+k)} = \\frac{1}{k} \\times \\left( \\frac{1}{n} - \\frac{1}{n+k} \\right)\\)\n- 当分母是三个连续整数相乘时：  \n  \\(\\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\times \\left[ \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right]\\)\n\n4. 易错点提醒\n- 忘记乘系数 \\(\\frac{1}{k}\\) 或 \\(\\frac{1}{2}\\)。\n- 展开后把符号写反，应该是一个正一个负。\n- 抵消时搞混第一项和最后一项分别剩哪个。\n\n5. 本难度考察特点（竞赛）\n竞赛题中分母往往不止两个因子，可能是三个甚至四个连续整数相乘，裂项后需要除以一个带分数系数的数。题目数字可能较大，但规律一致，重点考察学生能否灵活套用公式并准确进行分数计算。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "1. 知识点定义\n裂项相消是一种巧算技巧，把一个分数拆成两个或多个分数的差，让求和时中间项相互抵消，从而简便计算。\n\n2. 核心解题思路\n- 先观察分母是不是连续整数（或固定间隔）的乘积。\n- 把每个分数写成“一个分数减去另一个分数”的形式，注意前面要乘一个系数。\n- 把相加的式子展开，会发现除了第一个分数的前半部分和最后一个分数的后半部分，中间的全部抵消。\n- 最后只计算首尾剩下的两项，得到结果。\n\n3. 方法总结/常用公式\n常用公式：\n- 当分母是两个数相乘，且差为 k 时：  \n  \\(\\frac{1}{n \\times (n+k)} = \\frac{1}{k} \\times \\left( \\frac{1}{n} - \\frac{1}{n+k} \\right)\\)\n- 当分母是三个连续整数相乘时：  \n  \\(\\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\times \\left[ \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right]\\)\n\n4. 易错点提醒\n- 忘记乘系数 \\(\\frac{1}{k}\\) 或 \\(\\frac{1}{2}\\)。\n- 展开后把符号写反，应该是一个正一个负。\n- 抵消时搞混第一项和最后一项分别剩哪个。\n\n5. 本难度考察特点（竞赛）\n竞赛题中分母往往不止两个因子，可能是三个甚至四个连续整数相乘，裂项后需要除以一个带分数系数的数。题目数字可能较大，但规律一致，重点考察学生能否灵活套用公式并准确进行分数计算。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "按题目条件逐步分析。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "计算：\n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{10\\times11\\times12}\n\\]",
+    "answer": "\\[\n\\boxed{\\dfrac{65}{264}}\n\\]",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "先写出通项：第 n 项（n从1到10）为 \\",
+        "explanation": "先写出通项：第 n 项（n从1到10）为 \\(\\frac{1}{n(n+1)(n+2)}\\)。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "用公式裂项：\n   \\[\n   \\frac{",
+        "explanation": "用公式裂项：\n   \\[\n   \\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\left( \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right)\n   \\]",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "将每一项都这样拆开，原式等于\n   \\[\n ",
+        "explanation": "将每一项都这样拆开，原式等于\n   \\[\n   \\frac12\\left[ \\frac1{1\\times2} - \\frac1{2\\times3} \\right]\n   +\\frac12\\left[ \\frac1{2\\times3} - \\frac1{3\\times4} \\right]\n   +\\frac12\\left[ \\frac1{3\\times4} - \\frac1{4\\times5} \\right]\n   +\\cdots\n   +\\frac12\\left[ \\frac1{10\\times11} - \\frac1{11\\times12} \\right]\n   \\]",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "把公因数 \\(\\frac12\\) 提到外面：",
+        "explanation": "把公因数 \\(\\frac12\\) 提到外面：\n   \\[\n   \\frac12 \\left[ \\frac1{1\\times2} - \\frac1{2\\times3} + \\frac1{2\\times3} - \\frac1{3\\times4} + \\frac1{3\\times4} - \\cdots - \\frac1{11\\times12} \\right]\n   \\]",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "观察括号内，除了第一项 \\(\\frac1{1",
+        "explanation": "观察括号内，除了第一项 \\(\\frac1{1\\times2}\\) 和最后一项 \\(-\\frac1{11\\times12}\\)，中间的全都互相抵消。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "所以结果为：\n   \\[\n   \\frac1",
+        "explanation": "所以结果为：\n   \\[\n   \\frac12 \\left( \\frac1{1\\times2} - \\frac1{11\\times12} \\right)\n   = \\frac12 \\left( \\frac12 - \\frac1{132} \\right)\n   \\]",
+        "icon": "6"
+      },
+      {
+        "id": "knowledge-data-step-7",
+        "title": "通分计算：\n   \\[\n   \\frac12",
+        "explanation": "通分计算：\n   \\[\n   \\frac12 - \\frac1{132} = \\frac{66}{132} - \\frac1{132} = \\frac{65}{132}\n   \\]\n   \\[\n   \\frac12 \\times \\frac{65}{132} = \\frac{65}{264}\n   \\]",
+        "icon": "7"
+      },
+      {
+        "id": "knowledge-data-step-8",
+        "title": "检查是否能约分：65与264互质，所以最终答",
+        "explanation": "检查是否能约分：65与264互质，所以最终答案就是 \\(\\frac{65}{264}\\)。",
+        "icon": "8"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到分母为三个连续整数乘积的求和问题，直接套用裂项公式，提取系数 \\(\\frac12\\)，展开后中间项全部抵消，只计算首尾两项即可。记住“首项前半减末项后半”的套路。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "6010103-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "计算  \n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{20\\times21\\times22}\n\\]",
+        "answer": "\\(\\dfrac{115}{462}\\)",
+        "analysis": "裂项得 \\(\\frac12\\left( \\frac1{1\\times2} - \\frac1{21\\times22} \\right) = \\frac12\\left( \\frac12 - \\frac1{462} \\right) = \\frac12 \\times \\frac{230}{462} = \\frac{115}{462}\\)",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6010103-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "计算  \n\\[\n\\frac{1}{1\\times5} + \\frac{1}{5\\times9} + \\frac{1}{9\\times13} + \\cdots + \\frac{1}{97\\times101}\n\\]",
+        "answer": "\\(\\dfrac{25}{101}\\)",
+        "analysis": "分母差为4，系数 \\(\\frac14\\)，项数共25项。原式 = \\(\\frac14\\left(1 - \\frac1{101}\\right) = \\frac14 \\times \\frac{100}{101} = \\frac{25}{101}\\)",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6010103-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "计算  \n\\[\n\\frac{1}{2\\times4\\times6} + \\frac{1}{4\\times6\\times8} + \\frac{1}{6\\times8\\times10} + \\cdots + \\frac{1}{10\\times12\\times14}\n\\]",
+        "answer": "\\(\\dfrac{5}{168}\\)",
+        "analysis": "每一项分母可写成 \\(2n \\cdot 2(n+1) \\cdot 2(n+2) = 8n(n+1)(n+2)\\)，其中 n=1,2,…,5。  \n原式 = \\(\\frac18 \\sum_{n=1}^{5} \\frac{1}{n(n+1)(n+2)} = \\frac18 \\cdot \\frac12 \\left( \\frac1{1\\times2} - \\frac1{6\\times7} \\right) = \\frac1{16} \\left( \\frac12 - \\frac1{42} \\right) = \\frac1{16} \\times \\frac{20}{42} = \\frac{20}{672} = \\frac{5}{168}\\)",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。裂项相消是一个很巧妙的计算技巧，意思就是把一个大分数拆成两个小分数的差，然后让它们在加加减减中互相抵消，这样我们就不用一个一个加很久了。\n\n这次我们来看一道竞赛难度的例题。题目是这样的：计算 1除以1乘2乘3，加上1除以2乘3乘4，一直加到1除以10乘11乘12。分母都是三个连续的自然数相乘。怎么算呢？我们有一个专门公式：对于像 n 乘 n加1乘 n加2 这样的分母，它可以拆成 1/2 乘以 括号里 1除以 n乘 n加1，减去 1除以 n加1乘 n加2 括号。这个公式很关键。\n\n我们按照这个公式，把每一项都拆开。第一项拆成 1/2 倍的 1除以1乘2 减 1除以2乘3；第二项拆成 1/2 倍的 1除以2乘3 减 1除以3乘4；后面依次类推，直到最后一项拆成 1/2 倍的 1除以10乘11 减 1除以11乘12。\n\n然后我们把所有项都写在一起，把公因数 1/2 提出来。括号里你会发现，减 1除以2乘3 和加 1除以2乘3 正好抵消，减 1除以3乘4 和加 1除以3乘4 也抵消，这样一直抵消下去，最后只剩下第一项的开头 1除以1乘2，和最后一项的尾巴 减 1除以11乘12。\n\n所以结果就是 1/2 乘以括号 1/2 减 1/132。先算括号里，1/2 就是 66/132，减 1/132 得 65/132，再乘 1/2，得到 65/264。这个就是最后的答案，而且已经是最简分数了。\n\n这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。课后大家也可以试试看类似的题目，比如分母变成四个连续数相乘，公式会变成乘 1/3，道理是一样的。好了，今天的课就到这里，同学们下次再见！",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。",
+          "裂项相消是一个很巧妙的计算技巧，意思就是把一个大分数拆成两个小分数的差，然后让它们在加加减减中互相抵消，这样我们就不用一个一个加很久了。"
+        ],
+        "caption": "同学们好，欢迎来到小学奥数课堂，今天我们要学习裂项相消的进阶用法。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "这次我们来看一道竞赛难度的例题。",
+          "题目是这样的：计算 1除以1乘2乘3，加上1除以2乘3乘4，一直加到1除以10乘11乘12。",
+          "分母都是三个连续的自然数相乘。",
+          "怎么算呢？",
+          "我们有一个专门公式：对于像 n 乘 n加1乘 n加2 这样的分母，它可以拆成 1/2 乘以 括号里 1除以 n乘 n加1，减去 1除以 n加1乘 n加2 括号。",
+          "这个公式很关键。"
+        ],
+        "caption": "这次我们来看一道竞赛难度的例题。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "我们按照这个公式，把每一项都拆开。",
+          "第一项拆成 1/2 倍的 1除以1乘2 减 1除以2乘3；第二项拆成 1/2 倍的 1除以2乘3 减 1除以3乘4；后面依次类推，直到最后一项拆成 1/2 倍的 1除以10乘11 减 1除以11乘12。"
+        ],
+        "caption": "我们按照这个公式，把每一项都拆开。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "然后我们把所有项都写在一起，把公因数 1/2 提出来。",
+          "括号里你会发现，减 1除以2乘3 和加 1除以2乘3 正好抵消，减 1除以3乘4 和加 1除以3乘4 也抵消，这样一直抵消下去，最后只剩下第一项的开头 1除以1乘2，和最后一项的尾巴 减 1除以11乘12。"
+        ],
+        "caption": "然后我们把所有项都写在一起，把公因数 1/2 提出来。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "所以结果就是 1/2 乘以括号 1/2 减 1/132。",
+          "先算括号里，1/2 就是 66/132，减 1/132 得 65/132，再乘 1/2，得到 65/264。",
+          "这个就是最后的答案，而且已经是最简分数了。"
+        ],
+        "caption": "所以结果就是 1/2 乘以括号 1/2 减 1/132。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。",
+          "课后大家也可以试试看类似的题目，比如分母变成四个连续数相乘，公式会变成乘 1/3，道理是一样的。",
+          "好了，今天的课就到这里，同学们下次再见！"
+        ],
+        "caption": "这道题告诉我们，遇到三个连续数相乘的分母求和，直接用公式拆开，中间全部抵消，只算首尾，又快又准。"
+      }
+    ]
+  },
+  "illustrations": [],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:24.083Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "",
+      "thinking": "",
+      "formula": "",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "计算：\n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{10\\times11\\times12}\n\\]",
+      "think": "分母是三个连续自然数相乘，用公式 \\(\\frac{1}{n(n+1)(n+2)} = \\frac{1}{2}\\left( \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right)\\) 把每一项拆开，再求和相消。",
+      "steps": "1. 先写出通项：第 n 项（n从1到10）为 \\(\\frac{1}{n(n+1)(n+2)}\\)。\n2. 用公式裂项：\n   \\[\n   \\frac{1}{n(n+1)(n+2)} = \\frac{1}{2} \\left( \\frac{1}{n(n+1)} - \\frac{1}{(n+1)(n+2)} \\right)\n   \\]\n3. 将每一项都这样拆开，原式等于\n   \\[\n   \\frac12\\left[ \\frac1{1\\times2} - \\frac1{2\\times3} \\right]\n   +\\frac12\\left[ \\frac1{2\\times3} - \\frac1{3\\times4} \\right]\n   +\\frac12\\left[ \\frac1{3\\times4} - \\frac1{4\\times5} \\right]\n   +\\cdots\n   +\\frac12\\left[ \\frac1{10\\times11} - \\frac1{11\\times12} \\right]\n   \\]\n4. 把公因数 \\(\\frac12\\) 提到外面：\n   \\[\n   \\frac12 \\left[ \\frac1{1\\times2} - \\frac1{2\\times3} + \\frac1{2\\times3} - \\frac1{3\\times4} + \\frac1{3\\times4} - \\cdots - \\frac1{11\\times12} \\right]\n   \\]\n5. 观察括号内，除了第一项 \\(\\frac1{1\\times2}\\) 和最后一项 \\(-\\frac1{11\\times12}\\)，中间的全都互相抵消。\n6. 所以结果为：\n   \\[\n   \\frac12 \\left( \\frac1{1\\times2} - \\frac1{11\\times12} \\right)\n   = \\frac12 \\left( \\frac12 - \\frac1{132} \\right)\n   \\]\n7. 通分计算：\n   \\[\n   \\frac12 - \\frac1{132} = \\frac{66}{132} - \\frac1{132} = \\frac{65}{132}\n   \\]\n   \\[\n   \\frac12 \\times \\frac{65}{132} = \\frac{65}{264}\n   \\]\n8. 检查是否能约分：65与264互质，所以最终答案就是 \\(\\frac{65}{264}\\)。",
+      "answer": "\\[\n\\boxed{\\dfrac{65}{264}}\n\\]",
+      "summary": "遇到分母为三个连续整数乘积的求和问题，直接套用裂项公式，提取系数 \\(\\frac12\\)，展开后中间项全部抵消，只计算首尾两项即可。记住“首项前半减末项后半”的套路。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "裂项相消进阶",
+    "subtitle": "计算 · 计算综合",
+    "problem": "计算：\n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{10\\times11\\times12}\n\\]",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "计算  \n\\[\n\\frac{1}{1\\times2\\times3} + \\frac{1}{2\\times3\\times4} + \\frac{1}{3\\times4\\times5} + \\cdots + \\frac{1}{20\\times21\\times22}\n\\]"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-4030103",
+  "knowledgePointId": 4030103,
+  "topicId": 40301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "追及问题基本公式",
+  "subtitle": "应用题 · 行程基础",
+  "intro": "追及问题是指两个物体从不同地点出发，沿着同一方向运动，后面的物体（速度快）追上前面的物体（速度慢）的问题。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "行程基础"
+  },
+  "problemStatement": "追及时间 = 路程差 ÷ 速度差",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。真正容易出错的地方, 是把路程差看成总路程, 或把速度差算反。先确认谁快谁慢、开始追时差了多少, 再套公式。",
+  "keyTakeaways": [
+    "先找出两人之间的距离差，也就是“追及路程”。",
+    "再算出两人每单位时间能缩短的距离，也就是“速度差”。",
+    "最后用追及路程除以速度差，就能得到追上的时间。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。",
+        "真正容易出错的地方, 是把路程差看成总路程, 或把速度差算反。",
+        "先确认谁快谁慢、开始追时差了多少, 再套公式。"
+      ],
+      "caption": "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "4030103-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小明和小红从同一地点出发跑步。小红先跑了30米，然后小明开始追。小明每秒跑8米，小红每秒跑5米。小明几秒能追上小红？",
+      "answer": "10秒",
+      "analysis": "1. 追及路程：30米\n2. 速度差：8 - 5 = 3（米/秒）\n3. 追及时间：30 ÷ 3 = 10（秒）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030103-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "小汽车和自行车从同一路口出发，同向而行。自行车先骑了200米，小汽车才开始追。小汽车每分钟行400米，自行车每分钟行200米。小汽车多少分钟能追上自行车？",
+      "answer": "1分钟",
+      "analysis": "1. 追及路程：200米\n2. 速度差：400 - 200 = 200（米/分）\n3. 追及时间：200 ÷ 200 = 1（分钟）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030103-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小明从家出发去学校，每分钟走50米。走了6分钟后，妈妈发现他忘带水杯，从家出发骑电动车去追他。妈妈每分钟骑200米，多少分钟后妈妈能追上小明？",
+      "answer": "2分钟",
+      "analysis": "1. 先算小明先走的距离：50 × 6 = 300（米），这就是追及路程\n2. 速度差：200 - 50 = 150（米/分）\n3. 追及时间：300 ÷ 150 = 2（分钟）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "追及问题基本公式",
+    "subtitle": "应用题 · 行程基础",
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "行程基础",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "追及问题是指两个物体从不同地点出发，沿着同一方向运动，后面的物体（速度快）追上前面的物体（速度慢）的问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "追及问题是指两个物体从不同地点出发，沿着同一方向运动，后面的物体（速度快）追上前面的物体（速度慢）的问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找出两人之间的距离差，也就是“追及路程”。",
+          "再算出两人每单位时间能缩短的距离，也就是“速度差”。",
+          "最后用追及路程除以速度差，就能得到追上的时间。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "追及时间 = 追及路程 ÷ 速度差",
+          "速度差 = 快者速度 - 慢者速度",
+          "追及路程 = 开始时两人的距离"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易把“追及路程”搞错，不是两人总共走的路程，而是开始时两人之间的距离。",
+          "速度差一定是快减慢，不能弄反。",
+          "单位要统一，速度是“米/分”，时间就是“分”。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的追及问题，数字简单，整十整百好算，直接套用公式就能解决。重点考查学生是否能正确找出追及路程和速度差，计算追及时间。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "追及问题是指两个物体从不同地点出发，沿着同一方向运动，后面的物体（速度快）追上前面的物体（速度慢）的问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的追及问题，数字简单，整十整百好算，直接套用公式就能解决。重点考查学生是否能正确找出追及路程和速度差，计算追及时间。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找出两人之间的距离差，也就是“追及路程”。",
+              "再算出两人每单位时间能缩短的距离，也就是“速度差”。",
+              "最后用追及路程除以速度差，就能得到追上的时间。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "追及时间 = 追及路程 ÷ 速度差",
+              "速度差 = 快者速度 - 慢者速度",
+              "追及路程 = 开始时两人的距离"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易把“追及路程”搞错，不是两人总共走的路程，而是开始时两人之间的距离。",
+              "速度差一定是快减慢，不能弄反。",
+              "单位要统一，速度是“米/分”，时间就是“分”。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "小明和小强在操场上跑步。小明在小强后面，他们相距10米。小明每分钟跑5米，小强每分钟跑3米。两人同时向同一个方向跑，小明多少分钟能追上小强？",
+    "answer": "小明5分钟能追上小强。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "第一步：找出追及路程。",
+        "explanation": "第一步：找出追及路程。\n两人相距10米，追及路程就是10米。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "第二步：算出速度差。",
+        "explanation": "第二步：算出速度差。\n小明每分钟跑5米，小强每分钟跑3米。\n速度差 = 5 - 3 = 2（米/分）",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "第三步：用公式求时间。",
+        "explanation": "第三步：用公式求时间。\n追及时间 = 追及路程 ÷ 速度差\n= 10 ÷ 2\n= 5（分钟）",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "做追及问题，先找两人相距多少米，再算每分钟快多少米，用总距离除以每分钟快的米数，就是追上的时间。记住公式：时间 = 距离差 ÷ 速度差。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "4030103-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小明和小红从同一地点出发跑步。小红先跑了30米，然后小明开始追。小明每秒跑8米，小红每秒跑5米。小明几秒能追上小红？",
+        "answer": "10秒",
+        "analysis": "1. 追及路程：30米\n2. 速度差：8 - 5 = 3（米/秒）\n3. 追及时间：30 ÷ 3 = 10（秒）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030103-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "小汽车和自行车从同一路口出发，同向而行。自行车先骑了200米，小汽车才开始追。小汽车每分钟行400米，自行车每分钟行200米。小汽车多少分钟能追上自行车？",
+        "answer": "1分钟",
+        "analysis": "1. 追及路程：200米\n2. 速度差：400 - 200 = 200（米/分）\n3. 追及时间：200 ÷ 200 = 1（分钟）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030103-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小明从家出发去学校，每分钟走50米。走了6分钟后，妈妈发现他忘带水杯，从家出发骑电动车去追他。妈妈每分钟骑200米，多少分钟后妈妈能追上小明？",
+        "answer": "2分钟",
+        "analysis": "1. 先算小明先走的距离：50 × 6 = 300（米），这就是追及路程\n2. 速度差：200 - 50 = 150（米/分）\n3. 追及时间：300 ÷ 150 = 2（分钟）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。真正容易出错的地方, 是把路程差看成总路程, 或把速度差算反。先确认谁快谁慢、开始追时差了多少, 再套公式。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。",
+          "真正容易出错的地方, 是把路程差看成总路程, 或把速度差算反。",
+          "先确认谁快谁慢、开始追时差了多少, 再套公式。"
+        ],
+        "caption": "追及问题基本公式只有一句: 追及时间等于路程差除以速度差。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"200\" viewBox=\"0 0 600 200\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  \n  <!-- 跑道线 -->\n  <line x1=\"30\" y1=\"100\" x2=\"550\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/>\n  \n  <!-- 起点小强位置 -->\n  <circle cx=\"80\" cy=\"100\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"65\" y=\"80\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">小强</text>\n  <text x=\"60\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">(3米/分)</text>\n  \n  <!-- 起点小明位置 -->\n  <circle cx=\"180\" cy=\"100\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"165\" y=\"80\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">小明</text>\n  <text x=\"160\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">(5米/分)</text>\n  \n  <!-- 相距10米标注 -->\n  <line x1=\"88\" y1=\"100\" x2=\"88\" y2=\"60\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4,2\"/>\n  <line x1=\"172\" y1=\"100\" x2=\"172\" y2=\"60\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4,2\"/>\n  <line x1=\"88\" y1=\"65\" x2=\"172\" y2=\"65\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"105\" y=\"58\" font-family=\"sans-serif\" font-size=\"16\" fill=\"blue\" font-weight=\"bold\">相距10米</text>\n  \n  <!-- 方向箭头 -->\n  <line x1=\"350\" y1=\"100\" x2=\"380\" y2=\"100\" stroke=\"red\" stroke-width=\"3\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"red\"/>\n    </marker>\n  </defs>\n  \n  <!-- 追及点 -->\n  <circle cx=\"500\" cy=\"100\" r=\"8\" fill=\"red\" stroke=\"red\" stroke-width=\"2\"/>\n  <text x=\"485\" y=\"75\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\" font-weight=\"bold\">追上</text>\n  \n  <!-- 追及时间结果 -->\n  <text x=\"400\" y=\"170\" font-family=\"sans-serif\" font-size=\"18\" fill=\"red\" font-weight=\"bold\">5分钟追上</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:22.375Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "追及问题是指两个物体从不同地点出发，沿着同一方向运动，后面的物体（速度快）追上前面的物体（速度慢）的问题。",
+      "thinking": "- 先找出两人之间的距离差，也就是“追及路程”。\n- 再算出两人每单位时间能缩短的距离，也就是“速度差”。\n- 最后用追及路程除以速度差，就能得到追上的时间。",
+      "formula": "追及时间 = 追及路程 ÷ 速度差  \n速度差 = 快者速度 - 慢者速度  \n追及路程 = 开始时两人的距离",
+      "mistakes": "- 容易把“追及路程”搞错，不是两人总共走的路程，而是开始时两人之间的距离。\n- 速度差一定是快减慢，不能弄反。\n- 单位要统一，速度是“米/分”，时间就是“分”。",
+      "features": "基础难度的追及问题，数字简单，整十整百好算，直接套用公式就能解决。重点考查学生是否能正确找出追及路程和速度差，计算追及时间。"
+    },
+    "example": {
+      "title": "小明和小强在操场上跑步。小明在小强后面，他们相距10米。小明每分钟跑5米，小强每分钟跑3米。两人同时向同一个方向跑，小明多少分钟能追上小强？",
+      "think": "先算出小明每分钟比小强多跑几米，再用相距的10米除以这个速度差，就能得到追及时间。",
+      "steps": "1. 第一步：找出追及路程。\n两人相距10米，追及路程就是10米。\n\n2. 第二步：算出速度差。\n小明每分钟跑5米，小强每分钟跑3米。\n速度差 = 5 - 3 = 2（米/分）\n\n3. 第三步：用公式求时间。\n追及时间 = 追及路程 ÷ 速度差\n= 10 ÷ 2\n= 5（分钟）",
+      "answer": "小明5分钟能追上小强。",
+      "summary": "做追及问题，先找两人相距多少米，再算每分钟快多少米，用总距离除以每分钟快的米数，就是追上的时间。记住公式：时间 = 距离差 ÷ 速度差。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "追及问题基本公式",
+    "subtitle": "应用题 · 行程基础",
+    "problem": "小明和小强在操场上跑步。小明在小强后面，他们相距10米。小明每分钟跑5米，小强每分钟跑3米。两人同时向同一个方向跑，小明多少分钟能追上小强？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小明和小红从同一地点出发跑步。小红先跑了30米，然后小明开始追。小明每秒跑8米，小红每秒跑5米。小明几秒能追上小红？"
+  }
+}

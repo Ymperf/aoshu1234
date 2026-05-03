@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030104",
+  "knowledgePointId": 3030104,
+  "topicId": 30301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "和差问题综合",
+  "subtitle": "应用题 · 和差问题",
+  "intro": "和差问题就是已知两个数的和与差，求这两个数分别是多少的问题。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和差问题"
+  },
+  "problemStatement": "多步骤、多条件的综合和差问题",
+  "knownConditions": [
+    "已知两个数的和与差"
+  ],
+  "targetQuestion": "求出两个数分别是多少",
+  "corePrinciples": [
+    "理解和差问题中的和与差分别表示什么",
+    "掌握用和加差、和减差来求两数的方法",
+    "会通过验算确认答案正确"
+  ],
+  "coreFormulas": [
+    "大数 = （和 + 差）÷ 2",
+    "小数 = （和 - 差）÷ 2"
+  ],
+  "stepSummary": [
+    {
+      "title": "读题并找出和与差",
+      "description": "先找出题目中的总和和相差多少。"
+    },
+    {
+      "title": "理解大数和小数",
+      "description": "差表示大数比小数多出来的部分。"
+    },
+    {
+      "title": "为什么和加差",
+      "description": "把总和再加一次差，相当于把小数补成和大数一样大，所以得到两个大数。"
+    },
+    {
+      "title": "求大数",
+      "description": "把和加差后再除以2，就能得到一个大数。"
+    },
+    {
+      "title": "为什么和减差",
+      "description": "把总和减去差，相当于把大数多出来的部分去掉，所以得到两个小数。"
+    },
+    {
+      "title": "求小数并验算",
+      "description": "把和减差后再除以2，得到小数，然后把两数带回原题检查。"
+    }
+  ],
+  "tips": [
+    "先理解加差得到两个大数，减差得到两个小数。",
+    "最后一定要除以2。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。做这类题时, 先问自己: 题目真正给出的总量是什么, 差量又藏在哪一步变化里。只要能把复杂条件还原成“和”和“差”, 解法就会立刻清楚。",
+  "keyTakeaways": [
+    "先找到两个数的和是多少，差是多少。",
+    "用公式（和 + 差）÷ 2 求出较大的数（大数）。",
+    "用公式（和 - 差）÷ 2 求出较小的数（小数）。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。",
+        "做这类题时, 先问自己: 题目真正给出的总量是什么, 差量又藏在哪一步变化里。",
+        "只要能把复杂条件还原成“和”和“差”, 解法就会立刻清楚。"
+      ],
+      "caption": "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030104-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "甲乙两筐苹果共重80千克，甲筐比乙筐多20千克。两筐各重多少千克？",
+      "answer": "甲筐50千克，乙筐30千克。",
+      "analysis": "和80、差20。甲：(80+20)÷2=50，乙：80-50=30。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030104-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "兄弟两人共有邮票120张，哥哥给弟弟15张后两人邮票一样多。原来两人各有多少张？",
+      "answer": "哥哥75张，弟弟45张。",
+      "analysis": "原来哥哥比弟弟多15×2=30张。和120、差30。哥哥：(120+30)÷2=75，弟弟：120-75=45。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030104-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "甲乙两人共有存款200元，如果甲给乙20元，则甲比乙少10元。原来两人各有多少元？",
+      "answer": "甲115元，乙85元。",
+      "analysis": "甲给乙20元后，差变化40元，最后甲比乙少10，原来甲比乙多40-10=30元。和200、差30。甲：(200+30)÷2=115，乙：200-115=85。\n\n【五、视频讲解口播稿（Edge TTS 专用，≤5 分钟）】\n小朋友们好，欢迎来到和差问题的拔高课堂。今天我们来学习一个很有意思的题目。首先复习一下，和差问题就是知道两个数的和与差，求这两个数。大数等于和加差除以二，小数等于和减差除以二。记住这两个公式，我们来看例题。小明和小强共有零花钱84元，如果小明给小强10元，那么小强比小明多4元。原来两人各有多少元？题目没有直接告诉差，怎么办？我们来分析一下。小明给小强10元后，小明少了10元，小强多了10元，两人的差一共变化了20元。最后小强比小明多4元，说明原来小明比小强多20减4等于16元。这样我们就找到了和是84，差是16。接下来套公式，小明是大数，84加16",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "和差问题综合",
+    "subtitle": "应用题 · 和差问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和差问题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "和差问题就是已知两个数的和与差，求这两个数分别是多少的问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "和差问题就是已知两个数的和与差，求这两个数分别是多少的问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找到两个数的和是多少，差是多少。",
+          "用公式（和 + 差）÷ 2 求出较大的数（大数）。",
+          "用公式（和 - 差）÷ 2 求出较小的数（小数）。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "大数 = (和 + 差) ÷ 2",
+          "小数 = (和 - 差) ÷ 2"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意差是谁比谁多，不要弄反。",
+          "有些题目不直接给出和与差，需要先根据条件转化。",
+          "列算式时一定要加括号，先算加法或减法，再除以2。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高题中，和与差往往不直接给出，需要通过“移多补少”“给完后还多或少”等条件推理出隐藏的差，考察学生的转化思维和画线段图分析能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "和差问题就是已知两个数的和与差，求这两个数分别是多少的问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高题中，和与差往往不直接给出，需要通过“移多补少”“给完后还多或少”等条件推理出隐藏的差，考察学生的转化思维和画线段图分析能力。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找到两个数的和是多少，差是多少。",
+              "用公式（和 + 差）÷ 2 求出较大的数（大数）。",
+              "用公式（和 - 差）÷ 2 求出较小的数（小数）。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "大数 = (和 + 差) ÷ 2",
+              "小数 = (和 - 差) ÷ 2"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意差是谁比谁多，不要弄反。",
+              "有些题目不直接给出和与差，需要先根据条件转化。",
+              "列算式时一定要加括号，先算加法或减法，再除以2。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "小明和小强共有零花钱84元。如果小明给小强10元，那么小强比小明多4元。原来两人各有多少元？",
+    "answer": "小明原有50元，小强原有34元。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "小明给小强10元后，小明减少10元，小强增加",
+        "explanation": "小明给小强10元后，小明减少10元，小强增加10元，两人的差改变了 10 + 10 = 20 元。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "最后小强比小明多4元，说明原来小明比小强多 ",
+        "explanation": "最后小强比小明多4元，说明原来小明比小强多 20 - 4 = 16 元。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "所以原来两人的和是84元，差是16元。",
+        "explanation": "所以原来两人的和是84元，差是16元。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "小明（大数）：(84 + 16) ÷ 2 =",
+        "explanation": "小明（大数）：(84 + 16) ÷ 2 = 100 ÷ 2 = 50（元）",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "小强（小数）：(84 - 16) ÷ 2 =",
+        "explanation": "小强（小数）：(84 - 16) ÷ 2 = 68 ÷ 2 = 34（元）",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "检验：50 + 34 = 84，小明给10元",
+        "explanation": "检验：50 + 34 = 84，小明给10元后剩40元，小强变成44元，44 - 40 = 4，符合条件。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "解决这类“移多补少”后有关系的问题，关键是根据给的数量和最后相差的数，算出原来的差。口诀：给后相差多少，原来差等于给的数量乘2再减去（或加上）后来相差的数。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030104-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "甲乙两筐苹果共重80千克，甲筐比乙筐多20千克。两筐各重多少千克？",
+        "answer": "甲筐50千克，乙筐30千克。",
+        "analysis": "和80、差20。甲：(80+20)÷2=50，乙：80-50=30。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030104-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "兄弟两人共有邮票120张，哥哥给弟弟15张后两人邮票一样多。原来两人各有多少张？",
+        "answer": "哥哥75张，弟弟45张。",
+        "analysis": "原来哥哥比弟弟多15×2=30张。和120、差30。哥哥：(120+30)÷2=75，弟弟：120-75=45。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030104-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "甲乙两人共有存款200元，如果甲给乙20元，则甲比乙少10元。原来两人各有多少元？",
+        "answer": "甲115元，乙85元。",
+        "analysis": "甲给乙20元后，差变化40元，最后甲比乙少10，原来甲比乙多40-10=30元。和200、差30。甲：(200+30)÷2=115，乙：200-115=85。\n\n【五、视频讲解口播稿（Edge TTS 专用，≤5 分钟）】\n小朋友们好，欢迎来到和差问题的拔高课堂。今天我们来学习一个很有意思的题目。首先复习一下，和差问题就是知道两个数的和与差，求这两个数。大数等于和加差除以二，小数等于和减差除以二。记住这两个公式，我们来看例题。小明和小强共有零花钱84元，如果小明给小强10元，那么小强比小明多4元。原来两人各有多少元？题目没有直接告诉差，怎么办？我们来分析一下。小明给小强10元后，小明少了10元，小强多了10元，两人的差一共变化了20元。最后小强比小明多4元，说明原来小明比小强多20减4等于16元。这样我们就找到了和是84，差是16。接下来套公式，小明是大数，84加16",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。做这类题时, 先问自己: 题目真正给出的总量是什么, 差量又藏在哪一步变化里。只要能把复杂条件还原成“和”和“差”, 解法就会立刻清楚。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。",
+          "做这类题时, 先问自己: 题目真正给出的总量是什么, 差量又藏在哪一步变化里。",
+          "只要能把复杂条件还原成“和”和“差”, 解法就会立刻清楚。"
+        ],
+        "caption": "和差综合题往往不会把“和”和“差”直接摆出来, 需要先经过一次转化。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"280\" viewBox=\"0 0 600 280\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"280\" fill=\"white\"/>\n  <text x=\"20\" y=\"30\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\">线段图分析</text>\n  <!-- 原来 -->\n  <text x=\"20\" y=\"60\" font-size=\"16\" font-family=\"sans-serif\">原来：</text>\n  <line x1=\"100\" y1=\"60\" x2=\"250\" y2=\"60\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"160\" y=\"55\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">小明50元</text>\n  <line x1=\"100\" y1=\"85\" x2=\"202\" y2=\"85\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"130\" y=\"80\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">小强34元</text>\n  <text x=\"100\" y=\"110\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">和84元</text>\n  <line x1=\"250\" y1=\"60\" x2=\"250\" y2=\"85\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"85\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <text x=\"205\" y=\"78\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">差16元</text>\n  <!-- 给后 -->\n  <text x=\"20\" y=\"150\" font-size=\"16\" font-family=\"sans-serif\">给后：</text>\n  <line x1=\"100\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"140\" y=\"145\" font-size=\"14\" font-family=\"sans-serif\">小明40元</text>\n  <line x1=\"100\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"150\" y=\"170\" font-size=\"14\" font-family=\"sans-serif\">小强44元</text>\n  <line x1=\"220\" y1=\"150\" x2=\"220\" y2=\"175\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"232\" y1=\"150\" x2=\"232\" y2=\"175\" stroke=\"blue\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <text x=\"225\" y=\"168\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">多4</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.529Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "和差问题就是已知两个数的和与差，求这两个数分别是多少的问题。",
+      "thinking": "- 先找到两个数的和是多少，差是多少。\n   - 用公式（和 + 差）÷ 2 求出较大的数（大数）。\n   - 用公式（和 - 差）÷ 2 求出较小的数（小数）。",
+      "formula": "大数 = (和 + 差) ÷ 2  \n   小数 = (和 - 差) ÷ 2",
+      "mistakes": "- 注意差是谁比谁多，不要弄反。\n   - 有些题目不直接给出和与差，需要先根据条件转化。\n   - 列算式时一定要加括号，先算加法或减法，再除以2。",
+      "features": "拔高题中，和与差往往不直接给出，需要通过“移多补少”“给完后还多或少”等条件推理出隐藏的差，考察学生的转化思维和画线段图分析能力。"
+    },
+    "example": {
+      "title": "小明和小强共有零花钱84元。如果小明给小强10元，那么小强比小明多4元。原来两人各有多少元？",
+      "think": "先根据“给10元后，小强比小明多4元”，逆推出原来小明比小强多多少元。这样就得到了和与差，再用公式求解。",
+      "steps": "1. 小明给小强10元后，小明减少10元，小强增加10元，两人的差改变了 10 + 10 = 20 元。\n2. 最后小强比小明多4元，说明原来小明比小强多 20 - 4 = 16 元。\n3. 所以原来两人的和是84元，差是16元。\n4. 小明（大数）：(84 + 16) ÷ 2 = 100 ÷ 2 = 50（元）\n5. 小强（小数）：(84 - 16) ÷ 2 = 68 ÷ 2 = 34（元）\n6. 检验：50 + 34 = 84，小明给10元后剩40元，小强变成44元，44 - 40 = 4，符合条件。",
+      "answer": "小明原有50元，小强原有34元。",
+      "summary": "解决这类“移多补少”后有关系的问题，关键是根据给的数量和最后相差的数，算出原来的差。口诀：给后相差多少，原来差等于给的数量乘2再减去（或加上）后来相差的数。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "和差问题综合",
+    "subtitle": "应用题 · 和差问题",
+    "problem": "小明和小强共有零花钱84元。如果小明给小强10元，那么小强比小明多4元。原来两人各有多少元？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "甲乙两筐苹果共重80千克，甲筐比乙筐多20千克。两筐各重多少千克？"
+  }
+}

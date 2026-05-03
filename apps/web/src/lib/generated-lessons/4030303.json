@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-4030303",
+  "knowledgePointId": 4030303,
+  "topicId": 40303,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "复杂盈亏问题",
+  "subtitle": "应用题 · 盈亏问题",
+  "intro": "复杂盈亏问题是指，在已知两种分配方案中，不仅分配结果（盈、亏、恰好分完）可能不同，而且两次分配所基于的“每份数量”也可能不统一（例如，一次按5个分，一次按6个分）的分配问题。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "盈亏问题"
+  },
+  "problemStatement": "两次分配不同、混合对象的复杂盈亏",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。先判断哪些条件能先求人数, 哪些条件要留到后面求总量或单价。不要一看到盈亏就立刻套公式, 先分清题目到底差了什么。",
+  "keyTakeaways": [
+    "**找不变量**：先确定“什么东西”在两次分配中数量是不变的。通常这个不变量就是“分配的对象”，比如“小朋友的人数”、“船的数量”。",
+    "**分步比较**：将第一种分配方案和第二种分配方案进行对比，找出两次分配的总差额（即“盈”与“亏”的总和，或“盈”与“盈”的差，或“亏”与“亏”的差）。",
+    "**算每份差**：算出两次分配方案中，每个“分配对象”得到的数量之差。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。",
+        "先判断哪些条件能先求人数, 哪些条件要留到后面求总量或单价。",
+        "不要一看到盈亏就立刻套公式, 先分清题目到底差了什么。"
+      ],
+      "caption": "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "4030303-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "幼儿园给小朋友分苹果。每人分3个，多出8个；每人分5个，就少4个。请问有多少个小朋友？一共有多少个苹果？",
+      "answer": "小朋友有6人，苹果有26个。",
+      "analysis": "1. 总差额：8 + 4 = 12（个）\n2. 每份差额：5 - 3 = 2（个）\n3. 人数：12 ÷ 2 = 6（人）\n4. 苹果数：6 × 3 + 8 = 18 + 8 = 26（个） 或 6 × 5 - 4 = 30 - 4 = 26（个）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030303-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "同学们去划船，如果每条船坐4人，则多出7人；如果每条船坐6人，则少5人。问一共有多少条船？一共有多少人？",
+      "answer": "船有6条，人有31人。",
+      "analysis": "1. 总差额：7 + 5 = 12（人）\n2. 每份差额：6 - 4 = 2（人）\n3. 船数：12 ÷ 2 = 6（条）\n4. 人数：6 × 4 + 7 = 24 + 7 = 31（人） 或 6 × 6 - 5 = 36 - 5 = 31（人）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030303-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "王老师给获奖学生发奖品。如果每人发8本笔记本，则多出4本；如果每人发9本笔记本，则少2本。请问获奖学生有多少人？笔记本一共有多少本？",
+      "answer": "获奖学生有6人，笔记本有52本。",
+      "analysis": "1. 总差额：4 + 2 = 6（本）\n2. 每份差额：9 - 8 = 1（本）\n3. 人数：6 ÷ 1 = 6（人）\n4. 笔记本数：6 × 8 + 4 = 48 + 4 = 52（本） 或 6 × 9 - 2 = 54 - 2 = 52（本）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "复杂盈亏问题",
+    "subtitle": "应用题 · 盈亏问题",
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "盈亏问题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "复杂盈亏问题是指，在已知两种分配方案中，不仅分配结果（盈、亏、恰好分完）可能不同，而且两次分配所基于的“每份数量”也可能不统一（例如，一次按5个分，一次按6个分）的分配问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "复杂盈亏问题是指，在已知两种分配方案中，不仅分配结果（盈、亏、恰好分完）可能不同，而且两次分配所基于的“每份数量”也可能不统一（例如，一次按5个分，一次按6个分）的分配问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "**找不变量**：先确定“什么东西”在两次分配中数量是不变的。通常这个不变量就是“分配的对象”，比如“小朋友的人数”、“船的数量”。",
+          "**分步比较**：将第一种分配方案和第二种分配方案进行对比，找出两次分配的总差额（即“盈”与“亏”的总和，或“盈”与“盈”的差，或“亏”与“亏”的差）。",
+          "**算每份差**：算出两次分配方案中，每个“分配对象”得到的数量之差。",
+          "**求份数**：用“总差额”除以“每份差”，就能得到不变的“分配对象”的数量。",
+          "**求总量**：最后再用任何一种分配方案去计算总数量。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。",
+          "核心关系：* 份数 = （盈 + 亏）÷ （两次每份分配数量的差） （这是一盈一亏的情况）",
+          "份数 = （大盈 - 小盈）÷ （两次每份分配数量的差） （这是两次都盈的情况）",
+          "份数 = （大亏 - 小亏）÷ （两次每份分配数量的差） （这是两次都亏的情况）"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "**混淆盈亏**：一定要分清“多出来的”是盈，“少了的”是亏。不能把负数当作亏。",
+          "**找错总差额**：当一次盈、一次亏时，总差额是两者之和；当两次都是盈或都是亏时，总差额是两者的差。这是一个高频错误点。",
+          "**单位不统一**：确保两次分配的“每份数量”是在同一个标准下比较的，比如都是“每人分几个”，或者都是“每船坐几人”。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高难度下的复杂盈亏问题，通常会结合“相等”或“倍数”关系进行设计。比如，一次分配后有剩余，另一次分配时剩余部分刚好够再补几个。或者，两次分配的对象数量并不直接给出，需要你根据“余”和“缺”的关系去推导。它要求孩子具备较强的理解题意和转化文字为数学关系的能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "复杂盈亏问题是指，在已知两种分配方案中，不仅分配结果（盈、亏、恰好分完）可能不同，而且两次分配所基于的“每份数量”也可能不统一（例如，一次按5个分，一次按6个分）的分配问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高难度下的复杂盈亏问题，通常会结合“相等”或“倍数”关系进行设计。比如，一次分配后有剩余，另一次分配时剩余部分刚好够再补几个。或者，两次分配的对象数量并不直接给出，需要你根据“余”和“缺”的关系去推导。它要求孩子具备较强的理解题意和转化文字为数学关系的能力。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "**找不变量**：先确定“什么东西”在两次分配中数量是不变的。通常这个不变量就是“分配的对象”，比如“小朋友的人数”、“船的数量”。",
+              "**分步比较**：将第一种分配方案和第二种分配方案进行对比，找出两次分配的总差额（即“盈”与“亏”的总和，或“盈”与“盈”的差，或“亏”与“亏”的差）。",
+              "**算每份差**：算出两次分配方案中，每个“分配对象”得到的数量之差。",
+              "**求份数**：用“总差额”除以“每份差”，就能得到不变的“分配对象”的数量。",
+              "**求总量**：最后再用任何一种分配方案去计算总数量。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。",
+              "核心关系：* 份数 = （盈 + 亏）÷ （两次每份分配数量的差） （这是一盈一亏的情况）",
+              "份数 = （大盈 - 小盈）÷ （两次每份分配数量的差） （这是两次都盈的情况）",
+              "份数 = （大亏 - 小亏）÷ （两次每份分配数量的差） （这是两次都亏的情况）"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "**混淆盈亏**：一定要分清“多出来的”是盈，“少了的”是亏。不能把负数当作亏。",
+              "**找错总差额**：当一次盈、一次亏时，总差额是两者之和；当两次都是盈或都是亏时，总差额是两者的差。这是一个高频错误点。",
+              "**单位不统一**：确保两次分配的“每份数量”是在同一个标准下比较的，比如都是“每人分几个”，或者都是“每船坐几人”。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "学校给一批学生分配铅笔。如果每人分5支，则多出10支；如果每人分6支，则缺少2支。请问这批学生有多少人？铅笔一共有多少支？",
+    "answer": "这批学生有12人，铅笔一共有70支。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "**确定盈与亏**：\n    *   第一种",
+        "explanation": "**确定盈与亏**：\n    *   第一种分配方案：每人5支，结果多10支（这是“盈”）。\n    *   第二种分配方案：每人6支，结果少2支（这是“亏”）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "**计算总差额**：\n    *   从“多",
+        "explanation": "**计算总差额**：\n    *   从“多10支”到“少2支”，总共需要多分出去多少支铅笔？\n    *   总差额 = 盈 + 亏 = 10 + 2 = 12（支）。\n    *   **解释**：第一次分完还剩10支，第二次分完还差2支。也就是说，第二次比第一次要多用掉 10 + 2 = 12 支铅笔。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "**计算每份差额**：\n    *   第二",
+        "explanation": "**计算每份差额**：\n    *   第二次比第一次，每人多分了多少支？ 6 - 5 = 1（支）。\n    *   **解释**：每人多分1支，所有学生加起来就会多用掉12支铅笔。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "**求出学生人数（份数）**：\n    * ",
+        "explanation": "**求出学生人数（份数）**：\n    *   学生人数 = 总差额 ÷ 每份差额 = 12 ÷ 1 = 12（人）。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "**求出铅笔总数（总量）**：\n    * ",
+        "explanation": "**求出铅笔总数（总量）**：\n    *   方法一（用第一种方案）：12 × 5 + 10 = 60 + 10 = 70（支）。\n    *   方法二（用第二种方案）：12 × 6 - 2 = 72 - 2 = 70（支）。\n    *   两种方法结果相同，计算正确。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "解决“一盈一亏”问题，核心公式是：**份数 = （盈 + 亏）÷ （两次每份分配数量的差）**。解题时先找到“盈”和“亏”的具体数值，再计算总差额，最后除以每个人（或每份）分到的差额，就能求出“份数”（即分配对象的人数）。记住，分清“盈”和“亏”是解题的关键第一步。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "4030303-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "幼儿园给小朋友分苹果。每人分3个，多出8个；每人分5个，就少4个。请问有多少个小朋友？一共有多少个苹果？",
+        "answer": "小朋友有6人，苹果有26个。",
+        "analysis": "1. 总差额：8 + 4 = 12（个）\n2. 每份差额：5 - 3 = 2（个）\n3. 人数：12 ÷ 2 = 6（人）\n4. 苹果数：6 × 3 + 8 = 18 + 8 = 26（个） 或 6 × 5 - 4 = 30 - 4 = 26（个）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030303-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "同学们去划船，如果每条船坐4人，则多出7人；如果每条船坐6人，则少5人。问一共有多少条船？一共有多少人？",
+        "answer": "船有6条，人有31人。",
+        "analysis": "1. 总差额：7 + 5 = 12（人）\n2. 每份差额：6 - 4 = 2（人）\n3. 船数：12 ÷ 2 = 6（条）\n4. 人数：6 × 4 + 7 = 24 + 7 = 31（人） 或 6 × 6 - 5 = 36 - 5 = 31（人）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030303-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "王老师给获奖学生发奖品。如果每人发8本笔记本，则多出4本；如果每人发9本笔记本，则少2本。请问获奖学生有多少人？笔记本一共有多少本？",
+        "answer": "获奖学生有6人，笔记本有52本。",
+        "analysis": "1. 总差额：4 + 2 = 6（本）\n2. 每份差额：9 - 8 = 1（本）\n3. 人数：6 ÷ 1 = 6（人）\n4. 笔记本数：6 × 8 + 4 = 48 + 4 = 52（本） 或 6 × 9 - 2 = 54 - 2 = 52（本）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。先判断哪些条件能先求人数, 哪些条件要留到后面求总量或单价。不要一看到盈亏就立刻套公式, 先分清题目到底差了什么。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。",
+          "先判断哪些条件能先求人数, 哪些条件要留到后面求总量或单价。",
+          "不要一看到盈亏就立刻套公式, 先分清题目到底差了什么。"
+        ],
+        "caption": "复杂盈亏题往往不止一次盈亏关系, 所以第一步要先把条件列表整理。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"400\" viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"400\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"40\" font-family=\"sans-serif\" font-size=\"20\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"black\">一盈一亏问题：分铅笔</text>\n\n  <!-- 学生示意图（12人） -->\n  <g transform=\"translate(20, 80)\">\n    <!-- 第一行6人 -->\n    <rect x=\"0\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"20\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">1</text>\n    <rect x=\"50\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"70\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">2</text>\n    <rect x=\"100\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"120\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">3</text>\n    <rect x=\"150\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"170\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">4</text>\n    <rect x=\"200\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"220\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">5</text>\n    <rect x=\"250\" y=\"0\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"270\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">6</text>\n    \n    <!-- 第二行6人 -->\n    <rect x=\"0\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"20\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">7</text>\n    <rect x=\"50\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"70\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">8</text>\n    <rect x=\"100\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"120\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">9</text>\n    <rect x=\"150\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"170\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">10</text>\n    <rect x=\"200\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"220\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">11</text>\n    <rect x=\"250\" y=\"60\" width=\"40\" height=\"50\" rx=\"5\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1.5\"/>\n    <text x=\"270\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">12</text>\n    \n    <!-- 说明文字 -->\n    <text x=\"0\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">学生：12人 (不变的份数)</text>\n  </g>\n\n  <!-- 第一次分配：每人5支，多10支 (蓝色) -->\n  <g transform=\"translate(20, 240)\">\n    <text x=\"0\" y=\"0\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"blue\">方案一：每人分 5 支</text>\n    <!-- 画一些铅笔示意图 -->\n    <g transform=\"translate(10, 10)\">\n      <rect x=\"0\" y=\"0\" width=\"15\" height=\"30\" fill=\"#FFD700\" stroke=\"orange\" stroke-width=\"1\"/>\n      <rect x=\"20\" y=\"0\" width=\"15\" height=\"30\" fill=\"#FFD700\" stroke=\"orange\" stroke-width=\"1\"/>\n      <text x=\"40\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">.. 分给12人</text>\n    </g>\n    <!-- 剩下的铅笔 -->\n    <g transform=\"translate(10, 50)\">\n      <rect x=\"0\" y=\"0\" width=\"15\" height=\"30\" fill=\"#ADD8E6\" stroke=\"blue\" stroke-width=\"1.5\"/>\n      <rect x=\"20\" y=\"0\" width=\"15\" height=\"30\" fill=\"#ADD8E6\" stroke=\"blue\" stroke-width=\"1.5\"/>\n      <rect x=\"40\" y=\"0\" width=\"15\" height=\"30\" fill=\"#ADD8E6\" stroke=\"blue\" stroke-width=\"1.5\"/>\n      <text x=\"60\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"blue\">盈：多 10 支</text>\n    </g>\n  </g>\n\n  <!-- 第二次分配：每人6支，缺2支 (红色) -->\n  <g transform=\"translate(300, 240)\">\n    <text x=\"0\" y=\"0\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"red\">方案二：每人分 6 支</text>\n    <!-- 画一些铅笔示意图 -->\n    <g transform=\"translate(10, 10)\">\n      <rect x=\"0\" y=\"0\" width=\"15\" height=\"30\" fill=\"#FFD700\" stroke=\"orange\" stroke-width=\"1\"/>\n      <rect x=\"20\" y=\"0\" width=\"15\" height=\"30\" fill=\"#FFD700\" stroke=\"orange\" stroke-width=\"1\"/>\n      <text x=\"40\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">.. 分给12人</text>\n    </g>\n    <!-- 缺少的铅笔 -->\n    <g transform=\"translate(10, 50)\">\n      <rect x=\"0\" y=\"0\" width=\"15\" height=\"30\" fill=\"none\" stroke=\"red\" stroke-width=\"1.5\" stroke-dasharray=\"5,5\"/>\n      <rect x=\"20\" y=\"0\" width=\"15\" height=\"30\" fill=\"none\" stroke=\"red\" stroke-width=\"1.5\" stroke-dasharray=\"5,5\"/>\n      <text x=\"40\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"red\">亏：少 2 支</text>\n    </g>\n  </g>\n\n  <!-- 结论 -->\n  <g transform=\"translate(20, 360)\">\n    <text x=\"0\" y=\"0\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"black\">结论：</text>\n    <text x=\"60\" y=\"0\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\">第二次比第一次多用 10 + 2 = 12 支</text>\n    <text x=\"60\" y=\"20\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\">每人多分 1 支，所以学生有 12 ÷ 1 = 12 人</text>\n  </g>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:22.581Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "复杂盈亏问题是指，在已知两种分配方案中，不仅分配结果（盈、亏、恰好分完）可能不同，而且两次分配所基于的“每份数量”也可能不统一（例如，一次按5个分，一次按6个分）的分配问题。",
+      "thinking": "*   **找不变量**：先确定“什么东西”在两次分配中数量是不变的。通常这个不变量就是“分配的对象”，比如“小朋友的人数”、“船的数量”。\n   *   **分步比较**：将第一种分配方案和第二种分配方案进行对比，找出两次分配的总差额（即“盈”与“亏”的总和，或“盈”与“盈”的差，或“亏”与“亏”的差）。\n   *   **算每份差**：算出两次分配方案中，每个“分配对象”得到的数量之差。\n   *   **求份数**：用“总差额”除以“每份差”，就能得到不变的“分配对象”的数量。\n   *   **求总量**：最后再用任何一种分配方案去计算总数量。",
+      "formula": "无固定公式，掌握思路即可。\n   *核心关系：* 份数 = （盈 + 亏）÷ （两次每份分配数量的差） （这是一盈一亏的情况）\n   *   份数 = （大盈 - 小盈）÷ （两次每份分配数量的差） （这是两次都盈的情况）\n   *   份数 = （大亏 - 小亏）÷ （两次每份分配数量的差） （这是两次都亏的情况）",
+      "mistakes": "*   **混淆盈亏**：一定要分清“多出来的”是盈，“少了的”是亏。不能把负数当作亏。\n   *   **找错总差额**：当一次盈、一次亏时，总差额是两者之和；当两次都是盈或都是亏时，总差额是两者的差。这是一个高频错误点。\n   *   **单位不统一**：确保两次分配的“每份数量”是在同一个标准下比较的，比如都是“每人分几个”，或者都是“每船坐几人”。",
+      "features": "拔高难度下的复杂盈亏问题，通常会结合“相等”或“倍数”关系进行设计。比如，一次分配后有剩余，另一次分配时剩余部分刚好够再补几个。或者，两次分配的对象数量并不直接给出，需要你根据“余”和“缺”的关系去推导。它要求孩子具备较强的理解题意和转化文字为数学关系的能力。"
+    },
+    "example": {
+      "title": "学校给一批学生分配铅笔。如果每人分5支，则多出10支；如果每人分6支，则缺少2支。请问这批学生有多少人？铅笔一共有多少支？",
+      "think": "这是典型的“一盈一亏”问题。盈是“多10支”，亏是“少2支”。两次分配每人相差1支。总差额除以每人差额，就是学生人数。",
+      "steps": "1.  **确定盈与亏**：\n    *   第一种分配方案：每人5支，结果多10支（这是“盈”）。\n    *   第二种分配方案：每人6支，结果少2支（这是“亏”）。\n\n2.  **计算总差额**：\n    *   从“多10支”到“少2支”，总共需要多分出去多少支铅笔？\n    *   总差额 = 盈 + 亏 = 10 + 2 = 12（支）。\n    *   **解释**：第一次分完还剩10支，第二次分完还差2支。也就是说，第二次比第一次要多用掉 10 + 2 = 12 支铅笔。\n\n3.  **计算每份差额**：\n    *   第二次比第一次，每人多分了多少支？ 6 - 5 = 1（支）。\n    *   **解释**：每人多分1支，所有学生加起来就会多用掉12支铅笔。\n\n4.  **求出学生人数（份数）**：\n    *   学生人数 = 总差额 ÷ 每份差额 = 12 ÷ 1 = 12（人）。\n\n5.  **求出铅笔总数（总量）**：\n    *   方法一（用第一种方案）：12 × 5 + 10 = 60 + 10 = 70（支）。\n    *   方法二（用第二种方案）：12 × 6 - 2 = 72 - 2 = 70（支）。\n    *   两种方法结果相同，计算正确。",
+      "answer": "这批学生有12人，铅笔一共有70支。",
+      "summary": "解决“一盈一亏”问题，核心公式是：**份数 = （盈 + 亏）÷ （两次每份分配数量的差）**。解题时先找到“盈”和“亏”的具体数值，再计算总差额，最后除以每个人（或每份）分到的差额，就能求出“份数”（即分配对象的人数）。记住，分清“盈”和“亏”是解题的关键第一步。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "复杂盈亏问题",
+    "subtitle": "应用题 · 盈亏问题",
+    "problem": "学校给一批学生分配铅笔。如果每人分5支，则多出10支；如果每人分6支，则缺少2支。请问这批学生有多少人？铅笔一共有多少支？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "幼儿园给小朋友分苹果。每人分3个，多出8个；每人分5个，就少4个。请问有多少个小朋友？一共有多少个苹果？"
+  }
+}

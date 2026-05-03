@@ -1,0 +1,357 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030202",
+  "knowledgePointId": 3030202,
+  "topicId": 30302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "差倍问题基本解法",
+  "subtitle": "应用题 · 和倍与差倍问题",
+  "intro": "差倍问题就是已知两个数的差以及它们之间的倍数关系，求这两个数分别是多少的问题。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题"
+  },
+  "problemStatement": "已知两数差与倍数关系，求两数",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "差倍问题的核心是先看“相差的部分”对应几倍。较大数比较小数多出来的, 正好就是倍数减1的那部分。先用差除以倍数差求出1倍量, 再反推两个数, 这样思路最稳。",
+  "keyTakeaways": [
+    "第一步：先找出两个数的差。",
+    "第二步：再找出这个差对应的倍数。用“倍数-1”求出差相当于较小数的几倍。",
+    "第三步：用“差 ÷（倍数-1）”求出较小的那个数（一倍量）。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "差倍问题的核心是先看“相差的部分”对应几倍。",
+        "较大数比较小数多出来的, 正好就是倍数减1的那部分。",
+        "先用差除以倍数差求出1倍量, 再反推两个数, 这样思路最稳。"
+      ],
+      "caption": "差倍问题的核心是先看“相差的部分”对应几倍。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030202-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "学校有足球和排球，足球比排球多18个，足球的个数是排球的4倍。足球和排球各有多少个？",
+      "answer": "排球6个，足球24个。",
+      "analysis": "1. 差18，倍数为4，差对应的倍数是4-1=3倍。\n2. 排球（1倍数）= 18 ÷ 3 = 6（个）。\n3. 足球（多倍数）= 6 × 4 = 24（个）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030202-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "奶奶养的母鸡比公鸡多24只，母鸡的只数是公鸡的3倍。奶奶养了多少只公鸡？多少只母鸡？",
+      "answer": "公鸡12只，母鸡36只。",
+      "analysis": "1. 差24，倍数为3，差对应的倍数是3-1=2倍。\n2. 公鸡（1倍数）= 24 ÷ 2 = 12（只）。\n3. 母鸡（多倍数）= 12 × 3 = 36（只）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030202-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "故事书比科技书多35本，故事书的本数是科技书的6倍。故事书和科技书一共有多少本？",
+      "answer": "49本。",
+      "analysis": "1. 差35，倍数为6，差对应的倍数是6-1=5倍。\n2. 科技书（1倍数）= 35 ÷ 5 = 7（本）。\n3. 故事书（多倍数）= 7 × 6 = 42（本）。\n4. 总本数 = 7 + 42 = 49（本）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "差倍问题基本解法",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "差倍问题就是已知两个数的差以及它们之间的倍数关系，求这两个数分别是多少的问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "差倍问题就是已知两个数的差以及它们之间的倍数关系，求这两个数分别是多少的问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "第一步：先找出两个数的差。",
+          "第二步：再找出这个差对应的倍数。用“倍数-1”求出差相当于较小数的几倍。",
+          "第三步：用“差 ÷（倍数-1）”求出较小的那个数（一倍量）。",
+          "第四步：用“较小数 × 倍数”求出较大的那个数（多倍量）。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "较小数（1倍数） = 差 ÷（倍数 - 1）",
+          "较大数（多倍数） = 较小数 × 倍数 或 较小数 + 差"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "❌ 容易找错差（比如把大减小搞反）。",
+          "❌ 容易写错单位，忘记带单位名称。",
+          "❌ 容易忘记“倍数-1”这一步，直接用差除以倍数。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "在基础难度下，题目给的数字较小，倍数关系非常直接（比如2倍、3倍、4倍），差也是整十整百数。重点考察孩子是否能准确找出“差”和“倍数”，并能套用公式进行简单的计算，没有复杂的变形或隐藏条件。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "差倍问题就是已知两个数的差以及它们之间的倍数关系，求这两个数分别是多少的问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "在基础难度下，题目给的数字较小，倍数关系非常直接（比如2倍、3倍、4倍），差也是整十整百数。重点考察孩子是否能准确找出“差”和“倍数”，并能套用公式进行简单的计算，没有复杂的变形或隐藏条件。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "第一步：先找出两个数的差。",
+              "第二步：再找出这个差对应的倍数。用“倍数-1”求出差相当于较小数的几倍。",
+              "第三步：用“差 ÷（倍数-1）”求出较小的那个数（一倍量）。",
+              "第四步：用“较小数 × 倍数”求出较大的那个数（多倍量）。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "较小数（1倍数） = 差 ÷（倍数 - 1）",
+              "较大数（多倍数） = 较小数 × 倍数 或 较小数 + 差"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "❌ 容易找错差（比如把大减小搞反）。",
+              "❌ 容易写错单位，忘记带单位名称。",
+              "❌ 容易忘记“倍数-1”这一步，直接用差除以倍数。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "爸爸买了一筐苹果和一筐梨。苹果比梨重20千克，苹果的重量是梨的3倍。苹果和梨各重多少千克？",
+    "answer": "梨重10千克，苹果重30千克。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "分析题意：苹果是梨的3倍，那么苹果比梨多了（",
+        "explanation": "分析题意：苹果是梨的3倍，那么苹果比梨多了（3-1）倍。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "求梨的重量（一倍量）：\n   差对应的倍数是",
+        "explanation": "求梨的重量（一倍量）：\n   差对应的倍数是 3-1 = 2倍。\n   梨的重量 = 差 ÷ 对应倍数 = 20 ÷ 2 = 10（千克）。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "求苹果的重量（多倍量）：\n   苹果的重量 ",
+        "explanation": "求苹果的重量（多倍量）：\n   苹果的重量 = 梨的重量 × 3倍 = 10 × 3 = 30（千克）。\n   或者 苹果重量 = 梨重量 + 差 = 10 + 20 = 30（千克）。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "验算：30 - 10 = 20，正好符合“苹",
+        "explanation": "验算：30 - 10 = 20，正好符合“苹果比梨重20千克”，正确。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "做差倍问题，先画图或直接想：找到“差”和“倍数差”，用除法先求出小的那个数（1倍数），再求出大的那个数（多倍数）。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030202-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "学校有足球和排球，足球比排球多18个，足球的个数是排球的4倍。足球和排球各有多少个？",
+        "answer": "排球6个，足球24个。",
+        "analysis": "1. 差18，倍数为4，差对应的倍数是4-1=3倍。\n2. 排球（1倍数）= 18 ÷ 3 = 6（个）。\n3. 足球（多倍数）= 6 × 4 = 24（个）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030202-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "奶奶养的母鸡比公鸡多24只，母鸡的只数是公鸡的3倍。奶奶养了多少只公鸡？多少只母鸡？",
+        "answer": "公鸡12只，母鸡36只。",
+        "analysis": "1. 差24，倍数为3，差对应的倍数是3-1=2倍。\n2. 公鸡（1倍数）= 24 ÷ 2 = 12（只）。\n3. 母鸡（多倍数）= 12 × 3 = 36（只）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030202-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "故事书比科技书多35本，故事书的本数是科技书的6倍。故事书和科技书一共有多少本？",
+        "answer": "49本。",
+        "analysis": "1. 差35，倍数为6，差对应的倍数是6-1=5倍。\n2. 科技书（1倍数）= 35 ÷ 5 = 7（本）。\n3. 故事书（多倍数）= 7 × 6 = 42（本）。\n4. 总本数 = 7 + 42 = 49（本）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "差倍问题的核心是先看“相差的部分”对应几倍。较大数比较小数多出来的, 正好就是倍数减1的那部分。先用差除以倍数差求出1倍量, 再反推两个数, 这样思路最稳。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "差倍问题的核心是先看“相差的部分”对应几倍。",
+          "较大数比较小数多出来的, 正好就是倍数减1的那部分。",
+          "先用差除以倍数差求出1倍量, 再反推两个数, 这样思路最稳。"
+        ],
+        "caption": "差倍问题的核心是先看“相差的部分”对应几倍。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"220\" viewBox=\"0 0 600 220\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"220\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">差倍问题线段图：苹果与梨</text>\n  \n  <!-- 第一行：梨（倍数小，且是1份） -->\n  <text x=\"40\" y=\"70\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\">梨：</text>\n  <!-- 梨的线段：长度代表1份 -->\n  <line x1=\"80\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"black\" stroke-width=\"4\"/>\n  <!-- 端点圆圈 -->\n  <circle cx=\"80\" cy=\"60\" r=\"3\" fill=\"black\"/>\n  <circle cx=\"180\" cy=\"60\" r=\"3\" fill=\"black\"/>\n  <!-- 标注：1份 -->\n  <text x=\"130\" y=\"90\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\" text-anchor=\"middle\">1份</text>\n  <!-- 标注梨的重量占位 -->\n  <text x=\"130\" y=\"50\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\" text-anchor=\"middle\">?千克</text>\n\n  <!-- 第二行：苹果（倍数大，是3份） -->\n  <text x=\"30\" y=\"130\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\">苹果：</text>\n  <!-- 苹果的线段：长度代表3份 -->\n  <line x1=\"80\" y1=\"120\" x2=\"380\" y2=\"120\" stroke=\"black\" stroke-width=\"4\"/>\n  <circle cx=\"80\" cy=\"120\" r=\"3\" fill=\"black\"/>\n  <circle cx=\"380\" cy=\"120\" r=\"3\" fill=\"black\"/>\n  <!-- 分段点 -->\n  <line x1=\"180\" y1=\"115\" x2=\"180\" y2=\"125\" stroke=\"gray\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/>\n  <line x1=\"280\" y1=\"115\" x2=\"280\" y2=\"125\" stroke=\"gray\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/>\n  <!-- 标注3份 -->\n  <text x=\"230\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\" text-anchor=\"middle\">3份</text>\n  <!-- 标注苹果重量 -->\n  <text x=\"230\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\" text-anchor=\"middle\">?千克</text>\n\n  <!-- 标注“差”的部分（红色大括号区域） -->\n  <!-- 从梨的终点（180）到苹果的终点（380）之间的部分，实际是2份 -->\n  <line x1=\"180\" y1=\"135\" x2=\"380\" y2=\"135\" stroke=\"red\" stroke-width=\"2\"/>\n  <!-- 红色括号示意 -->\n  <text x=\"280\" y=\"175\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"red\" text-anchor=\"middle\">差 20 千克</text>\n  <!-- 箭头 -->\n  <line x1=\"180\" y1=\"160\" x2=\"180\" y2=\"140\" stroke=\"red\" stroke-width=\"2\"/>\n  <line x1=\"380\" y1=\"160\" x2=\"380\" y2=\"140\" stroke=\"red\" stroke-width=\"2\"/>\n  \n  <!-- 标注倍数关系 -->\n  <text x=\"80\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\" text-anchor=\"start\">倍数关系：苹果是梨的3倍</text>\n  <text x=\"330\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" fill=\"red\" text-anchor=\"start\">20对应2份，1份=10千克</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.575Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "差倍问题就是已知两个数的差以及它们之间的倍数关系，求这两个数分别是多少的问题。",
+      "thinking": "*   第一步：先找出两个数的差。\n*   第二步：再找出这个差对应的倍数。用“倍数-1”求出差相当于较小数的几倍。\n*   第三步：用“差 ÷（倍数-1）”求出较小的那个数（一倍量）。\n*   第四步：用“较小数 × 倍数”求出较大的那个数（多倍量）。",
+      "formula": "*   较小数（1倍数） = 差 ÷（倍数 - 1）\n*   较大数（多倍数） = 较小数 × 倍数 或 较小数 + 差",
+      "mistakes": "*   ❌ 容易找错差（比如把大减小搞反）。\n*   ❌ 容易写错单位，忘记带单位名称。\n*   ❌ 容易忘记“倍数-1”这一步，直接用差除以倍数。",
+      "features": "在基础难度下，题目给的数字较小，倍数关系非常直接（比如2倍、3倍、4倍），差也是整十整百数。重点考察孩子是否能准确找出“差”和“倍数”，并能套用公式进行简单的计算，没有复杂的变形或隐藏条件。"
+    },
+    "example": {
+      "title": "爸爸买了一筐苹果和一筐梨。苹果比梨重20千克，苹果的重量是梨的3倍。苹果和梨各重多少千克？",
+      "think": "先找到差是20千克，倍数是3倍。用“差 ÷（倍数-1）”求出梨的重量（一倍量），再求苹果重量。",
+      "steps": "1. 分析题意：苹果是梨的3倍，那么苹果比梨多了（3-1）倍。\n2. 求梨的重量（一倍量）：\n   差对应的倍数是 3-1 = 2倍。\n   梨的重量 = 差 ÷ 对应倍数 = 20 ÷ 2 = 10（千克）。\n3. 求苹果的重量（多倍量）：\n   苹果的重量 = 梨的重量 × 3倍 = 10 × 3 = 30（千克）。\n   或者 苹果重量 = 梨重量 + 差 = 10 + 20 = 30（千克）。\n4. 验算：30 - 10 = 20，正好符合“苹果比梨重20千克”，正确。",
+      "answer": "梨重10千克，苹果重30千克。",
+      "summary": "做差倍问题，先画图或直接想：找到“差”和“倍数差”，用除法先求出小的那个数（1倍数），再求出大的那个数（多倍数）。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "差倍问题基本解法",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "problem": "爸爸买了一筐苹果和一筐梨。苹果比梨重20千克，苹果的重量是梨的3倍。苹果和梨各重多少千克？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "学校有足球和排球，足球比排球多18个，足球的个数是排球的4倍。足球和排球各有多少个？"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "versionTag": "video-workflow-video-batch-20260502113758-5ba4e6bd",
+  "catalogPath": "data/generated/content-releases/video-workflow-video-batch-20260502113758-5ba4e6bd/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/video-workflow-video-batch-20260502113758-5ba4e6bd/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/video-workflow-video-batch-20260502113758-5ba4e6bd/knowledge-point-media.json",
+  "approvedAiDraftCount": 19,
+  "catalogChecksum": "3d5bdbae3e5fe24103928b7cabe1017b4f963d26cf88d20f0a23b9f03241c16e",
+  "publishedAt": "2026-05-02T12:14:24.448Z"
+}

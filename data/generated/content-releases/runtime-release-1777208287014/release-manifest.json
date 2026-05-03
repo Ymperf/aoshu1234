@@ -1,0 +1,10 @@
+{
+  "versionTag": "runtime-release-1777208287014",
+  "catalogPath": "data/generated/content-releases/runtime-release-1777208287014/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/runtime-release-1777208287014/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/runtime-release-1777208287014/knowledge-point-media.json",
+  "approvedAiDraftCount": 18,
+  "catalogChecksum": "a873e256420092f096eb38b470d2a634a9ae5b8bce1dd16f3e94d894137649e2",
+  "publishedAt": "2026-04-26T12:58:13.336Z"
+}

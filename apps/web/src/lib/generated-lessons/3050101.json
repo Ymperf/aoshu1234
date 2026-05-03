@@ -1,0 +1,523 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3050101",
+  "knowledgePointId": 3050101,
+  "topicId": 30501,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "组合",
+  "title": "分类枚举",
+  "subtitle": "组合 · 枚举计数",
+  "intro": "分类枚举就是把所有可能的情况先分成几个类别，再在每个类别里一个一个地数出来，最后把每类的数量加起来得到总数。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "组合",
+    "topicName": "枚举计数"
+  },
+  "problemStatement": "按类别分情况枚举，不重不漏",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们好，欢迎来到今天的奥数小课堂。我是你们的老师。今天我们学习一个新知识叫做分类枚举。什么是分类枚举呢？就是把要数的东西先分成几类，然后一类一类地去数，最后把每一类的数量加起来。听起来很简单吧？\n\n我们来看一道例题。小红有两件上衣，一件红色，一件蓝色。还有三条裙子，黑色、白色和粉色。她每天穿一件上衣和一条裙子，一共有多少种不同的搭配呢？我们可以用分类枚举的方法。先按上衣来分，如果穿红色上衣，它能和哪几条裙子搭配呢？黑色、白色、粉色，一共有三种。如果穿蓝色上衣，同样可以搭配黑色、白色、粉色，也是三种。现在我们把两种上衣的搭配数量加起来，三加三等于六，所以一共有六种搭配。\n\n这道题的答案就是六种。做这种搭配题，先选一个东西当类别，比如上衣，然后一类一类地去列举另一个东西，最后相加，这就是分类枚举的思路。这个方法非常有用。\n\n下面我们做三道练习题。第一题，小明有三种口味的冰淇淋，香草、巧克力、草莓，还有两种配料，果仁和巧克力酱。选一种口味和一种配料，有多少种搭配？按口味分三类，每类有两种，一共六种。\n\n第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。分类看十位，如果十位是一，个位可以是零或二，得到十和十二。如果十位是二，个位可以是零或一，得到二十和二十一。一共四种。\n\n第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？按花的颜色分三类，每类两种，也是六种。\n\n小朋友们，今天学的分类枚举你学会了吗？以后遇到需要数一数有多少种情况的问题，记得先分类再枚举哦。好，我们下次再见。",
+  "keyTakeaways": [
+    "先确定分类的标准（比如按颜色、按位置、按数字等）。",
+    "然后每一类里，把所有可能的情况都列举出来，数出这一类有多少种。",
+    "最后把每一类的数量相加，就是总答案。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们好，欢迎来到今天的奥数小课堂。",
+        "我是你们的老师。",
+        "今天我们学习一个新知识叫做分类枚举。",
+        "什么是分类枚举呢？",
+        "就是把要数的东西先分成几类，然后一类一类地去数，最后把每一类的数量加起来。",
+        "听起来很简单吧？"
+      ],
+      "caption": "小朋友们好，欢迎来到今天的奥数小课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "我们来看一道例题。",
+        "小红有两件上衣，一件红色，一件蓝色。",
+        "还有三条裙子，黑色、白色和粉色。",
+        "她每天穿一件上衣和一条裙子，一共有多少种不同的搭配呢？",
+        "我们可以用分类枚举的方法。",
+        "先按上衣来分，如果穿红色上衣，它能和哪几条裙子搭配呢？",
+        "黑色、白色、粉色，一共有三种。",
+        "如果穿蓝色上衣，同样可以搭配黑色、白色、粉色，也是三种。",
+        "现在我们把两种上衣的搭配数量加起来，三加三等于六，所以一共有六种搭配。"
+      ],
+      "caption": "我们来看一道例题。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "这道题的答案就是六种。",
+        "做这种搭配题，先选一个东西当类别，比如上衣，然后一类一类地去列举另一个东西，最后相加，这就是分类枚举的思路。",
+        "这个方法非常有用。"
+      ],
+      "caption": "这道题的答案就是六种。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "下面我们做三道练习题。",
+        "第一题，小明有三种口味的冰淇淋，香草、巧克力、草莓，还有两种配料，果仁和巧克力酱。",
+        "选一种口味和一种配料，有多少种搭配？",
+        "按口味分三类，每类有两种，一共六种。"
+      ],
+      "caption": "下面我们做三道练习题。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。",
+        "分类看十位，如果十位是一，个位可以是零或二，得到十和十二。",
+        "如果十位是二，个位可以是零或一，得到二十和二十一。",
+        "一共四种。"
+      ],
+      "caption": "第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？",
+        "按花的颜色分三类，每类两种，也是六种。"
+      ],
+      "caption": "第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？"
+    },
+    {
+      "id": "scene_7",
+      "title": "练习巩固",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "练习巩固",
+      "narration": [
+        "小朋友们，今天学的分类枚举你学会了吗？",
+        "以后遇到需要数一数有多少种情况的问题，记得先分类再枚举哦。",
+        "好，我们下次再见。"
+      ],
+      "caption": "小朋友们，今天学的分类枚举你学会了吗？"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3050101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小明有3种口味的冰淇淋：香草、巧克力、草莓，还有2种配料：果仁、巧克力酱。他选一种口味和一种配料，有多少种不同的搭配？",
+      "answer": "6种",
+      "analysis": "按口味分类，香草口味可以搭配2种配料，巧克力口味搭配2种，草莓口味搭配2种，共2+2+2=6种。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3050101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "用数字0、1、2可以组成多少个不同的两位数？（注意：十位不能是0，每个数字只用一次）",
+      "answer": "4个",
+      "analysis": "分类：十位是1时，个位可以是0或2，得到10、12；十位是2时，个位可以是0或1，得到20、21。共2+2=4个。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3050101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "学校门口有3种颜色的花：红、黄、紫，还有2种花盆：圆形、方形。现在要用一种颜色的花种在一个花盆里，有多少种不同的种法？",
+      "answer": "6种",
+      "analysis": "按花的颜色分类，红色花可以种在圆形或方形花盆里（2种），黄色花2种，紫色花2种，共2+2+2=6种。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "分类枚举",
+    "subtitle": "组合 · 枚举计数",
+    "gradeName": "三年级",
+    "moduleName": "组合",
+    "topicName": "枚举计数",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "组合",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "分类枚举就是把所有可能的情况先分成几个类别，再在每个类别里一个一个地数出来，最后把每类的数量加起来得到总数。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "分类枚举就是把所有可能的情况先分成几个类别，再在每个类别里一个一个地数出来，最后把每类的数量加起来得到总数。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先确定分类的标准（比如按颜色、按位置、按数字等）。",
+          "然后每一类里，把所有可能的情况都列举出来，数出这一类有多少种。",
+          "最后把每一类的数量相加，就是总答案。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“先分类，再枚举，最后相加”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "分类时要做到不重复、不遗漏，每个情况只属于一个类别。",
+          "枚举时按顺序罗列，避免数错或漏数。",
+          "注意题目中是否有特殊限制（比如数字不能重复、十位不能是0等）。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的分类枚举，数字小、情况少，直接按一个简单的标准（如颜色、位置）分类，每类枚举不超过5种，重点训练“分类意识”和“有序枚举”的习惯。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "分类枚举就是把所有可能的情况先分成几个类别，再在每个类别里一个一个地数出来，最后把每类的数量加起来得到总数。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的分类枚举，数字小、情况少，直接按一个简单的标准（如颜色、位置）分类，每类枚举不超过5种，重点训练“分类意识”和“有序枚举”的习惯。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先确定分类的标准（比如按颜色、按位置、按数字等）。",
+              "然后每一类里，把所有可能的情况都列举出来，数出这一类有多少种。",
+              "最后把每一类的数量相加，就是总答案。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“先分类，再枚举，最后相加”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "分类时要做到不重复、不遗漏，每个情况只属于一个类别。",
+              "枚举时按顺序罗列，避免数错或漏数。",
+              "注意题目中是否有特殊限制（比如数字不能重复、十位不能是0等）。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "小红有2件上衣：红色和蓝色；有3条裙子：黑色、白色和粉色。她每天穿一件上衣和一条裙子，有多少种不同的搭配方式？",
+    "answer": "6种",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "如果穿红色上衣，可以搭配哪些裙子？",
+        "explanation": "如果穿红色上衣，可以搭配哪些裙子？\n   - 黑色裙子 → 一种搭配\n   - 白色裙子 → 一种搭配\n   - 粉色裙子 → 一种搭配\n   所以红色上衣有3种搭配。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "如果穿蓝色上衣，可以搭配哪些裙子？",
+        "explanation": "如果穿蓝色上衣，可以搭配哪些裙子？\n   - 黑色裙子 → 一种搭配\n   - 白色裙子 → 一种搭配\n   - 粉色裙子 → 一种搭配\n   所以蓝色上衣也有3种搭配。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "把两类的数量加起来：3 + 3 = 6（种）",
+        "explanation": "把两类的数量加起来：3 + 3 = 6（种）\n答：一共有6种不同的搭配方式。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到“搭配”类问题，可以先选一个物品当作“类别标准”，分好类后，在每一类里把另一个物品都试一遍，最后将每类的数量加起来。这就是分类枚举的基本思路。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3050101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小明有3种口味的冰淇淋：香草、巧克力、草莓，还有2种配料：果仁、巧克力酱。他选一种口味和一种配料，有多少种不同的搭配？",
+        "answer": "6种",
+        "analysis": "按口味分类，香草口味可以搭配2种配料，巧克力口味搭配2种，草莓口味搭配2种，共2+2+2=6种。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3050101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "用数字0、1、2可以组成多少个不同的两位数？（注意：十位不能是0，每个数字只用一次）",
+        "answer": "4个",
+        "analysis": "分类：十位是1时，个位可以是0或2，得到10、12；十位是2时，个位可以是0或1，得到20、21。共2+2=4个。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3050101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "学校门口有3种颜色的花：红、黄、紫，还有2种花盆：圆形、方形。现在要用一种颜色的花种在一个花盆里，有多少种不同的种法？",
+        "answer": "6种",
+        "analysis": "按花的颜色分类，红色花可以种在圆形或方形花盆里（2种），黄色花2种，紫色花2种，共2+2+2=6种。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们好，欢迎来到今天的奥数小课堂。我是你们的老师。今天我们学习一个新知识叫做分类枚举。什么是分类枚举呢？就是把要数的东西先分成几类，然后一类一类地去数，最后把每一类的数量加起来。听起来很简单吧？\n\n我们来看一道例题。小红有两件上衣，一件红色，一件蓝色。还有三条裙子，黑色、白色和粉色。她每天穿一件上衣和一条裙子，一共有多少种不同的搭配呢？我们可以用分类枚举的方法。先按上衣来分，如果穿红色上衣，它能和哪几条裙子搭配呢？黑色、白色、粉色，一共有三种。如果穿蓝色上衣，同样可以搭配黑色、白色、粉色，也是三种。现在我们把两种上衣的搭配数量加起来，三加三等于六，所以一共有六种搭配。\n\n这道题的答案就是六种。做这种搭配题，先选一个东西当类别，比如上衣，然后一类一类地去列举另一个东西，最后相加，这就是分类枚举的思路。这个方法非常有用。\n\n下面我们做三道练习题。第一题，小明有三种口味的冰淇淋，香草、巧克力、草莓，还有两种配料，果仁和巧克力酱。选一种口味和一种配料，有多少种搭配？按口味分三类，每类有两种，一共六种。\n\n第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。分类看十位，如果十位是一，个位可以是零或二，得到十和十二。如果十位是二，个位可以是零或一，得到二十和二十一。一共四种。\n\n第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？按花的颜色分三类，每类两种，也是六种。\n\n小朋友们，今天学的分类枚举你学会了吗？以后遇到需要数一数有多少种情况的问题，记得先分类再枚举哦。好，我们下次再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们好，欢迎来到今天的奥数小课堂。",
+          "我是你们的老师。",
+          "今天我们学习一个新知识叫做分类枚举。",
+          "什么是分类枚举呢？",
+          "就是把要数的东西先分成几类，然后一类一类地去数，最后把每一类的数量加起来。",
+          "听起来很简单吧？"
+        ],
+        "caption": "小朋友们好，欢迎来到今天的奥数小课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "我们来看一道例题。",
+          "小红有两件上衣，一件红色，一件蓝色。",
+          "还有三条裙子，黑色、白色和粉色。",
+          "她每天穿一件上衣和一条裙子，一共有多少种不同的搭配呢？",
+          "我们可以用分类枚举的方法。",
+          "先按上衣来分，如果穿红色上衣，它能和哪几条裙子搭配呢？",
+          "黑色、白色、粉色，一共有三种。",
+          "如果穿蓝色上衣，同样可以搭配黑色、白色、粉色，也是三种。",
+          "现在我们把两种上衣的搭配数量加起来，三加三等于六，所以一共有六种搭配。"
+        ],
+        "caption": "我们来看一道例题。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "这道题的答案就是六种。",
+          "做这种搭配题，先选一个东西当类别，比如上衣，然后一类一类地去列举另一个东西，最后相加，这就是分类枚举的思路。",
+          "这个方法非常有用。"
+        ],
+        "caption": "这道题的答案就是六种。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "下面我们做三道练习题。",
+          "第一题，小明有三种口味的冰淇淋，香草、巧克力、草莓，还有两种配料，果仁和巧克力酱。",
+          "选一种口味和一种配料，有多少种搭配？",
+          "按口味分三类，每类有两种，一共六种。"
+        ],
+        "caption": "下面我们做三道练习题。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。",
+          "分类看十位，如果十位是一，个位可以是零或二，得到十和十二。",
+          "如果十位是二，个位可以是零或一，得到二十和二十一。",
+          "一共四种。"
+        ],
+        "caption": "第二题，用数字零一二组成两位数，十位不能是零，每个数字用一次。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？",
+          "按花的颜色分三类，每类两种，也是六种。"
+        ],
+        "caption": "第三题，学校门口有三种颜色的花，红黄紫，两种花盆圆形方形，一种花种一个花盆，有多少种？"
+      },
+      {
+        "id": "scene_7",
+        "title": "练习巩固",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "练习巩固",
+        "narration": [
+          "小朋友们，今天学的分类枚举你学会了吗？",
+          "以后遇到需要数一数有多少种情况的问题，记得先分类再枚举哦。",
+          "好，我们下次再见。"
+        ],
+        "caption": "小朋友们，今天学的分类枚举你学会了吗？"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 320\" width=\"600\" height=\"320\">\n  <rect width=\"600\" height=\"320\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"35\" font-family=\"sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"black\" font-weight=\"bold\">搭配方式分类枚举图</text>\n  \n  <!-- 上衣分类（蓝色标注） -->\n  <rect x=\"50\" y=\"60\" width=\"100\" height=\"40\" rx=\"8\" fill=\"#4472C4\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"85\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"white\">红色上衣</text>\n  \n  <rect x=\"450\" y=\"60\" width=\"100\" height=\"40\" rx=\"8\" fill=\"#4472C4\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"500\" y=\"85\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"white\">蓝色上衣</text>\n  \n  <!-- 红色上衣的裙子分支 -->\n  <!-- 黑色裙子 -->\n  <line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"100\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">黑</text>\n  <!-- 白色裙子 -->\n  <line x1=\"100\" y1=\"100\" x2=\"200\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"200\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">白</text>\n  <!-- 粉色裙子 -->\n  <line x1=\"100\" y1=\"100\" x2=\"300\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"300\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">粉</text>\n  \n  <!-- 蓝色上衣的裙子分支 -->\n  <line x1=\"500\" y1=\"100\" x2=\"500\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"500\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"500\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">黑</text>\n  \n  <line x1=\"500\" y1=\"100\" x2=\"400\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"400\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"400\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">白</text>\n  \n  <line x1=\"500\" y1=\"100\" x2=\"300\" y2=\"140\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"300\" cy=\"155\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"black\">粉</text>\n  \n  <!-- 数量结果（红色标注） -->\n  <text x=\"100\" y=\"210\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"red\">3种</text>\n  <text x=\"500\" y=\"210\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"red\">3种</text>\n  \n  <!-- 总结果 -->\n  <rect x=\"200\" y=\"240\" width=\"200\" height=\"50\" rx=\"10\" fill=\"red\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"272\" font-family=\"sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\">总共 6 种</text>\n  \n  <!-- 加号 -->\n  <text x=\"300\" y=\"195\" font-family=\"sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"black\">+</text>\n  <line x1=\"220\" y1=\"200\" x2=\"380\" y2=\"200\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.960Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "分类枚举就是把所有可能的情况先分成几个类别，再在每个类别里一个一个地数出来，最后把每类的数量加起来得到总数。",
+      "thinking": "- 先确定分类的标准（比如按颜色、按位置、按数字等）。\n   - 然后每一类里，把所有可能的情况都列举出来，数出这一类有多少种。\n   - 最后把每一类的数量相加，就是总答案。",
+      "formula": "无固定公式，掌握“先分类，再枚举，最后相加”的思路即可。",
+      "mistakes": "- 分类时要做到不重复、不遗漏，每个情况只属于一个类别。\n   - 枚举时按顺序罗列，避免数错或漏数。\n   - 注意题目中是否有特殊限制（比如数字不能重复、十位不能是0等）。",
+      "features": "基础难度的分类枚举，数字小、情况少，直接按一个简单的标准（如颜色、位置）分类，每类枚举不超过5种，重点训练“分类意识”和“有序枚举”的习惯。"
+    },
+    "example": {
+      "title": "小红有2件上衣：红色和蓝色；有3条裙子：黑色、白色和粉色。她每天穿一件上衣和一条裙子，有多少种不同的搭配方式？",
+      "think": "先按上衣的颜色分类，红色一类，蓝色一类。在每一类里，分别枚举可以搭配的裙子，数出数量，最后相加。",
+      "steps": "第1步：如果穿红色上衣，可以搭配哪些裙子？\n   - 黑色裙子 → 一种搭配\n   - 白色裙子 → 一种搭配\n   - 粉色裙子 → 一种搭配\n   所以红色上衣有3种搭配。\n\n第2步：如果穿蓝色上衣，可以搭配哪些裙子？\n   - 黑色裙子 → 一种搭配\n   - 白色裙子 → 一种搭配\n   - 粉色裙子 → 一种搭配\n   所以蓝色上衣也有3种搭配。\n\n第3步：把两类的数量加起来：3 + 3 = 6（种）\n答：一共有6种不同的搭配方式。",
+      "answer": "6种",
+      "summary": "遇到“搭配”类问题，可以先选一个物品当作“类别标准”，分好类后，在每一类里把另一个物品都试一遍，最后将每类的数量加起来。这就是分类枚举的基本思路。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "分类枚举",
+    "subtitle": "组合 · 枚举计数",
+    "problem": "小红有2件上衣：红色和蓝色；有3条裙子：黑色、白色和粉色。她每天穿一件上衣和一条裙子，有多少种不同的搭配方式？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小明有3种口味的冰淇淋：香草、巧克力、草莓，还有2种配料：果仁、巧克力酱。他选一种口味和一种配料，有多少种不同的搭配？"
+  }
+}

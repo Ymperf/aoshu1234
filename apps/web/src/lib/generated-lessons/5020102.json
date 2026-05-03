@@ -1,0 +1,483 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5020102",
+  "knowledgePointId": 5020102,
+  "topicId": 50201,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "几何",
+  "title": "圆的面积计算",
+  "subtitle": "几何 · 圆与扇形初步",
+  "intro": "圆的面积是指圆所占平面的大小，通常用字母 S 表示。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "几何",
+    "topicName": "圆与扇形初步"
+  },
+  "problemStatement": "掌握圆面积公式 S=πr²",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，欢迎来到小学奥数课堂。今天我们来学习圆的面积计算。什么是圆的面积呢？就是圆所占平面的大小。我们要记住一个非常重要的公式：圆的面积等于圆周率π乘以半径的平方，通常π取3.14。注意，如果题目给的是直径，一定要先除以2求出半径再用公式。\n\n下面我们看一道例题。一个圆形花坛的半径是5米，求它的面积是多少平方米？首先写出公式S等于π乘以r乘以r。半径是5，那么5的平方就是25。接下来用3.14乘以25，3.14乘20等于62.8，3.14乘5等于15.7，加起来是78.5。所以花坛面积是78.5平方米。最后别忘了带上单位。\n\n这道题告诉我们，只要知道半径，直接套公式就能算出面积。如果知道直径，先除以2再计算。另外还要注意，圆的面积单位是平方单位，比如平方米。\n\n现在我们来做三道练习题巩固一下。第一题，圆形游泳池半径4米，面积是多少？答案是50.24平方米。第二题，圆形桌面的直径是2米，先求半径1米，面积3.14平方米。第三题，用31.4米的绳子绕大树一圈，先求半径5米，再求面积78.5平方米。同学们课后可以自己算一遍，熟能生巧。今天的课就到这里，我们下次再见。",
+  "keyTakeaways": [
+    "先确定圆的半径 r。",
+    "使用公式 S = π × r × r（即π乘以半径的平方）。",
+    "代入数值计算，注意 π 一般取 3.14。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，欢迎来到小学奥数课堂。",
+        "今天我们来学习圆的面积计算。",
+        "什么是圆的面积呢？",
+        "就是圆所占平面的大小。",
+        "我们要记住一个非常重要的公式：圆的面积等于圆周率π乘以半径的平方，通常π取3.14。",
+        "注意，如果题目给的是直径，一定要先除以2求出半径再用公式。"
+      ],
+      "caption": "同学们好，欢迎来到小学奥数课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "下面我们看一道例题。",
+        "一个圆形花坛的半径是5米，求它的面积是多少平方米？",
+        "首先写出公式S等于π乘以r乘以r。",
+        "半径是5，那么5的平方就是25。",
+        "接下来用3.14乘以25，3.14乘20等于62.8，3.14乘5等于15.7，加起来是78.5。",
+        "所以花坛面积是78.5平方米。",
+        "最后别忘了带上单位。"
+      ],
+      "caption": "下面我们看一道例题。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "这道题告诉我们，只要知道半径，直接套公式就能算出面积。",
+        "如果知道直径，先除以2再计算。",
+        "另外还要注意，圆的面积单位是平方单位，比如平方米。"
+      ],
+      "caption": "这道题告诉我们，只要知道半径，直接套公式就能算出面积。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "现在我们来做三道练习题巩固一下。",
+        "第一题，圆形游泳池半径4米，面积是多少？",
+        "答案是50.24平方米。",
+        "第二题，圆形桌面的直径是2米，先求半径1米，面积3.14平方米。",
+        "第三题，用31.4米的绳子绕大树一圈，先求半径5米，再求面积78.5平方米。",
+        "同学们课后可以自己算一遍，熟能生巧。",
+        "今天的课就到这里，我们下次再见。"
+      ],
+      "caption": "现在我们来做三道练习题巩固一下。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5020102-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "一个圆形游泳池的半径是4米，求它的面积是多少平方米？（π取3.14）",
+      "answer": "50.24平方米",
+      "analysis": "S = 3.14 × 4 × 4 = 3.14 × 16 = 50.24（平方米）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5020102-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一个圆形餐桌面的直径是2米，求桌面的面积是多少平方米？（π取3.14）",
+      "answer": "3.14平方米",
+      "analysis": "半径 r = 2 ÷ 2 = 1米；S = 3.14 × 1 × 1 = 3.14（平方米）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5020102-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "用一根长31.4米的绳子绕一棵大树一圈恰好绕完（无剩余），求大树的横截面面积是多少平方米？（π取3.14）",
+      "answer": "78.5平方米",
+      "analysis": "绳子长度等于大树横截面的周长，周长C = 31.4米，由 C = 2πr 得 r = 31.4 ÷ (2×3.14) = 31.4 ÷ 6.28 = 5米；面积 S = 3.14 × 5 × 5 = 78.5（平方米）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "圆的面积计算",
+    "subtitle": "几何 · 圆与扇形初步",
+    "gradeName": "五年级",
+    "moduleName": "几何",
+    "topicName": "圆与扇形初步",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "几何",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "圆的面积是指圆所占平面的大小，通常用字母 S 表示。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "圆的面积是指圆所占平面的大小，通常用字母 S 表示。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先确定圆的半径 r。",
+          "使用公式 S = π × r × r（即π乘以半径的平方）。",
+          "代入数值计算，注意 π 一般取 3.14。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "圆的面积公式：S = π r²（其中 π ≈ 3.14，r 是圆的半径）。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易把半径和直径搞混，如果题目给的是直径，一定要先除以2变成半径。",
+          "计算半径的平方时，要仔细，不要漏乘或错算。",
+          "忘记写面积单位（平方单位）。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的题目通常直接给出半径或直径，数字都是整数或简单小数，只需要一步或两步计算，重点考察公式的记忆和基本计算能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "圆的面积是指圆所占平面的大小，通常用字母 S 表示。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的题目通常直接给出半径或直径，数字都是整数或简单小数，只需要一步或两步计算，重点考察公式的记忆和基本计算能力。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先确定圆的半径 r。",
+              "使用公式 S = π × r × r（即π乘以半径的平方）。",
+              "代入数值计算，注意 π 一般取 3.14。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "圆的面积公式：S = π r²（其中 π ≈ 3.14，r 是圆的半径）。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易把半径和直径搞混，如果题目给的是直径，一定要先除以2变成半径。",
+              "计算半径的平方时，要仔细，不要漏乘或错算。",
+              "忘记写面积单位（平方单位）。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一个圆形花坛的半径是5米，求这个花坛的面积是多少平方米？（π取3.14）",
+    "answer": "78.5平方米",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "找出已知条件。",
+        "explanation": "找出已知条件。\n半径 r = 5 米，π = 3.14。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "写出面积公式。",
+        "explanation": "写出面积公式。\n圆的面积 S = π × r × r。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "把数字代入公式。",
+        "explanation": "把数字代入公式。\nS = 3.14 × 5 × 5。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "先计算 r × r，即 5 × 5 = 25",
+        "explanation": "先计算 r × r，即 5 × 5 = 25。\nS = 3.14 × 25。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "计算 3.14 × 25。",
+        "explanation": "计算 3.14 × 25。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "14 × 20 = 62.8",
+        "explanation": "14 × 20 = 62.8",
+        "icon": "6"
+      },
+      {
+        "id": "knowledge-data-step-7",
+        "title": "14 × 5 = 15.7",
+        "explanation": "14 × 5 = 15.7",
+        "icon": "7"
+      },
+      {
+        "id": "knowledge-data-step-8",
+        "title": "8 + 15.7 = 78.5。",
+        "explanation": "8 + 15.7 = 78.5。",
+        "icon": "8"
+      },
+      {
+        "id": "knowledge-data-step-9",
+        "title": "写出答案，并带上面积单位。",
+        "explanation": "写出答案，并带上面积单位。\nS = 78.5（平方米）。",
+        "icon": "9"
+      }
+    ],
+    "keyTakeaways": [
+      "已知半径求圆的面积，直接套用公式 S = π r²，先算半径的平方，再乘π，最后加上面积单位即可。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5020102-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "一个圆形游泳池的半径是4米，求它的面积是多少平方米？（π取3.14）",
+        "answer": "50.24平方米",
+        "analysis": "S = 3.14 × 4 × 4 = 3.14 × 16 = 50.24（平方米）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5020102-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一个圆形餐桌面的直径是2米，求桌面的面积是多少平方米？（π取3.14）",
+        "answer": "3.14平方米",
+        "analysis": "半径 r = 2 ÷ 2 = 1米；S = 3.14 × 1 × 1 = 3.14（平方米）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5020102-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "用一根长31.4米的绳子绕一棵大树一圈恰好绕完（无剩余），求大树的横截面面积是多少平方米？（π取3.14）",
+        "answer": "78.5平方米",
+        "analysis": "绳子长度等于大树横截面的周长，周长C = 31.4米，由 C = 2πr 得 r = 31.4 ÷ (2×3.14) = 31.4 ÷ 6.28 = 5米；面积 S = 3.14 × 5 × 5 = 78.5（平方米）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，欢迎来到小学奥数课堂。今天我们来学习圆的面积计算。什么是圆的面积呢？就是圆所占平面的大小。我们要记住一个非常重要的公式：圆的面积等于圆周率π乘以半径的平方，通常π取3.14。注意，如果题目给的是直径，一定要先除以2求出半径再用公式。\n\n下面我们看一道例题。一个圆形花坛的半径是5米，求它的面积是多少平方米？首先写出公式S等于π乘以r乘以r。半径是5，那么5的平方就是25。接下来用3.14乘以25，3.14乘20等于62.8，3.14乘5等于15.7，加起来是78.5。所以花坛面积是78.5平方米。最后别忘了带上单位。\n\n这道题告诉我们，只要知道半径，直接套公式就能算出面积。如果知道直径，先除以2再计算。另外还要注意，圆的面积单位是平方单位，比如平方米。\n\n现在我们来做三道练习题巩固一下。第一题，圆形游泳池半径4米，面积是多少？答案是50.24平方米。第二题，圆形桌面的直径是2米，先求半径1米，面积3.14平方米。第三题，用31.4米的绳子绕大树一圈，先求半径5米，再求面积78.5平方米。同学们课后可以自己算一遍，熟能生巧。今天的课就到这里，我们下次再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，欢迎来到小学奥数课堂。",
+          "今天我们来学习圆的面积计算。",
+          "什么是圆的面积呢？",
+          "就是圆所占平面的大小。",
+          "我们要记住一个非常重要的公式：圆的面积等于圆周率π乘以半径的平方，通常π取3.14。",
+          "注意，如果题目给的是直径，一定要先除以2求出半径再用公式。"
+        ],
+        "caption": "同学们好，欢迎来到小学奥数课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "下面我们看一道例题。",
+          "一个圆形花坛的半径是5米，求它的面积是多少平方米？",
+          "首先写出公式S等于π乘以r乘以r。",
+          "半径是5，那么5的平方就是25。",
+          "接下来用3.14乘以25，3.14乘20等于62.8，3.14乘5等于15.7，加起来是78.5。",
+          "所以花坛面积是78.5平方米。",
+          "最后别忘了带上单位。"
+        ],
+        "caption": "下面我们看一道例题。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "这道题告诉我们，只要知道半径，直接套公式就能算出面积。",
+          "如果知道直径，先除以2再计算。",
+          "另外还要注意，圆的面积单位是平方单位，比如平方米。"
+        ],
+        "caption": "这道题告诉我们，只要知道半径，直接套公式就能算出面积。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "现在我们来做三道练习题巩固一下。",
+          "第一题，圆形游泳池半径4米，面积是多少？",
+          "答案是50.24平方米。",
+          "第二题，圆形桌面的直径是2米，先求半径1米，面积3.14平方米。",
+          "第三题，用31.4米的绳子绕大树一圈，先求半径5米，再求面积78.5平方米。",
+          "同学们课后可以自己算一遍，熟能生巧。",
+          "今天的课就到这里，我们下次再见。"
+        ],
+        "caption": "现在我们来做三道练习题巩固一下。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\">\n  <!-- 白底 -->\n  <rect x=\"0\" y=\"0\" width=\"600\" height=\"400\" fill=\"white\"/>\n  <!-- 圆 -->\n  <circle cx=\"300\" cy=\"200\" r=\"150\" fill=\"none\" stroke=\"black\" stroke-width=\"3\"/>\n  <!-- 半径线段 -->\n  <line x1=\"300\" y1=\"200\" x2=\"300\" y2=\"50\" stroke=\"blue\" stroke-width=\"2.5\" stroke-dasharray=\"none\"/>\n  <!-- 圆心标注 -->\n  <circle cx=\"300\" cy=\"200\" r=\"4\" fill=\"black\"/>\n  <text x=\"310\" y=\"205\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\">O</text>\n  <!-- 半径标注 -->\n  <text x=\"310\" y=\"120\" font-family=\"sans-serif\" font-size=\"18\" fill=\"blue\" font-weight=\"bold\">r=5米</text>\n  <!-- 面积公式标注 -->\n  <text x=\"220\" y=\"380\" font-family=\"sans-serif\" font-size=\"20\" fill=\"red\" font-weight=\"bold\">S = π × 5² = 78.5 平方米</text>\n  <!-- 箭头指示 -->\n  <path d=\"M280,180 L280,50 L295,50\" fill=\"none\" stroke=\"blue\" stroke-width=\"1.5\" marker-end=\"url(#arrowBlue)\"/>\n  <defs>\n    <marker id=\"arrowBlue\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"4\" orient=\"auto\">\n      <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"blue\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.100Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "圆的面积是指圆所占平面的大小，通常用字母 S 表示。",
+      "thinking": "- 先确定圆的半径 r。\n   - 使用公式 S = π × r × r（即π乘以半径的平方）。\n   - 代入数值计算，注意 π 一般取 3.14。",
+      "formula": "圆的面积公式：S = π r²（其中 π ≈ 3.14，r 是圆的半径）。",
+      "mistakes": "- 容易把半径和直径搞混，如果题目给的是直径，一定要先除以2变成半径。\n   - 计算半径的平方时，要仔细，不要漏乘或错算。\n   - 忘记写面积单位（平方单位）。",
+      "features": "基础难度的题目通常直接给出半径或直径，数字都是整数或简单小数，只需要一步或两步计算，重点考察公式的记忆和基本计算能力。"
+    },
+    "example": {
+      "title": "一个圆形花坛的半径是5米，求这个花坛的面积是多少平方米？（π取3.14）",
+      "think": "已知半径，直接代入圆的面积公式 S = π × r × r 计算。",
+      "steps": "第一步：找出已知条件。\n半径 r = 5 米，π = 3.14。\n\n第二步：写出面积公式。\n圆的面积 S = π × r × r。\n\n第三步：把数字代入公式。\nS = 3.14 × 5 × 5。\n\n第四步：先计算 r × r，即 5 × 5 = 25。\nS = 3.14 × 25。\n\n第五步：计算 3.14 × 25。\n3.14 × 20 = 62.8\n3.14 × 5 = 15.7\n62.8 + 15.7 = 78.5。\n\n第六步：写出答案，并带上面积单位。\nS = 78.5（平方米）。",
+      "answer": "78.5平方米",
+      "summary": "已知半径求圆的面积，直接套用公式 S = π r²，先算半径的平方，再乘π，最后加上面积单位即可。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "圆的面积计算",
+    "subtitle": "几何 · 圆与扇形初步",
+    "problem": "一个圆形花坛的半径是5米，求这个花坛的面积是多少平方米？（π取3.14）",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "一个圆形游泳池的半径是4米，求它的面积是多少平方米？（π取3.14）"
+  }
+}

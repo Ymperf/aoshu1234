@@ -1,0 +1,116 @@
+{
+  "knowledgePoints": [
+    {
+      "id": 2030101,
+      "spokenScriptPath": "/media/knowledge-points/2030101-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/2030101-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/2030101-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/2030101-demo/lecture-poster.png"
+    },
+    {
+      "id": 2030102,
+      "spokenScriptPath": "/media/knowledge-points/2030102-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/2030102-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/2030102-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/2030102-demo/lecture-poster.png"
+    },
+    {
+      "id": 2030103,
+      "spokenScriptPath": "/media/knowledge-points/2030103-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/2030103-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/2030103-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/2030103-demo/lecture-poster.png"
+    },
+    {
+      "id": 2030104,
+      "spokenScriptPath": "/media/knowledge-points/2030104-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/2030104-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/2030104-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/2030104-demo/lecture-poster.png"
+    },
+    {
+      "id": 2050101,
+      "spokenScriptPath": "/media/knowledge-points/2050101-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/2050101-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/2050101-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/2050101-demo/lecture-poster.png"
+    },
+    {
+      "id": 3010101,
+      "spokenScriptPath": "/media/knowledge-points/3010101-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3010101-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3010101-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3010101-demo/lecture-poster.png"
+    },
+    {
+      "id": 3010102,
+      "spokenScriptPath": "/media/knowledge-points/3010102-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3010102-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3010102-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3010102-demo/lecture-poster.png"
+    },
+    {
+      "id": 3010103,
+      "spokenScriptPath": "/media/knowledge-points/3010103-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3010103-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3010103-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3010103-demo/lecture-poster.png"
+    },
+    {
+      "id": 3010104,
+      "spokenScriptPath": "/media/knowledge-points/3010104-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3010104-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3010104-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3010104-demo/lecture-poster.png"
+    },
+    {
+      "id": 3010105,
+      "spokenScriptPath": "/media/knowledge-points/3010105-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3010105-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3010105-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3010105-demo/lecture-poster.png"
+    },
+    {
+      "id": 3020101,
+      "spokenScriptPath": "/media/knowledge-points/3020101-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3020101-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3020101-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3020101-demo/lecture-poster.png"
+    },
+    {
+      "id": 3020102,
+      "spokenScriptPath": "/media/knowledge-points/3020102-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3020102-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3020102-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3020102-demo/lecture-poster.png"
+    },
+    {
+      "id": 3020103,
+      "spokenScriptPath": "/media/knowledge-points/3020103-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/3020103-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/3020103-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/3020103-demo/lecture-poster.png"
+    },
+    {
+      "id": 4030201,
+      "spokenScriptPath": "/media/knowledge-points/4030201-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/4030201-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/4030201-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/4030201-demo/lecture-poster.png"
+    },
+    {
+      "id": 6030104,
+      "spokenScriptPath": "/media/knowledge-points/6030104-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/6030104-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/6030104-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/6030104-demo/lecture-poster.png"
+    },
+    {
+      "id": 6030105,
+      "spokenScriptPath": "/media/knowledge-points/6030105-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/6030105-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/6030105-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/6030105-demo/lecture-poster.png"
+    }
+  ]
+}

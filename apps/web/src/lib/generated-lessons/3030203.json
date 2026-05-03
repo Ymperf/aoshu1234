@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030203",
+  "knowledgePointId": 3030203,
+  "topicId": 30302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "几倍多几 / 少几",
+  "subtitle": "应用题 · 和倍与差倍问题",
+  "intro": "已知两个数的和（或差），以及一个数是另一个数的几倍多几（或少几），求这两个数分别是多少的问题，叫“几倍多几 / 少几”问题。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题"
+  },
+  "problemStatement": "倍数关系中带多余或缺少部分的处理",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。先把额外的几去掉或补上, 把题目还原成标准倍数关系, 再按和倍或差倍的思路处理, 就不会混。",
+  "keyTakeaways": [
+    "把较小的数看作1份（标准量）。",
+    "用“和（或差）减去多的部分（或加上少的部分）”，使两个数正好成整倍数关系。",
+    "然后用除法求出1份是多少，再求出另一个数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。",
+        "先把额外的几去掉或补上, 把题目还原成标准倍数关系, 再按和倍或差倍的思路处理, 就不会混。"
+      ],
+      "caption": "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030203-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "果园里有苹果树和梨树共90棵，苹果树比梨树的3倍多10棵。苹果树和梨树各有多少棵？",
+      "answer": "苹果树70棵，梨树20棵。",
+      "analysis": "(90 - 10) ÷ (3 + 1) = 80 ÷ 4 = 20（棵梨树）；20 × 3 + 10 = 70（棵苹果树）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030203-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "学校合唱队和舞蹈队一共有80人，合唱队人数比舞蹈队的4倍少5人。合唱队和舞蹈队各有多少人？",
+      "answer": "合唱队63人，舞蹈队17人。",
+      "analysis": "(80 + 5) ÷ (4 + 1) = 85 ÷ 5 = 17（人舞蹈队）；17 × 4 - 5 = 68 - 5 = 63（人合唱队）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030203-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小明和小红共有邮票210张，小明给小红30张后，小明的邮票数比小红的3倍还多10张。原来两人各有多少张邮票？",
+      "answer": "小明原有190张，小红原有20张。",
+      "analysis": "抓住“给后”的关系：给后小红有x张，小明有(3x+10)张，和210不变。即x + 3x + 10 = 210，4x = 200，x = 50（给后小红）。小明给后：3×50+10=160张。则原来：小红50-30=20张，小明160+30=190张。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "几倍多几 / 少几",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "已知两个数的和（或差），以及一个数是另一个数的几倍多几（或少几），求这两个数分别是多少的问题，叫“几倍多几 / 少几”问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "已知两个数的和（或差），以及一个数是另一个数的几倍多几（或少几），求这两个数分别是多少的问题，叫“几倍多几 / 少几”问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "把较小的数看作1份（标准量）。",
+          "用“和（或差）减去多的部分（或加上少的部分）”，使两个数正好成整倍数关系。",
+          "然后用除法求出1份是多少，再求出另一个数。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "和倍多几：小数 = (和 - 多的数) ÷ (倍数 + 1)",
+          "和倍少几：小数 = (和 + 少的数) ÷ (倍数 + 1)",
+          "差倍多几：小数 = (差 - 多的数) ÷ (倍数 - 1)",
+          "差倍少几：小数 = (差 + 少的数) ÷ (倍数 - 1)"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易忘记先“调整”多出的部分或补上缺少的部分。",
+          "画线段图时，要把多的部分单独画出来，不要混在倍数段里。",
+          "最后要检验结果是否满足“几倍多几/少几”的条件。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度的题目数字稍大（两位数），需要学生自己判断是“和倍”还是“差倍”，并正确调整多出的或缺少的部分，步骤要求完整、规范。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "已知两个数的和（或差），以及一个数是另一个数的几倍多几（或少几），求这两个数分别是多少的问题，叫“几倍多几 / 少几”问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度的题目数字稍大（两位数），需要学生自己判断是“和倍”还是“差倍”，并正确调整多出的或缺少的部分，步骤要求完整、规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "把较小的数看作1份（标准量）。",
+              "用“和（或差）减去多的部分（或加上少的部分）”，使两个数正好成整倍数关系。",
+              "然后用除法求出1份是多少，再求出另一个数。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "和倍多几：小数 = (和 - 多的数) ÷ (倍数 + 1)",
+              "和倍少几：小数 = (和 + 少的数) ÷ (倍数 + 1)",
+              "差倍多几：小数 = (差 - 多的数) ÷ (倍数 - 1)",
+              "差倍少几：小数 = (差 + 少的数) ÷ (倍数 - 1)"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易忘记先“调整”多出的部分或补上缺少的部分。",
+              "画线段图时，要把多的部分单独画出来，不要混在倍数段里。",
+              "最后要检验结果是否满足“几倍多几/少几”的条件。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "学校图书馆买来科技书和故事书共120本。已知科技书比故事书的2倍多15本。科技书和故事书各有多少本？",
+    "answer": "故事书35本，科技书85本。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "分析数量关系：  \n   故事书：1份  \n",
+        "explanation": "分析数量关系：  \n   故事书：1份  \n   科技书：2份 + 15本  \n   一共：1份 + 2份 + 15本 = 3份 + 15本 = 120本",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "先调整：从总数中减去多的15本，得到正好是整",
+        "explanation": "先调整：从总数中减去多的15本，得到正好是整倍数的部分：  \n   120 - 15 = 105（本）",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "整倍数是3份，所以1份（故事书）是：  \n ",
+        "explanation": "整倍数是3份，所以1份（故事书）是：  \n   105 ÷ 3 = 35（本）",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "科技书是故事书的2倍多15本：  \n   3",
+        "explanation": "科技书是故事书的2倍多15本：  \n   35 × 2 + 15 = 70 + 15 = 85（本）",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "检验：科技书85本，故事书35本，一共85+",
+        "explanation": "检验：科技书85本，故事书35本，一共85+35=120本，科技书85=35×2+15，符合条件。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "解决“和倍多几”问题，关键是把多的部分先减去，让两个数变成整倍数关系，再求1份数。画线段图能帮助理解多出的部分。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030203-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "果园里有苹果树和梨树共90棵，苹果树比梨树的3倍多10棵。苹果树和梨树各有多少棵？",
+        "answer": "苹果树70棵，梨树20棵。",
+        "analysis": "(90 - 10) ÷ (3 + 1) = 80 ÷ 4 = 20（棵梨树）；20 × 3 + 10 = 70（棵苹果树）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030203-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "学校合唱队和舞蹈队一共有80人，合唱队人数比舞蹈队的4倍少5人。合唱队和舞蹈队各有多少人？",
+        "answer": "合唱队63人，舞蹈队17人。",
+        "analysis": "(80 + 5) ÷ (4 + 1) = 85 ÷ 5 = 17（人舞蹈队）；17 × 4 - 5 = 68 - 5 = 63（人合唱队）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030203-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小明和小红共有邮票210张，小明给小红30张后，小明的邮票数比小红的3倍还多10张。原来两人各有多少张邮票？",
+        "answer": "小明原有190张，小红原有20张。",
+        "analysis": "抓住“给后”的关系：给后小红有x张，小明有(3x+10)张，和210不变。即x + 3x + 10 = 210，4x = 200，x = 50（给后小红）。小明给后：3×50+10=160张。则原来：小红50-30=20张，小明160+30=190张。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。先把额外的几去掉或补上, 把题目还原成标准倍数关系, 再按和倍或差倍的思路处理, 就不会混。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。",
+          "先把额外的几去掉或补上, 把题目还原成标准倍数关系, 再按和倍或差倍的思路处理, 就不会混。"
+        ],
+        "caption": "遇到“几倍多几”或“几倍少几”, 不要把多出的或少掉的部分直接并进倍数里。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" viewBox=\"0 0 600 260\" style=\"background-color:white;\">\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\">线段图：科技书和故事书共120本</text>\n  \n  <!-- 故事书线段（1份） -->\n  <line x1=\"50\" y1=\"70\" x2=\"200\" y2=\"70\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"125\" y=\"60\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\">1份（故事书）</text>\n  <text x=\"125\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">35本</text>\n\n  <!-- 科技书线段（2份 + 多15本） -->\n  <line x1=\"50\" y1=\"130\" x2=\"350\" y2=\"130\" stroke=\"black\" stroke-width=\"3\"/>\n  <line x1=\"200\" y1=\"130\" x2=\"350\" y2=\"130\" stroke=\"black\" stroke-width=\"3\" stroke-dasharray=\"5,3\"/>\n  <!-- 第一份 -->\n  <line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"130\" stroke=\"black\" stroke-width=\"3\"/>\n  <!-- 第二份 -->\n  <line x1=\"150\" y1=\"130\" x2=\"250\" y2=\"130\" stroke=\"black\" stroke-width=\"3\"/>\n  <!-- 多出的15本 -->\n  <line x1=\"250\" y1=\"130\" x2=\"350\" y2=\"130\" stroke=\"blue\" stroke-width=\"4\"/>\n  <text x=\"300\" y=\"125\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">多15本</text>\n  <text x=\"300\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"blue\">85本</text>\n  <text x=\"120\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\">2份</text>\n\n  <!-- 大括号表示总数 -->\n  <line x1=\"50\" y1=\"170\" x2=\"50\" y2=\"180\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"350\" y1=\"170\" x2=\"350\" y2=\"180\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"50\" y1=\"180\" x2=\"350\" y2=\"180\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"200\" text-anchor=\"middle\" font-size=\"16\" font-family=\"sans-serif\" font-weight=\"bold\">总数120本</text>\n\n  <!-- 算式标注 -->\n  <text x=\"50\" y=\"230\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">先减多出的15本：120 − 15 = 105（本）</text>\n  <text x=\"50\" y=\"250\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">105 ÷ 3 = 35（本故事书）</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.596Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "已知两个数的和（或差），以及一个数是另一个数的几倍多几（或少几），求这两个数分别是多少的问题，叫“几倍多几 / 少几”问题。",
+      "thinking": "- 把较小的数看作1份（标准量）。  \n   - 用“和（或差）减去多的部分（或加上少的部分）”，使两个数正好成整倍数关系。  \n   - 然后用除法求出1份是多少，再求出另一个数。",
+      "formula": "- 和倍多几：小数 = (和 - 多的数) ÷ (倍数 + 1)  \n   - 和倍少几：小数 = (和 + 少的数) ÷ (倍数 + 1)  \n   - 差倍多几：小数 = (差 - 多的数) ÷ (倍数 - 1)  \n   - 差倍少几：小数 = (差 + 少的数) ÷ (倍数 - 1)",
+      "mistakes": "- 容易忘记先“调整”多出的部分或补上缺少的部分。  \n   - 画线段图时，要把多的部分单独画出来，不要混在倍数段里。  \n   - 最后要检验结果是否满足“几倍多几/少几”的条件。",
+      "features": "进阶难度的题目数字稍大（两位数），需要学生自己判断是“和倍”还是“差倍”，并正确调整多出的或缺少的部分，步骤要求完整、规范。"
+    },
+    "example": {
+      "title": "学校图书馆买来科技书和故事书共120本。已知科技书比故事书的2倍多15本。科技书和故事书各有多少本？",
+      "think": "这是一个“和倍多几”问题。把故事书的数量看作1份，那么科技书就是2份还多15本。总数120本里，如果减去多出的15本，剩下的就正好是(2+1)=3份。先求出1份（故事书），再求科技书。",
+      "steps": "1. 分析数量关系：  \n   故事书：1份  \n   科技书：2份 + 15本  \n   一共：1份 + 2份 + 15本 = 3份 + 15本 = 120本  \n2. 先调整：从总数中减去多的15本，得到正好是整倍数的部分：  \n   120 - 15 = 105（本）  \n3. 整倍数是3份，所以1份（故事书）是：  \n   105 ÷ 3 = 35（本）  \n4. 科技书是故事书的2倍多15本：  \n   35 × 2 + 15 = 70 + 15 = 85（本）  \n5. 检验：科技书85本，故事书35本，一共85+35=120本，科技书85=35×2+15，符合条件。",
+      "answer": "故事书35本，科技书85本。",
+      "summary": "解决“和倍多几”问题，关键是把多的部分先减去，让两个数变成整倍数关系，再求1份数。画线段图能帮助理解多出的部分。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "几倍多几 / 少几",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "problem": "学校图书馆买来科技书和故事书共120本。已知科技书比故事书的2倍多15本。科技书和故事书各有多少本？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "果园里有苹果树和梨树共90棵，苹果树比梨树的3倍多10棵。苹果树和梨树各有多少棵？"
+  }
+}

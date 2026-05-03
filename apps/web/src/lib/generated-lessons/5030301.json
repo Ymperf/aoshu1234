@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030301",
+  "knowledgePointId": 5030301,
+  "topicId": 50303,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "工作总量、效率、时间关系",
+  "subtitle": "应用题 · 工程问题",
+  "intro": "工程问题研究的是工作总量、工作效率和工作时间之间的关系，通常把一项工程的总量看作单位“1”。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "工程问题"
+  },
+  "problemStatement": "工作总量 = 效率 × 时间",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "工程问题的三要素是总量、效率、时间。统一把总工作量看成1后, “几天完成”就能翻译成“每天完成几分之几”。先写效率, 再谈合作或单独做, 整体思路会非常稳定。",
+  "keyTakeaways": [
+    "工作总量 = 工作效率 × 工作时间",
+    "工作效率 = 工作总量 ÷ 工作时间",
+    "工作时间 = 工作总量 ÷ 工作效率"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "工程问题的三要素是总量、效率、时间。",
+        "统一把总工作量看成1后, “几天完成”就能翻译成“每天完成几分之几”。",
+        "先写效率, 再谈合作或单独做, 整体思路会非常稳定。"
+      ],
+      "caption": "工程问题的三要素是总量、效率、时间。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030301-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "修一条公路，甲队单独修需要20天，乙队单独修需要30天。两队合修，多少天可以修完？",
+      "answer": "12天",
+      "analysis": "1. 工作总量看作1。\n2. 甲效率：1/20；乙效率：1/30。\n3. 合作效率：1/20+1/30=3/60+2/60=5/60=1/12。\n4. 合作时间：1÷(1/12)=12天。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030301-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一批零件，王师傅单独做需要8小时，李师傅单独做需要12小时。两人合作3小时后，还剩多少零件没有完成？（用分数表示）",
+      "answer": "3/8",
+      "analysis": "1. 工作总量看作1。\n2. 王效率：1/8；李效率：1/12。\n3. 合作效率：1/8+1/12=3/24+2/24=5/24。\n4. 3小时完成：5/24×3=15/24=5/8。\n5. 剩余：1-5/8=3/8。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030301-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "一项工程，甲单独做要12天，乙单独做要18天。现在甲先做3天，然后乙加入一起做，还需要几天完成？",
+      "answer": "5.4天（或写成27/5天）",
+      "analysis": "1. 工作总量为1。\n2. 甲效率：1/12；乙效率：1/18。\n3. 甲3天完成：1/12×3=3/12=1/4。\n4. 剩余：1-1/4=3/4。\n5. 合作效率：1/12+1/18=3/36+2/36=5/36。\n6. 还需时间：3/4 ÷ 5/36 = 3/4 × 36/5 = 108/20 = 27/5 = 5.4天。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "工作总量、效率、时间关系",
+    "subtitle": "应用题 · 工程问题",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "工程问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "工程问题研究的是工作总量、工作效率和工作时间之间的关系，通常把一项工程的总量看作单位“1”。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "工程问题研究的是工作总量、工作效率和工作时间之间的关系，通常把一项工程的总量看作单位“1”。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "工作总量 = 工作效率 × 工作时间",
+          "工作效率 = 工作总量 ÷ 工作时间",
+          "工作时间 = 工作总量 ÷ 工作效率",
+          "当两人合作时，总效率 = 甲效率 + 乙效率",
+          "通常把整项工作看作“1”，用分数表示效率。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "工作效率 = 1 ÷ 单独完成天数",
+          "合作时间 = 1 ÷ (甲效率 + 乙效率)"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "忘记把工作总量看作“1”，习惯用具体数字。",
+          "计算效率时，忘记用分数表示，导致小数错误。",
+          "合作时间误用相加天数，而不是效率相加。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的题目数字简单、整数或简单分数，直接套用公式，不涉及复杂变形，重点考察学生对“工作总量=1”的理解和分数加减运算。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "工程问题研究的是工作总量、工作效率和工作时间之间的关系，通常把一项工程的总量看作单位“1”。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的题目数字简单、整数或简单分数，直接套用公式，不涉及复杂变形，重点考察学生对“工作总量=1”的理解和分数加减运算。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "工作总量 = 工作效率 × 工作时间",
+              "工作效率 = 工作总量 ÷ 工作时间",
+              "工作时间 = 工作总量 ÷ 工作效率",
+              "当两人合作时，总效率 = 甲效率 + 乙效率",
+              "通常把整项工作看作“1”，用分数表示效率。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "工作效率 = 1 ÷ 单独完成天数",
+              "合作时间 = 1 ÷ (甲效率 + 乙效率)"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "忘记把工作总量看作“1”，习惯用具体数字。",
+              "计算效率时，忘记用分数表示，导致小数错误。",
+              "合作时间误用相加天数，而不是效率相加。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一项工作，甲单独做需要10天完成，乙单独做需要15天完成。如果甲、乙两人合作，需要多少天完成？",
+    "answer": "6天",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "把这项工作看作单位“1”。",
+        "explanation": "把这项工作看作单位“1”。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "甲单独10天完成，甲的工作效率 = 1 ÷ ",
+        "explanation": "甲单独10天完成，甲的工作效率 = 1 ÷ 10 = 1/10（每天完成十分之一）。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "乙单独15天完成，乙的工作效率 = 1 ÷ ",
+        "explanation": "乙单独15天完成，乙的工作效率 = 1 ÷ 15 = 1/15（每天完成十五分之一）。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "甲乙合作，一天完成的工作量 = 1/10 +",
+        "explanation": "甲乙合作，一天完成的工作量 = 1/10 + 1/15。\n   - 先通分：分母10和15的最小公倍数是30。\n   - 1/10 = 3/30，1/15 = 2/30。\n   - 相加得 3/30 + 2/30 = 5/30 = 1/6。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "合作效率是每天完成1/6，那么合作时间 = ",
+        "explanation": "合作效率是每天完成1/6，那么合作时间 = 1 ÷ (1/6) = 6天。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "答：甲乙合作需要6天完成。",
+        "explanation": "答：甲乙合作需要6天完成。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "解答工程问题的关键是先求出每人每天的工作效率（分数），再根据问题求合作时间、单独时间或总量。牢记“工作总量=1”这个基本思路。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030301-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "修一条公路，甲队单独修需要20天，乙队单独修需要30天。两队合修，多少天可以修完？",
+        "answer": "12天",
+        "analysis": "1. 工作总量看作1。\n2. 甲效率：1/20；乙效率：1/30。\n3. 合作效率：1/20+1/30=3/60+2/60=5/60=1/12。\n4. 合作时间：1÷(1/12)=12天。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030301-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一批零件，王师傅单独做需要8小时，李师傅单独做需要12小时。两人合作3小时后，还剩多少零件没有完成？（用分数表示）",
+        "answer": "3/8",
+        "analysis": "1. 工作总量看作1。\n2. 王效率：1/8；李效率：1/12。\n3. 合作效率：1/8+1/12=3/24+2/24=5/24。\n4. 3小时完成：5/24×3=15/24=5/8。\n5. 剩余：1-5/8=3/8。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030301-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "一项工程，甲单独做要12天，乙单独做要18天。现在甲先做3天，然后乙加入一起做，还需要几天完成？",
+        "answer": "5.4天（或写成27/5天）",
+        "analysis": "1. 工作总量为1。\n2. 甲效率：1/12；乙效率：1/18。\n3. 甲3天完成：1/12×3=3/12=1/4。\n4. 剩余：1-1/4=3/4。\n5. 合作效率：1/12+1/18=3/36+2/36=5/36。\n6. 还需时间：3/4 ÷ 5/36 = 3/4 × 36/5 = 108/20 = 27/5 = 5.4天。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "工程问题的三要素是总量、效率、时间。统一把总工作量看成1后, “几天完成”就能翻译成“每天完成几分之几”。先写效率, 再谈合作或单独做, 整体思路会非常稳定。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "工程问题的三要素是总量、效率、时间。",
+          "统一把总工作量看成1后, “几天完成”就能翻译成“每天完成几分之几”。",
+          "先写效率, 再谈合作或单独做, 整体思路会非常稳定。"
+        ],
+        "caption": "工程问题的三要素是总量、效率、时间。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"180\" viewBox=\"0 0 600 180\">\n  <rect width=\"600\" height=\"180\" fill=\"white\"/>\n  <!-- 表示工作总量的线段 -->\n  <line x1=\"50\" y1=\"60\" x2=\"550\" y2=\"60\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"280\" y=\"50\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"black\">工作总量：1（整条线段）</text>\n  <!-- 甲每天效率 1/10 标注 -->\n  <line x1=\"50\" y1=\"80\" x2=\"100\" y2=\"80\" stroke=\"blue\" stroke-width=\"4\"/>\n  <text x=\"75\" y=\"95\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">甲每天 1/10</text>\n  <!-- 乙每天效率 1/15 标注 -->\n  <line x1=\"50\" y1=\"110\" x2=\"86.7\" y2=\"110\" stroke=\"blue\" stroke-width=\"4\"/>\n  <text x=\"68\" y=\"128\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">乙每天 1/15</text>\n  <!-- 合作效率 1/6 标注，用红色 -->\n  <line x1=\"50\" y1=\"140\" x2=\"150\" y2=\"140\" stroke=\"red\" stroke-width=\"5\"/>\n  <text x=\"100\" y=\"160\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"red\">合作每天 1/6 → 6天完成</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.483Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "工程问题研究的是工作总量、工作效率和工作时间之间的关系，通常把一项工程的总量看作单位“1”。",
+      "thinking": "- 工作总量 = 工作效率 × 工作时间\n   - 工作效率 = 工作总量 ÷ 工作时间\n   - 工作时间 = 工作总量 ÷ 工作效率\n   - 当两人合作时，总效率 = 甲效率 + 乙效率\n   - 通常把整项工作看作“1”，用分数表示效率。",
+      "formula": "- 工作效率 = 1 ÷ 单独完成天数\n   - 合作时间 = 1 ÷ (甲效率 + 乙效率)",
+      "mistakes": "- 忘记把工作总量看作“1”，习惯用具体数字。\n   - 计算效率时，忘记用分数表示，导致小数错误。\n   - 合作时间误用相加天数，而不是效率相加。",
+      "features": "基础难度的题目数字简单、整数或简单分数，直接套用公式，不涉及复杂变形，重点考察学生对“工作总量=1”的理解和分数加减运算。"
+    },
+    "example": {
+      "title": "一项工作，甲单独做需要10天完成，乙单独做需要15天完成。如果甲、乙两人合作，需要多少天完成？",
+      "think": "先分别求出甲和乙每天完成的工作量（工作效率），然后相加得到合作效率，再用工作总量“1”除以合作效率，得到合作时间。",
+      "steps": "1. 把这项工作看作单位“1”。\n2. 甲单独10天完成，甲的工作效率 = 1 ÷ 10 = 1/10（每天完成十分之一）。\n3. 乙单独15天完成，乙的工作效率 = 1 ÷ 15 = 1/15（每天完成十五分之一）。\n4. 甲乙合作，一天完成的工作量 = 1/10 + 1/15。\n   - 先通分：分母10和15的最小公倍数是30。\n   - 1/10 = 3/30，1/15 = 2/30。\n   - 相加得 3/30 + 2/30 = 5/30 = 1/6。\n5. 合作效率是每天完成1/6，那么合作时间 = 1 ÷ (1/6) = 6天。\n6. 答：甲乙合作需要6天完成。",
+      "answer": "6天",
+      "summary": "解答工程问题的关键是先求出每人每天的工作效率（分数），再根据问题求合作时间、单独时间或总量。牢记“工作总量=1”这个基本思路。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "工作总量、效率、时间关系",
+    "subtitle": "应用题 · 工程问题",
+    "problem": "一项工作，甲单独做需要10天完成，乙单独做需要15天完成。如果甲、乙两人合作，需要多少天完成？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "修一条公路，甲队单独修需要20天，乙队单独修需要30天。两队合修，多少天可以修完？"
+  }
+}

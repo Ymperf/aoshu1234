@@ -1,0 +1,11 @@
+{
+  "knowledgePoints": [
+    {
+      "id": 4030201,
+      "spokenScriptPath": "/media/knowledge-points/4030201-demo/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/4030201-demo/lecture.mp3",
+      "videoUrl": "/media/knowledge-points/4030201-demo/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/4030201-demo/lecture-poster.png"
+    }
+  ]
+}

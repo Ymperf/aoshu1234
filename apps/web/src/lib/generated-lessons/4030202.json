@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-4030202",
+  "knowledgePointId": 4030202,
+  "topicId": 40302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "假设法解题",
+  "subtitle": "应用题 · 鸡兔同笼进阶",
+  "intro": "假设法解题，就是先假设所有动物都是同一种，再根据腿数差异算出另一种的数量。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "鸡兔同笼进阶"
+  },
+  "problemStatement": "用假设法统一一种动物，再调整脚数",
+  "knownConditions": [],
+  "targetQuestion": "求出鸡和兔各有多少只",
+  "corePrinciples": [
+    "知道为什么这类题要重点看腿数",
+    "掌握假设全是鸡的解题思路",
+    "理解为什么多出来的腿数要除以2"
+  ],
+  "coreFormulas": [
+    "假设全是鸡：总只数 × 2",
+    "兔数 = （实际腿数 - 假设腿数）÷ 2",
+    "鸡数 = 总只数 - 兔数"
+  ],
+  "stepSummary": [
+    {
+      "title": "读题并找出已知条件",
+      "description": "题目告诉我们，鸡和兔一共有35个头，94条腿。"
+    },
+    {
+      "title": "说明为什么重点看腿数",
+      "description": "鸡和兔都有1个头，只看头数分不出谁多谁少。鸡有2条腿，兔有4条腿，所以腿数更关键。"
+    },
+    {
+      "title": "先假设全是鸡",
+      "description": "先假设35只全都是鸡，这样每只都有2条腿。"
+    },
+    {
+      "title": "计算假设情况下的腿数",
+      "description": "如果35只全是鸡，那腿数应该是35乘2，等于70。"
+    },
+    {
+      "title": "求实际腿数和基准腿数的差",
+      "description": "实际有94条腿，比假设全是鸡时的70条腿多24条。"
+    },
+    {
+      "title": "解释为什么要除以2",
+      "description": "把一只鸡换成一只兔，腿数会多2条，因为鸡2条腿，兔4条腿。所以多出来的24条腿，每2条对应1只兔。"
+    }
+  ],
+  "tips": [
+    "先假设全是鸡，再通过腿数差来计算。",
+    "要先看每换一只鸡成兔会多2条腿，再用24除以2。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。先假设全部相同, 找出和实际条件的差距, 再看每调整一次会改变多少, 最后用总差除以每次变化量求答案。",
+  "keyTakeaways": [
+    "先假设全是鸡（或全是兔），算出假设情况下的腿数。",
+    "比较假设腿数与实际腿数的差。",
+    "每把一只鸡换成一只兔，腿数增加2条（或每把一只兔换成一只鸡，腿数减少2条）。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。",
+        "先假设全部相同, 找出和实际条件的差距, 再看每调整一次会改变多少, 最后用总差除以每次变化量求答案。"
+      ],
+      "caption": "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "4030202-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "笼子里有鸡和兔共10个头，32条腿。鸡和兔各有多少只？",
+      "answer": "鸡4只，兔6只。",
+      "analysis": "假设全是鸡：10×2=20条腿；差32-20=12条；每只兔多2条腿；兔=12÷2=6只；鸡=10-6=4只。检验：4×2+6×4=8+24=32，正确。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030202-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "停车场里有自行车和三轮车共12辆，一共有33个轮子。自行车和三轮车各有多少辆？",
+      "answer": "自行车3辆，三轮车9辆。",
+      "analysis": "假设全是自行车：12×2=24个轮子；差33-24=9个；每辆三轮车多1个轮子；三轮车=9÷1=9辆；自行车=12-9=3辆。检验：3×2+9×3=6+27=33，正确。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4030202-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "学校买来篮球和排球共8个，一共花了310元。篮球每个45元，排球每个35元。篮球和排球各买了多少个？",
+      "answer": "篮球3个，排球5个。",
+      "analysis": "假设全是排球：8×35=280元；差310-280=30元；篮球比排球贵10元；篮球=30÷10=3个；排球=8-3=5个。检验：3×45+5×35=135+175=310，正确。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "假设法解题",
+    "subtitle": "应用题 · 鸡兔同笼进阶",
+    "gradeName": "四年级",
+    "moduleName": "应用题",
+    "topicName": "鸡兔同笼进阶",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "假设法解题，就是先假设所有动物都是同一种，再根据腿数差异算出另一种的数量。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "假设法解题，就是先假设所有动物都是同一种，再根据腿数差异算出另一种的数量。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先假设全是鸡（或全是兔），算出假设情况下的腿数。",
+          "比较假设腿数与实际腿数的差。",
+          "每把一只鸡换成一只兔，腿数增加2条（或每把一只兔换成一只鸡，腿数减少2条）。",
+          "用总腿数差除以每只动物腿数差，得到另一种动物的数量。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。核心步骤：假设→比较→调整→算出答案。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意腿数差：鸡2条腿，兔4条腿，每换一只相差2条腿。",
+          "求出的数量是“另一种动物”的只数，不要搞反。",
+          "最后一定要检查总头数和总腿数是否一致。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "数字简单（如头和腿都是整数，腿数差好算），题目直接给出总头数和总腿数，不拐弯，重点考察假设法的基础操作步骤。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "假设法解题，就是先假设所有动物都是同一种，再根据腿数差异算出另一种的数量。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "数字简单（如头和腿都是整数，腿数差好算），题目直接给出总头数和总腿数，不拐弯，重点考察假设法的基础操作步骤。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先假设全是鸡（或全是兔），算出假设情况下的腿数。",
+              "比较假设腿数与实际腿数的差。",
+              "每把一只鸡换成一只兔，腿数增加2条（或每把一只兔换成一只鸡，腿数减少2条）。",
+              "用总腿数差除以每只动物腿数差，得到另一种动物的数量。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。核心步骤：假设→比较→调整→算出答案。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意腿数差：鸡2条腿，兔4条腿，每换一只相差2条腿。",
+              "求出的数量是“另一种动物”的只数，不要搞反。",
+              "最后一定要检查总头数和总腿数是否一致。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "鸡和兔关在一个笼子里，从上面数，有8个头；从下面数，有26条腿。请问鸡和兔各有多少只？",
+    "answer": "鸡有3只，兔有5只。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "假设8只全是鸡，那么腿数 = 8 × 2 =",
+        "explanation": "假设8只全是鸡，那么腿数 = 8 × 2 = 16（条）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "实际有26条腿，比假设多了：26 - 16 ",
+        "explanation": "实际有26条腿，比假设多了：26 - 16 = 10（条）。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "每把一只鸡换成一只兔，腿数增加：4 - 2 ",
+        "explanation": "每把一只鸡换成一只兔，腿数增加：4 - 2 = 2（条）。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "需要换成的兔的只数 = 10 ÷ 2 = 5",
+        "explanation": "需要换成的兔的只数 = 10 ÷ 2 = 5（只）。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "鸡的只数 = 总头数 - 兔的只数 = 8 ",
+        "explanation": "鸡的只数 = 总头数 - 兔的只数 = 8 - 5 = 3（只）。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "检验：3只鸡有3×2=6条腿，5只兔有5×4",
+        "explanation": "检验：3只鸡有3×2=6条腿，5只兔有5×4=20条腿，一共6+20=26条腿，正确。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "假设全是鸡，算出腿数差，再用腿数差除以每只兔比鸡多的2条腿，得出兔的只数。反过来假设全是兔也可以。记住：差÷单差=另一种的数量。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "4030202-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "笼子里有鸡和兔共10个头，32条腿。鸡和兔各有多少只？",
+        "answer": "鸡4只，兔6只。",
+        "analysis": "假设全是鸡：10×2=20条腿；差32-20=12条；每只兔多2条腿；兔=12÷2=6只；鸡=10-6=4只。检验：4×2+6×4=8+24=32，正确。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030202-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "停车场里有自行车和三轮车共12辆，一共有33个轮子。自行车和三轮车各有多少辆？",
+        "answer": "自行车3辆，三轮车9辆。",
+        "analysis": "假设全是自行车：12×2=24个轮子；差33-24=9个；每辆三轮车多1个轮子；三轮车=9÷1=9辆；自行车=12-9=3辆。检验：3×2+9×3=6+27=33，正确。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4030202-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "学校买来篮球和排球共8个，一共花了310元。篮球每个45元，排球每个35元。篮球和排球各买了多少个？",
+        "answer": "篮球3个，排球5个。",
+        "analysis": "假设全是排球：8×35=280元；差310-280=30元；篮球比排球贵10元；篮球=30÷10=3个；排球=8-3=5个。检验：3×45+5×35=135+175=310，正确。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。先假设全部相同, 找出和实际条件的差距, 再看每调整一次会改变多少, 最后用总差除以每次变化量求答案。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。",
+          "先假设全部相同, 找出和实际条件的差距, 再看每调整一次会改变多少, 最后用总差除以每次变化量求答案。"
+        ],
+        "caption": "假设法不只是鸡兔同笼能用, 它的本质是把复杂情况先变成统一情况。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"240\" viewBox=\"0 0 600 240\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"240\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\" font-weight=\"bold\">假设法解题示意图（鸡兔同笼）</text>\n  <!-- 画8个头（小圆） -->\n  <g fill=\"none\" stroke=\"black\" stroke-width=\"2\">\n    <circle cx=\"60\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"120\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"180\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"240\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"300\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"360\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"420\" cy=\"80\" r=\"12\"/>\n    <circle cx=\"480\" cy=\"80\" r=\"12\"/>\n  </g>\n  <!-- 头部标注 -->\n  <text x=\"60\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头1</text>\n  <text x=\"120\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头2</text>\n  <text x=\"180\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头3</text>\n  <text x=\"240\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头4</text>\n  <text x=\"300\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头5</text>\n  <text x=\"360\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头6</text>\n  <text x=\"420\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头7</text>\n  <text x=\"480\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"blue\">头8</text>\n  <!-- 画腿（假设全是鸡，每头2条腿，用短线表示） -->\n  <g stroke=\"black\" stroke-width=\"2\">\n    <!-- 头1: 2腿 -->\n    <line x1=\"50\" y1=\"110\" x2=\"45\" y2=\"140\"/>\n    <line x1=\"70\" y1=\"110\" x2=\"75\" y2=\"140\"/>\n    <!-- 头2: 2腿 -->\n    <line x1=\"110\" y1=\"110\" x2=\"105\" y2=\"140\"/>\n    <line x1=\"130\" y1=\"110\" x2=\"135\" y2=\"140\"/>\n    <!-- 头3: 2腿 -->\n    <line x1=\"170\" y1=\"110\" x2=\"165\" y2=\"140\"/>\n    <line x1=\"190\" y1=\"110\" x2=\"195\" y2=\"140\"/>\n    <!-- 头4: 2腿 -->\n    <line x1=\"230\" y1=\"110\" x2=\"225\" y2=\"140\"/>\n    <line x1=\"250\" y1=\"110\" x2=\"255\" y2=\"140\"/>\n    <!-- 头5: 2腿 -->\n    <line x1=\"290\" y1=\"110\" x2=\"285\" y2=\"140\"/>\n    <line x1=\"310\" y1=\"110\" x2=\"315\" y2=\"140\"/>\n    <!-- 头6: 2腿 -->\n    <line x1=\"350\" y1=\"110\" x2=\"345\" y2=\"140\"/>\n    <line x1=\"370\" y1=\"110\" x2=\"375\" y2=\"140\"/>\n    <!-- 头7: 2腿 -->\n    <line x1=\"410\" y1=\"110\" x2=\"405\" y2=\"140\"/>\n    <line x1=\"430\" y1=\"110\" x2=\"435\" y2=\"140\"/>\n    <!-- 头8: 2腿 -->\n    <line x1=\"470\" y1=\"110\" x2=\"465\" y2=\"140\"/>\n    <line x1=\"490\" y1=\"110\" x2=\"495\" y2=\"140\"/>\n  </g>\n  <!-- 标注假设腿数16条 -->\n  <text x=\"300\" y=\"165\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">假设全是鸡：腿数 8×2=16条</text>\n  <!-- 实际腿数26条 标注红色 -->\n  <text x=\"300\" y=\"195\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"red\">实际腿数：26条，多了10条</text>\n  <!-- 下面显示换兔操作 -->\n  <text x=\"300\" y=\"225\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"red\">每换1只兔多2条腿 → 需要换5只兔</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:22.466Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "假设法解题，就是先假设所有动物都是同一种，再根据腿数差异算出另一种的数量。",
+      "thinking": "- 先假设全是鸡（或全是兔），算出假设情况下的腿数。\n   - 比较假设腿数与实际腿数的差。\n   - 每把一只鸡换成一只兔，腿数增加2条（或每把一只兔换成一只鸡，腿数减少2条）。\n   - 用总腿数差除以每只动物腿数差，得到另一种动物的数量。",
+      "formula": "无固定公式，掌握思路即可。核心步骤：假设→比较→调整→算出答案。",
+      "mistakes": "- 注意腿数差：鸡2条腿，兔4条腿，每换一只相差2条腿。\n   - 求出的数量是“另一种动物”的只数，不要搞反。\n   - 最后一定要检查总头数和总腿数是否一致。",
+      "features": "数字简单（如头和腿都是整数，腿数差好算），题目直接给出总头数和总腿数，不拐弯，重点考察假设法的基础操作步骤。"
+    },
+    "example": {
+      "title": "鸡和兔关在一个笼子里，从上面数，有8个头；从下面数，有26条腿。请问鸡和兔各有多少只？",
+      "think": "先假设8个头全是鸡，算出一共有16条腿，实际有26条腿，差了10条腿。每把一只鸡换成一只兔，腿数增加2条，所以需要换5只兔，剩下3只鸡。",
+      "steps": "1. 假设8只全是鸡，那么腿数 = 8 × 2 = 16（条）。\n2. 实际有26条腿，比假设多了：26 - 16 = 10（条）。\n3. 每把一只鸡换成一只兔，腿数增加：4 - 2 = 2（条）。\n4. 需要换成的兔的只数 = 10 ÷ 2 = 5（只）。\n5. 鸡的只数 = 总头数 - 兔的只数 = 8 - 5 = 3（只）。\n6. 检验：3只鸡有3×2=6条腿，5只兔有5×4=20条腿，一共6+20=26条腿，正确。",
+      "answer": "鸡有3只，兔有5只。",
+      "summary": "假设全是鸡，算出腿数差，再用腿数差除以每只兔比鸡多的2条腿，得出兔的只数。反过来假设全是兔也可以。记住：差÷单差=另一种的数量。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "假设法解题",
+    "subtitle": "应用题 · 鸡兔同笼进阶",
+    "problem": "鸡和兔关在一个笼子里，从上面数，有8个头；从下面数，有26条腿。请问鸡和兔各有多少只？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "笼子里有鸡和兔共10个头，32条腿。鸡和兔各有多少只？"
+  }
+}

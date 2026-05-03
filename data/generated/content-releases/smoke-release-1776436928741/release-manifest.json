@@ -1,0 +1,9 @@
+{
+  "versionTag": "smoke-release-1776436928741",
+  "catalogPath": "data/generated/content-releases/smoke-release-1776436928741/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/smoke-release-1776436928741/approved-ai-content.json",
+  "approvedAiDraftCount": 1,
+  "catalogChecksum": "475640de2be9d327ecf444456e309004753ef83cb7f799b9c6764bf4b1c52ad7",
+  "publishedAt": "2026-04-17T14:42:10.254Z"
+}

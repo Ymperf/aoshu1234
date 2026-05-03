@@ -1,0 +1,351 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030504",
+  "knowledgePointId": 3030504,
+  "topicId": 30305,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "多人年龄问题",
+  "subtitle": "应用题 · 年龄问题",
+  "intro": "多人年龄问题，就是研究三个或三个人以上的年龄之间的数量关系，核心是每个人的年龄都在同步增长，而且年龄差永远不变。",
+  "difficultyLabel": "拔高",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题"
+  },
+  "problemStatement": "三人及以上的复杂年龄关系问题",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。做题时先分清题目是在比较谁和谁, 再把总和、倍数、前后年份这些条件一层层拆开。",
+  "keyTakeaways": [
+    "牢牢记住“年龄差永远不变”，这是所有年龄问题的基础。",
+    "如果题目中有“倍数”关系，可以先把一份量设为“1份”，再根据和或差来求一份是多少。",
+    "遇到多个人的年龄，可以列表或画图，把条件和关系整理清楚。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。",
+        "做题时先分清题目是在比较谁和谁, 再把总和、倍数、前后年份这些条件一层层拆开。"
+      ],
+      "caption": "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030504-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "一家三口，爸爸、妈妈和小刚。今年三人的年龄和是82岁。4年前，爸爸和妈妈的年龄和是小刚的9倍。请问今年小刚多少岁？",
+      "answer": "今年小刚11岁。",
+      "analysis": "1. 先求4年前三人的年龄和：82 - 4×3 = 70（岁）。\n2. 4年前，小刚是1份，爸爸和妈妈合起来是9份，一共10份。\n3. 每份年龄：70 ÷ 10 = 7（岁），所以4年前小刚7岁。\n4. 今年小刚的年龄：7 + 4 = 11（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030504-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "爷爷、爸爸和小林三人。今年爷爷和爸爸的年龄和是小林的8倍。5年后，三人的年龄和是105岁。请问今年小林多少岁？",
+      "answer": "今年小林10岁。",
+      "analysis": "1. 先求今年三人的年龄和：105 - 5×3 = 90（岁）。\n2. 今年小林看作1份，爷爷和爸爸合起来是8份，所以三人一共是9份。\n3. 每份年龄：90 ÷ 9 = 10（岁）。\n4. 所以今年小林10岁。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030504-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "兄妹三人，哥哥、姐姐和弟弟。今年三人年龄和是33岁。3年后，哥哥和姐姐的年龄和是弟弟的5倍。请问今年弟弟多少岁？",
+      "answer": "今年弟弟4岁。",
+      "analysis": "1. 先求3年后三人的年龄和：33 + 3×3 = 42（岁）。\n2. 3年后，弟弟看作1份，哥哥和姐姐合起来是5份，一共6份。\n3. 每份年龄：42 ÷ 6 = 7（岁），所以3年后弟弟7岁。\n4. 今年弟弟的年龄：7 - 3 = 4（岁）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "多人年龄问题",
+    "subtitle": "应用题 · 年龄问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题",
+    "difficultyLabel": "拔高",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "多人年龄问题，就是研究三个或三个人以上的年龄之间的数量关系，核心是每个人的年龄都在同步增长，而且年龄差永远不变。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "多人年龄问题，就是研究三个或三个人以上的年龄之间的数量关系，核心是每个人的年龄都在同步增长，而且年龄差永远不变。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "牢牢记住“年龄差永远不变”，这是所有年龄问题的基础。",
+          "如果题目中有“倍数”关系，可以先把一份量设为“1份”，再根据和或差来求一份是多少。",
+          "遇到多个人的年龄，可以列表或画图，把条件和关系整理清楚。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易忘记“年龄差不变”，把过去的差算错。",
+          "搞混“多少年后”和“多少年前”对应的加减。",
+          "同时涉及倍数和年龄和时，容易漏算人数。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "拔高难度的多人年龄问题，常把三个人的年龄关系混在一起，需要从条件中找出“不变”的量，再结合倍数、和差来求解，锻炼综合推理能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "多人年龄问题，就是研究三个或三个人以上的年龄之间的数量关系，核心是每个人的年龄都在同步增长，而且年龄差永远不变。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "拔高难度的多人年龄问题，常把三个人的年龄关系混在一起，需要从条件中找出“不变”的量，再结合倍数、和差来求解，锻炼综合推理能力。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "牢牢记住“年龄差永远不变”，这是所有年龄问题的基础。",
+              "如果题目中有“倍数”关系，可以先把一份量设为“1份”，再根据和或差来求一份是多少。",
+              "遇到多个人的年龄，可以列表或画图，把条件和关系整理清楚。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易忘记“年龄差不变”，把过去的差算错。",
+              "搞混“多少年后”和“多少年前”对应的加减。",
+              "同时涉及倍数和年龄和时，容易漏算人数。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一家三口人，爸爸、妈妈和点点。今年三人的年龄和是87岁。5年前，爸爸和妈妈的年龄和是点点的7倍。请问今年点点多少岁？",
+    "answer": "今年点点14岁。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "先求5年前三人的年龄和：87 - 5×3 =",
+        "explanation": "先求5年前三人的年龄和：87 - 5×3 = 72（岁）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "5年前，点点看作1份，爸爸和妈妈的年龄和是7",
+        "explanation": "5年前，点点看作1份，爸爸和妈妈的年龄和是7份，所以三人一共是8份。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "每份年龄：72 ÷ 8 = 9（岁），所以5",
+        "explanation": "每份年龄：72 ÷ 8 = 9（岁），所以5年前点点9岁。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "今年点点的年龄：9 + 5 = 14（岁）。",
+        "explanation": "今年点点的年龄：9 + 5 = 14（岁）。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "解决多人年龄问题，先找到“若干年前”或“若干年后”的年龄和，再利用倍数的“份数”思想，把总份数求出来，一份就是某人的年龄，最后加上或减去年数。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030504-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "一家三口，爸爸、妈妈和小刚。今年三人的年龄和是82岁。4年前，爸爸和妈妈的年龄和是小刚的9倍。请问今年小刚多少岁？",
+        "answer": "今年小刚11岁。",
+        "analysis": "1. 先求4年前三人的年龄和：82 - 4×3 = 70（岁）。\n2. 4年前，小刚是1份，爸爸和妈妈合起来是9份，一共10份。\n3. 每份年龄：70 ÷ 10 = 7（岁），所以4年前小刚7岁。\n4. 今年小刚的年龄：7 + 4 = 11（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030504-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "爷爷、爸爸和小林三人。今年爷爷和爸爸的年龄和是小林的8倍。5年后，三人的年龄和是105岁。请问今年小林多少岁？",
+        "answer": "今年小林10岁。",
+        "analysis": "1. 先求今年三人的年龄和：105 - 5×3 = 90（岁）。\n2. 今年小林看作1份，爷爷和爸爸合起来是8份，所以三人一共是9份。\n3. 每份年龄：90 ÷ 9 = 10（岁）。\n4. 所以今年小林10岁。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030504-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "兄妹三人，哥哥、姐姐和弟弟。今年三人年龄和是33岁。3年后，哥哥和姐姐的年龄和是弟弟的5倍。请问今年弟弟多少岁？",
+        "answer": "今年弟弟4岁。",
+        "analysis": "1. 先求3年后三人的年龄和：33 + 3×3 = 42（岁）。\n2. 3年后，弟弟看作1份，哥哥和姐姐合起来是5份，一共6份。\n3. 每份年龄：42 ÷ 6 = 7（岁），所以3年后弟弟7岁。\n4. 今年弟弟的年龄：7 - 3 = 4（岁）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。做题时先分清题目是在比较谁和谁, 再把总和、倍数、前后年份这些条件一层层拆开。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。",
+          "做题时先分清题目是在比较谁和谁, 再把总和、倍数、前后年份这些条件一层层拆开。"
+        ],
+        "caption": "多人年龄题比两人年龄题多了一层总和或倍数关系, 但最底层规律没变: 每个人都同时长大, 各人的年龄差保持不变。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"220\" viewBox=\"0 0 600 220\">\n  <rect width=\"600\" height=\"220\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"bold\" fill=\"black\">年龄关系线段图</text>\n  \n  <!-- 5年前三人年龄和：72岁 -->\n  <text x=\"30\" y=\"70\" font-size=\"16\" fill=\"black\">5年前三人年龄和：</text>\n  <text x=\"220\" y=\"70\" font-size=\"16\" fill=\"blue\">72岁</text>\n  \n  <!-- 第一行：点点1份 -->\n  <text x=\"30\" y=\"110\" font-size=\"16\" fill=\"black\">点点（1份）：</text>\n  <rect x=\"170\" y=\"95\" width=\"60\" height=\"20\" fill=\"lightgray\" stroke=\"black\"/>\n  <text x=\"200\" y=\"110\" text-anchor=\"middle\" font-size=\"14\" fill=\"red\">9岁</text>\n  \n  <!-- 第二行：爸爸和妈妈 7份 -->\n  <text x=\"30\" y=\"150\" font-size=\"16\" fill=\"black\">爸+妈（7份）：</text>\n  <rect x=\"170\" y=\"135\" width=\"420\" height=\"20\" fill=\"lightgray\" stroke=\"black\"/>\n  <!-- 分割线 -->\n  <line x1=\"230\" y1=\"135\" x2=\"230\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <line x1=\"290\" y1=\"135\" x2=\"290\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <line x1=\"350\" y1=\"135\" x2=\"350\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <line x1=\"410\" y1=\"135\" x2=\"410\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <line x1=\"470\" y1=\"135\" x2=\"470\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <line x1=\"530\" y1=\"135\" x2=\"530\" y2=\"155\" stroke=\"gray\" stroke-dasharray=\"3\"/>\n  <text x=\"380\" y=\"150\" text-anchor=\"middle\" font-size=\"14\" fill=\"black\">7×9=63岁</text>\n  \n  <!-- 8份 = 72岁 -->\n  <text x=\"30\" y=\"190\" font-size=\"16\" fill=\"black\">8份 = 72岁，每份 = </text>\n  <text x=\"270\" y=\"190\" font-size=\"16\" fill=\"red\">9岁</text>\n  <text x=\"310\" y=\"190\" font-size=\"16\" fill=\"black\">→ 今年点点 = 9+5=</text>\n  <text x=\"490\" y=\"190\" font-size=\"16\" fill=\"red\" font-weight=\"bold\">14岁</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.870Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "多人年龄问题，就是研究三个或三个人以上的年龄之间的数量关系，核心是每个人的年龄都在同步增长，而且年龄差永远不变。",
+      "thinking": "- 牢牢记住“年龄差永远不变”，这是所有年龄问题的基础。\n   - 如果题目中有“倍数”关系，可以先把一份量设为“1份”，再根据和或差来求一份是多少。\n   - 遇到多个人的年龄，可以列表或画图，把条件和关系整理清楚。",
+      "formula": "无固定公式，掌握思路即可。",
+      "mistakes": "- 容易忘记“年龄差不变”，把过去的差算错。\n   - 搞混“多少年后”和“多少年前”对应的加减。\n   - 同时涉及倍数和年龄和时，容易漏算人数。",
+      "features": "拔高难度的多人年龄问题，常把三个人的年龄关系混在一起，需要从条件中找出“不变”的量，再结合倍数、和差来求解，锻炼综合推理能力。"
+    },
+    "example": {
+      "title": "一家三口人，爸爸、妈妈和点点。今年三人的年龄和是87岁。5年前，爸爸和妈妈的年龄和是点点的7倍。请问今年点点多少岁？",
+      "think": "先根据“5年前”这个条件，求出5年前三人的年龄和。再利用倍数关系，求出5年前点点的年龄，最后算今年。",
+      "steps": "1. 先求5年前三人的年龄和：87 - 5×3 = 72（岁）。\n2. 5年前，点点看作1份，爸爸和妈妈的年龄和是7份，所以三人一共是8份。\n3. 每份年龄：72 ÷ 8 = 9（岁），所以5年前点点9岁。\n4. 今年点点的年龄：9 + 5 = 14（岁）。",
+      "answer": "今年点点14岁。",
+      "summary": "解决多人年龄问题，先找到“若干年前”或“若干年后”的年龄和，再利用倍数的“份数”思想，把总份数求出来，一份就是某人的年龄，最后加上或减去年数。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "多人年龄问题",
+    "subtitle": "应用题 · 年龄问题",
+    "problem": "一家三口人，爸爸、妈妈和点点。今年三人的年龄和是87岁。5年前，爸爸和妈妈的年龄和是点点的7倍。请问今年点点多少岁？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "一家三口，爸爸、妈妈和小刚。今年三人的年龄和是82岁。4年前，爸爸和妈妈的年龄和是小刚的9倍。请问今年小刚多少岁？"
+  }
+}

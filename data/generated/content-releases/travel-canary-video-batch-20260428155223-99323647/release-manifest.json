@@ -1,0 +1,10 @@
+{
+  "versionTag": "travel-canary-video-batch-20260428155223-99323647",
+  "catalogPath": "data/generated/content-releases/travel-canary-video-batch-20260428155223-99323647/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/travel-canary-video-batch-20260428155223-99323647/approved-ai-content.json",
+  "mediaManifestPath": "data/generated/content-releases/travel-canary-video-batch-20260428155223-99323647/knowledge-point-media.json",
+  "approvedAiDraftCount": 19,
+  "catalogChecksum": "4b5a1dadf8c8906f94de705c0dbb5fa05d3b088c3645abc040450b184efd32c0",
+  "publishedAt": "2026-04-30T11:46:16.817Z"
+}

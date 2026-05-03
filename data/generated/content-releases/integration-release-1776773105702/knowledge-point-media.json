@@ -1,0 +1,13 @@
+{
+  "knowledgePoints": [
+    {
+      "id": 10101,
+      "lectureTextPath": "/media/knowledge-points/10101/lecture-text.txt",
+      "spokenScriptPath": "/media/knowledge-points/10101/spoken-script.txt",
+      "audioUrl": "/media/knowledge-points/10101/lecture.wav",
+      "videoUrl": "/media/knowledge-points/10101/lecture.mp4",
+      "posterUrl": "/media/knowledge-points/10101/lecture-slide.png",
+      "lectureText": "聚焦“10以内数的认识与书写”的核心题型与常见解法。\n10以内数的认识与书写\n知识点：10以内数的认识与书写｜专题：数与计数启蒙｜难度：basic\n一、认识10以内的数\n• 一一对应：数一个，点一个 • 顺着数：1→2→…→10 • 比大小：多/少/一样多 • 找邻居：前一个、后一个\n二、书写0～10\n• 写在格子中间 • 一笔写完：0、1、2、3 • 注意转弯：5、6、8、9 • 10：先写1，再写0\n三、核心题型（会做）\n• 看图写数｜圈出第几个｜填空：□前面是□｜从小到大排序\nTTS讲解要点： 先一一对应数清楚，再读数；比大小看谁多；写数从上到下，10先写1再写0。"
+    }
+  ]
+}

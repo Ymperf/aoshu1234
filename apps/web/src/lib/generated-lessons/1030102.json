@@ -1,0 +1,479 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-1030102",
+  "knowledgePointId": 1030102,
+  "topicId": 10301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "数列",
+  "title": "找规律填数",
+  "subtitle": "数列 · 简单规律探究",
+  "intro": "找规律填数，就是观察一组数字，找出它们排列的规律，然后按这个规律填出缺少的数字。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "一年级",
+    "moduleName": "数列",
+    "topicName": "简单规律探究"
+  },
+  "problemStatement": "根据已知数字规律，填写缺少的数",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们好，欢迎来到今天的数学小课堂。我是你们的数学老师，今天我们学习的内容是“找规律填数”。什么叫做找规律呢？就是给你一排数字，你要仔细观察，找到它们之间隐藏的规律，然后填出缺少的那个数。听起来像不像在玩侦探游戏？好，我们来看看今天的例题。\n\n请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。我们要在括号里填上正确的数字。怎么找规律呢？我们先看每两个相邻的数相差多少。1和2相差1，2和4相差2，4和7相差3，7和11相差4。你发现了吗？这些差分别是1、2、3、4，每次增加1。所以下一个差应该是5。那么11加上5等于多少？对，等于16。所以括号里填16。我们总结一下方法：先算相邻两数的差，再看差的变化，然后按规律算出下一个差，最后加到最后那个数上。\n\n接下来，老师出三道练习题，你们可以按暂停自己先做一做。第一题：3，5，7，9，括号。答案是多少？相邻差都是2，9加2等于11。第二题：10，9，7，4，括号。差依次是减1、减2、减3，所以下一个减4，4减4等于0。第三题：1，3，6，10，15，括号。差依次是2、3、4、5，下一个差6，15加6等于21。你们都做对了吗？\n\n今天的课就到这里，记住，找规律就是先看差，再看差的变化。下节课我们再见！",
+  "keyTakeaways": [
+    "先看相邻两个数，算一算它们的差（用大数减小数）。",
+    "看看这些差有没有规律，比如是不是一样的数，或者越来越大、越来越小。",
+    "如果差没有规律，可以隔一个数看一组（比如第1、3、5个看成一组，第2、4、6个看成另一组）。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们好，欢迎来到今天的数学小课堂。",
+        "我是你们的数学老师，今天我们学习的内容是“找规律填数”。",
+        "什么叫做找规律呢？",
+        "就是给你一排数字，你要仔细观察，找到它们之间隐藏的规律，然后填出缺少的那个数。",
+        "听起来像不像在玩侦探游戏？",
+        "好，我们来看看今天的例题。"
+      ],
+      "caption": "小朋友们好，欢迎来到今天的数学小课堂。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。",
+        "我们要在括号里填上正确的数字。",
+        "怎么找规律呢？",
+        "我们先看每两个相邻的数相差多少。",
+        "1和2相差1，2和4相差2，4和7相差3，7和11相差4。",
+        "你发现了吗？",
+        "这些差分别是1、2、3、4，每次增加1。",
+        "所以下一个差应该是5。",
+        "那么11加上5等于多少？",
+        "对，等于16。",
+        "所以括号里填16。",
+        "我们总结一下方法：先算相邻两数的差，再看差的变化，然后按规律算出下一个差，最后加到最后那个数上。"
+      ],
+      "caption": "请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "接下来，老师出三道练习题，你们可以按暂停自己先做一做。",
+        "第一题：3，5，7，9，括号。",
+        "答案是多少？",
+        "相邻差都是2，9加2等于11。",
+        "第二题：10，9，7，4，括号。",
+        "差依次是减1、减2、减3，所以下一个减4，4减4等于0。",
+        "第三题：1，3，6，10，15，括号。",
+        "差依次是2、3、4、5，下一个差6，15加6等于21。",
+        "你们都做对了吗？"
+      ],
+      "caption": "接下来，老师出三道练习题，你们可以按暂停自己先做一做。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "今天的课就到这里，记住，找规律就是先看差，再看差的变化。",
+        "下节课我们再见！"
+      ],
+      "caption": "今天的课就到这里，记住，找规律就是先看差，再看差的变化。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "1030102-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "找规律填数：3，5，7，9，（  ）",
+      "answer": "11",
+      "analysis": "相邻两数的差都是2，所以9+2=11。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1030102-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "找规律填数：10，9，7，4，（  ）",
+      "answer": "0",
+      "analysis": "相邻两数的差依次是-1、-2、-3（每次减的越来越多），下一个减4，4-4=0。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1030102-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "找规律填数：1，3，6，10，15，（  ）",
+      "answer": "21",
+      "analysis": "相邻两数的差依次是2、3、4、5，下一个差是6，15+6=21。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "找规律填数",
+    "subtitle": "数列 · 简单规律探究",
+    "gradeName": "一年级",
+    "moduleName": "数列",
+    "topicName": "简单规律探究",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "数列",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "找规律填数，就是观察一组数字，找出它们排列的规律，然后按这个规律填出缺少的数字。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "找规律填数，就是观察一组数字，找出它们排列的规律，然后按这个规律填出缺少的数字。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先看相邻两个数，算一算它们的差（用大数减小数）。",
+          "看看这些差有没有规律，比如是不是一样的数，或者越来越大、越来越小。",
+          "如果差没有规律，可以隔一个数看一组（比如第1、3、5个看成一组，第2、4、6个看成另一组）。",
+          "按照找到的规律，算出下一个数。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "只算了前两个数的差，就以为规律是固定的，要算三组以上才能确定。",
+          "计算减法时容易出错，把顺序搞反。",
+          "忘记看“隔着看”的方法，只盯着相邻两个数。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度的题目，相邻两个数的差不一定是同一个数，而是会慢慢变大或变小，需要孩子发现“差在变化”这个规律，锻炼观察和简单推理能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "找规律填数，就是观察一组数字，找出它们排列的规律，然后按这个规律填出缺少的数字。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度的题目，相邻两个数的差不一定是同一个数，而是会慢慢变大或变小，需要孩子发现“差在变化”这个规律，锻炼观察和简单推理能力。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先看相邻两个数，算一算它们的差（用大数减小数）。",
+              "看看这些差有没有规律，比如是不是一样的数，或者越来越大、越来越小。",
+              "如果差没有规律，可以隔一个数看一组（比如第1、3、5个看成一组，第2、4、6个看成另一组）。",
+              "按照找到的规律，算出下一个数。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "只算了前两个数的差，就以为规律是固定的，要算三组以上才能确定。",
+              "计算减法时容易出错，把顺序搞反。",
+              "忘记看“隔着看”的方法，只盯着相邻两个数。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "找规律填数：1，2，4，7，11，（  ）。",
+    "answer": "16",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "观察这串数：1，2，4，7，11。",
+        "explanation": "观察这串数：1，2，4，7，11。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "算相邻两数的差：\n   2 - 1 = 1\n",
+        "explanation": "算相邻两数的差：\n   2 - 1 = 1\n   4 - 2 = 2\n   7 - 4 = 3\n   11 - 7 = 4",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "发现差的规律：1、2、3、4，每次增加1。",
+        "explanation": "发现差的规律：1、2、3、4，每次增加1。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "所以下一个差应该是4 + 1 = 5。",
+        "explanation": "所以下一个差应该是4 + 1 = 5。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "用最后一个数11加上这个差5：11 + 5 ",
+        "explanation": "用最后一个数11加上这个差5：11 + 5 = 16。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "括号里应该填16。",
+        "explanation": "括号里应该填16。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "先求相邻两数的差，再看差有没有规律（比如不变、变大、变小），然后按规律算出下一个差，加到最后数上。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "1030102-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "找规律填数：3，5，7，9，（  ）",
+        "answer": "11",
+        "analysis": "相邻两数的差都是2，所以9+2=11。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1030102-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "找规律填数：10，9，7，4，（  ）",
+        "answer": "0",
+        "analysis": "相邻两数的差依次是-1、-2、-3（每次减的越来越多），下一个减4，4-4=0。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1030102-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "找规律填数：1，3，6，10，15，（  ）",
+        "answer": "21",
+        "analysis": "相邻两数的差依次是2、3、4、5，下一个差是6，15+6=21。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们好，欢迎来到今天的数学小课堂。我是你们的数学老师，今天我们学习的内容是“找规律填数”。什么叫做找规律呢？就是给你一排数字，你要仔细观察，找到它们之间隐藏的规律，然后填出缺少的那个数。听起来像不像在玩侦探游戏？好，我们来看看今天的例题。\n\n请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。我们要在括号里填上正确的数字。怎么找规律呢？我们先看每两个相邻的数相差多少。1和2相差1，2和4相差2，4和7相差3，7和11相差4。你发现了吗？这些差分别是1、2、3、4，每次增加1。所以下一个差应该是5。那么11加上5等于多少？对，等于16。所以括号里填16。我们总结一下方法：先算相邻两数的差，再看差的变化，然后按规律算出下一个差，最后加到最后那个数上。\n\n接下来，老师出三道练习题，你们可以按暂停自己先做一做。第一题：3，5，7，9，括号。答案是多少？相邻差都是2，9加2等于11。第二题：10，9，7，4，括号。差依次是减1、减2、减3，所以下一个减4，4减4等于0。第三题：1，3，6，10，15，括号。差依次是2、3、4、5，下一个差6，15加6等于21。你们都做对了吗？\n\n今天的课就到这里，记住，找规律就是先看差，再看差的变化。下节课我们再见！",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们好，欢迎来到今天的数学小课堂。",
+          "我是你们的数学老师，今天我们学习的内容是“找规律填数”。",
+          "什么叫做找规律呢？",
+          "就是给你一排数字，你要仔细观察，找到它们之间隐藏的规律，然后填出缺少的那个数。",
+          "听起来像不像在玩侦探游戏？",
+          "好，我们来看看今天的例题。"
+        ],
+        "caption": "小朋友们好，欢迎来到今天的数学小课堂。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。",
+          "我们要在括号里填上正确的数字。",
+          "怎么找规律呢？",
+          "我们先看每两个相邻的数相差多少。",
+          "1和2相差1，2和4相差2，4和7相差3，7和11相差4。",
+          "你发现了吗？",
+          "这些差分别是1、2、3、4，每次增加1。",
+          "所以下一个差应该是5。",
+          "那么11加上5等于多少？",
+          "对，等于16。",
+          "所以括号里填16。",
+          "我们总结一下方法：先算相邻两数的差，再看差的变化，然后按规律算出下一个差，最后加到最后那个数上。"
+        ],
+        "caption": "请大家看屏幕，这一串数是：1，2，4，7，11，然后有一个括号。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "接下来，老师出三道练习题，你们可以按暂停自己先做一做。",
+          "第一题：3，5，7，9，括号。",
+          "答案是多少？",
+          "相邻差都是2，9加2等于11。",
+          "第二题：10，9，7，4，括号。",
+          "差依次是减1、减2、减3，所以下一个减4，4减4等于0。",
+          "第三题：1，3，6，10，15，括号。",
+          "差依次是2、3、4、5，下一个差6，15加6等于21。",
+          "你们都做对了吗？"
+        ],
+        "caption": "接下来，老师出三道练习题，你们可以按暂停自己先做一做。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "今天的课就到这里，记住，找规律就是先看差，再看差的变化。",
+          "下节课我们再见！"
+        ],
+        "caption": "今天的课就到这里，记住，找规律就是先看差，再看差的变化。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"200\" viewBox=\"0 0 600 200\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"20\" y=\"30\" font-family=\"sans-serif\" font-size=\"18\" fill=\"#333\">找规律填数：1，2，4，7，11，（  ）</text>\n  <!-- 数字和箭头 -->\n  <!-- 数字1 -->\n  <circle cx=\"70\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"70\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"black\" text-anchor=\"middle\">1</text>\n  <!-- 差1 -->\n  <line x1=\"88\" y1=\"100\" x2=\"118\" y2=\"100\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <text x=\"103\" y=\"90\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">+1</text>\n  <!-- 数字2 -->\n  <circle cx=\"130\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"130\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"black\" text-anchor=\"middle\">2</text>\n  <!-- 差2 -->\n  <line x1=\"148\" y1=\"100\" x2=\"178\" y2=\"100\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <text x=\"163\" y=\"90\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">+2</text>\n  <!-- 数字4 -->\n  <circle cx=\"190\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"black\" text-anchor=\"middle\">4</text>\n  <!-- 差3 -->\n  <line x1=\"208\" y1=\"100\" x2=\"238\" y2=\"100\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <text x=\"223\" y=\"90\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">+3</text>\n  <!-- 数字7 -->\n  <circle cx=\"250\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"250\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"black\" text-anchor=\"middle\">7</text>\n  <!-- 差4 -->\n  <line x1=\"268\" y1=\"100\" x2=\"298\" y2=\"100\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <text x=\"283\" y=\"90\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">+4</text>\n  <!-- 数字11 -->\n  <circle cx=\"310\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"310\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"black\" text-anchor=\"middle\">11</text>\n  <!-- 差5（红色） -->\n  <line x1=\"328\" y1=\"100\" x2=\"358\" y2=\"100\" stroke=\"red\" stroke-width=\"2\" marker-end=\"url(#arrowRed)\"/>\n  <text x=\"343\" y=\"90\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\" font-weight=\"bold\">+5</text>\n  <!-- 数字16（红色） -->\n  <circle cx=\"370\" cy=\"100\" r=\"18\" fill=\"none\" stroke=\"red\" stroke-width=\"2\"/>\n  <text x=\"370\" y=\"106\" font-family=\"sans-serif\" font-size=\"20\" fill=\"red\" font-weight=\"bold\" text-anchor=\"middle\">16</text>\n  <!-- 箭头定义 -->\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"4\" orient=\"auto\">\n      <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"black\"/>\n    </marker>\n    <marker id=\"arrowRed\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"4\" orient=\"auto\">\n      <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"red\"/>\n    </marker>\n  </defs>\n  <!-- 底部文字说明 -->\n  <text x=\"20\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#555\">观察：每次加的数越来越大：1→2→3→4→5，所以填16。</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:20.664Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "找规律填数，就是观察一组数字，找出它们排列的规律，然后按这个规律填出缺少的数字。",
+      "thinking": "- 先看相邻两个数，算一算它们的差（用大数减小数）。\n   - 看看这些差有没有规律，比如是不是一样的数，或者越来越大、越来越小。\n   - 如果差没有规律，可以隔一个数看一组（比如第1、3、5个看成一组，第2、4、6个看成另一组）。\n   - 按照找到的规律，算出下一个数。",
+      "formula": "无固定公式，掌握思路即可。",
+      "mistakes": "- 只算了前两个数的差，就以为规律是固定的，要算三组以上才能确定。\n   - 计算减法时容易出错，把顺序搞反。\n   - 忘记看“隔着看”的方法，只盯着相邻两个数。",
+      "features": "进阶难度的题目，相邻两个数的差不一定是同一个数，而是会慢慢变大或变小，需要孩子发现“差在变化”这个规律，锻炼观察和简单推理能力。"
+    },
+    "example": {
+      "title": "找规律填数：1，2，4，7，11，（  ）。",
+      "think": "先算出相邻两个数的差，看看这些差有什么变化。差分别是1、2、3、4，每次增加1，所以下一个差应该是5，把11加上5就得到答案。",
+      "steps": "1. 观察这串数：1，2，4，7，11。\n2. 算相邻两数的差：\n   2 - 1 = 1\n   4 - 2 = 2\n   7 - 4 = 3\n   11 - 7 = 4\n3. 发现差的规律：1、2、3、4，每次增加1。\n4. 所以下一个差应该是4 + 1 = 5。\n5. 用最后一个数11加上这个差5：11 + 5 = 16。\n6. 括号里应该填16。",
+      "answer": "16",
+      "summary": "先求相邻两数的差，再看差有没有规律（比如不变、变大、变小），然后按规律算出下一个差，加到最后数上。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "找规律填数",
+    "subtitle": "数列 · 简单规律探究",
+    "problem": "找规律填数：1，2，4，7，11，（  ）。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "找规律填数：3，5，7，9，（  ）"
+  }
+}

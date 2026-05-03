@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5040106",
+  "knowledgePointId": 5040106,
+  "topicId": 50401,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "数论",
+  "title": "余数性质与周期",
+  "subtitle": "数论 · 数论初步",
+  "intro": "余数性质与周期是指，当一个数不断乘方或重复运算时，它除以某个除数的余数会按照固定的规律循环出现，利用这个循环规律可以快速求出大数除以该除数的余数。",
+  "difficultyLabel": "竞赛",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "数论",
+    "topicName": "数论初步"
+  },
+  "problemStatement": "余数可加可乘性、周期余数问题",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，今天我们来学习余数性质与周期。请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？这道题数字很大，直接算是不可能的。我们可以用周期的方法。\n\n首先，我们来找3的幂除以7的余数。从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。我们发现余数每6个重复一次，周期是6。2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。\n\n接下来找4的幂除以7的余数。4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。周期是3。2023除以3余1，所以4的2023次方除以7的余数是4。\n\n最后把两个余数相加，3加4等于7，7除以7等于1余0。所以最终余数是0。\n\n做这类题的关键就是先找周期，再用指数除以周期取余数。注意如果余数是0，就取周期最后一个数。同学们可以自己试试举一反三的练习题，用同样的方法。今天的课就到这里，再见！",
+  "keyTakeaways": [
+    "先找出余数循环的周期（即重复出现的长度）。",
+    "然后用指数（或位置数）除以周期，看余数是几，就对应周期里的第几个余数。",
+    "如果余数为0，说明正好是周期最后一个余数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，今天我们来学习余数性质与周期。",
+        "请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？",
+        "这道题数字很大，直接算是不可能的。",
+        "我们可以用周期的方法。"
+      ],
+      "caption": "同学们好，今天我们来学习余数性质与周期。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "首先，我们来找3的幂除以7的余数。",
+        "从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。",
+        "我们发现余数每6个重复一次，周期是6。",
+        "2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。"
+      ],
+      "caption": "首先，我们来找3的幂除以7的余数。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "接下来找4的幂除以7的余数。",
+        "4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。",
+        "周期是3。",
+        "2023除以3余1，所以4的2023次方除以7的余数是4。"
+      ],
+      "caption": "接下来找4的幂除以7的余数。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "最后把两个余数相加，3加4等于7，7除以7等于1余0。",
+        "所以最终余数是0。"
+      ],
+      "caption": "最后把两个余数相加，3加4等于7，7除以7等于1余0。"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "做这类题的关键就是先找周期，再用指数除以周期取余数。",
+        "注意如果余数是0，就取周期最后一个数。",
+        "同学们可以自己试试举一反三的练习题，用同样的方法。",
+        "今天的课就到这里，再见！"
+      ],
+      "caption": "做这类题的关键就是先找周期，再用指数除以周期取余数。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5040106-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "求 \\(2^{100}\\) 除以5的余数。",
+      "answer": "1",
+      "analysis": "- 计算2的幂除以5的余数周期：2^1余2，2^2余4，2^3余3，2^4余1，2^5余2，周期为4。\n- 100 ÷ 4 = 25 余 0，余数为0对应周期最后一个余数1。\n- 所以余数为1。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5040106-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "求 \\(7^{2023}\\) 除以9的余数。",
+      "answer": "7",
+      "analysis": "- 7 mod 9 = 7，7^2=49 mod9=4，7^3=343 mod9=1，7^4=2401 mod9=7，周期为3。\n- 2023 ÷ 3 = 674 余 1，余数1对应周期第一个余数7。\n- 所以余数为7。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5040106-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "求 \\((2^{2023} + 3^{2023})\\) 除以5的余数。",
+      "answer": "0",
+      "analysis": "- 2的幂除以5的周期：2^1余2，2^2余4，2^3余3，2^4余1，周期4。2023÷4余3，对应余数3。\n- 3的幂除以5的周期：3^1余3，3^2余4，3^3余2，3^4余1，周期4。2023÷4余3，对应余数2。\n- 3 + 2 = 5，5除以5余0。\n\n---\n\n【五、视频讲解口播稿（Edge TTS 专用，≤5 分钟）】\n\n同学们好，今天我们来学习余数性质与周期。请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？这道题数字很大，直接算是不可能的。我们可以用周期的方法。\n\n首先，我们来找3的幂除以7的余数。从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。我们发现余数每6个重复一次，周期是6。2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。\n\n接下来找4的幂除以7的余数。4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。周期是3。2023除以3余1，所以4的2023次方除以7的余数是4。\n\n最后把两个余数相加，3加4等于7，7除以7等于1余0。所以最终余数是0。\n\n做这类题的关键就是先找周期，再用指数除以周期取余数。注意如果余数是0，就取周期最后一个数。同学们可以自己试试举一反三的练习题，用同样的方法。今天的课就到这里，再见！",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "余数性质与周期",
+    "subtitle": "数论 · 数论初步",
+    "gradeName": "五年级",
+    "moduleName": "数论",
+    "topicName": "数论初步",
+    "difficultyLabel": "竞赛",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "数论",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "余数性质与周期是指，当一个数不断乘方或重复运算时，它除以某个除数的余数会按照固定的规律循环出现，利用这个循环规律可以快速求出大数除以该除数的余数。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "余数性质与周期是指，当一个数不断乘方或重复运算时，它除以某个除数的余数会按照固定的规律循环出现，利用这个循环规律可以快速求出大数除以该除数的余数。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找出余数循环的周期（即重复出现的长度）。",
+          "然后用指数（或位置数）除以周期，看余数是几，就对应周期里的第几个余数。",
+          "如果余数为0，说明正好是周期最后一个余数。",
+          "多个数相加时，可以分别求出每个数的余数，再相加取余。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“找周期→算余数→对应周期位置”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意周期从第一次运算开始，不要漏掉初始值。",
+          "余数为0时，对应的是周期末尾，不是开头。",
+          "多个数混合时，加法余数需要最后再模一次除数。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "竞赛难度下，常把两个或更多不同周期的余数问题组合在一起，需要分别找周期再合并，或者需要巧妙判断周期长度（不一定是4或6，需要自己计算验证），同时考察学生对余数可加、可乘性质的灵活运用。\n\n---"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "余数性质与周期是指，当一个数不断乘方或重复运算时，它除以某个除数的余数会按照固定的规律循环出现，利用这个循环规律可以快速求出大数除以该除数的余数。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "竞赛难度下，常把两个或更多不同周期的余数问题组合在一起，需要分别找周期再合并，或者需要巧妙判断周期长度（不一定是4或6，需要自己计算验证），同时考察学生对余数可加、可乘性质的灵活运用。\n\n---"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找出余数循环的周期（即重复出现的长度）。",
+              "然后用指数（或位置数）除以周期，看余数是几，就对应周期里的第几个余数。",
+              "如果余数为0，说明正好是周期最后一个余数。",
+              "多个数相加时，可以分别求出每个数的余数，再相加取余。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“找周期→算余数→对应周期位置”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意周期从第一次运算开始，不要漏掉初始值。",
+              "余数为0时，对应的是周期末尾，不是开头。",
+              "多个数混合时，加法余数需要最后再模一次除数。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "求 \\(3^{2023} + 4^{2023}\\) 除以7的余数。",
+    "answer": "0",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "计算3的幂除以7的余数，找周期。",
+        "explanation": "计算3的幂除以7的余数，找周期。\n- \\(3^1 \\div 7\\) 余3\n- \\(3^2 = 9\\)，\\(9 \\div 7\\) 余2\n- \\(3^3 = 27\\)，\\(27 \\div 7\\) 余6\n- \\(3^4 = 81\\)，\\(81 \\div 7\\) 余4\n- \\(3^5 = 243\\)，\\(243 \\div 7\\) 余5\n- \\(3^6 = 729\\)，\\(729 \\div 7\\) 余1\n- \\(3^7 = 2187\\)，\\(2187 \\div 7\\) 余3（重复出现3）\n所以3的幂模7的周期是6，余数循环为：3, 2, 6, 4, 5, 1。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "计算2023除以6的余数。",
+        "explanation": "计算2023除以6的余数。\n- 2023 ÷ 6 = 337 余 1（因为6×337=2022，2023-2022=1）\n- 余数为1，对应周期第1个余数：3。\n所以 \\(3^{2023} \\div 7\\) 的余数是3。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "计算4的幂除以7的余数，找周期。",
+        "explanation": "计算4的幂除以7的余数，找周期。\n- \\(4^1 \\div 7\\) 余4\n- \\(4^2 = 16\\)，\\(16 \\div 7\\) 余2\n- \\(4^3 = 64\\)，\\(64 \\div 7\\) 余1\n- \\(4^4 = 256\\)，\\(256 \\div 7\\) 余4（重复出现4）\n所以4的幂模7的周期是3，余数循环为：4, 2, 1。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "计算2023除以3的余数。",
+        "explanation": "计算2023除以3的余数。\n- 2023 ÷ 3 = 674 余 1（3×674=2022，2023-2022=1）\n- 余数为1，对应周期第1个余数：4。\n所以 \\(4^{2023} \\div 7\\) 的余数是4。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "把两个余数相加，再除以7。",
+        "explanation": "把两个余数相加，再除以7。\n- 3 + 4 = 7\n- 7 ÷ 7 = 1 余 0\n所以最终余数是0。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "当遇到多个幂相加求余数时，先分别找出每个幂的余数周期，用指数除以周期得到各自的余数，再合并计算。注意周期不一定相同，要一个一个地算，不能偷懒。\n\n---"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5040106-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "求 \\(2^{100}\\) 除以5的余数。",
+        "answer": "1",
+        "analysis": "- 计算2的幂除以5的余数周期：2^1余2，2^2余4，2^3余3，2^4余1，2^5余2，周期为4。\n- 100 ÷ 4 = 25 余 0，余数为0对应周期最后一个余数1。\n- 所以余数为1。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5040106-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "求 \\(7^{2023}\\) 除以9的余数。",
+        "answer": "7",
+        "analysis": "- 7 mod 9 = 7，7^2=49 mod9=4，7^3=343 mod9=1，7^4=2401 mod9=7，周期为3。\n- 2023 ÷ 3 = 674 余 1，余数1对应周期第一个余数7。\n- 所以余数为7。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5040106-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "求 \\((2^{2023} + 3^{2023})\\) 除以5的余数。",
+        "answer": "0",
+        "analysis": "- 2的幂除以5的周期：2^1余2，2^2余4，2^3余3，2^4余1，周期4。2023÷4余3，对应余数3。\n- 3的幂除以5的周期：3^1余3，3^2余4，3^3余2，3^4余1，周期4。2023÷4余3，对应余数2。\n- 3 + 2 = 5，5除以5余0。\n\n---\n\n【五、视频讲解口播稿（Edge TTS 专用，≤5 分钟）】\n\n同学们好，今天我们来学习余数性质与周期。请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？这道题数字很大，直接算是不可能的。我们可以用周期的方法。\n\n首先，我们来找3的幂除以7的余数。从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。我们发现余数每6个重复一次，周期是6。2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。\n\n接下来找4的幂除以7的余数。4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。周期是3。2023除以3余1，所以4的2023次方除以7的余数是4。\n\n最后把两个余数相加，3加4等于7，7除以7等于1余0。所以最终余数是0。\n\n做这类题的关键就是先找周期，再用指数除以周期取余数。注意如果余数是0，就取周期最后一个数。同学们可以自己试试举一反三的练习题，用同样的方法。今天的课就到这里，再见！",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，今天我们来学习余数性质与周期。请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？这道题数字很大，直接算是不可能的。我们可以用周期的方法。\n\n首先，我们来找3的幂除以7的余数。从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。我们发现余数每6个重复一次，周期是6。2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。\n\n接下来找4的幂除以7的余数。4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。周期是3。2023除以3余1，所以4的2023次方除以7的余数是4。\n\n最后把两个余数相加，3加4等于7，7除以7等于1余0。所以最终余数是0。\n\n做这类题的关键就是先找周期，再用指数除以周期取余数。注意如果余数是0，就取周期最后一个数。同学们可以自己试试举一反三的练习题，用同样的方法。今天的课就到这里，再见！",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，今天我们来学习余数性质与周期。",
+          "请先看一道竞赛题：求3的2023次方加上4的2023次方，除以7的余数是多少？",
+          "这道题数字很大，直接算是不可能的。",
+          "我们可以用周期的方法。"
+        ],
+        "caption": "同学们好，今天我们来学习余数性质与周期。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "首先，我们来找3的幂除以7的余数。",
+          "从3的1次方开始，3除以7余3；3平方等于9，除以7余2；3的立方等于27，除以7余6；3的4次方等于81，除以7余4；3的5次方等于243，除以7余5；3的6次方等于729，除以7余1；3的7次方等于2187，除以7余3。",
+          "我们发现余数每6个重复一次，周期是6。",
+          "2023除以6余1，所以3的2023次方除以7的余数，就是周期第一个数3。"
+        ],
+        "caption": "首先，我们来找3的幂除以7的余数。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "接下来找4的幂除以7的余数。",
+          "4除以7余4；4平方等于16，除以7余2；4的立方等于64，除以7余1；4的4次方等于256，除以7余4。",
+          "周期是3。",
+          "2023除以3余1，所以4的2023次方除以7的余数是4。"
+        ],
+        "caption": "接下来找4的幂除以7的余数。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "最后把两个余数相加，3加4等于7，7除以7等于1余0。",
+          "所以最终余数是0。"
+        ],
+        "caption": "最后把两个余数相加，3加4等于7，7除以7等于1余0。"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "做这类题的关键就是先找周期，再用指数除以周期取余数。",
+          "注意如果余数是0，就取周期最后一个数。",
+          "同学们可以自己试试举一反三的练习题，用同样的方法。",
+          "今天的课就到这里，再见！"
+        ],
+        "caption": "做这类题的关键就是先找周期，再用指数除以周期取余数。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"280\" viewBox=\"0 0 600 280\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background-color:#ffffff;\">\n  <!-- 标题 -->\n  <text x=\"300\" y=\"35\" font-family=\"sans-serif\" font-size=\"20\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">3的幂除以7的余数周期（周期6）</text>\n  <!-- 表头 -->\n  <rect x=\"50\" y=\"50\" width=\"80\" height=\"40\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/>\n  <text x=\"90\" y=\"75\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#000000\">指数</text>\n  <rect x=\"130\" y=\"50\" width=\"80\" height=\"40\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/>\n  <text x=\"170\" y=\"75\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#000000\">余数</text>\n  <!-- 数据行：1~6 -->\n  <rect x=\"50\" y=\"90\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text>\n  <rect x=\"130\" y=\"90\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">3</text>\n  <rect x=\"50\" y=\"120\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text>\n  <rect x=\"130\" y=\"120\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">2</text>\n  <rect x=\"50\" y=\"150\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"170\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text>\n  <rect x=\"130\" y=\"150\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"170\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">6</text>\n  <rect x=\"50\" y=\"180\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">4</text>\n  <rect x=\"130\" y=\"180\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">4</text>\n  <rect x=\"50\" y=\"210\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"230\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">5</text>\n  <rect x=\"130\" y=\"210\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"230\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">5</text>\n  <rect x=\"50\" y=\"240\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"90\" y=\"260\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">6</text>\n  <rect x=\"130\" y=\"240\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"170\" y=\"260\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#FF0000\">1</text>\n  <!-- 右侧：4的幂周期 -->\n  <text x=\"350\" y=\"35\" font-family=\"sans-serif\" font-size=\"20\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#000000\">4的幂除以7的余数周期（周期3）</text>\n  <rect x=\"280\" y=\"50\" width=\"80\" height=\"40\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/>\n  <text x=\"320\" y=\"75\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#000000\">指数</text>\n  <rect x=\"360\" y=\"50\" width=\"80\" height=\"40\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\"/>\n  <text x=\"400\" y=\"75\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#000000\">余数</text>\n  <rect x=\"280\" y=\"90\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"320\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">1</text>\n  <rect x=\"360\" y=\"90\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">4</text>\n  <rect x=\"280\" y=\"120\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"320\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">2</text>\n  <rect x=\"360\" y=\"120\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#0000FF\">2</text>\n  <rect x=\"280\" y=\"150\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"320\" y=\"170\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000000\">3</text>\n  <rect x=\"360\" y=\"150\" width=\"80\" height=\"30\" fill=\"none\" stroke=\"#000000\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"170\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#FF0000\">1</text>\n  <!-- 箭头指示周期循环 -->\n  <path d=\"M 170 270 C 170 280, 90 280, 90 270\" fill=\"none\" stroke=\"#FF0000\" stroke-width=\"2\" marker-end=\"url(#arrowR)\"/>\n  <defs>\n    <marker id=\"arrowR\" markerWidth=\"8\" markerHeight=\"6\" refX=\"8\" refY=\"3\" orient=\"auto\">\n      <polygon points=\"0 0, 8 3, 0 6\" fill=\"#FF0000\"/>\n    </marker>\n  </defs>\n  <text x=\"130\" y=\"285\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#FF0000\" text-anchor=\"middle\">循环</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.844Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "余数性质与周期是指，当一个数不断乘方或重复运算时，它除以某个除数的余数会按照固定的规律循环出现，利用这个循环规律可以快速求出大数除以该除数的余数。",
+      "thinking": "- 先找出余数循环的周期（即重复出现的长度）。\n   - 然后用指数（或位置数）除以周期，看余数是几，就对应周期里的第几个余数。\n   - 如果余数为0，说明正好是周期最后一个余数。\n   - 多个数相加时，可以分别求出每个数的余数，再相加取余。",
+      "formula": "无固定公式，掌握“找周期→算余数→对应周期位置”的思路即可。",
+      "mistakes": "- 注意周期从第一次运算开始，不要漏掉初始值。\n   - 余数为0时，对应的是周期末尾，不是开头。\n   - 多个数混合时，加法余数需要最后再模一次除数。",
+      "features": "竞赛难度下，常把两个或更多不同周期的余数问题组合在一起，需要分别找周期再合并，或者需要巧妙判断周期长度（不一定是4或6，需要自己计算验证），同时考察学生对余数可加、可乘性质的灵活运用。\n\n---"
+    },
+    "example": {
+      "title": "求 \\(3^{2023} + 4^{2023}\\) 除以7的余数。",
+      "think": "先分别找出3的幂除以7的余数周期和4的幂除以7的余数周期，然后根据指数2023除以周期得到各自余数，最后把两个余数相加再除以7，得到最终余数。",
+      "steps": "第1步：计算3的幂除以7的余数，找周期。\n- \\(3^1 \\div 7\\) 余3\n- \\(3^2 = 9\\)，\\(9 \\div 7\\) 余2\n- \\(3^3 = 27\\)，\\(27 \\div 7\\) 余6\n- \\(3^4 = 81\\)，\\(81 \\div 7\\) 余4\n- \\(3^5 = 243\\)，\\(243 \\div 7\\) 余5\n- \\(3^6 = 729\\)，\\(729 \\div 7\\) 余1\n- \\(3^7 = 2187\\)，\\(2187 \\div 7\\) 余3（重复出现3）\n所以3的幂模7的周期是6，余数循环为：3, 2, 6, 4, 5, 1。\n\n第2步：计算2023除以6的余数。\n- 2023 ÷ 6 = 337 余 1（因为6×337=2022，2023-2022=1）\n- 余数为1，对应周期第1个余数：3。\n所以 \\(3^{2023} \\div 7\\) 的余数是3。\n\n第3步：计算4的幂除以7的余数，找周期。\n- \\(4^1 \\div 7\\) 余4\n- \\(4^2 = 16\\)，\\(16 \\div 7\\) 余2\n- \\(4^3 = 64\\)，\\(64 \\div 7\\) 余1\n- \\(4^4 = 256\\)，\\(256 \\div 7\\) 余4（重复出现4）\n所以4的幂模7的周期是3，余数循环为：4, 2, 1。\n\n第4步：计算2023除以3的余数。\n- 2023 ÷ 3 = 674 余 1（3×674=2022，2023-2022=1）\n- 余数为1，对应周期第1个余数：4。\n所以 \\(4^{2023} \\div 7\\) 的余数是4。\n\n第5步：把两个余数相加，再除以7。\n- 3 + 4 = 7\n- 7 ÷ 7 = 1 余 0\n所以最终余数是0。",
+      "answer": "0",
+      "summary": "当遇到多个幂相加求余数时，先分别找出每个幂的余数周期，用指数除以周期得到各自的余数，再合并计算。注意周期不一定相同，要一个一个地算，不能偷懒。\n\n---"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "余数性质与周期",
+    "subtitle": "数论 · 数论初步",
+    "problem": "求 \\(3^{2023} + 4^{2023}\\) 除以7的余数。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "求 \\(2^{100}\\) 除以5的余数。"
+  }
+}

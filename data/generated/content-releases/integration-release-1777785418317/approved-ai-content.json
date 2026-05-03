@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "quiz-6070104",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 6070104,
+    "topicId": 60701,
+    "title": "小升初全真模拟题型 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初专项",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 小升初全真模拟题型，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "小升初全真模拟题型 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初专项",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-30T08:00:24.494Z",
+    "createdAt": "2026-04-30T07:57:58.783809Z",
+    "updatedAt": "2026-04-30T08:00:24.494Z"
+  },
+  {
+    "id": "quiz-6070103",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 6070103,
+    "topicId": 60701,
+    "title": "小升初应用题综合 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初专项",
+      "advanced",
+      "ai-generated",
+      "needs-review",
+      "application"
+    ],
+    "payload": {
+      "stem": "关于 小升初应用题综合，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "小升初应用题综合 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初专项",
+        "advanced",
+        "ai-generated",
+        "needs-review",
+        "application"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-05-03T05:12:03.411Z",
+    "createdAt": "2026-04-30T07:57:58.783809Z",
+    "updatedAt": "2026-05-03T05:12:03.411Z"
+  },
+  {
+    "id": "quiz-6070102",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 6070102,
+    "topicId": 60701,
+    "title": "小升初几何综合 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初专项",
+      "intermediate",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 小升初几何综合，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "小升初几何综合 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初专项",
+        "intermediate",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "intermediate",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-05-03T05:15:16.418Z",
+    "createdAt": "2026-04-30T07:57:58.783809Z",
+    "updatedAt": "2026-05-03T05:15:16.418Z"
+  },
+  {
+    "id": "openmaic-spoken-10101",
+    "draftType": "spoken_script",
+    "knowledgePointId": 10101,
+    "topicId": 101,
+    "title": "OpenMAIC 口语稿 10101",
+    "status": "approved",
+    "difficultyLevel": "basic",
+    "questionType": "spoken_script",
+    "tags": [
+      "openmaic",
+      "spoken_script",
+      "needs-review"
+    ],
+    "payload": {
+      "spokenScript": "聚焦“10以内数的认识与书写”的核心题型与常见解法。\n10以内数的认识与书写\n知识点：10以内数的认识与书写｜专题：数与计数启蒙｜难度：basic\n一、认识10以内的数\n• 一一对应：数一个，点一个 • 顺着数：1→2→…→10 • 比大小：多/少/一样多 • 找邻居：前一个、后一个\n二、书写0～10\n• 写在格子中间 • 一笔写完：0、1、2、3 • 注意转弯：5、6、8、9 • 10：先写1，再写0\n三、核心题型（会做）\n• 看图写数｜圈出第几个｜填空：□前面是□｜从小到大排序\nTTS讲解要点： 先一一对应数清楚，再读数；比大小看谁多；写数从上到下，10先写1再写0。",
+      "effectiveOutline": {
+        "id": "scene-10101",
+        "type": "slide",
+        "title": "10以内数的认识与书写",
+        "description": "聚焦“10以内数的认识与书写”的核心题型与常见解法。",
+        "keyPoints": [
+          "知识点：10以内数的认识与书写",
+          "专题：数与计数启蒙",
+          "难度：basic",
+          "请输出规范讲解内容，并补充适合TTS播报的口语化讲解要点"
+        ],
+        "teachingObjective": "帮助学生掌握 10以内数的认识与书写 的核心概念、识别方法和规范表达",
+        "order": 1,
+        "difficultyLevel": "basic",
+        "teachingContext": {
+          "knowledgePointId": 10101,
+          "topicId": 101,
+          "topicName": "数与计数启蒙",
+          "durationSec": 420,
+          "transcriptText": "本节围绕“10以内数的认识与书写”展开，先建立核心概念，再通过典型例题讲解解题步骤，最后用变式练习帮助学生巩固。",
+          "spokenScriptRequirement": "请给出可直接用于口播的讲解词，按教学步骤自然表达。"
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewedAt": "2026-04-19T01:27:11.461Z",
+    "createdAt": "2026-04-19T01:06:02.338404Z",
+    "updatedAt": "2026-04-19T01:27:11.461Z"
+  },
+  {
+    "id": "openmaic-quiz-61006",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61006,
+    "topicId": 610,
+    "title": "OpenMAIC 题目包 61006",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q_1",
+            "type": "single",
+            "question": "全真竞赛模拟 测验题 第 1 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "全真竞赛模拟 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_2",
+            "type": "single",
+            "question": "全真竞赛模拟 测验题 第 2 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "全真竞赛模拟 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_3",
+            "type": "single",
+            "question": "全真竞赛模拟 测验题 第 3 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "全真竞赛模拟 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_4",
+            "type": "single",
+            "question": "全真竞赛模拟 测验题 第 4 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "全真竞赛模拟 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_5",
+            "type": "single",
+            "question": "全真竞赛模拟 测验题 第 5 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "全真竞赛模拟 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-61006",
+        "type": "quiz",
+        "title": "全真竞赛模拟 测验题",
+        "description": "聚焦“全真竞赛模拟”的核心题型与常见解法。",
+        "keyPoints": [
+          "奥数竞赛冲刺",
+          "测验题生成",
+          "知识点检测"
+        ],
+        "order": 1,
+        "quizConfig": {
+          "questionCount": 5,
+          "difficulty": "hard",
+          "questionTypes": [
+            "single"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-26T12:48:09.547Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-26T12:48:09.547Z"
+  },
+  {
+    "id": "openmaic-quiz-61005",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61005,
+    "topicId": 610,
+    "title": "OpenMAIC 题目包 61005",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q_1",
+            "type": "single",
+            "question": "竞赛应用题专题 测验题 第 1 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛应用题专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_2",
+            "type": "single",
+            "question": "竞赛应用题专题 测验题 第 2 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛应用题专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_3",
+            "type": "single",
+            "question": "竞赛应用题专题 测验题 第 3 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛应用题专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_4",
+            "type": "single",
+            "question": "竞赛应用题专题 测验题 第 4 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛应用题专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_5",
+            "type": "single",
+            "question": "竞赛应用题专题 测验题 第 5 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛应用题专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-61005",
+        "type": "quiz",
+        "title": "竞赛应用题专题 测验题",
+        "description": "聚焦“竞赛应用题专题”的核心题型与常见解法。",
+        "keyPoints": [
+          "奥数竞赛冲刺",
+          "测验题生成",
+          "知识点检测"
+        ],
+        "order": 1,
+        "quizConfig": {
+          "questionCount": 5,
+          "difficulty": "hard",
+          "questionTypes": [
+            "single"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-26T12:52:52.278Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-26T12:52:52.278Z"
+  },
+  {
+    "id": "openmaic-quiz-61004",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61004,
+    "topicId": 610,
+    "title": "OpenMAIC 题目包 61004",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q_1",
+            "type": "single",
+            "question": "竞赛几何专题 测验题 第 1 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛几何专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_2",
+            "type": "single",
+            "question": "竞赛几何专题 测验题 第 2 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛几何专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_3",
+            "type": "single",
+            "question": "竞赛几何专题 测验题 第 3 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛几何专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_4",
+            "type": "single",
+            "question": "竞赛几何专题 测验题 第 4 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛几何专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_5",
+            "type": "single",
+            "question": "竞赛几何专题 测验题 第 5 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛几何专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-61004",
+        "type": "quiz",
+        "title": "竞赛几何专题 测验题",
+        "description": "聚焦“竞赛几何专题”的核心题型与常见解法。",
+        "keyPoints": [
+          "奥数竞赛冲刺",
+          "测验题生成",
+          "知识点检测"
+        ],
+        "order": 1,
+        "quizConfig": {
+          "questionCount": 5,
+          "difficulty": "hard",
+          "questionTypes": [
+            "single"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-26T12:54:15.774Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-26T12:54:15.774Z"
+  },
+  {
+    "id": "openmaic-quiz-61003",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61003,
+    "topicId": 610,
+    "title": "OpenMAIC 题目包 61003",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q_1",
+            "type": "single",
+            "question": "竞赛组合专题 测验题 第 1 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛组合专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_2",
+            "type": "single",
+            "question": "竞赛组合专题 测验题 第 2 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛组合专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_3",
+            "type": "single",
+            "question": "竞赛组合专题 测验题 第 3 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛组合专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_4",
+            "type": "single",
+            "question": "竞赛组合专题 测验题 第 4 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛组合专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_5",
+            "type": "single",
+            "question": "竞赛组合专题 测验题 第 5 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛组合专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-61003",
+        "type": "quiz",
+        "title": "竞赛组合专题 测验题",
+        "description": "聚焦“竞赛组合专题”的核心题型与常见解法。",
+        "keyPoints": [
+          "奥数竞赛冲刺",
+          "测验题生成",
+          "知识点检测"
+        ],
+        "order": 1,
+        "quizConfig": {
+          "questionCount": 5,
+          "difficulty": "hard",
+          "questionTypes": [
+            "single"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-26T12:56:15.230Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-26T12:56:15.230Z"
+  },
+  {
+    "id": "openmaic-quiz-61002",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61002,
+    "topicId": 610,
+    "title": "OpenMAIC 题目包 61002",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q_1",
+            "type": "single",
+            "question": "竞赛数论专题 测验题 第 1 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛数论专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_2",
+            "type": "single",
+            "question": "竞赛数论专题 测验题 第 2 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛数论专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_3",
+            "type": "single",
+            "question": "竞赛数论专题 测验题 第 3 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛数论专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_4",
+            "type": "single",
+            "question": "竞赛数论专题 测验题 第 4 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛数论专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          },
+          {
+            "id": "q_5",
+            "type": "single",
+            "question": "竞赛数论专题 测验题 第 5 题：下面哪种做法最符合标准解题思路？",
+            "options": [
+              {
+                "label": "先识别条件和规律",
+                "value": "A"
+              },
+              {
+                "label": "直接猜答案",
+                "value": "B"
+              },
+              {
+                "label": "跳过验证步骤",
+                "value": "C"
+              },
+              {
+                "label": "只看最后结果",
+                "value": "D"
+              }
+            ],
+            "answer": [
+              "A"
+            ],
+            "analysis": "竞赛数论专题 测验题 的关键是先识别条件和规律，再按步骤解答。",
+            "points": 10,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-61002",
+        "type": "quiz",
+        "title": "竞赛数论专题 测验题",
+        "description": "聚焦“竞赛数论专题”的核心题型与常见解法。",
+        "keyPoints": [
+          "奥数竞赛冲刺",
+          "测验题生成",
+          "知识点检测"
+        ],
+        "order": 1,
+        "quizConfig": {
+          "questionCount": 5,
+          "difficulty": "hard",
+          "questionTypes": [
+            "single"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-26T12:58:13.278Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-26T12:58:13.278Z"
+  },
+  {
+    "id": "openmaic-quiz-10101",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 10101,
+    "topicId": 101,
+    "title": "OpenMAIC 题目包 10101",
+    "status": "approved",
+    "difficultyLevel": "basic",
+    "questionType": "single_choice",
+    "tags": [
+      "openmaic",
+      "quiz_bundle",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "single",
+            "question": "下面哪个数字的读法是“七”？",
+            "options": [
+              {
+                "value": "A",
+                "label": "6"
+              },
+              {
+                "value": "B",
+                "label": "7"
+              },
+              {
+                "value": "C",
+                "label": "8"
+              },
+              {
+                "value": "D",
+                "label": "9"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "数字7读作“七”。6读作“六”，8读作“八”，9读作“九”，因此选择B。",
+            "points": 5,
+            "hasAnswer": true
+          },
+          {
+            "id": "q2",
+            "type": "single",
+            "question": "把“十”写成数字，应该写哪一个？",
+            "options": [
+              {
+                "value": "A",
+                "label": "1"
+              },
+              {
+                "value": "B",
+                "label": "10"
+              },
+              {
+                "value": "C",
+                "label": "0"
+              },
+              {
+                "value": "D",
+                "label": "9"
+              }
+            ],
+            "answer": [
+              "B"
+            ],
+            "analysis": "“十”表示10，所以写成数字是10。1是“一”，0是“零”，9是“九”，因此选择B。",
+            "points": 6,
+            "hasAnswer": true
+          },
+          {
+            "id": "q3",
+            "type": "single",
+            "question": "按从小到大的顺序数数：4的后面一个数是几？",
+            "options": [
+              {
+                "value": "A",
+                "label": "3"
+              },
+              {
+                "value": "B",
+                "label": "4"
+              },
+              {
+                "value": "C",
+                "label": "5"
+              },
+              {
+                "value": "D",
+                "label": "6"
+              }
+            ],
+            "answer": [
+              "C"
+            ],
+            "analysis": "从小到大数数是1、2、3、4、5……，所以4的后面一个数是5。3在4前面，4是本身，6比5还大，因此选择C。",
+            "points": 7,
+            "hasAnswer": true
+          }
+        ]
+      },
+      "effectiveOutline": {
+        "id": "quiz-scene-10101",
+        "type": "quiz",
+        "title": "10以内数的认识与书写 练习题",
+        "description": "聚焦“10以内数的认识与书写”的核心题型与常见解法。",
+        "keyPoints": [
+          "知识点：10以内数的认识与书写",
+          "输出与知识点直接相关的真实练习题",
+          "不要输出通用方法论占位题"
+        ],
+        "order": 1,
+        "difficultyLevel": "basic",
+        "quizConfig": {
+          "questionCount": 3,
+          "difficulty": "easy",
+          "questionTypes": [
+            "single"
+          ]
+        },
+        "quizContext": {
+          "knowledgePointId": 10101,
+          "topicName": "数与计数启蒙",
+          "transcriptText": "本节围绕“10以内数的认识与书写”展开，先建立核心概念，再通过典型例题讲解解题步骤，最后用变式练习帮助学生巩固。",
+          "requirements": [
+            "题干完整具体",
+            "选项清晰",
+            "输出答案与解析",
+            "必须与知识点直接相关"
+          ]
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewedAt": "2026-04-19T01:27:11.461Z",
+    "createdAt": "2026-04-18T02:07:39.651872Z",
+    "updatedAt": "2026-04-19T01:27:11.461Z"
+  },
+  {
+    "id": "openmaic-lecture-10101",
+    "draftType": "lecture_script",
+    "knowledgePointId": 10101,
+    "topicId": 101,
+    "title": "OpenMAIC 讲解稿 10101",
+    "status": "approved",
+    "difficultyLevel": "basic",
+    "questionType": "lecture_outline",
+    "tags": [
+      "openmaic",
+      "lecture_script",
+      "needs-review"
+    ],
+    "payload": {
+      "content": {
+        "elements": [
+          {
+            "id": "text_qKoBE2p0",
+            "type": "text",
+            "left": 60,
+            "top": 50,
+            "width": 880,
+            "height": 70,
+            "content": "<p style=\"font-size:32px;\"><strong>10以内数的认识与书写</strong></p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#333333",
+            "rotate": 0
+          },
+          {
+            "id": "shape_lOmxpCJB",
+            "type": "shape",
+            "left": 70,
+            "top": 132,
+            "width": 860,
+            "height": 3,
+            "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+            "viewBox": [
+              1,
+              1
+            ],
+            "fill": "#5b9bd5",
+            "fixedRatio": false,
+            "rotate": 0
+          },
+          {
+            "id": "text_hA3AYhTQ",
+            "type": "text",
+            "left": 60,
+            "top": 150,
+            "width": 880,
+            "height": 46,
+            "content": "<p style=\"font-size:16px; color:#555555;\">知识点：10以内数的认识与书写｜专题：数与计数启蒙｜难度：basic</p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#555555",
+            "rotate": 0
+          },
+          {
+            "id": "shape_MRIC5-4e",
+            "type": "shape",
+            "left": 60,
+            "top": 216,
+            "width": 430,
+            "height": 190,
+            "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+            "viewBox": [
+              1,
+              1
+            ],
+            "fill": "#e8f4fd",
+            "fixedRatio": false,
+            "rotate": 0
+          },
+          {
+            "id": "shape_osYghSXq",
+            "type": "shape",
+            "left": 510,
+            "top": 216,
+            "width": 430,
+            "height": 190,
+            "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+            "viewBox": [
+              1,
+              1
+            ],
+            "fill": "#f3f4f6",
+            "fixedRatio": false,
+            "rotate": 0
+          },
+          {
+            "id": "text_K4oeK2Dk",
+            "type": "text",
+            "left": 80,
+            "top": 236,
+            "width": 390,
+            "height": 49,
+            "content": "<p style=\"font-size:18px;\"><strong>一、认识10以内的数</strong></p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#1f3a5f",
+            "rotate": 0
+          },
+          {
+            "id": "text_t-c1mCXd",
+            "type": "text",
+            "left": 80,
+            "top": 286,
+            "width": 390,
+            "height": 118,
+            "content": "<p style=\"font-size:16px;\">• 一一对应：数一个，点一个</p><p style=\"font-size:16px;\">• 顺着数：1→2→…→10</p><p style=\"font-size:16px;\">• 比大小：多/少/一样多</p><p style=\"font-size:16px;\">• 找邻居：前一个、后一个</p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#333333",
+            "rotate": 0
+          },
+          {
+            "id": "text_1MgZh3gt",
+            "type": "text",
+            "left": 530,
+            "top": 236,
+            "width": 390,
+            "height": 49,
+            "content": "<p style=\"font-size:18px;\"><strong>二、书写0～10</strong></p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#374151",
+            "rotate": 0
+          },
+          {
+            "id": "text_xkFkrcBm",
+            "type": "text",
+            "left": 530,
+            "top": 286,
+            "width": 390,
+            "height": 118,
+            "content": "<p style=\"font-size:16px;\">• 写在格子中间</p><p style=\"font-size:16px;\">• 一笔写完：0、1、2、3</p><p style=\"font-size:16px;\">• 注意转弯：5、6、8、9</p><p style=\"font-size:16px;\">• 10：先写1，再写0</p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#333333",
+            "rotate": 0
+          },
+          {
+            "id": "shape_qUVWJID3",
+            "type": "shape",
+            "left": 60,
+            "top": 426,
+            "width": 880,
+            "height": 86,
+            "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+            "viewBox": [
+              1,
+              1
+            ],
+            "fill": "#fff7ed",
+            "fixedRatio": false,
+            "rotate": 0
+          },
+          {
+            "id": "text_Y_YRNbgy",
+            "type": "text",
+            "left": 80,
+            "top": 436,
+            "width": 840,
+            "height": 49,
+            "content": "<p style=\"font-size:18px;\"><strong>三、核心题型（会做）</strong></p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#7c2d12",
+            "rotate": 0
+          },
+          {
+            "id": "text__Yseyg4D",
+            "type": "text",
+            "left": 80,
+            "top": 477,
+            "width": 840,
+            "height": 43,
+            "content": "<p style=\"font-size:16px;\">• 看图写数｜圈出第几个｜填空：□前面是□｜从小到大排序</p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#333333",
+            "rotate": 0
+          },
+          {
+            "id": "shape_EzVeSk1L",
+            "type": "shape",
+            "left": 60,
+            "top": 522,
+            "width": 880,
+            "height": 40.5,
+            "path": "M 0 0 L 1 0 L 1 1 L 0 1 Z",
+            "viewBox": [
+              1,
+              1
+            ],
+            "fill": "#eef2ff",
+            "fixedRatio": false,
+            "rotate": 0
+          },
+          {
+            "id": "text_3VMq6sh0",
+            "type": "text",
+            "left": 80,
+            "top": 520.75,
+            "width": 840,
+            "height": 43,
+            "content": "<p style=\"font-size:14px; color:#1f2937;\"><strong>TTS讲解要点：</strong>先一一对应数清楚，再读数；比大小看谁多；写数从上到下，10先写1再写0。</p>",
+            "defaultFontName": "Microsoft YaHei",
+            "defaultColor": "#1f2937",
+            "rotate": 0
+          }
+        ],
+        "background": {
+          "type": "solid",
+          "color": "#ffffff"
+        },
+        "remark": "聚焦“10以内数的认识与书写”的核心题型与常见解法。"
+      },
+      "effectiveOutline": {
+        "id": "scene-10101",
+        "type": "slide",
+        "title": "10以内数的认识与书写",
+        "description": "聚焦“10以内数的认识与书写”的核心题型与常见解法。",
+        "keyPoints": [
+          "知识点：10以内数的认识与书写",
+          "专题：数与计数启蒙",
+          "难度：basic",
+          "请输出规范讲解内容，并补充适合TTS播报的口语化讲解要点"
+        ],
+        "teachingObjective": "帮助学生掌握 10以内数的认识与书写 的核心概念、识别方法和规范表达",
+        "order": 1,
+        "difficultyLevel": "basic",
+        "teachingContext": {
+          "knowledgePointId": 10101,
+          "topicId": 101,
+          "topicName": "数与计数启蒙",
+          "durationSec": 420,
+          "transcriptText": "本节围绕“10以内数的认识与书写”展开，先建立核心概念，再通过典型例题讲解解题步骤，最后用变式练习帮助学生巩固。",
+          "spokenScriptRequirement": "请给出可直接用于口播的讲解词，按教学步骤自然表达。"
+        }
+      }
+    },
+    "sourceModel": "openmaic-adapter",
+    "versionTag": "openmaic-v1",
+    "reviewedAt": "2026-04-19T01:27:11.461Z",
+    "createdAt": "2026-04-18T02:06:52.766893Z",
+    "updatedAt": "2026-04-19T01:27:11.461Z"
+  },
+  {
+    "id": "quiz-61006",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61006,
+    "topicId": 610,
+    "title": "全真竞赛模拟 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 全真竞赛模拟，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "全真竞赛模拟 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "runtime",
+    "reviewedAt": "2026-04-17T14:41:01.311Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-17T14:41:01.311Z"
+  },
+  {
+    "id": "quiz-61005",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61005,
+    "topicId": 610,
+    "title": "竞赛应用题专题 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review",
+      "application"
+    ],
+    "payload": {
+      "stem": "关于 竞赛应用题专题，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "竞赛应用题专题 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review",
+        "application"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-17T14:42:10.270Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-17T14:42:10.270Z"
+  },
+  {
+    "id": "quiz-61004",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61004,
+    "topicId": 610,
+    "title": "竞赛几何专题 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 竞赛几何专题，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "竞赛几何专题 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-17T15:01:34.364Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-17T15:01:34.364Z"
+  },
+  {
+    "id": "quiz-61003",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61003,
+    "topicId": 610,
+    "title": "竞赛组合专题 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 竞赛组合专题，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "竞赛组合专题 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-17T23:39:13.533Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-17T23:39:13.533Z"
+  },
+  {
+    "id": "quiz-61002",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61002,
+    "topicId": 610,
+    "title": "竞赛数论专题 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 竞赛数论专题，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "竞赛数论专题 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T00:26:44.647Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T00:26:44.647Z"
+  },
+  {
+    "id": "quiz-61001",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 61001,
+    "topicId": 610,
+    "title": "竞赛计算技巧 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "奥数竞赛冲刺",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 竞赛计算技巧，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "竞赛计算技巧 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "奥数竞赛冲刺",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T00:31:21.508Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T00:31:21.508Z"
+  },
+  {
+    "id": "quiz-60906",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 60906,
+    "topicId": 609,
+    "title": "错题复盘与方法总结 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "intermediate",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初择校模拟",
+      "intermediate",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 错题复盘与方法总结，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "错题复盘与方法总结 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初择校模拟",
+        "intermediate",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "intermediate",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T00:35:42.652Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T00:35:42.652Z"
+  },
+  {
+    "id": "quiz-60905",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 60905,
+    "topicId": 609,
+    "title": "全真模拟卷训练 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初择校模拟",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 全真模拟卷训练，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "全真模拟卷训练 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初择校模拟",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T01:19:30.061Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T01:19:30.061Z"
+  },
+  {
+    "id": "quiz-60904",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 60904,
+    "topicId": 609,
+    "title": "择校卷综合专项 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初择校模拟",
+      "advanced",
+      "ai-generated",
+      "needs-review"
+    ],
+    "payload": {
+      "stem": "关于 择校卷综合专项，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "择校卷综合专项 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初择校模拟",
+        "advanced",
+        "ai-generated",
+        "needs-review"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T01:24:33.728Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T01:24:33.728Z"
+  },
+  {
+    "id": "quiz-60903",
+    "draftType": "quiz_bundle",
+    "knowledgePointId": 60903,
+    "topicId": 609,
+    "title": "择校卷应用题专项 AI 题目草稿",
+    "status": "approved",
+    "difficultyLevel": "advanced",
+    "questionType": "single_choice",
+    "tags": [
+      "小升初择校模拟",
+      "advanced",
+      "ai-generated",
+      "needs-review",
+      "application"
+    ],
+    "payload": {
+      "stem": "关于 择校卷应用题专项，下列哪种做法最符合标准解题思路？",
+      "options": [
+        "先识别条件和题型，再套用标准步骤",
+        "直接猜答案，最后再回头验证",
+        "忽略已知条件，只看最后一问",
+        "跳过分析，直接选择最长选项"
+      ],
+      "answerText": "先识别条件和题型，再套用标准步骤",
+      "analysisText": "择校卷应用题专项 的关键是先识别条件，再按固定步骤完成求解。",
+      "autoFilledTags": [
+        "小升初择校模拟",
+        "advanced",
+        "ai-generated",
+        "needs-review",
+        "application"
+      ],
+      "autoFilledDifficultyLevel": "advanced",
+      "autoFilledQuestionType": "single_choice"
+    },
+    "sourceModel": "local-template-generator",
+    "versionTag": "ai-review-v1",
+    "reviewNote": "smoke",
+    "reviewedAt": "2026-04-18T01:36:08.566Z",
+    "createdAt": "2026-04-17T13:29:07.137893Z",
+    "updatedAt": "2026-04-18T01:36:08.566Z"
+  }
+]

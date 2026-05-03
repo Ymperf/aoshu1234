@@ -1,0 +1,351 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030501",
+  "knowledgePointId": 3030501,
+  "topicId": 30305,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "年龄差不变",
+  "subtitle": "应用题 · 年龄问题",
+  "intro": "两个人的年龄差永远不变，不管过多少年，也不管往前推多少年。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题"
+  },
+  "problemStatement": "无论过多少年，两人年龄差永远不变",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "这一类年龄题最核心的规律只有一句话：年龄差不变。今年妈妈比小红大24岁，明年、后年、五年后，差都还是24岁。题目如果问“当妈妈40岁时，小红几岁”，就不需要先算过了几年，直接用40减24就行。很多同学会在题目里跟着时间一起转来转去，其实没有必要。先把年龄差算出来，再把它当成固定条件使用，步骤会很短，思路也更稳。",
+  "keyTakeaways": [
+    "先算出当前两个人的年龄差。",
+    "不管题目问几年后或几年前，年龄差都不变。",
+    "利用不变的年龄差和其中一人的年龄，就能求出另一人的年龄。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "这一类年龄题最核心的规律只有一句话：年龄差不变。",
+        "今年妈妈比小红大24岁，明年、后年、五年后，差都还是24岁。",
+        "题目如果问“当妈妈40岁时，小红几岁”，就不需要先算过了几年，直接用40减24就行。",
+        "很多同学会在题目里跟着时间一起转来转去，其实没有必要。",
+        "先把年龄差算出来，再把它当成固定条件使用，步骤会很短，思路也更稳。"
+      ],
+      "caption": "这一类年龄题最核心的规律只有一句话：年龄差不变。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030501-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "今年小刚7岁，爸爸31岁。当小刚10岁时，爸爸多少岁？",
+      "answer": "爸爸34岁。",
+      "analysis": "年龄差31-7=24岁，不变。小刚10岁时，爸爸年龄=10+24=34岁。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030501-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "今年姐姐14岁，妹妹6岁。当姐姐18岁时，妹妹多少岁？",
+      "answer": "妹妹10岁。",
+      "analysis": "年龄差14-6=8岁。姐姐18岁时，妹妹=18-8=10岁。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030501-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "今年爷爷65岁，奶奶60岁。当奶奶62岁时，爷爷多少岁？",
+      "answer": "爷爷67岁。",
+      "analysis": "爷爷和奶奶年龄差65-60=5岁，不变。奶奶62岁时，爷爷=62+5=67岁。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "年龄差不变",
+    "subtitle": "应用题 · 年龄问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "年龄问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "两个人的年龄差永远不变，不管过多少年，也不管往前推多少年。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "两个人的年龄差永远不变，不管过多少年，也不管往前推多少年。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先算出当前两个人的年龄差。",
+          "不管题目问几年后或几年前，年龄差都不变。",
+          "利用不变的年龄差和其中一人的年龄，就能求出另一人的年龄。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。关键记住：年龄差永远不变。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易误以为“几年后两人年龄同时增加，差也会变”。错！差永远不变。",
+          "计算年龄差时注意用较大的年龄减较小的年龄。",
+          "题目问“几年后”或“几年前”时，不要忘记两边同时加减。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的年龄问题，数字简单（一般不超过100），只考直接应用年龄差不变，没有倍数、和差等变形。重点就是让学生理解并运用“年龄差不变”这个最核心的规律。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "两个人的年龄差永远不变，不管过多少年，也不管往前推多少年。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的年龄问题，数字简单（一般不超过100），只考直接应用年龄差不变，没有倍数、和差等变形。重点就是让学生理解并运用“年龄差不变”这个最核心的规律。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先算出当前两个人的年龄差。",
+              "不管题目问几年后或几年前，年龄差都不变。",
+              "利用不变的年龄差和其中一人的年龄，就能求出另一人的年龄。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。关键记住：年龄差永远不变。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易误以为“几年后两人年龄同时增加，差也会变”。错！差永远不变。",
+              "计算年龄差时注意用较大的年龄减较小的年龄。",
+              "题目问“几年后”或“几年前”时，不要忘记两边同时加减。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "今年小红8岁，妈妈32岁。当妈妈40岁时，小红多少岁？",
+    "answer": "小红16岁。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "算出今年妈妈和小红的年龄差。",
+        "explanation": "算出今年妈妈和小红的年龄差。\n32 – 8 = 24（岁）\n答：妈妈比小红大24岁，这个差永远不变。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "当妈妈40岁时，小红多少岁？",
+        "explanation": "当妈妈40岁时，小红多少岁？\n因为年龄差不变，还是24岁。\n所以小红的年龄 = 妈妈的年龄 – 年龄差\n40 – 24 = 16（岁）",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "检查一下。",
+        "explanation": "检查一下。\n16 + 24 = 40，妈妈40岁，小红16岁，差24岁，和原来一样。正确。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "年龄题先抓住不变量。只要是同两个人比较，不管往前推还是往后推，年龄差都不会变，再用“已知年龄±年龄差”求另一个人。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030501-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "今年小刚7岁，爸爸31岁。当小刚10岁时，爸爸多少岁？",
+        "answer": "爸爸34岁。",
+        "analysis": "年龄差31-7=24岁，不变。小刚10岁时，爸爸年龄=10+24=34岁。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030501-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "今年姐姐14岁，妹妹6岁。当姐姐18岁时，妹妹多少岁？",
+        "answer": "妹妹10岁。",
+        "analysis": "年龄差14-6=8岁。姐姐18岁时，妹妹=18-8=10岁。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030501-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "今年爷爷65岁，奶奶60岁。当奶奶62岁时，爷爷多少岁？",
+        "answer": "爷爷67岁。",
+        "analysis": "爷爷和奶奶年龄差65-60=5岁，不变。奶奶62岁时，爷爷=62+5=67岁。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "这一类年龄题最核心的规律只有一句话：年龄差不变。今年妈妈比小红大24岁，明年、后年、五年后，差都还是24岁。题目如果问“当妈妈40岁时，小红几岁”，就不需要先算过了几年，直接用40减24就行。很多同学会在题目里跟着时间一起转来转去，其实没有必要。先把年龄差算出来，再把它当成固定条件使用，步骤会很短，思路也更稳。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "这一类年龄题最核心的规律只有一句话：年龄差不变。",
+          "今年妈妈比小红大24岁，明年、后年、五年后，差都还是24岁。",
+          "题目如果问“当妈妈40岁时，小红几岁”，就不需要先算过了几年，直接用40减24就行。",
+          "很多同学会在题目里跟着时间一起转来转去，其实没有必要。",
+          "先把年龄差算出来，再把它当成固定条件使用，步骤会很短，思路也更稳。"
+        ],
+        "caption": "这一类年龄题最核心的规律只有一句话：年龄差不变。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"240\" viewBox=\"0 0 600 240\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"240\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"35\" text-anchor=\"middle\" font-size=\"20\" font-family=\"sans-serif\" font-weight=\"bold\" fill=\"#333\">年龄差不变示意图</text>\n  \n  <!-- 今年情况 -->\n  <text x=\"50\" y=\"80\" font-size=\"16\" font-family=\"sans-serif\" fill=\"#333\">今年：</text>\n  <!-- 小红年龄线段 -->\n  <line x1=\"140\" y1=\"75\" x2=\"220\" y2=\"75\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"180\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">小红8岁</text>\n  \n  <!-- 妈妈年龄线段（长一点） -->\n  <line x1=\"140\" y1=\"105\" x2=\"340\" y2=\"105\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"240\" y=\"100\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">妈妈32岁</text>\n  \n  <!-- 年龄差箭头 -->\n  <line x1=\"220\" y1=\"80\" x2=\"340\" y2=\"80\" stroke=\"#4A90D9\" stroke-width=\"2\" marker-end=\"url(#arrowBlue)\"/>\n  <line x1=\"220\" y1=\"80\" x2=\"220\" y2=\"75\" stroke=\"#4A90D9\" stroke-width=\"1\"/>\n  <line x1=\"340\" y1=\"80\" x2=\"340\" y2=\"105\" stroke=\"#4A90D9\" stroke-width=\"1\"/>\n  <text x=\"280\" y=\"72\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#4A90D9\">差24岁</text>\n  \n  <!-- 几年后情况 -->\n  <text x=\"50\" y=\"160\" font-size=\"16\" font-family=\"sans-serif\" fill=\"#333\">妈妈40岁时：</text>\n  <!-- 小红年龄线段 -->\n  <line x1=\"140\" y1=\"155\" x2=\"260\" y2=\"155\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"200\" y=\"150\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"red\">小红16岁</text>\n  \n  <!-- 妈妈年龄线段 -->\n  <line x1=\"140\" y1=\"185\" x2=\"420\" y2=\"185\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"280\" y=\"180\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"black\">妈妈40岁</text>\n  \n  <!-- 年龄差箭头（蓝色不变） -->\n  <line x1=\"260\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#4A90D9\" stroke-width=\"2\" marker-end=\"url(#arrowBlue)\"/>\n  <line x1=\"260\" y1=\"160\" x2=\"260\" y2=\"155\" stroke=\"#4A90D9\" stroke-width=\"1\"/>\n  <line x1=\"420\" y1=\"160\" x2=\"420\" y2=\"185\" stroke=\"#4A90D9\" stroke-width=\"1\"/>\n  <text x=\"340\" y=\"152\" text-anchor=\"middle\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#4A90D9\">差还是24岁</text>\n  \n  <!-- 箭头定义 -->\n  <defs>\n    <marker id=\"arrowBlue\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"#4A90D9\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.801Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "两个人的年龄差永远不变，不管过多少年，也不管往前推多少年。",
+      "thinking": "- 先算出当前两个人的年龄差。\n   - 不管题目问几年后或几年前，年龄差都不变。\n   - 利用不变的年龄差和其中一人的年龄，就能求出另一人的年龄。",
+      "formula": "无固定公式，掌握思路即可。关键记住：年龄差永远不变。",
+      "mistakes": "- 容易误以为“几年后两人年龄同时增加，差也会变”。错！差永远不变。\n   - 计算年龄差时注意用较大的年龄减较小的年龄。\n   - 题目问“几年后”或“几年前”时，不要忘记两边同时加减。",
+      "features": "基础难度的年龄问题，数字简单（一般不超过100），只考直接应用年龄差不变，没有倍数、和差等变形。重点就是让学生理解并运用“年龄差不变”这个最核心的规律。"
+    },
+    "example": {
+      "title": "今年小红8岁，妈妈32岁。当妈妈40岁时，小红多少岁？",
+      "think": "先算出妈妈和小红今年的年龄差，这个差永远不变。当妈妈40岁时，用妈妈的年龄减去不变的年龄差，就得到小红的年龄。",
+      "steps": "第1步：算出今年妈妈和小红的年龄差。\n32 – 8 = 24（岁）\n答：妈妈比小红大24岁，这个差永远不变。\n\n第2步：当妈妈40岁时，小红多少岁？\n因为年龄差不变，还是24岁。\n所以小红的年龄 = 妈妈的年龄 – 年龄差\n40 – 24 = 16（岁）\n\n第3步：检查一下。\n16 + 24 = 40，妈妈40岁，小红16岁，差24岁，和原来一样。正确。",
+      "answer": "小红16岁。",
+      "summary": "年龄题先抓住不变量。只要是同两个人比较，不管往前推还是往后推，年龄差都不会变，再用“已知年龄±年龄差”求另一个人。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "年龄差不变",
+    "subtitle": "应用题 · 年龄问题",
+    "problem": "今年小红8岁，妈妈32岁。当妈妈40岁时，小红多少岁？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "今年小刚7岁，爸爸31岁。当小刚10岁时，爸爸多少岁？"
+  }
+}

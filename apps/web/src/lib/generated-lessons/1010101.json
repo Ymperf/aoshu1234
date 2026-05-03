@@ -1,0 +1,411 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-1010101",
+  "knowledgePointId": 1010101,
+  "topicId": 10101,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "计算",
+  "title": "数的分与合（凑十法启蒙）",
+  "subtitle": "计算 · 数与计数启蒙",
+  "intro": "数的分与合是指把一个数分成两个数，或者把两个数合成一个数，凑十法就是通过分合让其中一个数先凑成10，然后再加剩下的数，这样计算更简单。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "一年级",
+    "moduleName": "计算",
+    "topicName": "数与计数启蒙"
+  },
+  "problemStatement": "学习数的拆分与组合，为凑十法计算打基础",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "小朋友们好，欢迎来到数学小课堂。今天我们来学习一个非常厉害的计算方法，叫做凑十法。什么是凑十法呢？就是当我们计算加法的时候，先想办法凑出一个十，这样算起来就特别简单。我们来看一道例题。九加五等于多少呢？请你先想一想，九和谁可以凑成十？对，九加一等于十。但是题目里没有一，只有五，那怎么办呀？我们就把五拆开来。五可以分成一和四，我们先把那个一拿给九，九加一等于十，十再加上剩下的四，就等于十四。所以九加五等于十四。你学会了吗？我们来一步一步写一下。第一步，看九，它离十最近，缺一个一。第二步，把五分成一和四。第三步，先算九加一等于十，再算十加四等于十四。最后答案就是十四。这个方法可以帮我们算得又快又准。现在我们来练几道题。第一题，八加四。八需要二才能变成十，所以把四拆成二和二，先算八加二等于十，再加二等于十二。第二题，七加六。七需要三，把六拆成三和三，先算七加三等于十，再加三等于十三。第三题，九加七。九需要一，把七拆成一和六，先算九加一等于十，再加六等于十六。小朋友们，凑十法很简单吧？下次遇到九加几、八加几这样的题目，记得先找到那个一或者二，把另一个数拆开，先凑十，再加剩下的。今天的小课堂就到这里，我们下次再见。",
+  "keyTakeaways": [
+    "先看较大的数，想一想它和几能凑成10。",
+    "把较小的数分成两部分，一部分给大数凑成10，剩下的就是结果。",
+    "最后算10加剩下的数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 29,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "小朋友们好，欢迎来到数学小课堂。",
+        "今天我们来学习一个非常厉害的计算方法，叫做凑十法。",
+        "什么是凑十法呢？",
+        "就是当我们计算加法的时候，先想办法凑出一个十，这样算起来就特别简单。",
+        "我们来看一道例题。",
+        "九加五等于多少呢？",
+        "请你先想一想，九和谁可以凑成十？",
+        "对，九加一等于十。",
+        "但是题目里没有一，只有五，那怎么办呀？",
+        "我们就把五拆开来。",
+        "五可以分成一和四，我们先把那个一拿给九，九加一等于十，十再加上剩下的四，就等于十四。",
+        "所以九加五等于十四。",
+        "你学会了吗？",
+        "我们来一步一步写一下。",
+        "第一步，看九，它离十最近，缺一个一。",
+        "第二步，把五分成一和四。",
+        "第三步，先算九加一等于十，再算十加四等于十四。",
+        "最后答案就是十四。",
+        "这个方法可以帮我们算得又快又准。",
+        "现在我们来练几道题。",
+        "第一题，八加四。",
+        "八需要二才能变成十，所以把四拆成二和二，先算八加二等于十，再加二等于十二。",
+        "第二题，七加六。",
+        "七需要三，把六拆成三和三，先算七加三等于十，再加三等于十三。",
+        "第三题，九加七。",
+        "九需要一，把七拆成一和六，先算九加一等于十，再加六等于十六。",
+        "小朋友们，凑十法很简单吧？",
+        "下次遇到九加几、八加几这样的题目，记得先找到那个一或者二，把另一个数拆开，先凑十，再加剩下的。",
+        "今天的小课堂就到这里，我们下次再见。"
+      ],
+      "caption": "小朋友们好，欢迎来到数学小课堂。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "1010101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "计算：8 + 4 = ？ 请用凑十法写出过程。",
+      "answer": "12",
+      "analysis": "8想凑10需要2，把4分成2和2，先算8+2=10，再算10+2=12。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1010101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "计算：7 + 6 = ？ 请用凑十法写出过程。",
+      "answer": "13",
+      "analysis": "7想凑10需要3，把6分成3和3，先算7+3=10，再算10+3=13。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "1010101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小明有9颗糖，妈妈又给了他7颗，小明现在有多少颗糖？（用凑十法计算）",
+      "answer": "16",
+      "analysis": "9想凑10需要1，把7分成1和6，先算9+1=10，再算10+6=16。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "数的分与合（凑十法启蒙）",
+    "subtitle": "计算 · 数与计数启蒙",
+    "gradeName": "一年级",
+    "moduleName": "计算",
+    "topicName": "数与计数启蒙",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "计算",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "数的分与合是指把一个数分成两个数，或者把两个数合成一个数，凑十法就是通过分合让其中一个数先凑成10，然后再加剩下的数，这样计算更简单。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "数的分与合是指把一个数分成两个数，或者把两个数合成一个数，凑十法就是通过分合让其中一个数先凑成10，然后再加剩下的数，这样计算更简单。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先看较大的数，想一想它和几能凑成10。",
+          "把较小的数分成两部分，一部分给大数凑成10，剩下的就是结果。",
+          "最后算10加剩下的数。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握“拆小数，凑大数”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "忘记把剩下的数加上去。",
+          "分错小数，导致凑10失败。",
+          "把两个数只合起来，没有用到凑十的思路。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度下，题目数字稍大（8、9加几），需要熟练运用10以内数的分与合，并正确写出凑十过程，考察步骤完整性和计算准确性。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "数的分与合是指把一个数分成两个数，或者把两个数合成一个数，凑十法就是通过分合让其中一个数先凑成10，然后再加剩下的数，这样计算更简单。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度下，题目数字稍大（8、9加几），需要熟练运用10以内数的分与合，并正确写出凑十过程，考察步骤完整性和计算准确性。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先看较大的数，想一想它和几能凑成10。",
+              "把较小的数分成两部分，一部分给大数凑成10，剩下的就是结果。",
+              "最后算10加剩下的数。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握“拆小数，凑大数”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "忘记把剩下的数加上去。",
+              "分错小数，导致凑10失败。",
+              "把两个数只合起来，没有用到凑十的思路。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "计算：9 + 5 = ？ 请用凑十法写出计算过程。",
+    "answer": "14",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "观察：9和5相加，9离10最近，差1就能凑成",
+        "explanation": "观察：9和5相加，9离10最近，差1就能凑成10。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "把5分成两部分：因为需要1，所以把5分成1和",
+        "explanation": "把5分成两部分：因为需要1，所以把5分成1和4。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "先算：9 + 1 = 10。",
+        "explanation": "先算：9 + 1 = 10。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "再算：10 + 4 = 14。",
+        "explanation": "再算：10 + 4 = 14。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "所以 9 + 5 = 14。",
+        "explanation": "所以 9 + 5 = 14。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "遇到9加几时，把另一个数分成1和几，先算9+1=10，再算10加剩下的数。这种方法就叫“凑十法”，能让计算又快又准。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "1010101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "计算：8 + 4 = ？ 请用凑十法写出过程。",
+        "answer": "12",
+        "analysis": "8想凑10需要2，把4分成2和2，先算8+2=10，再算10+2=12。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1010101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "计算：7 + 6 = ？ 请用凑十法写出过程。",
+        "answer": "13",
+        "analysis": "7想凑10需要3，把6分成3和3，先算7+3=10，再算10+3=13。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "1010101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小明有9颗糖，妈妈又给了他7颗，小明现在有多少颗糖？（用凑十法计算）",
+        "answer": "16",
+        "analysis": "9想凑10需要1，把7分成1和6，先算9+1=10，再算10+6=16。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "小朋友们好，欢迎来到数学小课堂。今天我们来学习一个非常厉害的计算方法，叫做凑十法。什么是凑十法呢？就是当我们计算加法的时候，先想办法凑出一个十，这样算起来就特别简单。我们来看一道例题。九加五等于多少呢？请你先想一想，九和谁可以凑成十？对，九加一等于十。但是题目里没有一，只有五，那怎么办呀？我们就把五拆开来。五可以分成一和四，我们先把那个一拿给九，九加一等于十，十再加上剩下的四，就等于十四。所以九加五等于十四。你学会了吗？我们来一步一步写一下。第一步，看九，它离十最近，缺一个一。第二步，把五分成一和四。第三步，先算九加一等于十，再算十加四等于十四。最后答案就是十四。这个方法可以帮我们算得又快又准。现在我们来练几道题。第一题，八加四。八需要二才能变成十，所以把四拆成二和二，先算八加二等于十，再加二等于十二。第二题，七加六。七需要三，把六拆成三和三，先算七加三等于十，再加三等于十三。第三题，九加七。九需要一，把七拆成一和六，先算九加一等于十，再加六等于十六。小朋友们，凑十法很简单吧？下次遇到九加几、八加几这样的题目，记得先找到那个一或者二，把另一个数拆开，先凑十，再加剩下的。今天的小课堂就到这里，我们下次再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 29,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "小朋友们好，欢迎来到数学小课堂。",
+          "今天我们来学习一个非常厉害的计算方法，叫做凑十法。",
+          "什么是凑十法呢？",
+          "就是当我们计算加法的时候，先想办法凑出一个十，这样算起来就特别简单。",
+          "我们来看一道例题。",
+          "九加五等于多少呢？",
+          "请你先想一想，九和谁可以凑成十？",
+          "对，九加一等于十。",
+          "但是题目里没有一，只有五，那怎么办呀？",
+          "我们就把五拆开来。",
+          "五可以分成一和四，我们先把那个一拿给九，九加一等于十，十再加上剩下的四，就等于十四。",
+          "所以九加五等于十四。",
+          "你学会了吗？",
+          "我们来一步一步写一下。",
+          "第一步，看九，它离十最近，缺一个一。",
+          "第二步，把五分成一和四。",
+          "第三步，先算九加一等于十，再算十加四等于十四。",
+          "最后答案就是十四。",
+          "这个方法可以帮我们算得又快又准。",
+          "现在我们来练几道题。",
+          "第一题，八加四。",
+          "八需要二才能变成十，所以把四拆成二和二，先算八加二等于十，再加二等于十二。",
+          "第二题，七加六。",
+          "七需要三，把六拆成三和三，先算七加三等于十，再加三等于十三。",
+          "第三题，九加七。",
+          "九需要一，把七拆成一和六，先算九加一等于十，再加六等于十六。",
+          "小朋友们，凑十法很简单吧？",
+          "下次遇到九加几、八加几这样的题目，记得先找到那个一或者二，把另一个数拆开，先凑十，再加剩下的。",
+          "今天的小课堂就到这里，我们下次再见。"
+        ],
+        "caption": "小朋友们好，欢迎来到数学小课堂。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"300\" viewBox=\"0 0 600 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"300\" fill=\"white\"/>\n  <!-- 左侧9个圆圈 -->\n  <text x=\"40\" y=\"40\" font-size=\"20\" font-family=\"sans-serif\" fill=\"black\">第一步：</text>\n  <circle cx=\"100\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"150\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"200\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"100\" cy=\"130\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"150\" cy=\"130\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"200\" cy=\"130\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"100\" cy=\"180\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"150\" cy=\"180\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"200\" cy=\"180\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"130\" y=\"230\" font-size=\"18\" font-family=\"sans-serif\" fill=\"blue\">9</text>\n\n  <!-- 右侧5个圆圈，其中1个用蓝色标注（要移走的1） -->\n  <text x=\"300\" y=\"40\" font-size=\"20\" font-family=\"sans-serif\" fill=\"black\">第二步：</text>\n  <circle cx=\"350\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"blue\" stroke-width=\"3\"/>\n  <circle cx=\"400\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"450\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"350\" cy=\"130\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <circle cx=\"400\" cy=\"130\" r=\"20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"380\" y=\"180\" font-size=\"18\" font-family=\"sans-serif\" fill=\"black\">5</text>\n  <text x=\"340\" y=\"220\" font-size=\"16\" font-family=\"sans-serif\" fill=\"blue\">分出1给9</text>\n\n  <!-- 下面合成结果 -->\n  <text x=\"40\" y=\"270\" font-size=\"20\" font-family=\"sans-serif\" fill=\"black\">第三步：9+1=10 → 10+4=</text>\n  <text x=\"300\" y=\"270\" font-size=\"24\" font-family=\"sans-serif\" fill=\"red\" font-weight=\"bold\">14</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:20.573Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "数的分与合是指把一个数分成两个数，或者把两个数合成一个数，凑十法就是通过分合让其中一个数先凑成10，然后再加剩下的数，这样计算更简单。",
+      "thinking": "- 先看较大的数，想一想它和几能凑成10。\n   - 把较小的数分成两部分，一部分给大数凑成10，剩下的就是结果。\n   - 最后算10加剩下的数。",
+      "formula": "无固定公式，掌握“拆小数，凑大数”的思路即可。",
+      "mistakes": "- 忘记把剩下的数加上去。\n   - 分错小数，导致凑10失败。\n   - 把两个数只合起来，没有用到凑十的思路。",
+      "features": "进阶难度下，题目数字稍大（8、9加几），需要熟练运用10以内数的分与合，并正确写出凑十过程，考察步骤完整性和计算准确性。"
+    },
+    "example": {
+      "title": "计算：9 + 5 = ？ 请用凑十法写出计算过程。",
+      "think": "9想凑成10需要1，把5分成1和4，先算9+1=10，再算10+4=14。",
+      "steps": "1. 观察：9和5相加，9离10最近，差1就能凑成10。\n2. 把5分成两部分：因为需要1，所以把5分成1和4。\n3. 先算：9 + 1 = 10。\n4. 再算：10 + 4 = 14。\n5. 所以 9 + 5 = 14。",
+      "answer": "14",
+      "summary": "遇到9加几时，把另一个数分成1和几，先算9+1=10，再算10加剩下的数。这种方法就叫“凑十法”，能让计算又快又准。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "数的分与合（凑十法启蒙）",
+    "subtitle": "计算 · 数与计数启蒙",
+    "problem": "计算：9 + 5 = ？ 请用凑十法写出计算过程。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "计算：8 + 4 = ？ 请用凑十法写出过程。"
+  }
+}

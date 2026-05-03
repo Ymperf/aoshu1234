@@ -1,0 +1,357 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030503",
+  "knowledgePointId": 5030503,
+  "topicId": 50305,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "加水稀释与加糖变浓",
+  "subtitle": "应用题 · 浓度问题",
+  "intro": "加水稀释或加糖变浓，就是在已有的糖水（或盐水）中加入水或糖，改变它的浓度（含糖率）。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "浓度问题"
+  },
+  "problemStatement": "改变浓度的基础计算方法",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。加水时糖不变, 浓度下降; 加糖时糖变多, 浓度上升。先判断哪个量守恒, 再列式, 比死记公式更可靠。",
+  "keyTakeaways": [
+    "加水稀释：糖的质量不变，只增加水的质量。",
+    "先算出原来糖的质量。",
+    "用糖的质量除以新浓度，得到稀释后糖水的总质量。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。",
+        "加水时糖不变, 浓度下降; 加糖时糖变多, 浓度上升。",
+        "先判断哪个量守恒, 再列式, 比死记公式更可靠。"
+      ],
+      "caption": "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030503-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "有含盐10%的盐水200克，要变成含盐5%的盐水，需要加多少克水？",
+      "answer": "200克",
+      "analysis": "① 盐的质量：200×10%=20（克）  \n② 新盐水总质量：20÷5%=400（克）  \n③ 加水：400-200=200（克）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030503-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一杯含糖25%的糖水400克，现在要使其浓度降低到20%，需要加多少克水？",
+      "answer": "100克",
+      "analysis": "① 糖的质量：400×25%=100（克）  \n② 新糖水总质量：100÷20%=500（克）  \n③ 加水：500-400=100（克）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030503-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "有含糖10%的糖水100克，加入一些糖后，浓度变为20%，求加入的糖有多少克？",
+      "answer": "12.5克",
+      "analysis": "① 水的质量：100×(1-10%)=90（克）  \n② 新糖水总质量：90÷(1-20%)=112.5（克）  \n③ 加糖：112.5-100=12.5（克）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "加水稀释与加糖变浓",
+    "subtitle": "应用题 · 浓度问题",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "浓度问题",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "加水稀释或加糖变浓，就是在已有的糖水（或盐水）中加入水或糖，改变它的浓度（含糖率）。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "加水稀释或加糖变浓，就是在已有的糖水（或盐水）中加入水或糖，改变它的浓度（含糖率）。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "加水稀释：糖的质量不变，只增加水的质量。",
+          "先算出原来糖的质量。",
+          "用糖的质量除以新浓度，得到稀释后糖水的总质量。",
+          "减去原来的总质量，就是加水的质量。",
+          "加糖变浓：水的质量不变，只增加糖的质量。",
+          "先算出原来水的质量。",
+          "用水的质量除以（1 - 新浓度），得到加糖后糖水的总质量。",
+          "减去原来的总质量，就是加糖的质量。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可。核心是抓住“不变量”：加水时糖不变，加糖时水不变。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "混淆了加水和加糖时的不变量。",
+          "计算新总质量时，忘记除以对应的百分数。",
+          "把浓度（百分数）直接当成质量来加减。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度下，题目通常只涉及一次操作（加水或加糖），数字稍复杂但步骤完整。重点考查学生能否找准不变量，并正确列出算式。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "加水稀释或加糖变浓，就是在已有的糖水（或盐水）中加入水或糖，改变它的浓度（含糖率）。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度下，题目通常只涉及一次操作（加水或加糖），数字稍复杂但步骤完整。重点考查学生能否找准不变量，并正确列出算式。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "加水稀释：糖的质量不变，只增加水的质量。",
+              "先算出原来糖的质量。",
+              "用糖的质量除以新浓度，得到稀释后糖水的总质量。",
+              "减去原来的总质量，就是加水的质量。",
+              "加糖变浓：水的质量不变，只增加糖的质量。",
+              "先算出原来水的质量。",
+              "用水的质量除以（1 - 新浓度），得到加糖后糖水的总质量。",
+              "减去原来的总质量，就是加糖的质量。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可。核心是抓住“不变量”：加水时糖不变，加糖时水不变。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "混淆了加水和加糖时的不变量。",
+              "计算新总质量时，忘记除以对应的百分数。",
+              "把浓度（百分数）直接当成质量来加减。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "一杯含糖20%的糖水重300克，现在要把它稀释成含糖15%的糖水，需要加多少克水？",
+    "answer": "100克",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "原来糖水中糖的质量：300 × 20% = ",
+        "explanation": "原来糖水中糖的质量：300 × 20% = 300 × 0.2 = 60（克）",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "稀释后糖水总质量：糖的质量 ÷ 新浓度 = ",
+        "explanation": "稀释后糖水总质量：糖的质量 ÷ 新浓度 = 60 ÷ 15% = 60 ÷ 0.15 = 400（克）",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "加水的质量：稀释后总质量 － 原来总质量 =",
+        "explanation": "加水的质量：稀释后总质量 － 原来总质量 = 400 － 300 = 100（克）  \n\n答：需要加100克水。",
+        "icon": "3"
+      }
+    ],
+    "keyTakeaways": [
+      "加水稀释问题，牢牢抓住“糖不变”。先求糖，再求新糖水总质量，最后做减法。两步走，不跳步。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030503-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "有含盐10%的盐水200克，要变成含盐5%的盐水，需要加多少克水？",
+        "answer": "200克",
+        "analysis": "① 盐的质量：200×10%=20（克）  \n② 新盐水总质量：20÷5%=400（克）  \n③ 加水：400-200=200（克）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030503-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一杯含糖25%的糖水400克，现在要使其浓度降低到20%，需要加多少克水？",
+        "answer": "100克",
+        "analysis": "① 糖的质量：400×25%=100（克）  \n② 新糖水总质量：100÷20%=500（克）  \n③ 加水：500-400=100（克）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030503-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "有含糖10%的糖水100克，加入一些糖后，浓度变为20%，求加入的糖有多少克？",
+        "answer": "12.5克",
+        "analysis": "① 水的质量：100×(1-10%)=90（克）  \n② 新糖水总质量：90÷(1-20%)=112.5（克）  \n③ 加糖：112.5-100=12.5（克）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。加水时糖不变, 浓度下降; 加糖时糖变多, 浓度上升。先判断哪个量守恒, 再列式, 比死记公式更可靠。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。",
+          "加水时糖不变, 浓度下降; 加糖时糖变多, 浓度上升。",
+          "先判断哪个量守恒, 再列式, 比死记公式更可靠。"
+        ],
+        "caption": "加水稀释和加糖变浓这两类题, 一个看溶质不变, 一个看溶液总量变化。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"320\" viewBox=\"0 0 600 320\">\n  <rect width=\"600\" height=\"320\" fill=\"white\"/>\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" font-weight=\"bold\">加水稀释示意图</text>\n  \n  <!-- 左边：原来的糖水 -->\n  <text x=\"80\" y=\"60\" font-size=\"14\" font-family=\"sans-serif\">原来的糖水 300克</text>\n  <rect x=\"50\" y=\"70\" width=\"120\" height=\"160\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 糖的部分：20% 高度 32 -->\n  <rect x=\"50\" y=\"70\" width=\"120\" height=\"32\" fill=\"#cce5ff\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"110\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">糖 60克 (20%)</text>\n  <text x=\"110\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\">水</text>\n  \n  <!-- 加号 -->\n  <text x=\"210\" y=\"150\" font-size=\"28\" font-family=\"sans-serif\">+</text>\n  \n  <!-- 加水 -->\n  <text x=\"245\" y=\"60\" font-size=\"14\" font-family=\"sans-serif\">加水 ? 克</text>\n  <rect x=\"230\" y=\"70\" width=\"60\" height=\"160\" fill=\"none\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4,2\"/>\n  <text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"12\" fill=\"red\" font-family=\"sans-serif\">? 克</text>\n  \n  <!-- 等号 -->\n  <text x=\"320\" y=\"150\" font-size=\"28\" font-family=\"sans-serif\">=</text>\n  \n  <!-- 右边：稀释后 -->\n  <text x=\"440\" y=\"60\" font-size=\"14\" font-family=\"sans-serif\">稀释后 400克</text>\n  <rect x=\"360\" y=\"70\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  <!-- 糖的部分：总高160，15% = 24px -->\n  <rect x=\"360\" y=\"70\" width=\"160\" height=\"24\" fill=\"#cce5ff\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"440\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"blue\" font-family=\"sans-serif\">糖 60克 (15%)</text>\n  <text x=\"440\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\">水 340克</text>\n  \n  <!-- 箭头标注 -->\n  <line x1=\"50\" y1=\"240\" x2=\"520\" y2=\"240\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\">\n      <polygon points=\"0 0, 10 3.5, 0 7\" fill=\"black\"/>\n    </marker>\n  </defs>\n  <text x=\"285\" y=\"260\" text-anchor=\"middle\" font-size=\"13\" fill=\"red\" font-family=\"sans-serif\">加水100克 → 总质量增加100克</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.712Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "加水稀释或加糖变浓，就是在已有的糖水（或盐水）中加入水或糖，改变它的浓度（含糖率）。",
+      "thinking": "- 加水稀释：糖的质量不变，只增加水的质量。  \n    - 先算出原来糖的质量。  \n    - 用糖的质量除以新浓度，得到稀释后糖水的总质量。  \n    - 减去原来的总质量，就是加水的质量。  \n  - 加糖变浓：水的质量不变，只增加糖的质量。  \n    - 先算出原来水的质量。  \n    - 用水的质量除以（1 - 新浓度），得到加糖后糖水的总质量。  \n    - 减去原来的总质量，就是加糖的质量。",
+      "formula": "无固定公式，掌握思路即可。核心是抓住“不变量”：加水时糖不变，加糖时水不变。",
+      "mistakes": "- 混淆了加水和加糖时的不变量。  \n  - 计算新总质量时，忘记除以对应的百分数。  \n  - 把浓度（百分数）直接当成质量来加减。",
+      "features": "进阶难度下，题目通常只涉及一次操作（加水或加糖），数字稍复杂但步骤完整。重点考查学生能否找准不变量，并正确列出算式。"
+    },
+    "example": {
+      "title": "一杯含糖20%的糖水重300克，现在要把它稀释成含糖15%的糖水，需要加多少克水？",
+      "think": "先算出原来糖的质量，糖不变；再算稀释后糖水总质量；最后相减得加水量。",
+      "steps": "1. 原来糖水中糖的质量：300 × 20% = 300 × 0.2 = 60（克）  \n2. 稀释后糖水总质量：糖的质量 ÷ 新浓度 = 60 ÷ 15% = 60 ÷ 0.15 = 400（克）  \n3. 加水的质量：稀释后总质量 － 原来总质量 = 400 － 300 = 100（克）  \n\n答：需要加100克水。",
+      "answer": "100克",
+      "summary": "加水稀释问题，牢牢抓住“糖不变”。先求糖，再求新糖水总质量，最后做减法。两步走，不跳步。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "加水稀释与加糖变浓",
+    "subtitle": "应用题 · 浓度问题",
+    "problem": "一杯含糖20%的糖水重300克，现在要把它稀释成含糖15%的糖水，需要加多少克水？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "有含盐10%的盐水200克，要变成含盐5%的盐水，需要加多少克水？"
+  }
+}

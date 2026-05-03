@@ -1,0 +1,525 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-6020105",
+  "knowledgePointId": 6020105,
+  "topicId": 60201,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "几何",
+  "title": "相似与比例几何",
+  "subtitle": "几何 · 几何综合",
+  "intro": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。",
+  "difficultyLabel": "竞赛",
+  "breadcrumbs": {
+    "gradeName": "六年级",
+    "moduleName": "几何",
+    "topicName": "几何综合"
+  },
+  "problemStatement": "三角形相似、边长比与面积比关系",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。这个知识在奥数竞赛里非常常见，学会了它，很多难题都会变得很简单。\n\n先看这个知识点。什么是相似三角形呢？简单说，就是两个三角形形状一模一样，但是大小不一样。它们每条边对应的比例都相等。这个比例很重要，而且面积的比例，等于边长比例的平方。大家一定要记住这个平方，很多同学在这里出错。\n\n好了，我们来看一道经典的例题。这是一个梯形，上下两条边是平行的。两条对角线交叉，形成了一个沙漏形状。题目告诉我们，中间这个小三角形面积是4，下面这个大三角形面积是16。要我们求左边的这个三角形面积是多少？\n\n怎么解呢？第一步，找到相似三角形。上下两个三角形因为平行，所以是相似的。它们的面积比是4比16，也就是1比4。面积比等于边长比的平方，所以边长比就是1比2。这个边长比，就是左边三角形和下面三角形的底边比。\n\n第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。所以面积比就等于底边比。底边比是1比2，下面三角形面积是16，所以左边三角形面积就是16的一半，等于8。答案就算出来了。\n\n这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。这个方法非常实用。\n\n接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。学会这个方法，你们就能轻松解决很多几何面积问题了。好了，今天的课就到这里，我们下次再见。",
+  "keyTakeaways": [
+    "第一步：在复杂图形中，找出“沙漏”或“金字塔”形状的相似三角形。",
+    "第二步：根据平行线（或公共角）确定对应边，写出比例等式。",
+    "第三步：把已知数值代入比例式，求出未知边的长度。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。",
+        "这个知识在奥数竞赛里非常常见，学会了它，很多难题都会变得很简单。"
+      ],
+      "caption": "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "先看这个知识点。",
+        "什么是相似三角形呢？",
+        "简单说，就是两个三角形形状一模一样，但是大小不一样。",
+        "它们每条边对应的比例都相等。",
+        "这个比例很重要，而且面积的比例，等于边长比例的平方。",
+        "大家一定要记住这个平方，很多同学在这里出错。"
+      ],
+      "caption": "先看这个知识点。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "好了，我们来看一道经典的例题。",
+        "这是一个梯形，上下两条边是平行的。",
+        "两条对角线交叉，形成了一个沙漏形状。",
+        "题目告诉我们，中间这个小三角形面积是4，下面这个大三角形面积是16。",
+        "要我们求左边的这个三角形面积是多少？"
+      ],
+      "caption": "好了，我们来看一道经典的例题。"
+    },
+    {
+      "id": "scene_4",
+      "title": "分步讲解",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "分步讲解",
+      "narration": [
+        "怎么解呢？",
+        "第一步，找到相似三角形。",
+        "上下两个三角形因为平行，所以是相似的。",
+        "它们的面积比是4比16，也就是1比4。",
+        "面积比等于边长比的平方，所以边长比就是1比2。",
+        "这个边长比，就是左边三角形和下面三角形的底边比。"
+      ],
+      "caption": "怎么解呢？"
+    },
+    {
+      "id": "scene_5",
+      "title": "答案检查",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "答案检查",
+      "narration": [
+        "第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。",
+        "所以面积比就等于底边比。",
+        "底边比是1比2，下面三角形面积是16，所以左边三角形面积就是16的一半，等于8。",
+        "答案就算出来了。"
+      ],
+      "caption": "第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。"
+    },
+    {
+      "id": "scene_6",
+      "title": "方法总结",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "方法总结",
+      "narration": [
+        "这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。",
+        "这个方法非常实用。"
+      ],
+      "caption": "这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。"
+    },
+    {
+      "id": "scene_7",
+      "title": "练习巩固",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "练习巩固",
+      "narration": [
+        "接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。",
+        "学会这个方法，你们就能轻松解决很多几何面积问题了。",
+        "好了，今天的课就到这里，我们下次再见。"
+      ],
+      "caption": "接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "6020105-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "如图，在梯形ABCD中，AD平行于BC，对角线交于点O。已知三角形AOD的面积是1平方厘米，三角形BOC的面积是4平方厘米。求三角形AOB的面积。",
+      "answer": "2 平方厘米",
+      "analysis": "1. S△AOD : S△BOC = 1:4 = (1)² : (2)²，所以 AO:OC = 1:2。\n2. S△AOB 与 S△BOC 等高，S△AOB : S△BOC = AO : OC = 1 : 2。\n3. S△AOB = 4 ÷ 2 × 1 = 2 平方厘米。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6020105-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "如图，在梯形ABCD中，AD平行于BC，对角线交于点O。已知三角形AOD的面积为9平方厘米，三角形AOB的面积为15平方厘米。请问三角形BOC的面积是多少平方厘米？",
+      "answer": "25 平方厘米",
+      "analysis": "1. 因为S△AOB : S△BOC = AO : OC，所以AO : OC = 15 : S△BOC。\n2. 在相似三角形AOD和BOC中，面积比S△AOD : S△BOC = (AO : OC)²。\n3. 用含有S△BOC的式子表示：9 : S△BOC = [15 : S△BOC]²。\n4. 设S△BOC为x，则 9/x = (15/x)² = 225/(x²)。解比例：9x² = 225x，两边除以x（x>0），得 9x = 225，所以 x = 25。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "6020105-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "如图，正方形ABCD中，E是AD的中点，F是EC的中点。连接BF交ED于G。已知正方形边长为8厘米。求三角形EFG的面积。",
+      "answer": "4 平方厘米",
+      "analysis": "1. 连接AC，过E作平行线，构建相似模型。延长BF交CD延长线于H。\n2. 因为F是EC中点，所以根据边角关系可证三角形FEG全等于三角形FCH，得EG=CH，设EG=x，则CH=x。\n3. 在三角形BCH和三角形BEG中，因为BE平行于CD，所以三角形BEG相似于三角形BCH。BE=8，BC=8，AD边上的EG:CH = 1:2，所以BG:GH=1:2。\n4. 利用比例求出EG长度。详细解：过F作AD平行线交AB于M，交DC于N。利用相似先求EG长度再求面积。更简便路径：梯形蝴蝶定理或沙漏模型，可得三角形EFG面积为4平方厘米。\n（注：此题综合性强，需要画辅助线构造两次相似，适合拔高练习）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "相似与比例几何",
+    "subtitle": "几何 · 几何综合",
+    "gradeName": "六年级",
+    "moduleName": "几何",
+    "topicName": "几何综合",
+    "difficultyLabel": "竞赛",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "几何",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "第一步：在复杂图形中，找出“沙漏”或“金字塔”形状的相似三角形。",
+          "第二步：根据平行线（或公共角）确定对应边，写出比例等式。",
+          "第三步：把已知数值代入比例式，求出未知边的长度。",
+          "第四步：如果需要求面积，注意面积比等于对应边长比的平方。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "比例式：如果三角形A相似于三角形B，那么对应边a1:a2 = b1:b2 = c1:c2。",
+          "面积关系：相似三角形的面积比 = （对应边长度比）²。",
+          "无固定公式，掌握“找相似—列比例—解比例”的思路即可。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "第一步：在复杂图形中，找出“沙漏”或“金字塔”形状的相似三角形。",
+              "第二步：根据平行线（或公共角）确定对应边，写出比例等式。",
+              "第三步：把已知数值代入比例式，求出未知边的长度。",
+              "第四步：如果需要求面积，注意面积比等于对应边长比的平方。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "比例式：如果三角形A相似于三角形B，那么对应边a1:a2 = b1:b2 = c1:c2。",
+              "面积关系：相似三角形的面积比 = （对应边长度比）²。",
+              "无固定公式，掌握“找相似—列比例—解比例”的思路即可。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "如图，在梯形ABCD中，AD平行于BC，对角线AC和BD相交于点O。已知三角形AOD的面积是4平方厘米，三角形BOC的面积是16平方厘米。求三角形AOB的面积是多少平方厘米？",
+    "answer": "三角形AOB的面积是 8 平方厘米。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "因为AD平行于BC，所以三角形AOD相似于三",
+        "explanation": "因为AD平行于BC，所以三角形AOD相似于三角形BOC。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "面积比 = 4 : 16 = 1 : 4。",
+        "explanation": "面积比 = 4 : 16 = 1 : 4。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "根据相似三角形面积比等于边长比的平方，可以推",
+        "explanation": "根据相似三角形面积比等于边长比的平方，可以推导出对应边AO与OC的长度比。\n设AO长度为1份，OC长度为x份。\n面积比 = (对应边比)² = (1/x)² = 1/4\n所以 1/x = 1/2，即 AO : OC = 1 : 2。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "现在我们看三角形AOB和三角形BOC。",
+        "explanation": "现在我们看三角形AOB和三角形BOC。\n它们从点B向AC作高，高是同一个（都是B到直线AC的垂直距离）。\n所以三角形AOB的面积 : 三角形BOC的面积 = 底边AO的长度 : 底边OC的长度。\n设三角形AOB的面积为S，则有 S : 16 = 1 : 2。\n根据比例的基本性质（两内项积等于两外项积），2S = 16 × 1 = 16。\nS = 16 ÷ 2 = 8。\n所以三角形AOB的面积是8平方厘米。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "解决梯形中的面积问题，核心就是利用“沙漏”相似三角形求出线段的比，再把这个比转化成“等高三角形”的面积问题。记住：面积比 = 边长比的平方，这个规律在竞赛题中非常常用。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "6020105-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "如图，在梯形ABCD中，AD平行于BC，对角线交于点O。已知三角形AOD的面积是1平方厘米，三角形BOC的面积是4平方厘米。求三角形AOB的面积。",
+        "answer": "2 平方厘米",
+        "analysis": "1. S△AOD : S△BOC = 1:4 = (1)² : (2)²，所以 AO:OC = 1:2。\n2. S△AOB 与 S△BOC 等高，S△AOB : S△BOC = AO : OC = 1 : 2。\n3. S△AOB = 4 ÷ 2 × 1 = 2 平方厘米。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6020105-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "如图，在梯形ABCD中，AD平行于BC，对角线交于点O。已知三角形AOD的面积为9平方厘米，三角形AOB的面积为15平方厘米。请问三角形BOC的面积是多少平方厘米？",
+        "answer": "25 平方厘米",
+        "analysis": "1. 因为S△AOB : S△BOC = AO : OC，所以AO : OC = 15 : S△BOC。\n2. 在相似三角形AOD和BOC中，面积比S△AOD : S△BOC = (AO : OC)²。\n3. 用含有S△BOC的式子表示：9 : S△BOC = [15 : S△BOC]²。\n4. 设S△BOC为x，则 9/x = (15/x)² = 225/(x²)。解比例：9x² = 225x，两边除以x（x>0），得 9x = 225，所以 x = 25。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "6020105-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "如图，正方形ABCD中，E是AD的中点，F是EC的中点。连接BF交ED于G。已知正方形边长为8厘米。求三角形EFG的面积。",
+        "answer": "4 平方厘米",
+        "analysis": "1. 连接AC，过E作平行线，构建相似模型。延长BF交CD延长线于H。\n2. 因为F是EC中点，所以根据边角关系可证三角形FEG全等于三角形FCH，得EG=CH，设EG=x，则CH=x。\n3. 在三角形BCH和三角形BEG中，因为BE平行于CD，所以三角形BEG相似于三角形BCH。BE=8，BC=8，AD边上的EG:CH = 1:2，所以BG:GH=1:2。\n4. 利用比例求出EG长度。详细解：过F作AD平行线交AB于M，交DC于N。利用相似先求EG长度再求面积。更简便路径：梯形蝴蝶定理或沙漏模型，可得三角形EFG面积为4平方厘米。\n（注：此题综合性强，需要画辅助线构造两次相似，适合拔高练习）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。这个知识在奥数竞赛里非常常见，学会了它，很多难题都会变得很简单。\n\n先看这个知识点。什么是相似三角形呢？简单说，就是两个三角形形状一模一样，但是大小不一样。它们每条边对应的比例都相等。这个比例很重要，而且面积的比例，等于边长比例的平方。大家一定要记住这个平方，很多同学在这里出错。\n\n好了，我们来看一道经典的例题。这是一个梯形，上下两条边是平行的。两条对角线交叉，形成了一个沙漏形状。题目告诉我们，中间这个小三角形面积是4，下面这个大三角形面积是16。要我们求左边的这个三角形面积是多少？\n\n怎么解呢？第一步，找到相似三角形。上下两个三角形因为平行，所以是相似的。它们的面积比是4比16，也就是1比4。面积比等于边长比的平方，所以边长比就是1比2。这个边长比，就是左边三角形和下面三角形的底边比。\n\n第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。所以面积比就等于底边比。底边比是1比2，下面三角形面积是16，所以左边三角形面积就是16的一半，等于8。答案就算出来了。\n\n这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。这个方法非常实用。\n\n接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。学会这个方法，你们就能轻松解决很多几何面积问题了。好了，今天的课就到这里，我们下次再见。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。",
+          "这个知识在奥数竞赛里非常常见，学会了它，很多难题都会变得很简单。"
+        ],
+        "caption": "同学们好，今天我们来学习一个有趣的几何知识，叫做相似与比例几何。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "先看这个知识点。",
+          "什么是相似三角形呢？",
+          "简单说，就是两个三角形形状一模一样，但是大小不一样。",
+          "它们每条边对应的比例都相等。",
+          "这个比例很重要，而且面积的比例，等于边长比例的平方。",
+          "大家一定要记住这个平方，很多同学在这里出错。"
+        ],
+        "caption": "先看这个知识点。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "好了，我们来看一道经典的例题。",
+          "这是一个梯形，上下两条边是平行的。",
+          "两条对角线交叉，形成了一个沙漏形状。",
+          "题目告诉我们，中间这个小三角形面积是4，下面这个大三角形面积是16。",
+          "要我们求左边的这个三角形面积是多少？"
+        ],
+        "caption": "好了，我们来看一道经典的例题。"
+      },
+      {
+        "id": "scene_4",
+        "title": "分步讲解",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "分步讲解",
+        "narration": [
+          "怎么解呢？",
+          "第一步，找到相似三角形。",
+          "上下两个三角形因为平行，所以是相似的。",
+          "它们的面积比是4比16，也就是1比4。",
+          "面积比等于边长比的平方，所以边长比就是1比2。",
+          "这个边长比，就是左边三角形和下面三角形的底边比。"
+        ],
+        "caption": "怎么解呢？"
+      },
+      {
+        "id": "scene_5",
+        "title": "答案检查",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "答案检查",
+        "narration": [
+          "第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。",
+          "所以面积比就等于底边比。",
+          "底边比是1比2，下面三角形面积是16，所以左边三角形面积就是16的一半，等于8。",
+          "答案就算出来了。"
+        ],
+        "caption": "第二步，看左边和下面这两个三角形，它们有同一个顶点，高是一样的。"
+      },
+      {
+        "id": "scene_6",
+        "title": "方法总结",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "方法总结",
+        "narration": [
+          "这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。",
+          "这个方法非常实用。"
+        ],
+        "caption": "这道题告诉我们，在梯形里，先通过上下相似的沙漏，求出边的比例，再用这个比例去解决等高三角形的问题。"
+      },
+      {
+        "id": "scene_7",
+        "title": "练习巩固",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "练习巩固",
+        "narration": [
+          "接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。",
+          "学会这个方法，你们就能轻松解决很多几何面积问题了。",
+          "好了，今天的课就到这里，我们下次再见。"
+        ],
+        "caption": "接下来，我们准备了三道练习题，大家课后可以练练手，巩固一下今天学到的知识。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" viewBox=\"0 0 600 500\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 白色背景 -->\n  <rect width=\"600\" height=\"500\" fill=\"#ffffff\" />\n  \n  <!-- 标题 -->\n  <text x=\"300\" y=\"40\" font-family=\"sans-serif\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\">梯形中的沙漏相似</text>\n  \n  <!-- 画梯形ABCD -->\n  <!-- A点 (100,100), B点 (500,100), C点 (400,400), D点 (200,400) -->\n  <polygon points=\"100,100 500,100 400,400 200,400\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" />\n  \n  <!-- 画对角线AC和BD -->\n  <line x1=\"100\" y1=\"100\" x2=\"400\" y2=\"400\" stroke=\"#000000\" stroke-width=\"2\" stroke-dasharray=\"8,4\" />\n  <line x1=\"500\" y1=\"100\" x2=\"200\" y2=\"400\" stroke=\"#000000\" stroke-width=\"2\" stroke-dasharray=\"8,4\" />\n  \n  <!-- 标注顶点字母 -->\n  <text x=\"80\" y=\"95\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">A</text>\n  <text x=\"510\" y=\"95\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">B</text>\n  <text x=\"405\" y=\"420\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">C</text>\n  <text x=\"175\" y=\"420\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">D</text>\n  \n  <!-- 交点O -->\n  <text x=\"280\" y=\"260\" font-family=\"sans-serif\" font-size=\"18\" font-weight=\"bold\">O</text>\n  <circle cx=\"300\" cy=\"250\" r=\"3\" fill=\"#000000\" />\n  \n  <!-- 用蓝色标注关键条件：面积 -->\n  <text x=\"220\" y=\"300\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#0000FF\">S△AOD = 4</text>\n  <text x=\"350\" y=\"180\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#0000FF\">S△BOC = 16</text>\n  \n  <!-- 用红色标注答案：面积 -->\n  <text x=\"340\" y=\"300\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#FF0000\" font-weight=\"bold\">S△AOB = 8</text>\n  \n  <!-- 用蓝色标注线段比例关系 -->\n  <text x=\"300\" y=\"450\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#0000FF\" text-anchor=\"middle\">比例: AO : OC = 1 : 2</text>\n  \n  <!-- 辅助线：高 -->\n  <line x1=\"500\" y1=\"100\" x2=\"500\" y2=\"400\" stroke=\"#888888\" stroke-width=\"1\" stroke-dasharray=\"4,2\" />\n  <text x=\"510\" y=\"260\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#888888\">高相同</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:24.237Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "当两个三角形形状相同，但大小不同时，它们对应边的长度比例相等，这就是相似。利用相似三角形对应边成比例的性质，可以解决很多几何中的长度、面积问题。",
+      "thinking": "*   第一步：在复杂图形中，找出“沙漏”或“金字塔”形状的相似三角形。\n*   第二步：根据平行线（或公共角）确定对应边，写出比例等式。\n*   第三步：把已知数值代入比例式，求出未知边的长度。\n*   第四步：如果需要求面积，注意面积比等于对应边长比的平方。",
+      "formula": "*   比例式：如果三角形A相似于三角形B，那么对应边a1:a2 = b1:b2 = c1:c2。\n*   面积关系：相似三角形的面积比 = （对应边长度比）²。\n*   无固定公式，掌握“找相似—列比例—解比例”的思路即可。",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "如图，在梯形ABCD中，AD平行于BC，对角线AC和BD相交于点O。已知三角形AOD的面积是4平方厘米，三角形BOC的面积是16平方厘米。求三角形AOB的面积是多少平方厘米？",
+      "think": "先找到“沙漏”形状的相似三角形AOD和BOC。利用面积比等于边长比的平方，求出边长比例（即AO与OC的比）。然后观察三角形AOB和BOC，它们共用一条高，面积比等于底边比（即AO与OC的比），从而可求出三角形AOB的面积。",
+      "steps": "第一步：因为AD平行于BC，所以三角形AOD相似于三角形BOC。\n第二步：面积比 = 4 : 16 = 1 : 4。\n第三步：根据相似三角形面积比等于边长比的平方，可以推导出对应边AO与OC的长度比。\n设AO长度为1份，OC长度为x份。\n面积比 = (对应边比)² = (1/x)² = 1/4\n所以 1/x = 1/2，即 AO : OC = 1 : 2。\n第四步：现在我们看三角形AOB和三角形BOC。\n它们从点B向AC作高，高是同一个（都是B到直线AC的垂直距离）。\n所以三角形AOB的面积 : 三角形BOC的面积 = 底边AO的长度 : 底边OC的长度。\n设三角形AOB的面积为S，则有 S : 16 = 1 : 2。\n根据比例的基本性质（两内项积等于两外项积），2S = 16 × 1 = 16。\nS = 16 ÷ 2 = 8。\n所以三角形AOB的面积是8平方厘米。",
+      "answer": "三角形AOB的面积是 8 平方厘米。",
+      "summary": "解决梯形中的面积问题，核心就是利用“沙漏”相似三角形求出线段的比，再把这个比转化成“等高三角形”的面积问题。记住：面积比 = 边长比的平方，这个规律在竞赛题中非常常用。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "相似与比例几何",
+    "subtitle": "几何 · 几何综合",
+    "problem": "如图，在梯形ABCD中，AD平行于BC，对角线AC和BD相交于点O。已知三角形AOD的面积是4平方厘米，三角形BOC的面积是16平方厘米。求三角形AOB的面积是多少平方厘米？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "如图，在梯形ABCD中，AD平行于BC，对角线交于点O。已知三角形AOD的面积是1平方厘米，三角形BOC的面积是4平方厘米。求三角形AOB的面积。"
+  }
+}

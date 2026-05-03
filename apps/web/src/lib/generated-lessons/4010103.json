@@ -1,0 +1,431 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-4010103",
+  "knowledgePointId": 4010103,
+  "topicId": 40101,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "计算",
+  "title": "提取公因数",
+  "subtitle": "计算 · 整数四则混合巧算",
+  "intro": "提取公因数就是把几个乘法算式中相同的数提到括号外面，让计算变得更简单。",
+  "difficultyLabel": "进阶",
+  "breadcrumbs": {
+    "gradeName": "四年级",
+    "moduleName": "计算",
+    "topicName": "整数四则混合巧算"
+  },
+  "problemStatement": "找出公共因数，提取后简化计算",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。这个方法能帮我们快速计算复杂的加减法算式。比如，算式里有很多个乘法，如果每个乘法里都有一个相同的数，我们就可以把这个相同的数提到括号外面，然后括号里剩下相加或者相减的数，最后先算括号，再算乘法，非常快。\n\n我们先看一个例子。计算25乘72加25乘27加25。注意啦，最后一个25后面没有乘号，它其实就是25乘1。所以这个算式有三个部分：25乘72、25乘27、还有25乘1。每个部分里都有公因数25。我们就把25提出来，写在括号外面，括号里面写剩下的数相加：72加27再加1。72加27等于99，99再加1等于100。最后用25乘100，得到2500。是不是很简单？\n\n总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。请大家动手练一练吧！",
+  "keyTakeaways": [
+    "先观察每个乘法部分，找出完全相同的那个数。",
+    "把这个相同的数写在括号外面，括号里面写剩下部分相加或相减。",
+    "如果有一个单独的数，要看成它乘以1。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。",
+        "这个方法能帮我们快速计算复杂的加减法算式。",
+        "比如，算式里有很多个乘法，如果每个乘法里都有一个相同的数，我们就可以把这个相同的数提到括号外面，然后括号里剩下相加或者相减的数，最后先算括号，再算乘法，非常快。"
+      ],
+      "caption": "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。"
+    },
+    {
+      "id": "scene_2",
+      "title": "例题题目",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "例题题目",
+      "narration": [
+        "我们先看一个例子。",
+        "计算25乘72加25乘27加25。",
+        "注意啦，最后一个25后面没有乘号，它其实就是25乘1。",
+        "所以这个算式有三个部分：25乘72、25乘27、还有25乘1。",
+        "每个部分里都有公因数25。",
+        "我们就把25提出来，写在括号外面，括号里面写剩下的数相加：72加27再加1。",
+        "72加27等于99，99再加1等于100。",
+        "最后用25乘100，得到2500。",
+        "是不是很简单？"
+      ],
+      "caption": "我们先看一个例子。"
+    },
+    {
+      "id": "scene_3",
+      "title": "解题思路",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "解题思路",
+      "narration": [
+        "总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。",
+        "请大家动手练一练吧！"
+      ],
+      "caption": "总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "4010103-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "计算 18 × 25 + 18 × 75",
+      "answer": "1800",
+      "analysis": "观察发现都有公因数18，提取：18×(25+75)=18×100=1800。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4010103-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "计算 99 × 23 + 23",
+      "answer": "2300",
+      "analysis": "把最后的23看成23×1，原式=23×99 + 23×1 = 23×(99+1)=23×100=2300。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "4010103-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "计算 125 × 79 + 125 × 20 + 125",
+      "answer": "12500",
+      "analysis": "把最后的125看成125×1，原式=125×79+125×20+125×1 = 125×(79+20+1)=125×100=12500。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "提取公因数",
+    "subtitle": "计算 · 整数四则混合巧算",
+    "gradeName": "四年级",
+    "moduleName": "计算",
+    "topicName": "整数四则混合巧算",
+    "difficultyLabel": "进阶",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "计算",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "提取公因数就是把几个乘法算式中相同的数提到括号外面，让计算变得更简单。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "提取公因数就是把几个乘法算式中相同的数提到括号外面，让计算变得更简单。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先观察每个乘法部分，找出完全相同的那个数。",
+          "把这个相同的数写在括号外面，括号里面写剩下部分相加或相减。",
+          "如果有一个单独的数，要看成它乘以1。",
+          "最后先算括号里面的，再算括号外面的乘法。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "a × b + a × c = a × (b + c)",
+          "a × b − a × c = a × (b − c)"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "只用在连加或连减的乘法式子里，不能用在乘法乘法的式子里。",
+          "公因数要全部提出来，不能漏掉某一个。",
+          "注意括号里面的加减号要和原来的保持一致。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "进阶难度的题目里，公因数有时需要自己“找出来”。比如题目中只有一个数没有乘号，要把它看成乘1；或者遇到接近整百的数，需要先拆开再提取。重点考你是不是能发现隐藏的公因数。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "提取公因数就是把几个乘法算式中相同的数提到括号外面，让计算变得更简单。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "进阶难度的题目里，公因数有时需要自己“找出来”。比如题目中只有一个数没有乘号，要把它看成乘1；或者遇到接近整百的数，需要先拆开再提取。重点考你是不是能发现隐藏的公因数。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先观察每个乘法部分，找出完全相同的那个数。",
+              "把这个相同的数写在括号外面，括号里面写剩下部分相加或相减。",
+              "如果有一个单独的数，要看成它乘以1。",
+              "最后先算括号里面的，再算括号外面的乘法。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "a × b + a × c = a × (b + c)",
+              "a × b − a × c = a × (b − c)"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "只用在连加或连减的乘法式子里，不能用在乘法乘法的式子里。",
+              "公因数要全部提出来，不能漏掉某一个。",
+              "注意括号里面的加减号要和原来的保持一致。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "计算：25 × 72 + 25 × 27 + 25",
+    "answer": "2500",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "观察算式：25×72  、 25×27  、",
+        "explanation": "观察算式：25×72  、 25×27  、 25。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "把最后一个25写成25×1：原式 = 25×",
+        "explanation": "把最后一个25写成25×1：原式 = 25×72 + 25×27 + 25×1。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "三个乘法中都有相同的因数25，把它提出来：=",
+        "explanation": "三个乘法中都有相同的因数25，把它提出来：= 25 × ( 72 + 27 + 1 )。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "计算括号里面的：72 + 27 = 99，9",
+        "explanation": "计算括号里面的：72 + 27 = 99，99 + 1 = 100。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "计算25×100 = 2500。",
+        "explanation": "计算25×100 = 2500。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "答：结果是2500。",
+        "explanation": "答：结果是2500。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "当算式中出现一个单独的数（比如这里的25），一定要想到它等于“这个数×1”，然后才能和别的乘法一起提取公因数。熟练以后，看到这样的题就可以直接写出公因数乘括号。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "4010103-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "计算 18 × 25 + 18 × 75",
+        "answer": "1800",
+        "analysis": "观察发现都有公因数18，提取：18×(25+75)=18×100=1800。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4010103-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "计算 99 × 23 + 23",
+        "answer": "2300",
+        "analysis": "把最后的23看成23×1，原式=23×99 + 23×1 = 23×(99+1)=23×100=2300。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "4010103-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "计算 125 × 79 + 125 × 20 + 125",
+        "answer": "12500",
+        "analysis": "把最后的125看成125×1，原式=125×79+125×20+125×1 = 125×(79+20+1)=125×100=12500。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。这个方法能帮我们快速计算复杂的加减法算式。比如，算式里有很多个乘法，如果每个乘法里都有一个相同的数，我们就可以把这个相同的数提到括号外面，然后括号里剩下相加或者相减的数，最后先算括号，再算乘法，非常快。\n\n我们先看一个例子。计算25乘72加25乘27加25。注意啦，最后一个25后面没有乘号，它其实就是25乘1。所以这个算式有三个部分：25乘72、25乘27、还有25乘1。每个部分里都有公因数25。我们就把25提出来，写在括号外面，括号里面写剩下的数相加：72加27再加1。72加27等于99，99再加1等于100。最后用25乘100，得到2500。是不是很简单？\n\n总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。请大家动手练一练吧！",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。",
+          "这个方法能帮我们快速计算复杂的加减法算式。",
+          "比如，算式里有很多个乘法，如果每个乘法里都有一个相同的数，我们就可以把这个相同的数提到括号外面，然后括号里剩下相加或者相减的数，最后先算括号，再算乘法，非常快。"
+        ],
+        "caption": "同学们好，今天我们来学习一个很实用的巧算方法——提取公因数。"
+      },
+      {
+        "id": "scene_2",
+        "title": "例题题目",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "例题题目",
+        "narration": [
+          "我们先看一个例子。",
+          "计算25乘72加25乘27加25。",
+          "注意啦，最后一个25后面没有乘号，它其实就是25乘1。",
+          "所以这个算式有三个部分：25乘72、25乘27、还有25乘1。",
+          "每个部分里都有公因数25。",
+          "我们就把25提出来，写在括号外面，括号里面写剩下的数相加：72加27再加1。",
+          "72加27等于99，99再加1等于100。",
+          "最后用25乘100，得到2500。",
+          "是不是很简单？"
+        ],
+        "caption": "我们先看一个例子。"
+      },
+      {
+        "id": "scene_3",
+        "title": "解题思路",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "解题思路",
+        "narration": [
+          "总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。",
+          "请大家动手练一练吧！"
+        ],
+        "caption": "总结一下，看到这种题，先找每个部分里相同的数，如果遇到单独的数，就把它看成乘1，然后提取公因数，括号里算完再乘，就能快速得到答案。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"200\" viewBox=\"0 0 600 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  \n  <!-- 大矩形框（表示总面积） -->\n  <rect x=\"50\" y=\"60\" width=\"500\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/>\n  \n  <!-- 第一段垂直分隔线 -->\n  <line x1=\"50\" y1=\"60\" x2=\"50\" y2=\"120\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"410\" y1=\"60\" x2=\"410\" y2=\"120\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"545\" y1=\"60\" x2=\"545\" y2=\"120\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"550\" y1=\"60\" x2=\"550\" y2=\"120\" stroke=\"black\" stroke-width=\"2\"/>\n  \n  <!-- 左侧标注公因数25（蓝色） -->\n  <text x=\"35\" y=\"95\" font-size=\"24\" font-family=\"sans-serif\" fill=\"blue\" text-anchor=\"end\">25</text>\n  <line x1=\"42\" y1=\"90\" x2=\"50\" y2=\"90\" stroke=\"blue\" stroke-width=\"2\"/>\n  \n  <!-- 每个区间上方写长度（蓝色） -->\n  <text x=\"230\" y=\"50\" font-size=\"20\" font-family=\"sans-serif\" fill=\"blue\" text-anchor=\"middle\">72</text>\n  <text x=\"478\" y=\"50\" font-size=\"20\" font-family=\"sans-serif\" fill=\"blue\" text-anchor=\"middle\">27</text>\n  <text x=\"547\" y=\"50\" font-size=\"20\" font-family=\"sans-serif\" fill=\"blue\" text-anchor=\"middle\">1</text>\n  \n  <!-- 矩形内部写面积表达式（黑色） -->\n  <text x=\"230\" y=\"100\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\" text-anchor=\"middle\">25×72</text>\n  <text x=\"478\" y=\"100\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\" text-anchor=\"middle\">25×27</text>\n  <text x=\"548\" y=\"100\" font-size=\"16\" font-family=\"sans-serif\" fill=\"black\" text-anchor=\"middle\">25</text>\n  \n  <!-- 下方标注合并后的结果（红色） -->\n  <text x=\"300\" y=\"160\" font-size=\"24\" font-family=\"sans-serif\" fill=\"red\" text-anchor=\"middle\">合并成 25×100 = 2500</text>\n  \n  <!-- 箭头指示 -->\n  <path d=\"M300,130 L300,150\" stroke=\"red\" stroke-width=\"3\" fill=\"none\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"10\" refY=\"5\" markerWidth=\"8\" markerHeight=\"8\" orient=\"auto\">\n      <path d=\"M0,0 L10,5 L0,10\" fill=\"red\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:22.050Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "提取公因数就是把几个乘法算式中相同的数提到括号外面，让计算变得更简单。",
+      "thinking": "- 先观察每个乘法部分，找出完全相同的那个数。\n   - 把这个相同的数写在括号外面，括号里面写剩下部分相加或相减。\n   - 如果有一个单独的数，要看成它乘以1。\n   - 最后先算括号里面的，再算括号外面的乘法。",
+      "formula": "a × b + a × c = a × (b + c)\n   a × b − a × c = a × (b − c)",
+      "mistakes": "- 只用在连加或连减的乘法式子里，不能用在乘法乘法的式子里。\n   - 公因数要全部提出来，不能漏掉某一个。\n   - 注意括号里面的加减号要和原来的保持一致。",
+      "features": "进阶难度的题目里，公因数有时需要自己“找出来”。比如题目中只有一个数没有乘号，要把它看成乘1；或者遇到接近整百的数，需要先拆开再提取。重点考你是不是能发现隐藏的公因数。"
+    },
+    "example": {
+      "title": "计算：25 × 72 + 25 × 27 + 25",
+      "think": "每个部分都有25，最后一个25可以看成25×1，然后把公因数25提出来，括号里算出72+27+1=100，25×100快速得到答案。",
+      "steps": "1. 观察算式：25×72  、 25×27  、 25。\n2. 把最后一个25写成25×1：原式 = 25×72 + 25×27 + 25×1。\n3. 三个乘法中都有相同的因数25，把它提出来：= 25 × ( 72 + 27 + 1 )。\n4. 计算括号里面的：72 + 27 = 99，99 + 1 = 100。\n5. 计算25×100 = 2500。\n6. 答：结果是2500。",
+      "answer": "2500",
+      "summary": "当算式中出现一个单独的数（比如这里的25），一定要想到它等于“这个数×1”，然后才能和别的乘法一起提取公因数。熟练以后，看到这样的题就可以直接写出公因数乘括号。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "提取公因数",
+    "subtitle": "计算 · 整数四则混合巧算",
+    "problem": "计算：25 × 72 + 25 × 27 + 25",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "计算 18 × 25 + 18 × 75"
+  }
+}

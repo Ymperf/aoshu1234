@@ -1,0 +1,338 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030401",
+  "knowledgePointId": 3030401,
+  "topicId": 30304,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "归一求单一量",
+  "subtitle": "应用题 · 归一归总问题",
+  "intro": "归一求单一量，就是先算出一份是多少，也叫先求“单一量”。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "归一归总问题"
+  },
+  "problemStatement": "先求一份是多少，再求其他量",
+  "knownConditions": [],
+  "targetQuestion": "一份是多少，再求其他量",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "归一求单一量的入口很固定: 先求一份是多少。题目里出现“同样”“照这样计算”这类词时, 往往就在提示你先除后乘。把单一量求出来后, 后面的新数量就顺着乘回去。",
+  "keyTakeaways": [
+    "第一步：先找到总量和份数，用总量除以份数，算出“一份是多少”。",
+    "第二步：再用这个“一份的数”去乘题目要求的份数，求出想要的答案。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "归一求单一量的入口很固定: 先求一份是多少。",
+        "题目里出现“同样”“照这样计算”这类词时, 往往就在提示你先除后乘。",
+        "把单一量求出来后, 后面的新数量就顺着乘回去。"
+      ],
+      "caption": "归一求单一量的入口很固定: 先求一份是多少。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030401-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小明买了3支同样的铅笔，一共花了6元。如果他想买8支这样的铅笔，一共要花多少钱？",
+      "answer": "16元",
+      "analysis": "1. 先算一支笔：6 ÷ 3 = 2（元）\n2. 再算8支：2 × 8 = 16（元）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030401-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "妈妈买了4袋同样的牛奶，一共花了8元。如果她想买6袋这样的牛奶，一共需要多少钱？",
+      "answer": "12元",
+      "analysis": "1. 先算一袋牛奶：8 ÷ 4 = 2（元）\n2. 再算6袋：2 × 6 = 12（元）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030401-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "食堂买了2千克苹果，一共花了10元。如果学校食堂订了5千克这样的苹果，需要付多少钱？",
+      "answer": "25元",
+      "analysis": "1. 先算1千克苹果：10 ÷ 2 = 5（元）\n2. 再算5千克：5 × 5 = 25（元）",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "归一求单一量",
+    "subtitle": "应用题 · 归一归总问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "归一归总问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "归一求单一量，就是先算出一份是多少，也叫先求“单一量”。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "归一求单一量，就是先算出一份是多少，也叫先求“单一量”。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "第一步：先找到总量和份数，用总量除以份数，算出“一份是多少”。",
+          "第二步：再用这个“一份的数”去乘题目要求的份数，求出想要的答案。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "单一量 = 总量 ÷ 份数",
+          "总量 = 单一量 × 份数"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意除法时千万别除反了，一定要用总量除以份数，而不是份数除以总量。",
+          "注意单位别写错，算出来的单一量是什么单位，后面乘的时候单位也要对。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "基础难度的归一问题，数字小、步骤少、思路非常直白。重点就是考察会不会先求单一量，再求总量，不绕弯子。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "归一求单一量，就是先算出一份是多少，也叫先求“单一量”。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "基础难度的归一问题，数字小、步骤少、思路非常直白。重点就是考察会不会先求单一量，再求总量，不绕弯子。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "第一步：先找到总量和份数，用总量除以份数，算出“一份是多少”。",
+              "第二步：再用这个“一份的数”去乘题目要求的份数，求出想要的答案。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "单一量 = 总量 ÷ 份数",
+              "总量 = 单一量 × 份数"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意除法时千万别除反了，一定要用总量除以份数，而不是份数除以总量。",
+              "注意单位别写错，算出来的单一量是什么单位，后面乘的时候单位也要对。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "小红买了3本同样的笔记本，一共花了15元。如果她还想买7本同样的笔记本，一共需要多少钱？",
+    "answer": "一共需要35元。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "先算一本书的价钱（单一量）。",
+        "explanation": "先算一本书的价钱（单一量）。\n  3本笔记本一共15元。\n  每一本笔记本的价钱 = 15 ÷ 3 = 5（元）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "再算7本笔记本的总价。",
+        "explanation": "再算7本笔记本的总价。\n  1本5元，7本就是：5 × 7 = 35（元）。",
+        "icon": "2"
+      }
+    ],
+    "keyTakeaways": [
+      "做归一问题，先找到“一份是多少”，再按题目要求的份数去乘，就能得到答案。记住：先除再乘。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030401-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小明买了3支同样的铅笔，一共花了6元。如果他想买8支这样的铅笔，一共要花多少钱？",
+        "answer": "16元",
+        "analysis": "1. 先算一支笔：6 ÷ 3 = 2（元）\n2. 再算8支：2 × 8 = 16（元）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030401-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "妈妈买了4袋同样的牛奶，一共花了8元。如果她想买6袋这样的牛奶，一共需要多少钱？",
+        "answer": "12元",
+        "analysis": "1. 先算一袋牛奶：8 ÷ 4 = 2（元）\n2. 再算6袋：2 × 6 = 12（元）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030401-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "食堂买了2千克苹果，一共花了10元。如果学校食堂订了5千克这样的苹果，需要付多少钱？",
+        "answer": "25元",
+        "analysis": "1. 先算1千克苹果：10 ÷ 2 = 5（元）\n2. 再算5千克：5 × 5 = 25（元）",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "归一求单一量的入口很固定: 先求一份是多少。题目里出现“同样”“照这样计算”这类词时, 往往就在提示你先除后乘。把单一量求出来后, 后面的新数量就顺着乘回去。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "归一求单一量的入口很固定: 先求一份是多少。",
+          "题目里出现“同样”“照这样计算”这类词时, 往往就在提示你先除后乘。",
+          "把单一量求出来后, 后面的新数量就顺着乘回去。"
+        ],
+        "caption": "归一求单一量的入口很固定: 先求一份是多少。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"200\" viewBox=\"0 0 600 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  <!-- 总线段 15元 -->\n  <line x1=\"50\" y1=\"50\" x2=\"200\" y2=\"50\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"110\" y=\"40\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"black\">3本共15元</text>\n  <!-- 分成3段 -->\n  <line x1=\"100\" y1=\"45\" x2=\"100\" y2=\"55\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"150\" y1=\"45\" x2=\"150\" y2=\"55\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"75\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"125\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"175\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"75\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">1本</text>\n  <text x=\"125\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">1本</text>\n  <text x=\"175\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"black\">1本</text>\n\n  <!-- 7本线段 -->\n  <line x1=\"50\" y1=\"120\" x2=\"400\" y2=\"120\" stroke=\"black\" stroke-width=\"4\"/>\n  <text x=\"225\" y=\"110\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"blue\">7本一共？元</text>\n  <!-- 7段 -->\n  <line x1=\"100\" y1=\"115\" x2=\"100\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"150\" y1=\"115\" x2=\"150\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"200\" y1=\"115\" x2=\"200\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"250\" y1=\"115\" x2=\"250\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"300\" y1=\"115\" x2=\"300\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <line x1=\"350\" y1=\"115\" x2=\"350\" y2=\"125\" stroke=\"black\" stroke-width=\"2\"/>\n  <text x=\"75\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"125\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"175\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"225\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"275\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"325\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n  <text x=\"375\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"blue\">5元</text>\n\n  <!-- 答案红色 -->\n  <text x=\"450\" y=\"125\" font-family=\"sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"red\">7本: 35元</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.733Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "归一求单一量，就是先算出一份是多少，也叫先求“单一量”。",
+      "thinking": "- 第一步：先找到总量和份数，用总量除以份数，算出“一份是多少”。\n- 第二步：再用这个“一份的数”去乘题目要求的份数，求出想要的答案。",
+      "formula": "单一量 = 总量 ÷ 份数\n总量 = 单一量 × 份数",
+      "mistakes": "- 注意除法时千万别除反了，一定要用总量除以份数，而不是份数除以总量。\n- 注意单位别写错，算出来的单一量是什么单位，后面乘的时候单位也要对。",
+      "features": "基础难度的归一问题，数字小、步骤少、思路非常直白。重点就是考察会不会先求单一量，再求总量，不绕弯子。"
+    },
+    "example": {
+      "title": "小红买了3本同样的笔记本，一共花了15元。如果她还想买7本同样的笔记本，一共需要多少钱？",
+      "think": "先算出一本笔记本多少钱（单一量），再用单一量乘7，算出总价。",
+      "steps": "第一步：先算一本书的价钱（单一量）。\n  3本笔记本一共15元。\n  每一本笔记本的价钱 = 15 ÷ 3 = 5（元）。\n\n第二步：再算7本笔记本的总价。\n  1本5元，7本就是：5 × 7 = 35（元）。",
+      "answer": "一共需要35元。",
+      "summary": "做归一问题，先找到“一份是多少”，再按题目要求的份数去乘，就能得到答案。记住：先除再乘。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "归一求单一量",
+    "subtitle": "应用题 · 归一归总问题",
+    "problem": "小红买了3本同样的笔记本，一共花了15元。如果她还想买7本同样的笔记本，一共需要多少钱？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小明买了3支同样的铅笔，一共花了6元。如果他想买8支这样的铅笔，一共要花多少钱？"
+  }
+}

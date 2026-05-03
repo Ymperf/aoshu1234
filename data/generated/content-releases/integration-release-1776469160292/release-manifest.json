@@ -1,0 +1,9 @@
+{
+  "versionTag": "integration-release-1776469160292",
+  "catalogPath": "data/generated/content-releases/integration-release-1776469160292/course-catalog.json",
+  "sourceCatalogPath": "data/generated/content-json/course-catalog.json",
+  "approvedAiContentPath": "data/generated/content-releases/integration-release-1776469160292/approved-ai-content.json",
+  "approvedAiDraftCount": 4,
+  "catalogChecksum": "71915e545db5e0636cdd09a892f869a73f2f14035960c3cd9630483ee879c9e7",
+  "publishedAt": "2026-04-17T23:39:20.369Z"
+}

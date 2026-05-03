@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030402",
+  "knowledgePointId": 3030402,
+  "topicId": 30304,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "归总求总量",
+  "subtitle": "应用题 · 归一归总问题",
+  "intro": "先求总数是多少，再求其他量",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "归一归总问题"
+  },
+  "problemStatement": "先求总数是多少，再求其他量",
+  "knownConditions": [],
+  "targetQuestion": "总数是多少，再求其他量",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "同学们，今天学习归总求总量。遇到这类题，先看题目告诉我们的到底是“每份多少”，还是“有几份”；只要这两个量找对了，就直接用乘法求总数。比如每个同学发4本练习本，发给35个同学，就把4看成每份数，把35看成份数，列式是4×35=140。本题最容易错的地方，是把“每个”的量和“几个”的量看反，所以审题要先圈出关键词。你可以把方法记成一句话：每份数乘份数，得到总数量。后面做练习时，也先按这个顺序想，再动笔计算。",
+  "keyTakeaways": [],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "同学们，今天学习归总求总量。",
+        "遇到这类题，先看题目告诉我们的到底是“每份多少”，还是“有几份”；只要这两个量找对了，就直接用乘法求总数。",
+        "比如每个同学发4本练习本，发给35个同学，就把4看成每份数，把35看成份数，列式是4×35=140。",
+        "本题最容易错的地方，是把“每个”的量和“几个”的量看反，所以审题要先圈出关键词。",
+        "你可以把方法记成一句话：每份数乘份数，得到总数量。",
+        "后面做练习时，也先按这个顺序想，再动笔计算。"
+      ],
+      "caption": "同学们，今天学习归总求总量。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030402-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "果园里摘苹果，每个筐装6个苹果，装了40筐，一共摘了多少个苹果？",
+      "answer": "240个",
+      "analysis": "每筐6个，有40筐，总苹果数 = 6 × 40 = 240（个）。\n\n**第2题（变式拓展）**：  \n题目：一辆客车每次能载客50人，一天跑了8趟（来回算一趟），这一天一共能载客多少人？  \n答案：400人  \n简要解题步骤：每趟载50人，共8趟，总人数 = 50 × 8 = 400（人）。\n\n**第3题（综合应用）**：  \n题目：小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？  \n答案：70个  \n简要解题步骤：先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030402-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "一辆客车每次能载客50人，一天跑了8趟（来回算一趟），这一天一共能载客多少人？",
+      "answer": "400人",
+      "analysis": "每趟载50人，共8趟，总人数 = 50 × 8 = 400（人）。\n\n**第3题（综合应用）**：  \n题目：小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？  \n答案：70个  \n简要解题步骤：先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030402-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？",
+      "answer": "70个",
+      "analysis": "先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "归总求总量",
+    "subtitle": "应用题 · 归一归总问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "归一归总问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "1. **知识点定义**：  \n   归总求总量，就是已知每份的数量（也叫单一量）和份数，求一共的总数量。\n\n2. **核心解题思路**：  \n   - 先找出题目里的“一份是多少”。  \n   - 再找出“这样的有几份”。  \n   - 用“一份的数量 × 份数 = 总数量”来算出答案。\n\n3. **方法总结/常用公式**：  \n   总数量 = 每份数 × 份数  \n   （如果没有固定公式，就记住：一份量 × 份数 = 总量）\n\n4. **易错点提醒**：  \n   - 容易把“每份数”和“份数”搞反，得看清楚哪个是“每份的量”。  \n   - 忘记单位，或者单位不统一时没有先换算。  \n   - 做乘法时粗心算错得数。\n\n5. **本难度考察特点**：  \n   基础难度下，数字都是整十、整百或简单两位数，一步乘法就能解决，不涉及两步或逆向思维，主要考察学生对“每份数×份数”这个关系的理解和直接计算能力。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "1. **知识点定义**：  \n   归总求总量，就是已知每份的数量（也叫单一量）和份数，求一共的总数量。\n\n2. **核心解题思路**：  \n   - 先找出题目里的“一份是多少”。  \n   - 再找出“这样的有几份”。  \n   - 用“一份的数量 × 份数 = 总数量”来算出答案。\n\n3. **方法总结/常用公式**：  \n   总数量 = 每份数 × 份数  \n   （如果没有固定公式，就记住：一份量 × 份数 = 总量）\n\n4. **易错点提醒**：  \n   - 容易把“每份数”和“份数”搞反，得看清楚哪个是“每份的量”。  \n   - 忘记单位，或者单位不统一时没有先换算。  \n   - 做乘法时粗心算错得数。\n\n5. **本难度考察特点**：  \n   基础难度下，数字都是整十、整百或简单两位数，一步乘法就能解决，不涉及两步或逆向思维，主要考察学生对“每份数×份数”这个关系的理解和直接计算能力。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "按题目条件逐步分析。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "无固定公式，掌握思路即可"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "注意把每一步条件核对完整。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "1. **知识点定义**：  \n   归总求总量，就是已知每份的数量（也叫单一量）和份数，求一共的总数量。\n\n2. **核心解题思路**：  \n   - 先找出题目里的“一份是多少”。  \n   - 再找出“这样的有几份”。  \n   - 用“一份的数量 × 份数 = 总数量”来算出答案。\n\n3. **方法总结/常用公式**：  \n   总数量 = 每份数 × 份数  \n   （如果没有固定公式，就记住：一份量 × 份数 = 总量）\n\n4. **易错点提醒**：  \n   - 容易把“每份数”和“份数”搞反，得看清楚哪个是“每份的量”。  \n   - 忘记单位，或者单位不统一时没有先换算。  \n   - 做乘法时粗心算错得数。\n\n5. **本难度考察特点**：  \n   基础难度下，数字都是整十、整百或简单两位数，一步乘法就能解决，不涉及两步或逆向思维，主要考察学生对“每份数×份数”这个关系的理解和直接计算能力。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "1. **知识点定义**：  \n   归总求总量，就是已知每份的数量（也叫单一量）和份数，求一共的总数量。\n\n2. **核心解题思路**：  \n   - 先找出题目里的“一份是多少”。  \n   - 再找出“这样的有几份”。  \n   - 用“一份的数量 × 份数 = 总数量”来算出答案。\n\n3. **方法总结/常用公式**：  \n   总数量 = 每份数 × 份数  \n   （如果没有固定公式，就记住：一份量 × 份数 = 总量）\n\n4. **易错点提醒**：  \n   - 容易把“每份数”和“份数”搞反，得看清楚哪个是“每份的量”。  \n   - 忘记单位，或者单位不统一时没有先换算。  \n   - 做乘法时粗心算错得数。\n\n5. **本难度考察特点**：  \n   基础难度下，数字都是整十、整百或简单两位数，一步乘法就能解决，不涉及两步或逆向思维，主要考察学生对“每份数×份数”这个关系的理解和直接计算能力。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "结合当前难度，重点掌握本知识点的基础思路和解题规范。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "按题目条件逐步分析。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "无固定公式，掌握思路即可"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "注意把每一步条件核对完整。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "学校买来一批练习本，每个同学发4本，一共发给35个同学，正好发完。这批练习本一共有多少本？",
+    "answer": "140本",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "读题，找到已知条件：每个同学发4本（每份数）",
+        "explanation": "读题，找到已知条件：每个同学发4本（每份数），有35个同学（份数）。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "想关系式：总本数 = 每份数 × 份数。",
+        "explanation": "想关系式：总本数 = 每份数 × 份数。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "列式：4 × 35。",
+        "explanation": "列式：4 × 35。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "计算：4 × 35 = 140。",
+        "explanation": "计算：4 × 35 = 140。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "答：这批练习本一共有140本。",
+        "explanation": "答：这批练习本一共有140本。",
+        "icon": "5"
+      }
+    ],
+    "keyTakeaways": [
+      "这类题先找“每份是多少”，再找“一共有几份”，最后用乘法求总量。只要把每份数和份数分清，计算就不会乱。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030402-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "果园里摘苹果，每个筐装6个苹果，装了40筐，一共摘了多少个苹果？",
+        "answer": "240个",
+        "analysis": "每筐6个，有40筐，总苹果数 = 6 × 40 = 240（个）。\n\n**第2题（变式拓展）**：  \n题目：一辆客车每次能载客50人，一天跑了8趟（来回算一趟），这一天一共能载客多少人？  \n答案：400人  \n简要解题步骤：每趟载50人，共8趟，总人数 = 50 × 8 = 400（人）。\n\n**第3题（综合应用）**：  \n题目：小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？  \n答案：70个  \n简要解题步骤：先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030402-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "一辆客车每次能载客50人，一天跑了8趟（来回算一趟），这一天一共能载客多少人？",
+        "answer": "400人",
+        "analysis": "每趟载50人，共8趟，总人数 = 50 × 8 = 400（人）。\n\n**第3题（综合应用）**：  \n题目：小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？  \n答案：70个  \n简要解题步骤：先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030402-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "小红每天背5个英语单词，连续背了2周（一周7天），一共背了多少个单词？",
+        "answer": "70个",
+        "analysis": "先算总天数：2周 = 2 × 7 = 14天，每天5个，总单词数 = 5 × 14 = 70（个）。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "同学们，今天学习归总求总量。遇到这类题，先看题目告诉我们的到底是“每份多少”，还是“有几份”；只要这两个量找对了，就直接用乘法求总数。比如每个同学发4本练习本，发给35个同学，就把4看成每份数，把35看成份数，列式是4×35=140。本题最容易错的地方，是把“每个”的量和“几个”的量看反，所以审题要先圈出关键词。你可以把方法记成一句话：每份数乘份数，得到总数量。后面做练习时，也先按这个顺序想，再动笔计算。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "同学们，今天学习归总求总量。",
+          "遇到这类题，先看题目告诉我们的到底是“每份多少”，还是“有几份”；只要这两个量找对了，就直接用乘法求总数。",
+          "比如每个同学发4本练习本，发给35个同学，就把4看成每份数，把35看成份数，列式是4×35=140。",
+          "本题最容易错的地方，是把“每个”的量和“几个”的量看反，所以审题要先圈出关键词。",
+          "你可以把方法记成一句话：每份数乘份数，得到总数量。",
+          "后面做练习时，也先按这个顺序想，再动笔计算。"
+        ],
+        "caption": "同学们，今天学习归总求总量。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"260\" viewBox=\"0 0 600 260\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"600\" height=\"260\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-family=\"sans-serif\" fill=\"#000\">归总求总量 示意图</text>\n  <!-- 示例：每个同学4本，35个同学 -->\n  <!-- 画一行代表一个同学，画4个小方块表示4本，共画5行示意（35太多，画5行示意） -->\n  <g transform=\"translate(40,60)\">\n    <!-- 第一行：同学1 -->\n    <rect x=\"0\" y=\"0\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"35\" y=\"0\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"70\" y=\"0\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"105\" y=\"0\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <text x=\"15\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" fill=\"#000\">本</text>\n    <text x=\"50\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" fill=\"#000\">本</text>\n    <text x=\"85\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" fill=\"#000\">本</text>\n    <text x=\"120\" y=\"20\" text-anchor=\"middle\" font-size=\"12\" fill=\"#000\">本</text>\n    <!-- 标注 4本 -->\n    <text x=\"67\" y=\"-5\" text-anchor=\"middle\" font-size=\"12\" fill=\"#0000FF\">每个同学4本</text>\n    <!-- 第二行：同学2 -->\n    <rect x=\"0\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"35\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"70\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"105\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <!-- 第三行：同学3 -->\n    <rect x=\"0\" y=\"80\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"35\" y=\"80\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"70\" y=\"80\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"105\" y=\"80\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <!-- 第四行：同学4 -->\n    <rect x=\"0\" y=\"120\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"35\" y=\"120\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"70\" y=\"120\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"105\" y=\"120\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <!-- 第五行：同学5，带省略号 -->\n    <rect x=\"0\" y=\"160\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"35\" y=\"160\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"70\" y=\"160\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <rect x=\"105\" y=\"160\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/>\n    <!-- 省略号 -->\n    <text x=\"150\" y=\"100\" font-size=\"24\" fill=\"#000\">…</text>\n    <!-- 左侧标注 35个同学 -->\n    <text x=\"-10\" y=\"100\" text-anchor=\"end\" font-size=\"14\" fill=\"#0000FF\" transform=\"rotate(-90,-10,100)\">共35个同学</text>\n  </g>\n  <!-- 答案标注 -->\n  <text x=\"300\" y=\"240\" text-anchor=\"middle\" font-size=\"16\" fill=\"#FF0000\" font-weight=\"bold\">总本数 = 4 × 35 = 140（本）</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.757Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "",
+      "thinking": "",
+      "formula": "",
+      "mistakes": "",
+      "features": ""
+    },
+    "example": {
+      "title": "学校买来一批练习本，每个同学发4本，一共发给35个同学，正好发完。这批练习本一共有多少本？",
+      "think": "题目告诉我们“每个同学发4本”就是每份数，“35个同学”就是份数。要求总本数，直接用每份数乘份数。",
+      "steps": "1. 读题，找到已知条件：每个同学发4本（每份数），有35个同学（份数）。  \n2. 想关系式：总本数 = 每份数 × 份数。  \n3. 列式：4 × 35。  \n4. 计算：4 × 35 = 140。  \n5. 答：这批练习本一共有140本。",
+      "answer": "140本",
+      "summary": "这类题先找“每份是多少”，再找“一共有几份”，最后用乘法求总量。只要把每份数和份数分清，计算就不会乱。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "归总求总量",
+    "subtitle": "应用题 · 归一归总问题",
+    "problem": "学校买来一批练习本，每个同学发4本，一共发给35个同学，正好发完。这批练习本一共有多少本？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "果园里摘苹果，每个筐装6个苹果，装了40筐，一共摘了多少个苹果？"
+  }
+}

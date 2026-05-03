@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-3030201",
+  "knowledgePointId": 3030201,
+  "topicId": 30302,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "和倍问题基本解法",
+  "subtitle": "应用题 · 和倍与差倍问题",
+  "intro": "和倍问题就是已知两个数的和以及它们之间的倍数关系，分别求出这两个数是多少。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题"
+  },
+  "problemStatement": "已知两数和与倍数关系，求两数",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。总和除以总份数, 得到1倍量, 然后再求另一个量。关键不是急着列式, 而是先把线段图或份数关系想清楚。",
+  "keyTakeaways": [
+    "先找到题目中的“1倍量”（通常是比较小的那个数）。",
+    "把“1倍量”看成1份，另一个数就是几份。",
+    "加起来总份数 = 1倍量的份数 + 倍数份数。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。",
+        "总和除以总份数, 得到1倍量, 然后再求另一个量。",
+        "关键不是急着列式, 而是先把线段图或份数关系想清楚。"
+      ],
+      "caption": "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "3030201-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "小明和小红一共有36支铅笔，小明的铅笔支数是小红的2倍。小明和小红各有几支铅笔？",
+      "answer": "小红12支，小明24支。",
+      "analysis": "1. 小红是1倍量，看成1份，小明是2份，总份数1+2=3份。\n2. 1份 = 36÷3 = 12（支），即小红有12支。\n3. 小明有12×2=24支。\n4. 检验：12+24=36。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030201-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "果园里苹果树和梨树共480棵，苹果树的棵数是梨树的5倍。苹果树和梨树各有多少棵？",
+      "answer": "梨树80棵，苹果树400棵。",
+      "analysis": "1. 梨树是1倍量，苹果树是5倍，总份数1+5=6份。\n2. 1份 = 480÷6 = 80（棵），即梨树80棵。\n3. 苹果树80×5=400棵。\n4. 检验：80+400=480。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "3030201-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "学校图书馆有故事书和科技书共240本，故事书的本数是科技书的7倍。故事书比科技书多多少本？",
+      "answer": "多180本。",
+      "analysis": "1. 科技书是1倍量，故事书是7倍，总份数1+7=8份。\n2. 1份 = 240÷8 = 30（本），即科技书30本。\n3. 故事书30×7=210本。\n4. 相差：210-30=180本。\n5. 检验：30+210=240。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "和倍问题基本解法",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "gradeName": "三年级",
+    "moduleName": "应用题",
+    "topicName": "和倍与差倍问题",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "和倍问题就是已知两个数的和以及它们之间的倍数关系，分别求出这两个数是多少。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "和倍问题就是已知两个数的和以及它们之间的倍数关系，分别求出这两个数是多少。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找到题目中的“1倍量”（通常是比较小的那个数）。",
+          "把“1倍量”看成1份，另一个数就是几份。",
+          "加起来总份数 = 1倍量的份数 + 倍数份数。",
+          "用“和 ÷ 总份数”得到1份是多少，也就是1倍量。",
+          "再用1倍量乘以倍数，得到另一个数。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "1倍量 = 和 ÷ （倍数 + 1）",
+          "另一个数 = 1倍量 × 倍数"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "容易忘记先求总份数，直接拿和除以倍数。",
+          "容易把“倍”理解成“多几倍”而不是“是几倍”。",
+          "算完要检查两个数相加是否等于原来的和。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "- 数字是整十、整百或简单整数，计算不复杂。\n   - 倍数关系清楚，没有多余条件，直接套用公式。\n   - 重点考察学生是否理解“和÷总份数”这个步骤。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "和倍问题就是已知两个数的和以及它们之间的倍数关系，分别求出这两个数是多少。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "- 数字是整十、整百或简单整数，计算不复杂。\n   - 倍数关系清楚，没有多余条件，直接套用公式。\n   - 重点考察学生是否理解“和÷总份数”这个步骤。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找到题目中的“1倍量”（通常是比较小的那个数）。",
+              "把“1倍量”看成1份，另一个数就是几份。",
+              "加起来总份数 = 1倍量的份数 + 倍数份数。",
+              "用“和 ÷ 总份数”得到1份是多少，也就是1倍量。",
+              "再用1倍量乘以倍数，得到另一个数。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "1倍量 = 和 ÷ （倍数 + 1）",
+              "另一个数 = 1倍量 × 倍数"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "容易忘记先求总份数，直接拿和除以倍数。",
+              "容易把“倍”理解成“多几倍”而不是“是几倍”。",
+              "算完要检查两个数相加是否等于原来的和。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "哥哥和弟弟一共有120本故事书，哥哥的故事书本数是弟弟的3倍。哥哥和弟弟各有多少本故事书？",
+    "answer": "弟弟有30本，哥哥有90本。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "弟弟的书是1倍量，看成1份。",
+        "explanation": "弟弟的书是1倍量，看成1份。哥哥的书是3倍，就是3份。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "两人总份数 = 1份 + 3份 = 4份。",
+        "explanation": "两人总份数 = 1份 + 3份 = 4份。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "总本数120本对应这4份，所以1份 = 12",
+        "explanation": "总本数120本对应这4份，所以1份 = 120 ÷ 4 = 30（本）。",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "1份就是弟弟的书，所以弟弟有30本。",
+        "explanation": "1份就是弟弟的书，所以弟弟有30本。",
+        "icon": "4"
+      },
+      {
+        "id": "knowledge-data-step-5",
+        "title": "哥哥的书是弟弟的3倍，所以哥哥有30 × 3",
+        "explanation": "哥哥的书是弟弟的3倍，所以哥哥有30 × 3 = 90（本）。",
+        "icon": "5"
+      },
+      {
+        "id": "knowledge-data-step-6",
+        "title": "检验：30 + 90 = 120，正确。",
+        "explanation": "检验：30 + 90 = 120，正确。",
+        "icon": "6"
+      }
+    ],
+    "keyTakeaways": [
+      "先找出1倍量，算出总份数，用和除以总份数得到1倍量，再求另一个数。记住：和 ÷ （倍数+1）= 较小数。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "3030201-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "小明和小红一共有36支铅笔，小明的铅笔支数是小红的2倍。小明和小红各有几支铅笔？",
+        "answer": "小红12支，小明24支。",
+        "analysis": "1. 小红是1倍量，看成1份，小明是2份，总份数1+2=3份。\n2. 1份 = 36÷3 = 12（支），即小红有12支。\n3. 小明有12×2=24支。\n4. 检验：12+24=36。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030201-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "果园里苹果树和梨树共480棵，苹果树的棵数是梨树的5倍。苹果树和梨树各有多少棵？",
+        "answer": "梨树80棵，苹果树400棵。",
+        "analysis": "1. 梨树是1倍量，苹果树是5倍，总份数1+5=6份。\n2. 1份 = 480÷6 = 80（棵），即梨树80棵。\n3. 苹果树80×5=400棵。\n4. 检验：80+400=480。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "3030201-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "学校图书馆有故事书和科技书共240本，故事书的本数是科技书的7倍。故事书比科技书多多少本？",
+        "answer": "多180本。",
+        "analysis": "1. 科技书是1倍量，故事书是7倍，总份数1+7=8份。\n2. 1份 = 240÷8 = 30（本），即科技书30本。\n3. 故事书30×7=210本。\n4. 相差：210-30=180本。\n5. 检验：30+210=240。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。总和除以总份数, 得到1倍量, 然后再求另一个量。关键不是急着列式, 而是先把线段图或份数关系想清楚。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。",
+          "总和除以总份数, 得到1倍量, 然后再求另一个量。",
+          "关键不是急着列式, 而是先把线段图或份数关系想清楚。"
+        ],
+        "caption": "和倍问题先把较小量看成1倍, 再根据倍数关系数出总共有几份。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"200\" viewBox=\"0 0 600 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 白底 -->\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"30\" y=\"30\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">线段图：哥哥和弟弟共有120本，哥哥是弟弟的3倍</text>\n  <!-- 弟弟线段：1份 -->\n  <line x1=\"50\" y1=\"70\" x2=\"150\" y2=\"70\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"80\" y=\"60\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">弟弟：1份</text>\n  <text x=\"80\" y=\"95\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">?本</text>\n  <!-- 哥哥线段：3份 -->\n  <line x1=\"50\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"black\" stroke-width=\"3\"/>\n  <text x=\"80\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" fill=\"black\">哥哥：3份</text>\n  <text x=\"180\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">?本</text>\n  <!-- 总和大括号 -->\n  <line x1=\"50\" y1=\"155\" x2=\"350\" y2=\"155\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/>\n  <line x1=\"50\" y1=\"155\" x2=\"50\" y2=\"170\" stroke=\"black\" stroke-width=\"1\"/>\n  <line x1=\"350\" y1=\"155\" x2=\"350\" y2=\"170\" stroke=\"black\" stroke-width=\"1\"/>\n  <text x=\"180\" y=\"185\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\" font-weight=\"bold\">总共 120 本</text>\n  <!-- 标注份数 -->\n  <text x=\"50\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">第1份</text>\n  <text x=\"150\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">第2份</text>\n  <text x=\"250\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">第3份</text>\n  <text x=\"350\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">第4份</text>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:21.551Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "和倍问题就是已知两个数的和以及它们之间的倍数关系，分别求出这两个数是多少。",
+      "thinking": "- 先找到题目中的“1倍量”（通常是比较小的那个数）。\n   - 把“1倍量”看成1份，另一个数就是几份。\n   - 加起来总份数 = 1倍量的份数 + 倍数份数。\n   - 用“和 ÷ 总份数”得到1份是多少，也就是1倍量。\n   - 再用1倍量乘以倍数，得到另一个数。",
+      "formula": "- 1倍量 = 和 ÷ （倍数 + 1）\n   - 另一个数 = 1倍量 × 倍数",
+      "mistakes": "- 容易忘记先求总份数，直接拿和除以倍数。\n   - 容易把“倍”理解成“多几倍”而不是“是几倍”。\n   - 算完要检查两个数相加是否等于原来的和。",
+      "features": "- 数字是整十、整百或简单整数，计算不复杂。\n   - 倍数关系清楚，没有多余条件，直接套用公式。\n   - 重点考察学生是否理解“和÷总份数”这个步骤。"
+    },
+    "example": {
+      "title": "哥哥和弟弟一共有120本故事书，哥哥的故事书本数是弟弟的3倍。哥哥和弟弟各有多少本故事书？",
+      "think": "弟弟的书少，是1倍量，哥哥的书是3倍，两人一共是1+3=4倍。用120除以4得1倍量，再求哥哥。",
+      "steps": "1. 弟弟的书是1倍量，看成1份。哥哥的书是3倍，就是3份。\n2. 两人总份数 = 1份 + 3份 = 4份。\n3. 总本数120本对应这4份，所以1份 = 120 ÷ 4 = 30（本）。\n4. 1份就是弟弟的书，所以弟弟有30本。\n5. 哥哥的书是弟弟的3倍，所以哥哥有30 × 3 = 90（本）。\n6. 检验：30 + 90 = 120，正确。",
+      "answer": "弟弟有30本，哥哥有90本。",
+      "summary": "先找出1倍量，算出总份数，用和除以总份数得到1倍量，再求另一个数。记住：和 ÷ （倍数+1）= 较小数。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "和倍问题基本解法",
+    "subtitle": "应用题 · 和倍与差倍问题",
+    "problem": "哥哥和弟弟一共有120本故事书，哥哥的故事书本数是弟弟的3倍。哥哥和弟弟各有多少本故事书？",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "小明和小红一共有36支铅笔，小明的铅笔支数是小红的2倍。小明和小红各有几支铅笔？"
+  }
+}

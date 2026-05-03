@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "v1",
+  "id": "kp-lesson-5030101",
+  "knowledgePointId": 5030101,
+  "topicId": 50301,
+  "problemFamily": "generic_knowledge_point",
+  "questionFamily": "应用题",
+  "title": "比的意义与化简",
+  "subtitle": "应用题 · 比例与比的应用",
+  "intro": "比表示两个数相除的关系，比如3:5表示3除以5。化简比就是利用比的基本性质，把比的前项和后项化成互质的整数。",
+  "difficultyLabel": "基础",
+  "breadcrumbs": {
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "比例与比的应用"
+  },
+  "problemStatement": "理解比的意义，会化简整数、小数、分数比",
+  "knownConditions": [],
+  "targetQuestion": "根据题目条件求出答案",
+  "corePrinciples": [
+    "理解知识点的核心规则",
+    "能按标准步骤完成基本题目",
+    "会检查自己的结果是否合理"
+  ],
+  "coreFormulas": [],
+  "stepSummary": [
+    {
+      "title": "读题并明确目标",
+      "description": "先读清题目，明确要找的数量关系或规律。"
+    },
+    {
+      "title": "找到关键条件",
+      "description": "把题目里真正决定解法的条件先找出来。"
+    },
+    {
+      "title": "建立标准思路",
+      "description": "把题目转成这类知识点常用的解题方式。"
+    },
+    {
+      "title": "分步求解",
+      "description": "不要跳步，按顺序完成每一步推理和计算。"
+    },
+    {
+      "title": "检查答案",
+      "description": "把结果带回原题，或者用已知条件重新核对。"
+    },
+    {
+      "title": "总结方法",
+      "description": "最后把这类题的通用方法总结出来。"
+    }
+  ],
+  "tips": [
+    "先把关键条件找清楚，再开始解题。",
+    "按固定顺序一步一步写出来。"
+  ],
+  "targetDurationSec": 180,
+  "spokenScript": "比的意义与化简题先确认比的顺序, 再看能不能同时约简。化简比和约分很像, 关键是找前项和后项的公因数, 一直除到互质为止。顺序不能换, 单位也要先统一。",
+  "keyTakeaways": [
+    "先找到比的前项和后项。",
+    "同时除以它们的最大公因数。",
+    "一直除到前项和后项只有公因数1为止。"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "title": "知识点引入",
+      "durationSec": 12,
+      "sceneType": "summary",
+      "objective": "知识点引入",
+      "narration": [
+        "比的意义与化简题先确认比的顺序, 再看能不能同时约简。",
+        "化简比和约分很像, 关键是找前项和后项的公因数, 一直除到互质为止。",
+        "顺序不能换, 单位也要先统一。"
+      ],
+      "caption": "比的意义与化简题先确认比的顺序, 再看能不能同时约简。"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "5030101-practice-1",
+      "role": "core",
+      "type": "application",
+      "stem": "化简比 15:20。",
+      "answer": "3:4",
+      "analysis": "15和20的最大公因数是5，前项15÷5=3，后项20÷5=4，得到3:4。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "basic",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030101-practice-2",
+      "role": "variant",
+      "type": "application",
+      "stem": "水果店有苹果18个，梨27个。请写出苹果和梨的数量比，并化简成最简整数比。",
+      "answer": "2:3",
+      "analysis": "苹果:梨 = 18:27，18和27的最大公因数是9，18÷9=2，27÷9=3，得到2:3。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "intermediate",
+      "canAutoVerify": false
+    },
+    {
+      "id": "5030101-practice-3",
+      "role": "challenge",
+      "type": "application",
+      "stem": "一个长方形的长是20厘米，宽是15厘米。写出这个长方形的长与宽的比，并化简。",
+      "answer": "4:3",
+      "analysis": "长:宽 = 20:15，20和15的最大公因数是5，20÷5=4，15÷5=3，得到4:3。",
+      "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+      "difficulty": "advanced",
+      "canAutoVerify": false
+    }
+  ],
+  "meta": {
+    "title": "比的意义与化简",
+    "subtitle": "应用题 · 比例与比的应用",
+    "gradeName": "五年级",
+    "moduleName": "应用题",
+    "topicName": "比例与比的应用",
+    "difficultyLabel": "基础",
+    "problemFamily": "generic_knowledge_point",
+    "questionFamily": "应用题",
+    "targetDurationSec": 180
+  },
+  "introContent": {
+    "summary": "比表示两个数相除的关系，比如3:5表示3除以5。化简比就是利用比的基本性质，把比的前项和后项化成互质的整数。",
+    "cards": [
+      {
+        "id": "problem-model",
+        "title": "知识点定义",
+        "tone": "blue",
+        "type": "text",
+        "content": "比表示两个数相除的关系，比如3:5表示3除以5。化简比就是利用比的基本性质，把比的前项和后项化成互质的整数。"
+      },
+      {
+        "id": "core-principles",
+        "title": "核心思路",
+        "tone": "emerald",
+        "type": "tags",
+        "content": [
+          "先找到比的前项和后项。",
+          "同时除以它们的最大公因数。",
+          "一直除到前项和后项只有公因数1为止。"
+        ]
+      },
+      {
+        "id": "core-formulas",
+        "title": "方法总结",
+        "tone": "slate",
+        "type": "formula",
+        "content": [
+          "化简比的方法就是“前项和后项同时除以它们的最大公因数”。如果比值是分数或小数，先化成整数再化简。"
+        ]
+      },
+      {
+        "id": "tips",
+        "title": "易错点提醒",
+        "tone": "amber",
+        "type": "bullets",
+        "content": [
+          "不要把化简比和求比值搞混。化简比结果还是一个比（有冒号），求比值结果是一个数。",
+          "忘记同时除以相同的数，只除前项或只除后项。",
+          "没有约到最简，比如8:12只除以2得到4:6，是错的，要继续除以2得到2:3。"
+        ]
+      }
+    ],
+    "sections": {
+      "focus": {
+        "title": "本节重点",
+        "content": "数字都是简单整数，最大公因数容易找（如2、3、4、5等），步骤直白，只要求把一个比化成最简整数比，不涉及分数、小数或单位换算。"
+      },
+      "model": {
+        "title": "知识点简介",
+        "items": [
+          {
+            "label": "知识点定义",
+            "value": "比表示两个数相除的关系，比如3:5表示3除以5。化简比就是利用比的基本性质，把比的前项和后项化成互质的整数。"
+          },
+          {
+            "label": "本难度特点",
+            "value": "数字都是简单整数，最大公因数容易找（如2、3、4、5等），步骤直白，只要求把一个比化成最简整数比，不涉及分数、小数或单位换算。"
+          }
+        ]
+      },
+      "method": {
+        "title": "解题方法",
+        "items": [
+          {
+            "label": "核心思路",
+            "value": [
+              "先找到比的前项和后项。",
+              "同时除以它们的最大公因数。",
+              "一直除到前项和后项只有公因数1为止。"
+            ]
+          },
+          {
+            "label": "方法总结",
+            "value": [
+              "化简比的方法就是“前项和后项同时除以它们的最大公因数”。如果比值是分数或小数，先化成整数再化简。"
+            ]
+          },
+          {
+            "label": "易错提醒",
+            "value": [
+              "不要把化简比和求比值搞混。化简比结果还是一个比（有冒号），求比值结果是一个数。",
+              "忘记同时除以相同的数，只除前项或只除后项。",
+              "没有约到最简，比如8:12只除以2得到4:6，是错的，要继续除以2得到2:3。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "exampleContent": {
+    "title": "例题解析",
+    "problemStatement": "六（1）班有男生20人，女生24人。请写出男生人数和女生人数的比，并化成最简整数比。",
+    "answer": "男生人数与女生人数的比是5:6。",
+    "steps": [
+      {
+        "id": "knowledge-data-step-1",
+        "title": "男生20人，女生24人，所以男生和女生的人数",
+        "explanation": "男生20人，女生24人，所以男生和女生的人数比是20:24。",
+        "icon": "1"
+      },
+      {
+        "id": "knowledge-data-step-2",
+        "title": "找出20和24的最大公因数：20的因数有1、",
+        "explanation": "找出20和24的最大公因数：20的因数有1、2、4、5、10、20；24的因数有1、2、3、4、6、8、12、24。它们的公因数有1、2、4，最大的是4。",
+        "icon": "2"
+      },
+      {
+        "id": "knowledge-data-step-3",
+        "title": "根据比的基本性质，比的前项和后项同时除以4：",
+        "explanation": "根据比的基本性质，比的前项和后项同时除以4：\n   前项：20 ÷ 4 = 5\n   后项：24 ÷ 4 = 6",
+        "icon": "3"
+      },
+      {
+        "id": "knowledge-data-step-4",
+        "title": "得到最简整数比是5:6。",
+        "explanation": "得到最简整数比是5:6。",
+        "icon": "4"
+      }
+    ],
+    "keyTakeaways": [
+      "写比时注意顺序（谁比谁），然后找最大公因数同时除以它，直到前项和后项互质。化简后如果前项和后项还有公因数，要继续除。"
+    ]
+  },
+  "practiceContent": {
+    "questions": [
+      {
+        "id": "5030101-practice-1",
+        "role": "core",
+        "type": "application",
+        "stem": "化简比 15:20。",
+        "answer": "3:4",
+        "analysis": "15和20的最大公因数是5，前项15÷5=3，后项20÷5=4，得到3:4。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "basic",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030101-practice-2",
+        "role": "variant",
+        "type": "application",
+        "stem": "水果店有苹果18个，梨27个。请写出苹果和梨的数量比，并化简成最简整数比。",
+        "answer": "2:3",
+        "analysis": "苹果:梨 = 18:27，18和27的最大公因数是9，18÷9=2，27÷9=3，得到2:3。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "intermediate",
+        "canAutoVerify": false
+      },
+      {
+        "id": "5030101-practice-3",
+        "role": "challenge",
+        "type": "application",
+        "stem": "一个长方形的长是20厘米，宽是15厘米。写出这个长方形的长与宽的比，并化简。",
+        "answer": "4:3",
+        "analysis": "长:宽 = 20:15，20和15的最大公因数是5，20÷5=4，15÷5=3，得到4:3。",
+        "commonMistake": "容易漏掉条件，或只写答案不写推理过程。",
+        "difficulty": "advanced",
+        "canAutoVerify": false
+      }
+    ]
+  },
+  "narrationContent": {
+    "spokenScript": "比的意义与化简题先确认比的顺序, 再看能不能同时约简。化简比和约分很像, 关键是找前项和后项的公因数, 一直除到互质为止。顺序不能换, 单位也要先统一。",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "title": "知识点引入",
+        "durationSec": 12,
+        "sceneType": "summary",
+        "objective": "知识点引入",
+        "narration": [
+          "比的意义与化简题先确认比的顺序, 再看能不能同时约简。",
+          "化简比和约分很像, 关键是找前项和后项的公因数, 一直除到互质为止。",
+          "顺序不能换, 单位也要先统一。"
+        ],
+        "caption": "比的意义与化简题先确认比的顺序, 再看能不能同时约简。"
+      }
+    ]
+  },
+  "illustrations": [
+    {
+      "id": "knowledge-data-example-svg",
+      "title": "例题示意图",
+      "kind": "inline_svg",
+      "placement": "example",
+      "alt": "根据知识点内容生成的例题示意图",
+      "caption": "辅助理解题目条件和解题步骤",
+      "svgContent": "<svg width=\"600\" height=\"200\" viewBox=\"0 0 600 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- 背景 -->\n  <rect width=\"600\" height=\"200\" fill=\"white\"/>\n  <!-- 标题 -->\n  <text x=\"300\" y=\"30\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"18\" fill=\"black\">男生和女生人数比 20:24 化简 5:6</text>\n  <!-- 男生线段 -->\n  <text x=\"50\" y=\"70\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">男生：</text>\n  <rect x=\"120\" y=\"55\" width=\"100\" height=\"25\" fill=\"#E0F0FF\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"170\" y=\"72\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">20人</text>\n  <!-- 女生线段 -->\n  <text x=\"50\" y=\"120\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">女生：</text>\n  <rect x=\"120\" y=\"105\" width=\"120\" height=\"25\" fill=\"#FFE0E0\" stroke=\"blue\" stroke-width=\"2\"/>\n  <text x=\"180\" y=\"122\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"blue\">24人</text>\n  <!-- 化简后标注 -->\n  <text x=\"50\" y=\"170\" font-family=\"sans-serif\" font-size=\"16\" fill=\"black\">化简后：</text>\n  <text x=\"150\" y=\"170\" font-family=\"sans-serif\" font-size=\"16\" fill=\"red\">5 : 6</text>\n  <!-- 箭头标注简化过程 -->\n  <line x1=\"270\" y1=\"67\" x2=\"310\" y2=\"67\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <line x1=\"270\" y1=\"117\" x2=\"310\" y2=\"117\" stroke=\"black\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\"/>\n  <text x=\"290\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">除以4</text>\n  <text x=\"290\" y=\"150\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"black\">除以4</text>\n  <!-- 箭头定义 -->\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"4\" orient=\"auto\">\n      <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"black\"/>\n    </marker>\n  </defs>\n</svg>"
+    }
+  ],
+  "mediaPlan": {
+    "videoPlanned": true,
+    "audioPlanned": true
+  },
+  "generationMeta": {
+    "version": "knowledge-data-import-v2",
+    "generatedAt": "2026-04-25T12:46:23.283Z",
+    "reviewStatus": "draft",
+    "generationMode": "import",
+    "sourceProfile": "knowledge_data.js"
+  },
+  "sourceSections": {
+    "knowledge": {
+      "definition": "比表示两个数相除的关系，比如3:5表示3除以5。化简比就是利用比的基本性质，把比的前项和后项化成互质的整数。",
+      "thinking": "- 先找到比的前项和后项。\n   - 同时除以它们的最大公因数。\n   - 一直除到前项和后项只有公因数1为止。",
+      "formula": "化简比的方法就是“前项和后项同时除以它们的最大公因数”。如果比值是分数或小数，先化成整数再化简。",
+      "mistakes": "- 不要把化简比和求比值搞混。化简比结果还是一个比（有冒号），求比值结果是一个数。\n   - 忘记同时除以相同的数，只除前项或只除后项。\n   - 没有约到最简，比如8:12只除以2得到4:6，是错的，要继续除以2得到2:3。",
+      "features": "数字都是简单整数，最大公因数容易找（如2、3、4、5等），步骤直白，只要求把一个比化成最简整数比，不涉及分数、小数或单位换算。"
+    },
+    "example": {
+      "title": "六（1）班有男生20人，女生24人。请写出男生人数和女生人数的比，并化成最简整数比。",
+      "think": "先写出比（男生:女生 = 20:24），再找出20和24的最大公因数是4，同时除以4得到5:6。",
+      "steps": "1. 男生20人，女生24人，所以男生和女生的人数比是20:24。\n2. 找出20和24的最大公因数：20的因数有1、2、4、5、10、20；24的因数有1、2、3、4、6、8、12、24。它们的公因数有1、2、4，最大的是4。\n3. 根据比的基本性质，比的前项和后项同时除以4：\n   前项：20 ÷ 4 = 5\n   后项：24 ÷ 4 = 6\n4. 得到最简整数比是5:6。",
+      "answer": "男生人数与女生人数的比是5:6。",
+      "summary": "写比时注意顺序（谁比谁），然后找最大公因数同时除以它，直到前项和后项互质。化简后如果前项和后项还有公因数，要继续除。"
+    }
+  },
+  "videoPlan": {
+    "template": "generic",
+    "title": "比的意义与化简",
+    "subtitle": "应用题 · 比例与比的应用",
+    "problem": "六（1）班有男生20人，女生24人。请写出男生人数和女生人数的比，并化成最简整数比。",
+    "methodSteps": [
+      "读题找条件",
+      "整理信息",
+      "分步推理",
+      "检查答案"
+    ],
+    "practicePrompt": "化简比 15:20。"
+  }
+}
