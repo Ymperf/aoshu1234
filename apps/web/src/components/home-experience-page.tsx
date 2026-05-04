@@ -169,13 +169,16 @@ export function HomeExperiencePage({
             </div>
           </div>
 
-          <div className="grid w-full max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4">
-            {HERO_STATS.map((item) => (
-              <div key={item.label} className={`rounded-[8px] border bg-gradient-to-br p-4 ${item.tone}`}>
-                <p className="text-[28px] font-normal leading-none">{item.value}</p>
-                <p className="mt-2 text-xs font-normal">{item.label}</p>
-              </div>
-            ))}
+          <div className="w-full max-w-3xl rounded-[12px] border border-slate-200 bg-slate-50 px-4 py-3 sm:px-5">
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-slate-700 sm:text-base">
+              <span className="whitespace-nowrap font-medium text-slate-900">6 个年级</span>
+              <span className="text-slate-400">|</span>
+              <span className="whitespace-nowrap font-medium text-slate-900">7 个模块</span>
+              <span className="text-slate-400">|</span>
+              <span className="whitespace-nowrap font-medium text-slate-900">57 个专题</span>
+              <span className="text-slate-400">|</span>
+              <span className="whitespace-nowrap font-medium text-slate-900">191 个知识点</span>
+            </div>
           </div>
         </div>
       </section>
