@@ -186,15 +186,15 @@ export function HomeExperiencePage({
             <h2 className="text-[24px] font-bold text-slate-950">按年级学习</h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
             {GRADE_CARDS.map((grade) => (
               <Link
                 key={grade.label}
                 href={grade.href}
-                className={`group rounded-[8px] border p-5 text-center shadow-[0_10px_24px_rgba(15,23,42,0.04)] transition hover:-translate-y-0.5 ${grade.cardClass} ${grade.hoverClass}`}
+                className={`group rounded-[8px] border p-4 text-center shadow-[0_10px_24px_rgba(15,23,42,0.04)] transition hover:-translate-y-0.5 sm:p-5 ${grade.cardClass} ${grade.hoverClass}`}
               >
-                <div className={`mx-auto text-[56px] font-medium leading-none tracking-tight ${grade.indexClass}`}>{grade.index}</div>
-                <h3 className={`mt-4 text-sm font-normal text-slate-950 transition ${grade.labelClass}`}>
+                <div className={`mx-auto text-[48px] font-medium leading-none tracking-tight sm:text-[56px] ${grade.indexClass}`}>{grade.index}</div>
+                <h3 className={`mt-3 text-xs font-normal text-slate-950 transition sm:mt-4 sm:text-sm ${grade.labelClass}`}>
                   {grade.label} · {grade.count}
                 </h3>
               </Link>
@@ -207,15 +207,15 @@ export function HomeExperiencePage({
             <h2 className="text-[24px] font-bold text-slate-950">按模块学习</h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
             {MODULE_CARDS.map((module) => (
               <Link
                 key={module.name}
                 href={module.href}
-                className={`group rounded-[8px] border p-5 shadow-[0_10px_24px_rgba(15,23,42,0.04)] transition hover:-translate-y-0.5 ${module.cardClass} ${module.hoverClass}`}
+                className={`group rounded-[8px] border p-4 shadow-[0_10px_24px_rgba(15,23,42,0.04)] transition hover:-translate-y-0.5 sm:p-5 ${module.cardClass} ${module.hoverClass}`}
               >
-                <h3 className={`text-lg font-bold text-slate-950 transition ${module.textHoverClass}`}>{module.name}</h3>
-                <p className="mt-4 text-sm leading-6 text-slate-600">{module.note}</p>
+                <h3 className={`text-sm font-bold text-slate-950 transition sm:text-lg ${module.textHoverClass}`}>{module.name}</h3>
+                <p className="mt-3 text-xs leading-5 text-slate-600 sm:mt-4 sm:text-sm sm:leading-6">{module.note}</p>
               </Link>
             ))}
           </div>

@@ -8,10 +8,10 @@ function AccountEntryFallback() {
     <div className="flex justify-end" data-account-entry-state="fallback">
       <button
         type="button"
-        className="inline-flex items-center gap-3 rounded-full border border-line bg-white/90 px-4 py-3 text-sm font-semibold text-slate-800 shadow-card backdrop-blur transition hover:border-primary hover:text-primary"
+        className="inline-flex items-center gap-3 whitespace-nowrap rounded-full border border-line bg-white/90 px-4 py-3 text-sm font-semibold text-slate-800 shadow-card backdrop-blur transition hover:border-primary hover:text-primary"
       >
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">账户入口</span>
-        <span>登录 / 注册</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">璐︽埛鍏ュ彛</span>
+        <span>鐧诲綍 / 娉ㄥ唽</span>
       </button>
     </div>
   );
