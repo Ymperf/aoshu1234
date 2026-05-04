@@ -10,8 +10,8 @@ function AccountEntryFallback() {
         type="button"
         className="inline-flex items-center gap-3 whitespace-nowrap rounded-full border border-line bg-white/90 px-4 py-3 text-sm font-semibold text-slate-800 shadow-card backdrop-blur transition hover:border-primary hover:text-primary"
       >
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">璐︽埛鍏ュ彛</span>
-        <span>鐧诲綍 / 娉ㄥ唽</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">账号入口</span>
+        <span>登录 / 注册</span>
       </button>
     </div>
   );
